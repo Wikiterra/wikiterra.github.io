@@ -8,7 +8,7 @@
 Las wikis estáticas son páginas web estáticas, es decir, que solo interactúan en el lado cliente o front-end donde el código HTML, CSS y JS es visible por los navegadores web. Al tratarse de wikis significa que son webs con artículos editables por los usuarios que almacenan los cambios. Sin embargo al ser estáticas no hay registro de usuarios por ello es necesario almacenar los cambios de usuarios en otro lugar, par ello se usa una *plataforma que tenga un control de versiones como las basadas en Git*, como GitHub, GitLab, Codeberg, etc.
 
 ## Ejemplos
-- [Wiki nikiv](https://wiki.nikiv.dev/) en [nikitavoloboev/knowledge · GitHub](https://github.com/nikitavoloboev/knowledge)
+- [Wiki nikiv](https://wiki.nikiv.dev/) alojada en [nikitavoloboev/knowledge · GitHub](https://github.com/nikitavoloboev/knowledge)
 - [DG Docs](https://dg-docs.ole.dev/)
 - [100rabbit](https://100rabbit.co/)
 
