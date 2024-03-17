@@ -1,6 +1,7 @@
 **/.obsidian
 node_modules
-dist
+dist # default directory of 11Ty SSG deployment
+docs # default directory to serve on GitHub
 netlify/functions/search/data.json
 netlify/functions/search/index.json
 src/site/styles/theme.*.css
