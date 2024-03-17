@@ -143,15 +143,26 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('blog')}" @click.stop="isOpen=!isOpen">
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('about')}" @click.stop="isOpen=!isOpen">
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
                     <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">blog</span>
+                    <span class="foldername">about</span>
                     </div>
                     
                         
     
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">editar-contenido </a>
+                </div>
+            
+        </div>
+        
     
                     
                         
@@ -180,18 +191,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-digital-garden </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-feather/">wikiterra-feather </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-dev </a>
                 </div>
             
         </div>
@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-17T21:35:41.161Z';
+        const searchIndexDate = '2024-03-17T23:41:24.560Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-17T21:35:41.161Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-17T23:41:24.560Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-17T21:35:41.161Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-17T23:41:24.560Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1146,7 +1146,7 @@
 <p>Las wikis estáticas son páginas web estáticas, es decir, que solo interactúan en el lado cliente o front-end donde el código HTML, CSS y JS es visible por los navegadores web. Al tratarse de wikis significa que son webs con artículos editables por los usuarios que almacenan los cambios. Sin embargo al ser estáticas no hay registro de usuarios por ello es necesario almacenar los cambios de usuarios en otro lugar, par ello se usa una <em>plataforma que tenga un control de versiones como las basadas en Git</em>, como GitHub, GitLab, Codeberg, etc.</p>
 <h2 id="ejemplos" tabindex="-1">Ejemplos</h2>
 <ul>
-<li><a href="https://wiki.nikiv.dev/" target="_blank" class="external-link">Wiki nikiv</a> en <a href="https://github.com/nikitavoloboev/knowledge" target="_blank" class="external-link">nikitavoloboev/knowledge · GitHub</a></li>
+<li><a href="https://wiki.nikiv.dev/" target="_blank" class="external-link">Wiki nikiv</a> alojada en <a href="https://github.com/nikitavoloboev/knowledge" target="_blank" class="external-link">nikitavoloboev/knowledge · GitHub</a></li>
 <li><a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">DG Docs</a></li>
 <li><a href="https://100rabbit.co/" target="_blank" class="external-link">100rabbit</a></li>
 </ul>

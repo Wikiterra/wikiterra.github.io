@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>wikiterra-digital-garden</title>
+    <title>wikiterra-dev</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -143,15 +143,26 @@
     
         <div x-show="isOpen" style="display:none" class="">
             
-                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('blog')}" @click.stop="isOpen=!isOpen">
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('about')}" @click.stop="isOpen=!isOpen">
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
                     <i x-show="!isOpen"  icon-name="chevron-right"></i>
-                    <span class="foldername">blog</span>
+                    <span class="foldername">about</span>
                     </div>
                     
                         
     
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">editar-contenido </a>
+                </div>
+            
+        </div>
+        
     
                     
                         
@@ -180,18 +191,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-digital-garden </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-feather/">wikiterra-feather </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-dev </a>
                 </div>
             
         </div>
@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-17T21:35:41.161Z';
+        const searchIndexDate = '2024-03-17T23:41:24.560Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-17T21:35:41.161Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-17T23:41:24.560Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-17T21:35:41.161Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-17T23:41:24.560Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1141,44 +1141,36 @@
       </header>
       
       
-      <h1 id="que-es-wiki-terra-digital-garden" tabindex="-1">¿Qué es WikiTerra Digital Garden?</h1>
-<p>WikiTerra Digital Garden es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos. Los artículos están escritos en formato <a class="internal-link" target="" data-note-icon="" href="/blog/markdown/">markdown</a>, un lenguaje de marcado sencillo y fácil de leer.</p>
-<h3 id="wiki-terra-obsidian-dg" tabindex="-1">WikiTerra Obsidian DG</h3>
+      <h1 id="que-es-wiki-terra" tabindex="-1">¿Qué es WikiTerra ?</h1>
+<p>WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos.</p>
+<h2 id="como-se-desarrolla" tabindex="-1">¿Cómo se desarrolla?</h2>
+<p>Wikiterra es una <a class="internal-link is-unresolved" href="/404" target="">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
+<p>Hay cientos de generadores estáticos en <a href="https://jamstack.org/generators/" target="_blank" class="external-link">JamStack</a> clasifican 355 SSGs, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.</p>
+<p>Cada SSG uno tiene su propio lenguaje de programación con su propio estilo de plantillas para ser transformados a formato web. Pero al final lo que importa es la plantilla que uses y que el framework o SSG sea intuitivo, tenga una gran comunidad y se mantenga en desarrollo.</p>
+<p>En el caso de Wikiterra, la web ha sido testeada en local con diferentes SSG como HUGO con el tema <a href="https://imfing.github.io/hextra/" target="_blank" class="external-link">Hextra</a>, Astro con el tema <a href="https://starlight.astro.build/" target="_blank" class="external-link">Starlight</a>, o Tiddlywiki con el tema <a href="https://feather.wiki/" target="_blank" class="external-link">Featherwiki</a> que permite tener un web entera sobre un único HTML.</p>
+<p>Sin embargo la opción que se ha mantenido ha sido la plantilla web de <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que usa 11Ty como generador, por su bonito diseño y su fácil uso.</p>
+<h3 id="plantilla-digital-garden" tabindex="-1">Plantilla Digital Garden</h3>
 <blockquote>
-<p>Actualemente la web de WikiTerra se publica mediante el plugin Obsidian DG</p>
+<p>Wikiterra usa la plantilla web <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que utiliza el SSG 11Ty</p>
 </blockquote>
-<p>El plugin <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Obsidian Digital Garden</a> del gestor de notas Obsidian permite publicar de manera sencilla las notas markdown en una web estática al estilo <em>Jardín Digital</em> o <em>wiki personal</em> o web de documentación.</p>
-<p>El plugin utiliza un <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">tema personalizado de 11Ty</a> un generador de webs estáticas (SSG). Luego usa una API para alojar el contenido en <a href="https://github.com/" target="_blank" class="external-link">GitHub</a> y a despliega la web en una máquina Linux a través de <a href="https://vercel.com/" target="_blank" class="external-link">Vercel</a> o GitHub Pages.</p>
-<p>Para más información visitar <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
-<h3 id="wiki-terra-hextra" tabindex="-1">WikiTerra Hextra</h3>
-<p>WikiTerra Hextra es un tema para el generador de webs estáticas <a href="https://gohugo.io/" target="_blank" class="external-link">HUGO</a>. Su nombre viene de H(UGO) + extra (basado en el tema Nextra).</p>
-<p>La ventaja es que este método permite construir la web en local usando y luego subirla con GItHub. Mientras que Obsidian DG la web se construye en el servidor (Vercel / Netlify / GItHub Pages).</p>
-<h2 id="editar-contenido" tabindex="-1">Editar contenido</h2>
-<div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> La opción de editar está desactivada</div></div>
-<div class="callout-content">
-<p>
-</p></div></div>
-<p>Método de edición:</p>
+<p>Esta plantilla está diseñada para ser usada junto el plugin <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Obsidian Digital Garden</a>,  siguiendo estos pasos:</p>
 <ol>
-<li>Hacer una &quot;fork&quot; (bifurcación del repositorio): <a href="https://github.com/Curiosity432/wikiterra-vault/fork" target="_blank" class="external-link">https://github.com/Curiosity432/wikiterra-vault/fork</a></li>
-<li>Realizar los cambios y mejoras correspondientes en los artículos.</li>
-<li>Solicitar cambios en el repositorio haciendo una Pull Request: <a href="https://github.com/Curiosity432/wikiterra-vault/compare" target="_blank" class="external-link">https://github.com/Curiosity432/wikiterra-vault/compare</a></li>
+<li>Clonar la plantilla de Digital Garden en GitHub (como control de versiones) y hospedarlo en Vercel (para el despliegue web), cosa automatizable pulsando el siguiente link <a href="https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden</a></li>
+<li>Obtener un token para sincronizar los cambios en local al repositorio remoto de GitHub</li>
+<li>Configurar lo básico en el plugin de Obsidian: {username}, {repository name }, {token}.</li>
 </ol>
-<p>Los artículos están escritos en formato <a class="internal-link" target="" data-note-icon="" href="/blog/markdown/">markdown</a> un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.</p>
-<h3 id="normas-de-edicion" tabindex="-1">Normas de edición</h3>
-<p>Hacer una enciclopedia no es una tarea sencilla, en este caso WikiTerra es una Beta en pruebas con el objetivo de ser un enciclopedia accesible para todo el mundo.</p>
+<p>Sin embargo este método hacía que la web no fuese accesible localmente, y que todos los cambios se enviasen a Vercel, sin saber que ocurría por detrás. Por lo que ahora la web usa GitHub como control de versiones y como sitio de despliegue.</p>
+<p>Y hay dos formas de desplegar el contenido en GitHub:</p>
 <ol>
-<li>La información ha de ser objetiva, hay que intentar dejar de lado los aspectos subjetivos y escribir usando evidencias que sean comprobables y empíricas.</li>
-<li>Escribir con adecuación al tema y sentido.</li>
-<li>No cometer errores ortográficos, ni gramáticos.</li>
-<li>Usar un tiempo verbal estándar (presente a ser posible).</li>
-<li>No escribir opiniones personales, si se trata de una opinión ha de llevar argumentos verificables.</li>
-<li>Intentar poner referencias de los hechos para verificar la autenticidad.</li>
+<li>Usar <a href="https://docs.github.com/en/actions" target="_blank" class="external-link">GitHub actions</a> para automatizar el despliegue en una máquina virtual Ubuntu, usando el siguiente <a href="https://github.com/oleeskild/obsidian-digital-garden/discussions/389#discussioncomment-7437123" target="_blank" class="external-link">workflow de ejemplo</a> y configurando un token como secreto en el repositorio para que se hagan los cambios automáticamente.</li>
+<li>Construir la web en local con npm (node.js package manager) y desplegarla en GitHub en el directorio <code>docs/</code>.</li>
 </ol>
-<h2 id="descargar-wiki-terra" tabindex="-1">Descargar WikiTerra</h2>
-<p>El conjunto de artículos de WikiTerra se almacena en la bóveda de <a href="https://github.com/Curiosity432/wikiterra-vault" target="_blank" class="external-link">WikiTerra</a> publicada en GItHub. Para descargarlo solo hay descargar el <a href="https://github.com/Curiosity432/wikiterra-vault/archive/refs/heads/main.zip" target="_blank" class="external-link">repositorio de GitHub</a> o clonarlo en local <code>git clone https://github.com/Curiosity432/wikiterra-vault</code>.</p>
-<hr>
-<h2 id="pros-vs-contras" tabindex="-1">Pros vs contras</h2>
+<pre><code class="language-bash">npm install # instalación de paquetes
+npm run build # construcción de la web en el directorio por defecto como &quot;dist/&quot;
+npm run watch:eleventy # visualizar la web en http://localhost:8080
+</code></pre>
+<p>Para más información visitar la documentación oficial, <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
+<h3 id="pros-vs-contras" tabindex="-1">Pros vs contras</h3>
 <ul>
 <li><strong>Ventajas (pros)</strong>
 <ul>
@@ -1190,11 +1182,13 @@
 <li><strong>Desventajas (contras)</strong>
 <ul>
 <li>Requiere conocer la sintaxis markdown.</li>
-<li>El  lenguaje markdown varía según la aplicación, no tiene un estándar fijo.</li>
-<li>Los navegadores web solo leen HTML (junto con CSS y JS), para visualizar markdown con formato se necesita un conversor (como hace Obsidian y otros).</li>
+<li>El lenguaje markdown varía según la aplicación, no tiene un estándar fijo.</li>
+<li>Los navegadores web solo leen HTML (junto con CSS y JS), para visualizar markdown con formato se necesita un conversor (como hace obsidian, vscode y otros).</li>
 </ul>
 </li>
 </ul>
+<h2 id="como-editar" tabindex="-1">¿Cómo editar?</h2>
+<p>Para editar la wiki consulta la sección de [[editar-contenido]].</p>
 
       
       
