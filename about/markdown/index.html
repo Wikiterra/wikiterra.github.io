@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>editar-contenido</title>
+    <title>markdown</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -158,7 +158,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/">editar-contenido </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/editar-contenido/">editar-contenido </a>
                 </div>
             
         </div>
@@ -169,7 +169,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/markdown/">markdown </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/markdown/">markdown </a>
                 </div>
             
         </div>
@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T02:10:39.546Z';
+        const searchIndexDate = '2024-03-18T02:16:45.879Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:10:39.546Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:45.879Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:10:39.546Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:45.879Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1141,30 +1141,135 @@
       </header>
       
       
-      <h2 id="editar-contenido" tabindex="-1">Editar contenido</h2>
-<div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> La opción de editar está desactivada</div></div>
+      <h1 id="markdown" tabindex="-1">Markdown</h1>
+<p>&quot;Markdown es un lenguaje de marcado ligero para crear texto formateado utilizando un editor de texto plano.&quot;&quot;</p>
+<p>A continuación se cita la sintaxis básica de Markdown.</p>
+<h2 id="cabeceras" tabindex="-1">Cabeceras</h2>
+<pre><code># Cabecera 1
+## Cabecera 2
+### Cabecera 3
+#### Cabecera 4
+##### Cabecera 5
+###### Cabecera 6
+</code></pre>
+<h1 id="cabecera-1" tabindex="-1">Cabecera 1</h1>
+<h2 id="cabecera-2" tabindex="-1">Cabecera 2</h2>
+<h3 id="cabecera-3" tabindex="-1">Cabecera 3</h3>
+<h4 id="cabecera-4" tabindex="-1">Cabecera 4</h4>
+<h5 id="cabecera-5" tabindex="-1">Cabecera 5</h5>
+<h6 id="cabecera-6" tabindex="-1">Cabecera 6</h6>
+<h3 id="emfasis" tabindex="-1">Émfasis</h3>
+<p>``text<br>
+<em>Este texto irá en cursiva</em><br>
+Este texto también estará en cursiva</p>
+<p>**Este texto estará en negrita<br>
+Este texto también estará en negrita.</p>
+<p>Puedes combinarlos</p>
+<pre><code>*Este texto estará en cursiva*
+
+Este texto también estará en cursiva
+
+**Este texto estará en negrita
+
+Este texto también estará en negrita.
+
+Puedes combinarlos
+</code></pre>
+<h3 id="listas" tabindex="-1">Listas</h3>
+<h4 id="desordenadas" tabindex="-1">Desordenadas</h4>
+<ul>
+<li>Item 1</li>
+<li>Item 2
+<ul>
+<li>Item 2a</li>
+<li>Item 2b</li>
+</ul>
+</li>
+</ul>
+<pre><code>
+* Item 1
+* Item 2
+  * Item 2a
+  * Item 2b
+</code></pre>
+<h4 id="ordenadas" tabindex="-1">Ordenadas</h4>
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3
+<ol>
+<li>Item 3a</li>
+<li>Item 3b</li>
+</ol>
+</li>
+</ol>
+<h3 id="imagenes" tabindex="-1">Imágenes</h3>
+<pre><code class="language-markdown"> ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+</code></pre>
+<p><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></p>
+<h3 id="videos" tabindex="-1">Videos</h3>
+<div class="callout " data-callout="warning" data-callout-metadata="] Insertar videos mediante ![[(video.mp4]"><div class="callout-title"><div class="callout-title-inner">  no es posible</div></div>
 <div class="callout-content">
 <p>
 </p></div></div>
-<p>Método de edición:</p>
-<ol>
-<li>Hacer una &quot;fork&quot; (bifurcación del repositorio)</li>
-<li>Realizar los cambios y mejoras correspondientes en los artículos.</li>
-<li>Solicitar cambios en el repositorio haciendo una Pull Request: <a href="https://github.com/Curiosity432/wikiterra-vault/compare" target="_blank" class="external-link">https://github.com/Curiosity432/wikiterra-vault/compare</a></li>
-</ol>
-<p>Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown</a> un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.</p>
-<h3 id="normas-de-edicion" tabindex="-1">Normas de edición</h3>
-<p>Hacer una enciclopedia no es una tarea sencilla, en este caso WikiTerra es una Beta en pruebas con el objetivo de ser un enciclopedia accesible para todo el mundo.</p>
-<ol>
-<li>La información ha de ser objetiva, hay que intentar dejar de lado los aspectos subjetivos y escribir usando evidencias que sean comprobables y empíricas.</li>
-<li>Escribir con adecuación al tema y sentido.</li>
-<li>No cometer errores ortográficos, ni gramáticos.</li>
-<li>Usar un tiempo verbal estándar (presente a ser posible).</li>
-<li>No escribir opiniones personales, si se trata de una opinión ha de llevar argumentos verificables.</li>
-<li>Intentar poner referencias de los hechos para verificar la autenticidad.</li>
-</ol>
-<h2 id="descargar-wiki-terra" tabindex="-1">Descargar WikiTerra</h2>
-<p>El conjunto de artículos de WikiTerra se almacena en la bóveda de <a href="https://github.com/Curiosity432/wikiterra-vault" target="_blank" class="external-link">WikiTerra</a> publicada en GItHub. Para descargarlo solo hay descargar el <a href="https://github.com/Curiosity432/wikiterra-vault/archive/refs/heads/main.zip" target="_blank" class="external-link">repositorio de GitHub</a> o clonarlo en local <code>git clone https://github.com/Curiosity432/wikiterra-vault</code>.</p>
+<p>Para insertar video ha de ser con HTML o con el formato en HUGO.</p>
+<pre><code class="language-html">&lt;video src=&quot;../resources/video/como-editar-wiki-github.mp4&quot; controls&gt;&lt;/video&gt;
+</code></pre>
+<h3 id="links" tabindex="-1">Links</h3>
+<pre><code class="language-markdown">[Hugo](https://gohugo.io)
+</code></pre>
+<p><a href="https://gohugo.io" target="_blank" class="external-link">Hugo</a></p>
+<h3 id="blockquotes" tabindex="-1">Blockquotes</h3>
+<pre><code class="language-markdown">&gt; Si he visto más lejos es por estar de pie sobre los hombros de Gigantes.
+</code></pre>
+<blockquote>
+<p>Si he visto más allá es porque me he subido a hombros de gigantes.</p>
+</blockquote>
+<h3 id="inline-code" tabindex="-1">Inline Code</h3>
+<pre><code class="language-markdown">El `código` en línea tiene `marcas de retroceso` a su alrededor.
+</code></pre>
+<p>El <code>código</code> en línea tiene <code>marcas de retroceso</code> a su alrededor.</p>
+<h3 id="bloques-de-codigo" tabindex="-1">Bloques de código</h3>
+<h4 id="resaltado-de-sintaxis" tabindex="-1">Resaltado de sintaxis</h4>
+<pre><code class="language-markdown">```go
+func main() {
+    fmt.Println(&quot;Hello World&quot;)
+}
+```
+</code></pre>
+<pre><code class="language-go">func main() {
+    fmt.Println(&quot;Hello World&quot;)
+}
+</code></pre>
+<h3 id="tablas" tabindex="-1">Tablas</h3>
+<pre><code class="language-markdown">| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
+</code></pre>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="references" tabindex="-1">References</h2>
+<ul>
+<li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" class="external-link">Markdown Syntax</a></li>
+<li><a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" class="external-link">Hugo Markdown</a></li>
+</ul>
 
       
       
