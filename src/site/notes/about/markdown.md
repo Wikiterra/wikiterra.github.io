@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/blog/markdown/"}
+{"dg-publish":true,"permalink":"/about/markdown/"}
 ---
 
 # Markdown
