@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T03:01:29.931Z';
+        const searchIndexDate = '2024-03-18T03:01:31.157Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T03:01:29.931Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T03:01:31.157Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T03:01:29.931Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T03:01:31.157Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1144,7 +1144,7 @@
       <h1 id="que-es-wiki-terra" tabindex="-1">¿Qué es WikiTerra ?</h1>
 <p>WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos.</p>
 <h2 id="como-se-desarrolla" tabindex="-1">¿Cómo se desarrolla?</h2>
-<p>Wikiterra es una <a class="internal-link" target="" data-note-icon="" href="/about/wiki-estatica/">wiki-estatica</a>, lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
+<p>Wikiterra es una <a class="internal-link" target="" data-note-icon="" href="/about/wiki-estatica/">wiki-estatica</a>, lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato <a class="internal-link" target="" data-note-icon="" href="/about/markdown/">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
 <p>Hay cientos de generadores estáticos en <a href="https://jamstack.org/generators/" target="_blank" class="external-link">JamStack</a> clasifican 355 SSGs, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.</p>
 <p>Cada SSG uno tiene su propio lenguaje de programación con su propio estilo de plantillas para ser transformados a formato web. Pero al final lo que importa es la plantilla que uses y que el framework o SSG sea intuitivo, tenga una gran comunidad y se mantenga en desarrollo.</p>
 <p>En el caso de Wikiterra, la web ha sido testeada en local con diferentes SSG como HUGO con el tema <a href="https://imfing.github.io/hextra/" target="_blank" class="external-link">Hextra</a>, Astro con el tema <a href="https://starlight.astro.build/" target="_blank" class="external-link">Starlight</a>, o Tiddlywiki con el tema <a href="https://feather.wiki/" target="_blank" class="external-link">Featherwiki</a> que permite tener un web entera sobre un único HTML.</p>
@@ -1165,9 +1165,9 @@
 <li>Usar <a href="https://docs.github.com/en/actions" target="_blank" class="external-link">GitHub actions</a> para automatizar el despliegue en una máquina virtual Ubuntu, usando el siguiente <a href="https://github.com/oleeskild/obsidian-digital-garden/discussions/389#discussioncomment-7437123" target="_blank" class="external-link">workflow de ejemplo</a> y configurando un token como secreto en el repositorio para que se hagan los cambios automáticamente.</li>
 <li>Construir la web en local con npm (node.js package manager) y desplegarla en GitHub en el directorio <code>docs/</code>.</li>
 </ol>
-<pre><code class="language-bash">npm install # instalación de paquetes
-npm run build # construcción de la web en el directorio por defecto como &quot;dist/&quot;
-npm run watch:eleventy # visualizar la web en http://localhost:8080 # npm run start or npx @11ty/eleventy --serve
+<pre><code class="language-bash">npm install # instalar paquetes de node.js
+npm run build # construir web por por defecto en &quot;dist/&quot;
+npm run watch:eleventy # visualizar la web en localhost # npm run start or npx @11ty/eleventy --serve
 </code></pre>
 <p>Para más información visitar la documentación oficial, <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
 <h3 id="pros-vs-contras" tabindex="-1">Pros vs contras</h3>
@@ -1175,7 +1175,7 @@ npm run watch:eleventy # visualizar la web en http://localhost:8080 # npm run st
 <li><strong>Ventajas (pros)</strong>
 <ul>
 <li>El conjunto de notas markdown se encuentra indexado en una bóveda con los gestores de conocimiento (PKM) como <a href="http://Obsidian.md" target="_blank" class="external-link">Obsidian.md</a>.</li>
-<li>Permite enlazar artículos de manera sencilla y ver su <a class="internal-link is-unresolved" href="/404" target="">relación</a> en un grafo.</li>
+<li>Permite enlazar artículos de manera sencilla y ver su relación en un grafo.</li>
 <li>El contenido está en local en tu propia máquina.</li>
 </ul>
 </li>
