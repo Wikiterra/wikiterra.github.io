@@ -1,3 +1,9 @@
+---
+{"dg-publish":true,"permalink":"/about/editar-contenido/"}
+---
+
+
+
 ## Editar contenido
 
 > [!NOTE] La opción de editar está desactivada
