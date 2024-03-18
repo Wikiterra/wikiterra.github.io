@@ -9,7 +9,7 @@ WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre ges
 
 ## ¿Cómo se desarrolla?
 
-Wikiterra es una [[about/wiki-estatica\|wiki-estatica]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato [[blog/markdown\|markdown]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
+Wikiterra es una [[about/wiki-estatica\|wiki-estatica]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato [[about/markdown\|markdown]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
 
 Hay cientos de generadores estáticos en [JamStack](https://jamstack.org/generators/) clasifican 355 SSGs, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy. 
 
@@ -35,9 +35,9 @@ Y hay dos formas de desplegar el contenido en GitHub:
 2. Construir la web en local con npm (node.js package manager) y desplegarla en GitHub en el directorio `docs/`.
 
 ```bash
-npm install # instalación de paquetes
-npm run build # construcción de la web en el directorio por defecto como "dist/"
-npm run watch:eleventy # visualizar la web en http://localhost:8080 # npm run start or npx @11ty/eleventy --serve
+npm install # instalar paquetes de node.js
+npm run build # construir web por por defecto en "dist/"
+npm run watch:eleventy # visualizar la web en localhost # npm run start or npx @11ty/eleventy --serve
 ```
 
 Para más información visitar la documentación oficial, [Digital Garden Docs](https://dg-docs.ole.dev/).
@@ -46,7 +46,7 @@ Para más información visitar la documentación oficial, [Digital Garden Docs](
 
 - **Ventajas (pros)**
 	- El conjunto de notas markdown se encuentra indexado en una bóveda con los gestores de conocimiento (PKM) como Obsidian.md.
-	- Permite enlazar artículos de manera sencilla y ver su [[relación\|relación]] en un grafo.
+	- Permite enlazar artículos de manera sencilla y ver su relación en un grafo.
 	- El contenido está en local en tu propia máquina.
 - **Desventajas (contras)**
 	- Requiere conocer la sintaxis markdown.
