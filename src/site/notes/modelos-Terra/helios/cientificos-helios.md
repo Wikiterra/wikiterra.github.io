@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/modelos-Terra/helios/cientificos-helios/"}
 ---
 
+
 # Científicos del modelo Heliocéntrico
 - Bill Nye
 - Brian Cox
