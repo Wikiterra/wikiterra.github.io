@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T02:16:58.057Z';
+        const searchIndexDate = '2024-03-18T03:01:29.931Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:58.057Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T03:01:29.931Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:58.057Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T03:01:29.931Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1152,7 +1152,7 @@
 <li>Realizar los cambios y mejoras correspondientes en los artículos.</li>
 <li>Solicitar cambios en el repositorio haciendo una Pull Request: <a href="https://github.com/Curiosity432/wikiterra-vault/compare" target="_blank" class="external-link">https://github.com/Curiosity432/wikiterra-vault/compare</a></li>
 </ol>
-<p>Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown</a> un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.</p>
+<p>Los artículos están escritos en formato <a class="internal-link" target="" data-note-icon="" href="/about/markdown/">markdown</a> un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.</p>
 <h3 id="normas-de-edicion" tabindex="-1">Normas de edición</h3>
 <p>Hacer una enciclopedia no es una tarea sencilla, en este caso WikiTerra es una Beta en pruebas con el objetivo de ser un enciclopedia accesible para todo el mundo.</p>
 <ol>
