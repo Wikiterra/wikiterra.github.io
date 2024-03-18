@@ -169,7 +169,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/markdown/">markdown </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/markdown/">markdown </a>
                 </div>
             
         </div>
@@ -180,7 +180,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wiki-estatica/">wiki-estatica </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/wiki-estatica/">wiki-estatica </a>
                 </div>
             
         </div>
@@ -191,7 +191,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-dev </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/wikiterra-dev/">wikiterra-dev </a>
                 </div>
             
         </div>
@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T02:16:51.292Z';
+        const searchIndexDate = '2024-03-18T02:16:58.057Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:51.292Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:58.057Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:51.292Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:58.057Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1144,7 +1144,7 @@
       <h1 id="que-es-wiki-terra" tabindex="-1">¿Qué es WikiTerra ?</h1>
 <p>WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos.</p>
 <h2 id="como-se-desarrolla" tabindex="-1">¿Cómo se desarrolla?</h2>
-<p>Wikiterra es una <a class="internal-link is-unresolved" href="/404" target="">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
+<p>Wikiterra es una <a class="internal-link" target="" data-note-icon="" href="/about/wiki-estatica/">wiki-estatica</a>, lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
 <p>Hay cientos de generadores estáticos en <a href="https://jamstack.org/generators/" target="_blank" class="external-link">JamStack</a> clasifican 355 SSGs, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.</p>
 <p>Cada SSG uno tiene su propio lenguaje de programación con su propio estilo de plantillas para ser transformados a formato web. Pero al final lo que importa es la plantilla que uses y que el framework o SSG sea intuitivo, tenga una gran comunidad y se mantenga en desarrollo.</p>
 <p>En el caso de Wikiterra, la web ha sido testeada en local con diferentes SSG como HUGO con el tema <a href="https://imfing.github.io/hextra/" target="_blank" class="external-link">Hextra</a>, Astro con el tema <a href="https://starlight.astro.build/" target="_blank" class="external-link">Starlight</a>, o Tiddlywiki con el tema <a href="https://feather.wiki/" target="_blank" class="external-link">Featherwiki</a> que permite tener un web entera sobre un único HTML.</p>
@@ -1167,7 +1167,7 @@
 </ol>
 <pre><code class="language-bash">npm install # instalación de paquetes
 npm run build # construcción de la web en el directorio por defecto como &quot;dist/&quot;
-npm run watch:eleventy # visualizar la web en http://localhost:8080
+npm run watch:eleventy # visualizar la web en http://localhost:8080 # npm run start or npx @11ty/eleventy --serve
 </code></pre>
 <p>Para más información visitar la documentación oficial, <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
 <h3 id="pros-vs-contras" tabindex="-1">Pros vs contras</h3>
@@ -1188,7 +1188,7 @@ npm run watch:eleventy # visualizar la web en http://localhost:8080
 </li>
 </ul>
 <h2 id="como-editar" tabindex="-1">¿Cómo editar?</h2>
-<p>Para editar la wiki consulta la sección de [[editar-contenido]].</p>
+<p>Para editar la wiki consulta la sección de <a class="internal-link" target="" data-note-icon="" href="/about/editar-contenido/">editar-contenido</a>.</p>
 
       
       
