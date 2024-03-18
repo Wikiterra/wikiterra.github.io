@@ -3,7 +3,6 @@
 ---
 
 
-
 ## Editar contenido
 
 > [!NOTE] La opción de editar está desactivada
@@ -13,7 +12,7 @@ Método de edición:
 2. Realizar los cambios y mejoras correspondientes en los artículos.
 3. Solicitar cambios en el repositorio haciendo una Pull Request: https://github.com/Curiosity432/wikiterra-vault/compare
 
-Los artículos están escritos en formato [[blog/markdown\|markdown]] un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.
+Los artículos están escritos en formato [[about/markdown\|markdown]] un lenguaje de marcado mu sencillo. Por tanto hay que conocer la sintaxis para poder editar.
 
 ### Normas de edición
 Hacer una enciclopedia no es una tarea sencilla, en este caso WikiTerra es una Beta en pruebas con el objetivo de ser un enciclopedia accesible para todo el mundo.
