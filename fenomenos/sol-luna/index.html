@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T18:29:55.319Z';
+        const searchIndexDate = '2024-03-18T18:30:10.601Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T18:29:55.319Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T18:30:10.601Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T18:29:55.319Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T18:30:10.601Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1143,7 +1143,7 @@
       
       <h2 id="sol-luna" tabindex="-1">Sol-Luna</h2>
 <ul>
-<li>El Sol se desplaza 1° en el cielo cada 4 minutos, en 1 minuto 0.25°. En 360 minutos, 6 horas realiza 90°. Si la Tierra rotase rotaría con la misma velocidad que el Sol, ya que el Sol estaría quieto y sus efectos de</li>
+<li>El Sol se desplaza 1° en el cielo cada 4 minutos, en 1 minuto 0.25°. En 360 minutos, 6 horas realiza 90°. Si la Tierra rotase rotaría con la misma velocidad que el Sol, ya que el Sol estaría quieto y sus efectos de.</li>
 </ul>
 
       

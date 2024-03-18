@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T18:29:55.319Z';
+        const searchIndexDate = '2024-03-18T18:30:10.601Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T18:29:55.319Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T18:30:10.601Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T18:29:55.319Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T18:30:10.601Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1142,9 +1142,17 @@
       
       
       <h1 id="las-estrellas" tabindex="-1">Las estrellas</h1>
-<p>Las estrellas del cielo no son bolas planetarias.</p>
-<p>Las estrellas giran en conjunto con el cielo de Este a Oeste,  y tienen un aspecto ondulatorio cuando son miradas con telescopios o cámaras de largo alcance. Recuerdan al comportamiento de el agua en estado de vibración, la cimática.</p>
-<p>Las estrellas sirven para posicionarte en el plano, y se usan en la navegación junto con el astrolabio para situarse en el plano.</p>
+<p>Las estrellas del cielo son objetos luminosos, hay dos tipos de estrellas:</p>
+<ol>
+<li>
+<p><strong>Estrellas errantes o móviles:</strong> Estas son estrellas que tienen un movimiento aparente respecto al movimiento del domo celeste. En contraste con las estrellas fijas, que se mueven a la par que el domo. Los &quot;planetas&quot; son estrellas errantes.</p>
+</li>
+<li>
+<p><strong>Estrellas fijas o estrellas fijas:</strong> son estrellas que se mueven con el domo y no hacen órbitas propias.</p>
+</li>
+</ol>
+<p>Las estrellas giran en conjunto con el cielo de Este a Oeste, y tienen un aspecto ondulatorio cuando son miradas con telescopios o cámaras de largo alcance. Recuerdan al comportamiento de el agua en estado de vibración, la cimática.</p>
+<p>Las estrellas sirven para posicionarte y se usan en la navegación junto con el astrolabio para situarse en el plano.</p>
 
       
       
