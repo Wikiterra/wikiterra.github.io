@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T15:02:23.784Z';
+        const searchIndexDate = '2024-03-18T18:25:27.880Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T15:02:23.784Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T18:25:27.880Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T15:02:23.784Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T18:25:27.880Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1142,30 +1142,6 @@
       
       
       <h1 id="el-domo" tabindex="-1">El domo</h1>
-<p>El domo en una estructura permeable con forma de semiesfera que cubre la superficie terrestre manteniendo la presión atmosférica.</p>
-<p>Se trata de una superficie que llega a medir en su punto más alto unos 6000 - 7000 kilómetros y que varía su altura según la latitud terrestre.</p>
-<p>Está compuesta de gases livianos pero que a esa altura y presión se vuelven en un estado semisólido, actuando como una capa protectora semipermeable. El domo es el causante de la ocultación y salida del Sol, debido alcance máximo de la luz en el medio y a su ocultación debido a la perspectiva.</p>
-<p>El Sol y La Luna orbitan electromagnéticamente en el domo alto con las capacidades de energía libre debido a las bajas temperaturas cercanas al cero absoluto y su alta carga electromagnética, que producen levitación magnética. Y hacen que el movimiento Sol - Luna no pierda energía y se mantenga constante.</p>
-<p>No se sabe que hay más allá de los domos, solo se puede especular pero ninguna nave ni tecnología humana las ha sobrepasado.</p>
-<p>Hay diferentes tipos domos y a distintas alturas:</p>
-<ul>
-<li>Domo bajo</li>
-<li>Domo medio</li>
-<li>Domo alto</li>
-</ul>
-<p>En las religiones a este concepto lo llaman los siete cielos.</p>
-<h2 id="referencias-en-la-biblia" tabindex="-1">Referencias en la Biblia</h2>
-<p>En la Biblia, particularmente en el Antiguo Testamento, se encuentran algunas descripciones de un &quot;domo&quot; o estructura celeste que cubre la Tierra. Esta interpretación se basa en textos que describen el cosmos desde la perspectiva de la cosmología antigua, que entendía la Tierra como plana y cubierta por un cielo sólido.</p>
-<p>Algunas referencias que se han asociado con esta interpretación incluyen:</p>
-<ol>
-<li>
-<p><strong>Génesis 1:6-8 (NVI):</strong> &quot;Y dijo Dios: «¡Que haya un firmamento en medio de las aguas, y que separe unas aguas de otras!» Y Dios hizo el firmamento, y separó las aguas que estaban debajo de él, de las que estaban encima. Y así fue. Dios llamó al firmamento “cielo”. Hubo tarde, y luego mañana: este fue el segundo día.&quot;</p>
-</li>
-<li>
-<p><strong>Génesis 1:14-17 (NVI):</strong> &quot;Dijo Dios: «¡Que haya luces en el firmamento del cielo para separar el día de la noche, y que sirvan como señales para marcar las estaciones, los días y los años, y que brillen en el firmamento del cielo para iluminar la tierra!» Y así fue. Dios hizo dos grandes luces: la mayor para gobernar el día, y la menor para gobernar la noche. También hizo las estrellas. Dios las puso en el firmamento del cielo para iluminar la tierra.&quot;</p>
-</li>
-</ol>
-<p>Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la existencia de un &quot;firmamento&quot; o &quot;expansión&quot; sólida que separa las aguas superiores e inferiores, con las estrellas y el sol y la luna colocados en o sobre este firmamento.</p>
 
       
       
