@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>markdown</title>
+    <title>wiki-estatica</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -169,7 +169,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/markdown/">markdown </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/markdown/">markdown </a>
                 </div>
             
         </div>
@@ -180,7 +180,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/wiki-estatica/">wiki-estatica </a>
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wiki-estatica/">wiki-estatica </a>
                 </div>
             
         </div>
@@ -191,7 +191,7 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/about/wikiterra-dev/">wikiterra-dev </a>
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/blog/wikiterra-digital-garden/">wikiterra-dev </a>
                 </div>
             
         </div>
@@ -882,7 +882,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-03-18T02:16:50.204Z';
+        const searchIndexDate = '2024-03-18T02:16:51.292Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -894,9 +894,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:50.204Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-03-18T02:16:51.292Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:50.204Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-03-18T02:16:51.292Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1141,135 +1141,27 @@
       </header>
       
       
-      <h1 id="markdown" tabindex="-1">Markdown</h1>
-<p>&quot;Markdown es un lenguaje de marcado ligero para crear texto formateado utilizando un editor de texto plano.&quot;&quot;</p>
-<p>A continuación se cita la sintaxis básica de Markdown.</p>
-<h2 id="cabeceras" tabindex="-1">Cabeceras</h2>
-<pre><code># Cabecera 1
-## Cabecera 2
-### Cabecera 3
-#### Cabecera 4
-##### Cabecera 5
-###### Cabecera 6
-</code></pre>
-<h1 id="cabecera-1" tabindex="-1">Cabecera 1</h1>
-<h2 id="cabecera-2" tabindex="-1">Cabecera 2</h2>
-<h3 id="cabecera-3" tabindex="-1">Cabecera 3</h3>
-<h4 id="cabecera-4" tabindex="-1">Cabecera 4</h4>
-<h5 id="cabecera-5" tabindex="-1">Cabecera 5</h5>
-<h6 id="cabecera-6" tabindex="-1">Cabecera 6</h6>
-<h3 id="emfasis" tabindex="-1">Émfasis</h3>
-<p>``text<br>
-<em>Este texto irá en cursiva</em><br>
-Este texto también estará en cursiva</p>
-<p>**Este texto estará en negrita<br>
-Este texto también estará en negrita.</p>
-<p>Puedes combinarlos</p>
-<pre><code>*Este texto estará en cursiva*
-
-Este texto también estará en cursiva
-
-**Este texto estará en negrita
-
-Este texto también estará en negrita.
-
-Puedes combinarlos
-</code></pre>
-<h3 id="listas" tabindex="-1">Listas</h3>
-<h4 id="desordenadas" tabindex="-1">Desordenadas</h4>
+      <h1 id="wiki-estatica" tabindex="-1">Wiki estática</h1>
+<h2 id="definicion" tabindex="-1">Definición</h2>
+<p>Las wikis estáticas son páginas web estáticas, es decir, que solo interactúan en el lado cliente o front-end donde el código HTML, CSS y JS es visible por los navegadores web. Al tratarse de wikis significa que son webs con artículos editables por los usuarios que almacenan los cambios. Sin embargo al ser estáticas no hay registro de usuarios por ello es necesario almacenar los cambios de usuarios en otro lugar, par ello se usa una <em>plataforma que tenga un control de versiones como las basadas en Git</em>, como GitHub, GitLab, Codeberg, etc.</p>
+<h2 id="ejemplos" tabindex="-1">Ejemplos</h2>
 <ul>
-<li>Item 1</li>
-<li>Item 2
+<li><a href="https://wiki.nikiv.dev/" target="_blank" class="external-link">Wiki nikiv</a> alojada en <a href="https://github.com/nikitavoloboev/knowledge" target="_blank" class="external-link">nikitavoloboev/knowledge · GitHub</a></li>
+<li><a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">DG Docs</a></li>
+<li><a href="https://100rabbit.co/" target="_blank" class="external-link">100rabbit</a></li>
+</ul>
+<h2 id="problema-de-las-wikis-estaticas" tabindex="-1">Problema de las wikis estáticas</h2>
+<p>El problema de las wikis es que necestan un backend, una base de datos para registrar a los usuarios y los cambios.</p>
+<p>Por tanto para hacer una wiki estática solo con frontend hay que llevar el backend a una plataforma externa a la web como puede ser un repositorio de GitHub.</p>
+<p>Algunas wikis estáticas siguen la estrategia de editar archivos markdown alojados en GItHub y luego mediante un proceso automatizado subir el contenido y convertirlo en formato web. Como es el caso de la <a href="https://wiki.hyprland.org/" target="_blank" class="external-link">wiki de Hyprland</a></p>
+<p>Hacer una web que los usuarios cambien directamente desde GitHub implica usar:</p>
 <ul>
-<li>Item 2a</li>
-<li>Item 2b</li>
+<li>HTML, CSS y JS y que respeten el tema y no lo modifiquen.</li>
+<li>Lenguaje de marcado más sencillo como markdown y usar un generador estático de webs como HUGO o 11ty. Y cada cambio en los artículos markdown se tendría que convertir a web HTML de manera automática con el generador correspondiente.</li>
 </ul>
-</li>
-</ul>
-<pre><code>
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
-</code></pre>
-<h4 id="ordenadas" tabindex="-1">Ordenadas</h4>
-<ol>
-<li>Item 1</li>
-<li>Item 2</li>
-<li>Item 3
-<ol>
-<li>Item 3a</li>
-<li>Item 3b</li>
-</ol>
-</li>
-</ol>
-<h3 id="imagenes" tabindex="-1">Imágenes</h3>
-<pre><code class="language-markdown"> ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-</code></pre>
-<p><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo"></p>
-<h3 id="videos" tabindex="-1">Videos</h3>
-<div class="callout " data-callout="warning" data-callout-metadata="] Insertar videos mediante ![[(video.mp4]"><div class="callout-title"><div class="callout-title-inner">  no es posible</div></div>
-<div class="callout-content">
-<p>
-</p></div></div>
-<p>Para insertar video ha de ser con HTML o con el formato en HUGO.</p>
-<pre><code class="language-html">&lt;video src=&quot;../resources/video/como-editar-wiki-github.mp4&quot; controls&gt;&lt;/video&gt;
-</code></pre>
-<h3 id="links" tabindex="-1">Links</h3>
-<pre><code class="language-markdown">[Hugo](https://gohugo.io)
-</code></pre>
-<p><a href="https://gohugo.io" target="_blank" class="external-link">Hugo</a></p>
-<h3 id="blockquotes" tabindex="-1">Blockquotes</h3>
-<pre><code class="language-markdown">&gt; Si he visto más lejos es por estar de pie sobre los hombros de Gigantes.
-</code></pre>
-<blockquote>
-<p>Si he visto más allá es porque me he subido a hombros de gigantes.</p>
-</blockquote>
-<h3 id="inline-code" tabindex="-1">Inline Code</h3>
-<pre><code class="language-markdown">El `código` en línea tiene `marcas de retroceso` a su alrededor.
-</code></pre>
-<p>El <code>código</code> en línea tiene <code>marcas de retroceso</code> a su alrededor.</p>
-<h3 id="bloques-de-codigo" tabindex="-1">Bloques de código</h3>
-<h4 id="resaltado-de-sintaxis" tabindex="-1">Resaltado de sintaxis</h4>
-<pre><code class="language-markdown">```go
-func main() {
-    fmt.Println(&quot;Hello World&quot;)
-}
-```
-</code></pre>
-<pre><code class="language-go">func main() {
-    fmt.Println(&quot;Hello World&quot;)
-}
-</code></pre>
-<h3 id="tablas" tabindex="-1">Tablas</h3>
-<pre><code class="language-markdown">| Syntax    | Description |
-| --------- | ----------- |
-| Header    | Title       |
-| Paragraph | Text        |
-</code></pre>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>Syntax</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Header</td>
-<td>Title</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>Text</td>
-</tr>
-</tbody>
-</table></div>
-<h2 id="references" tabindex="-1">References</h2>
-<ul>
-<li><a href="https://www.markdownguide.org/basic-syntax/" target="_blank" class="external-link">Markdown Syntax</a></li>
-<li><a href="https://gohugo.io/content-management/formats/#markdown" target="_blank" class="external-link">Hugo Markdown</a></li>
-</ul>
+<h2 id="solucion-wikis-dinamicas" tabindex="-1">Solución: Wikis dinámicas</h2>
+<p><a href="https://wikipedia.org/" target="_blank" class="external-link">Wikipedia</a> es una web dinámica tiene frontend y backend (base de datos en un servidor y conexión con servidor). Lo que facilita la edición online y mantiene un registro de los usuarios. Y usa el gestor de wikis MediaWiki desarrollado en PHP que permite editar de manera sencilla las webs.</p>
+<p>El problema de las wikis dinámicas es que necesitan un servidor dedicado y eso vale dinero y consume muchos recursos. Mientras las wikis estáticas se pueden desplegar de manera gratuita. Además el contenido se edita online o en la nube en lugar de en local.</p>
 
       
       
