@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>toroide</title>
+    <title>rayo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="https://fastly.jsdelivr.net/npm/mermaid@9.4.0/dist/mermaid.min.js"></script>
 <script>
@@ -361,17 +361,6 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
-                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/toroide/">toroide </a>
-                </div>
-            
-        </div>
-        
-    
-                    
-                        
-    
-        <div x-show="isOpen" style="display:none" class="filelist">
-            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/vacio/">vacio </a>
                 </div>
             
@@ -512,6 +501,39 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/fenomenos/atomsfera/cielo/">cielo </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/fenomenos/atomsfera/nubes/">nubes </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/fenomenos/atomsfera/rayo/">rayo </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/fenomenos/atomsfera/visibilidad/">visibilidad </a>
                 </div>
             
         </div>
@@ -1045,7 +1067,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-08T00:43:47.001Z';
+        const searchIndexDate = '2024-04-08T00:43:49.540Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -1057,9 +1079,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:43:47.001Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:43:49.540Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:43:47.001Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:43:49.540Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1304,7 +1326,45 @@
       </header>
       
       
-      <h1 id="el-toroide" tabindex="-1">El toroide</h1>
+      <h1 id="el-rayo" tabindex="-1">El rayo</h1>
+<p>El rayo es un fenómeno atmosférico de naturaleza eléctrica que ocurre durante tormentas eléctricas. Consiste en una descarga eléctrica de alta intensidad y corta duración que se produce entre una nube cargada eléctricamente y la superficie terrestre, o entre diferentes regiones de una nube.</p>
+<h3 id="formacion-del-rayo" tabindex="-1">Formación del Rayo</h3>
+<p>El proceso de formación de un rayo comienza con la acumulación de cargas eléctricas en una nube debido a corrientes ascendentes y descendentes dentro de la misma. Las colisiones entre gotas de agua y cristales de hielo generan una separación de cargas positivas y negativas. Esto crea intensos campos eléctricos dentro de la nube y entre la nube y la tierra.</p>
+<p>Cuando la diferencia de potencial eléctrico entre la nube y la superficie terrestre alcanza un nivel crítico, se produce una descarga eléctrica en forma de rayo para equilibrar las cargas. El rayo busca el camino de menor resistencia a través del aire ionizado, lo que resulta en un destello luminoso y un fuerte sonido conocido como trueno.</p>
+<h3 id="caracteristicas-del-rayo" tabindex="-1">Características del Rayo</h3>
+<ul>
+<li>
+<p><strong>Aspecto Visual</strong>: El rayo se manifiesta como un destello luminoso repentino y brillante, conocido como relámpago. Puede aparecer en diferentes colores, como blanco brillante, azul o incluso violeta, dependiendo de varios factores.</p>
+</li>
+<li>
+<p><strong>Trayectoria del Rayo</strong>: Los rayos pueden viajar desde la nube hasta la superficie terrestre (rayos nube-tierra) o entre diferentes regiones de una nube (rayos intra-nube). Los rayos nube-tierra se originan en la parte inferior de una nube y se dirigen hacia la superficie terrestre, encontrándose con una corriente ascendente desde la tierra. La unión de estas corrientes ocurre a una altura determinada por encima del suelo.</p>
+</li>
+<li>
+<p><strong>Sonido (Trueno)</strong>: El rápido calentamiento y expansión del aire por la corriente eléctrica del rayo produce una onda de choque audible llamada trueno. La distancia entre el observador y el lugar donde impacta el rayo determina la intensidad y el retardo del trueno respecto al relámpago.</p>
+</li>
+</ul>
+<h3 id="mecanismo-de-descarga" tabindex="-1">Mecanismo de Descarga</h3>
+<p>La descarga eléctrica del rayo ocurre debido a la diferencia de potencial eléctrico entre la nube y la superficie terrestre. La acumulación de cargas opuestas en estos dos puntos crea un campo eléctrico intenso que busca equilibrarse a través de la descarga del rayo.</p>
+<h3 id="peligrosidad-y-impacto" tabindex="-1">Peligrosidad y Impacto</h3>
+<p>Los rayos son extremadamente peligrosos debido a su alta energía. Pueden causar incendios, daños a estructuras y representan una seria amenaza para la seguridad humana si impactan directamente sobre objetos o personas en la tierra. Además, los rayos tienen un impacto significativo en el clima, el ciclo del agua y la ionización de la atmósfera.</p>
+<p>En conclusión, el rayo es un impresionante fenómeno atmosférico eléctrico que surge de la interacción de cargas eléctricas en las nubes durante tormentas eléctricas. Su estudio es esencial para entender los procesos meteorológicos y sus efectos en nuestro entorno.</p>
+<p><picture src="/img/user/recursos/img/rayo-Krunkwerke.jpg" alt="rayo-Krunkwerke.jpg|300" width="300px"><source       media="(max-width:480px)"
+      srcset="/img/optimized/ldjzTmk-sh-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/ldjzTmk-sh-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/ldjzTmk-sh-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/ldjzTmk-sh-700.jpeg"
+        ><img       class=""
+      src="/img/user/recursos/img/rayo-Krunkwerke.jpg"
+      alt="rayo-Krunkwerke.jpg|300"
+      width="300px"
+      ></picture></p>
 
       
       
