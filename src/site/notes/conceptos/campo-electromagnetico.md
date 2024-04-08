@@ -3,7 +3,7 @@
 ---
 
 
-# El toroide
+# El campo electromagnético
 
 El campo electromagnético terrestre tiene una estructura compleja que puede describirse como un campo magnético dipolar, lo que significa que se asemeja al campo generado por un imán con un polo norte y un polo sur. Sin embargo, al considerar el campo magnético terrestre en un nivel más detallado, especialmente en relación con su origen y comportamiento, se puede conceptualizar de manera más precisa como un campo toroidal.
 
