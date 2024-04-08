@@ -317,6 +317,17 @@
     
         <div x-show="isOpen" style="display:none" class="filelist">
             
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/horizonte/">horizonte </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
                 <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/mapas/">mapas </a>
                 </div>
             
@@ -329,6 +340,17 @@
         <div x-show="isOpen" style="display:none" class="filelist">
             
                 <div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/perspectiva/">perspectiva </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/conceptos/tierra/">tierra </a>
                 </div>
             
         </div>
@@ -382,6 +404,38 @@
                     <i x-show="!isOpen"  icon-name="chevron-right"></i>
                     <span class="foldername">fenomenos</span>
                     </div>
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div class="folder inner-folder"  x-data="{isOpen: $persist(false).as('fenomenos/astros')}" @click.stop="isOpen=!isOpen">
+                    <div class="foldername-wrapper align-icon">
+                    <i x-show="isOpen" style="display: none;"  icon-name="chevron-down"></i>
+                    <i x-show="!isOpen"  icon-name="chevron-right"></i>
+                    <span class="foldername">astros</span>
+                    </div>
+                    
+                        
+    
+    
+                    
+                        
+    
+        <div x-show="isOpen" style="display:none" class="filelist">
+            
+                <div @click.stop class="notelink "><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration: none;" class="filename" href="/fenomenos/astros/estrellas/">estrellas </a>
+                </div>
+            
+        </div>
+        
+    
+                    
+                </div>
+            
+        </div>
+        
+    
                     
                         
     
@@ -904,7 +958,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-08T00:43:34.871Z';
+        const searchIndexDate = '2024-04-08T00:43:38.882Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -916,9 +970,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:43:34.871Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:43:38.882Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:43:34.871Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:43:38.882Z', docs}));
             window.docs = docs
             window.index = index;
         }
