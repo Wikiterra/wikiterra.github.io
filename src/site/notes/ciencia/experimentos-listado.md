@@ -26,7 +26,3 @@
 
 - **Efecto Allais**:
   - El efecto Allais es la observación de una precesión anómala del plano de oscilación de un péndulo durante un eclipse solar debido a la interacción y variación del campo electromagnético.
-
-Estos experimentos fueron importantes para la física teórica y la comprensión del movimiento relativo, la luz y el éter en el contexto de la física clásica y la posterior teoría de la relatividad de Einstein.
-
-
