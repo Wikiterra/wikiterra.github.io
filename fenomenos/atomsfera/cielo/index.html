@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <title>cielo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -61,8 +61,7 @@
 
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
-    <link href="/styles/obsidian-base.css" rel="stylesheet">
-    <link href="/styles/_theme.eae2f3b6.css" rel="stylesheet">
+    <link href="/styles/style.css" rel="stylesheet">
 
 
 <link href="/styles/custom-style.css" rel="stylesheet">
@@ -924,7 +923,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-08T00:51:00.144Z';
+        const searchIndexDate = '2024-04-08T00:52:39.556Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -936,9 +935,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:51:00.144Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:52:39.556Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:51:00.144Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:52:39.556Z', docs}));
             window.docs = docs
             window.index = index;
         }
