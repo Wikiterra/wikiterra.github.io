@@ -923,7 +923,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-08T00:52:41.167Z';
+        const searchIndexDate = '2024-04-08T00:55:43.039Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -935,9 +935,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:52:41.167Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-08T00:55:43.039Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:52:41.167Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-08T00:55:43.039Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1182,7 +1182,7 @@
       </header>
       
       
-      <h1 id="el-toroide" tabindex="-1">El toroide</h1>
+      <h1 id="el-campo-electromagnetico" tabindex="-1">El campo electromagnético</h1>
 <p>El campo electromagnético terrestre tiene una estructura compleja que puede describirse como un campo magnético dipolar, lo que significa que se asemeja al campo generado por un imán con un polo norte y un polo sur. Sin embargo, al considerar el campo magnético terrestre en un nivel más detallado, especialmente en relación con su origen y comportamiento, se puede conceptualizar de manera más precisa como un campo toroidal.</p>
 <h3 id="caracteristicas-del-campo-electromagnetico-terrestre" tabindex="-1">Características del Campo Electromagnético Terrestre</h3>
 <ol>
