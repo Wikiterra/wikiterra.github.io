@@ -8,7 +8,7 @@
 > [!info]
 > También se puede colaborar a través del [grupo de Telegram](https://t.me/+FrnHAynHpXxlNWNk)
 
-> [!note] La opción de editar está desactivada por ahora, en caso de activarse hay que saber usar git y GitHub
+> [!note] La opción de editar está desactivada por ahora, en caso de activarse hay que saber usar git y GitHub. Y haría falta hacer una "Pull Request" (hacer un Fork y mandar los cambios)
 
 El método de edición sería el siguiente:
 1. Pinchar en el botón de editar al fnial de cada artículo o hacer un "fork" en GitHub (bifurcación del repositorio)
