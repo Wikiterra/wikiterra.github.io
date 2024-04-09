@@ -923,7 +923,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-09T23:12:22.767Z';
+        const searchIndexDate = '2024-04-09T23:12:35.705Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -935,9 +935,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-09T23:12:22.767Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-09T23:12:35.705Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-09T23:12:22.767Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-09T23:12:35.705Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1188,7 +1188,7 @@
 <p>
 También se puede colaborar a través del <a href="https://t.me/+FrnHAynHpXxlNWNk" target="_blank" class="external-link">grupo de Telegram</a></p>
 </div></div>
-<div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> La opción de editar está desactivada por ahora, en caso de activarse hay que saber usar git y GitHub</div></div>
+<div class="callout " data-callout="note"><div class="callout-title"><div class="callout-title-inner"> La opción de editar está desactivada por ahora, en caso de activarse hay que saber usar git y GitHub. Y haría falta hacer una &quot;Pull Request&quot; (hacer un Fork y mandar los cambios)</div></div>
 <div class="callout-content">
 <p>
 </p></div></div>
