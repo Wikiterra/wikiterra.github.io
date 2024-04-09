@@ -32,5 +32,4 @@ Algunas referencias que se han asociado con esta interpretación incluyen:
 
 2. **Génesis 1:14-17 (NVI):** "Dijo Dios: «¡Que haya luces en el firmamento del cielo para separar el día de la noche, y que sirvan como señales para marcar las estaciones, los días y los años, y que brillen en el firmamento del cielo para iluminar la tierra!» Y así fue. Dios hizo dos grandes luces: la mayor para gobernar el día, y la menor para gobernar la noche. También hizo las estrellas. Dios las puso en el firmamento del cielo para iluminar la tierra."
 
-
 Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la existencia de un "firmamento" o "expansión" sólida que separa las aguas superiores e inferiores, con las estrellas y el sol y la luna colocados en o sobre este firmamento.
