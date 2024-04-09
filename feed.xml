@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://wikiterra.xyz/">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://wikiterra.xyz">
     <title>WikiTerra</title>
-    <link href="https://wikiterra.xyz//feed.xml" rel="self" >
-    <link href="https://wikiterra.xyz/" >
-    <updated>2024-04-09T23:24:54Z</updated>
-    <id>https://wikiterra.xyz/</id>
+    <link href="https://wikiterra.xyz/feed.xml" rel="self" >
+    <link href="https://wikiterra.xyz" >
+    <updated>2024-04-09T23:32:43Z</updated>
+    <id>https://wikiterra.xyz</id>
         <entry>
             <title>
                 wikiterra
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/</id>
             <content type="html">
                 &lt;p&gt;👋 ¡Hola! ¡Bienvenido a WikiTerra!&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;WikiTerra&lt;/strong&gt; es una enciclopedia libre que tiene como fin entender el funcionamiento de la naturaleza en especial tratando el tema de la cosmología.&lt;/p&gt;
@@ -28,15 +28,15 @@
 &lt;p&gt;Respecto a la ciencia, esta es la rama que surge de la aplicación del método científico. Sin embargo es sabido que la ciencia no es perfecta, es decir, un mismo experimento puede dar resultados diferentes según las consideraciones que se hagan o los axiomas que se establezcan. Por tanto cualquier otra fuente de estudio que arroje luz al entendimiento de la naturaleza es válida, la puerta está abierta para cualquier método que pueda ser comprobable.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//" >
+            <link href="https://wikiterra.xyz/" >
         </entry>
         <entry>
             <title>
                 listado-modelos
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/listado-modelos/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/listado-modelos/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelos-de-la-tierra-propuestos&quot; tabindex=&quot;-1&quot;&gt;Modelos de La Tierra propuestos&lt;/h1&gt;
 &lt;p&gt;Según lo que se utilice para descodificar nuestro 5 sentidos la Tierra puede apreciarse de distinta formas, sin embargo sin estar condicionados y en condiciones normales se manifiesta de una forma.&lt;/p&gt;
@@ -62,15 +62,15 @@
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/listado-modelos/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/listado-modelos/" >
         </entry>
         <entry>
             <title>
                 wikipedia-enlaces-cosmos
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/wikipedia-enlaces-cosmos/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/wikipedia-enlaces-cosmos/</id>
             <content type="html">
                 &lt;p&gt;Todo lo citado a continuación son páginas de Wikipedia que contienen la versión oficial (en inglés).&lt;/p&gt;
 &lt;h2 id=&quot;categorias-y-portales-de-wikipedia&quot; tabindex=&quot;-1&quot;&gt;Categorías y portales de Wikipedia&lt;/h2&gt;
@@ -302,15 +302,15 @@
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/wikipedia-enlaces-cosmos/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/wikipedia-enlaces-cosmos/" >
         </entry>
         <entry>
             <title>
                 modelo-heliocentrico
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/modelo-heliocentrico/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/modelo-heliocentrico/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelo-heliocentrico&quot; tabindex=&quot;-1&quot;&gt;Modelo heliocéntrico&lt;/h1&gt;
 &lt;p&gt;Desde el siglo XVII, el modelo oficial de la Tierra es el heliocentrismo&lt;/p&gt;
@@ -325,15 +325,15 @@ Para un observador inercial dentro de un coche en movimiento se mueve el entorno
 Lo mismo ocurre si consideramos el observador desde el modelo esférico de La Tierra, se mueve el cielo con las estrellas constelaciones y no La Tierra.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/modelo-heliocentrico/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/modelo-heliocentrico/" >
         </entry>
         <entry>
             <title>
                 masones
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/masones/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/masones/</id>
             <content type="html">
                 &lt;h1 id=&quot;masones-famosos&quot; tabindex=&quot;-1&quot;&gt;Masones famosos&lt;/h1&gt;
 &lt;h2 id=&quot;astronautas&quot; tabindex=&quot;-1&quot;&gt;Astronautas&lt;/h2&gt;
@@ -396,15 +396,15 @@ Lo mismo ocurre si consideramos el observador desde el modelo esférico de La Ti
 &lt;p&gt;Illuminati al revés es &amp;quot;itanimulli&amp;quot; y la web &amp;quot;&lt;a href=&quot;http://itanimulli.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;itanimulli.com&lt;/a&gt;&amp;quot; te redirige al sitio de la NSA (National Security Agency)&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/masones/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/masones/" >
         </entry>
         <entry>
             <title>
                 incongruencias-modelo-esferico
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/incongruencias-modelo-esferico/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/incongruencias-modelo-esferico/</id>
             <content type="html">
                 &lt;h1 id=&quot;incongruencias-del-modelo-esferico&quot; tabindex=&quot;-1&quot;&gt;Incongruencias del modelo esférico&lt;/h1&gt;
 &lt;p&gt;El modelo esférico se basa en la confianza hacia los argumentos de autoridad y en creer que las imágenes mostradas son reales y no pueden estar falsificadas. Se fundamenta en axiomas falsos que por definición son considerados verdades absolutas sin precisar de demostración, entonces no se pueden refutar.&lt;/p&gt;
@@ -517,15 +517,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;p&gt;Sin embargo la rotación terrestre no se percibe bajo ninguna circunstancia y todos la &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://wikiterra.xyz/ciencia/experimentos-listado/&quot;&gt;experimentos-listado&lt;/a&gt; mecánicos que han intentado medirla, han dado como resutlado la estaticidad o inmovilidad de la superficie terrestre.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/incongruencias-modelo-esferico/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/incongruencias-modelo-esferico/" >
         </entry>
         <entry>
             <title>
                 heliocentrismo-666
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/heliocentrismo-666/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/heliocentrismo-666/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelo-esferico-666-encriptado&quot; tabindex=&quot;-1&quot;&gt;Modelo esférico (666 encriptado)&lt;/h1&gt;
 &lt;h2 id=&quot;la-tierra-666-encriptado&quot; tabindex=&quot;-1&quot;&gt;La Tierra (666 encriptado)&lt;/h2&gt;
@@ -578,15 +578,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/heliocentrismo-666/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/heliocentrismo-666/" >
         </entry>
         <entry>
             <title>
                 cientificos-helios
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/helios/cientificos-helios/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/helios/cientificos-helios/</id>
             <content type="html">
                 &lt;h1 id=&quot;cientificos-del-modelo-heliocentrico&quot; tabindex=&quot;-1&quot;&gt;Científicos del modelo Heliocéntrico&lt;/h1&gt;
 &lt;ul&gt;
@@ -600,15 +600,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/helios/cientificos-helios/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/helios/cientificos-helios/" >
         </entry>
         <entry>
             <title>
                 referencias-tp
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/referencias-tp/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/referencias-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;referencias-modelo-tierra-a-nivel&quot; tabindex=&quot;-1&quot;&gt;Referencias modelo Tierra a Nivel&lt;/h1&gt;
 &lt;h2 id=&quot;earth-s-dome&quot; tabindex=&quot;-1&quot;&gt;Earth&#39;s Dome&lt;/h2&gt;
@@ -792,15 +792,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/referencias-tp/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/referencias-tp/" >
         </entry>
         <entry>
             <title>
                 flor-vida-simil
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/flor-vida-simil/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/flor-vida-simil/</id>
             <content type="html">
                 &lt;h2 id=&quot;flor-de-la-vida&quot; tabindex=&quot;-1&quot;&gt;Flor de la vida&lt;/h2&gt;
 &lt;p&gt;La figura de la flor de la vida, se puede entender también como un conjunto de observadores con un campo de visión limitado hasta el horizonte (círculos internos) y un círculo externo que sería como el contorno del planeta plano.&lt;/p&gt;
@@ -840,15 +840,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;p&gt;Conjunto de domos forman la flor de la vida&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/flor-vida-simil/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/flor-vida-simil/" >
         </entry>
         <entry>
             <title>
                 cientificos-tp
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/cientificos-tp/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/cientificos-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;cientificos-modelo-geocentrico&quot; tabindex=&quot;-1&quot;&gt;Científicos modelo geocéntrico&lt;/h1&gt;
 &lt;ul&gt;
@@ -1047,15 +1047,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/cientificos-tp/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/cientificos-tp/" >
         </entry>
         <entry>
             <title>
                 canales-tierra-plana
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/canales-tierra-plana/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/canales-tierra-plana/</id>
             <content type="html">
                 &lt;h1 id=&quot;canales-tierra-plana-you-tube&quot; tabindex=&quot;-1&quot;&gt;Canales Tierra Plana YouTube&lt;/h1&gt;
 &lt;ul&gt;
@@ -1073,15 +1073,15 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/canales-tierra-plana/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/canales-tierra-plana/" >
         </entry>
         <entry>
             <title>
                 bobina-del-demiurgo
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/bobina-del-demiurgo/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/bobina-del-demiurgo/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-bobina-del-demiurgo-el-controlador-y-ladron-de-energia&quot; tabindex=&quot;-1&quot;&gt;La Bobina del demiurgo el controlador y ladrón de energía&lt;/h1&gt;
 &lt;p&gt;Escrito por Roberto Kuikakoatl en Facebook.&lt;/p&gt;
@@ -1111,15 +1111,15 @@ El Centro magnético de la Tierra contiene su propia naturaleza, así como los &
 &lt;p&gt;El firmamento es electromagnético, gases de la atmósfera se suben a su encuentro y crean la &amp;quot;energía del punto cero&amp;quot; a través de su constante dialéctica y combina perfectamente con los diversos patrones de colores de los oligoelementos dentro de la propia cúpula, entonces no hay ninguna interferencia óptica cuando miramos la noche, explicando el visual &amp;quot;colorido&amp;quot; del cielo nocturno, teniendo como ejemplo las nebulosas que de ninguna manera va a forma &amp;quot;Sistemas Planetarios&amp;quot;.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/bobina-del-demiurgo/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/bobina-del-demiurgo/" >
         </entry>
         <entry>
             <title>
                 argumentos-tp
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//modelos-Terra/geo/argumentos-tp/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/modelos-Terra/geo/argumentos-tp/</id>
             <content type="html">
                 &lt;h2 id=&quot;argumentos&quot; tabindex=&quot;-1&quot;&gt;Argumentos&lt;/h2&gt;
 &lt;p&gt;Dinámica de fluidos&lt;br /&gt;
@@ -1150,15 +1150,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//modelos-Terra/geo/argumentos-tp/" >
+            <link href="https://wikiterra.xyz/modelos-Terra/geo/argumentos-tp/" >
         </entry>
         <entry>
             <title>
                 visibilidad
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/atomsfera/visibilidad/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/atomsfera/visibilidad/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-visibilidad&quot; tabindex=&quot;-1&quot;&gt;La visibilidad&lt;/h1&gt;
 &lt;p&gt;La visibilidad es el alcance máximo de la luz para un medio determinado sobre un observador en concreto.&lt;/p&gt;
@@ -1216,15 +1216,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;/blockquote&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/atomsfera/visibilidad/" >
+            <link href="https://wikiterra.xyz/fenomenos/atomsfera/visibilidad/" >
         </entry>
         <entry>
             <title>
                 rayo
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/atomsfera/rayo/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/atomsfera/rayo/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-rayo&quot; tabindex=&quot;-1&quot;&gt;El rayo&lt;/h1&gt;
 &lt;p&gt;El rayo es un fenómeno atmosférico de naturaleza eléctrica que ocurre durante tormentas eléctricas. Consiste en una descarga eléctrica de alta intensidad y corta duración que se produce entre una nube cargada eléctricamente y la superficie terrestre, o entre diferentes regiones de una nube.&lt;/p&gt;
@@ -1251,15 +1251,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;p&gt;&lt;img src=&quot;https://wikiterra.xyz/img/user/recursos/img/rayo-Krunkwerke.jpg&quot; alt=&quot;rayo-Krunkwerke.jpg|300&quot; width=&quot;300px&quot; /&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/atomsfera/rayo/" >
+            <link href="https://wikiterra.xyz/fenomenos/atomsfera/rayo/" >
         </entry>
         <entry>
             <title>
                 nubes
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/atomsfera/nubes/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/atomsfera/nubes/</id>
             <content type="html">
                 &lt;h1 id=&quot;las-nubes&quot; tabindex=&quot;-1&quot;&gt;Las nubes&lt;/h1&gt;
 &lt;p&gt;Las nubes son agrupaciones de micropartículas de agua en un estado especial que no es ni completamente líquido ni gas. En este estado, el agua ha alcanzado un metaestado debido a condiciones específicas de temperatura y presión en la atmósfera. A diferencia del agua en su forma líquida o gaseosa ordinaria, estas micropartículas de agua se mantienen suspendidas en el aire debido a su baja densidad y al equilibrio entre las fuerzas ascendentes y descendentes en la atmósfera. Este estado especial permite que las nubes floten y se formen diversas estructuras visibles en el cielo, influenciando significativamente el clima y el entorno terrestre.&lt;/p&gt;
@@ -1312,15 +1312,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;p&gt;En resumen, las nubes son formaciones atmosféricas compuestas de gotas de agua o cristales de hielo suspendidos en el aire. Su formación, tipos y altitudes varían según las condiciones atmosféricas locales, y desempeñan un papel fundamental en el clima y el ciclo hidrológico de la Tierra.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/atomsfera/nubes/" >
+            <link href="https://wikiterra.xyz/fenomenos/atomsfera/nubes/" >
         </entry>
         <entry>
             <title>
                 cielo
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/atomsfera/cielo/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/atomsfera/cielo/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-cielo&quot; tabindex=&quot;-1&quot;&gt;El cielo&lt;/h1&gt;
 &lt;p&gt;El cielo es el lugar donde se encuentran los astros, estrellas, estrellas errantes y cuerpos en suspensión, es la parte que está encima de la superficie terrestre.&lt;/p&gt;
@@ -1328,15 +1328,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;p&gt;De día el cielo tiene un color azul claro debido al comportamiento la luz solar al atravesar los gases de la atmósfera, cuando es de día el Sol se encuentra encima de un punto en concreto de la superficie que permite que la luz recorra menos cantidad de atmósfera por lo que las frecuencias altas (o de longitud corta) como los colores azules llegan y dan ese color al cielo, mientras cuando hay una salida o puesta de Sol, la cantidad de atmósfera que tiene que recorrer la luz es mucho mayor ocasioanando que llegan las frecuncias más bajas (longitudes de onda larga), generando un tono más rojizo anaranjado en el cielo.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/atomsfera/cielo/" >
+            <link href="https://wikiterra.xyz/fenomenos/atomsfera/cielo/" >
         </entry>
         <entry>
             <title>
                 atmosfera
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/atomsfera/atmosfera/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/atomsfera/atmosfera/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-atmosfera&quot; tabindex=&quot;-1&quot;&gt;La atmósfera&lt;/h1&gt;
 &lt;p&gt;La atmósfera terrestre es la capa de gases que se encuentra en el interior de nuestro mundo, proporcionando el entorno vital para la vida tal como la conocemos. Es un componente fundamental de la Tierra y desempeña un papel crucial en la regulación del clima, ciclo del agua y radiación solar.&lt;/p&gt;
@@ -1365,15 +1365,15 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
 &lt;h2 id=&quot;fenomenos-atomsfera-visibilidad-la-visibilidad-atmosferica&quot; tabindex=&quot;-1&quot;&gt;&lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://wikiterra.xyz/fenomenos/atomsfera/visibilidad/&quot;&gt;La visibilidad atmosférica&lt;/a&gt;&lt;/h2&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/atomsfera/atmosfera/" >
+            <link href="https://wikiterra.xyz/fenomenos/atomsfera/atmosfera/" >
         </entry>
         <entry>
             <title>
                 sol
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/astros/sol/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/astros/sol/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-sol&quot; tabindex=&quot;-1&quot;&gt;El Sol&lt;/h1&gt;
 &lt;p&gt;El Sol es la principal figura que marca la diferencia del tiempo, marca los días y las noches. Da luz a los seres vivos. humanos plantas, animales y objetos.&lt;/p&gt;
@@ -1398,15 +1398,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;h2 id=&quot;referencias&quot; tabindex=&quot;-1&quot;&gt;Referencias&lt;/h2&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/astros/sol/" >
+            <link href="https://wikiterra.xyz/fenomenos/astros/sol/" >
         </entry>
         <entry>
             <title>
                 sol-luna
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/astros/sol-luna/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/astros/sol-luna/</id>
             <content type="html">
                 &lt;h2 id=&quot;sol-luna&quot; tabindex=&quot;-1&quot;&gt;Sol-Luna&lt;/h2&gt;
 &lt;ul&gt;
@@ -1414,15 +1414,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/astros/sol-luna/" >
+            <link href="https://wikiterra.xyz/fenomenos/astros/sol-luna/" >
         </entry>
         <entry>
             <title>
                 polaris
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/astros/polaris/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/astros/polaris/</id>
             <content type="html">
                 &lt;h1 id=&quot;polaris&quot; tabindex=&quot;-1&quot;&gt;Polaris&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;Polaris&lt;/strong&gt;, también conocida como la &lt;strong&gt;Estrella Polar&lt;/strong&gt; o &lt;strong&gt;Polaris Alfa Ursae Minoris&lt;/strong&gt;, es una estrella notable en el cielo nocturno y es reconocida por ser la estrella más brillante en la constelación de la Osa Menor (Ursa Minor). Polaris desempeña un papel importante en la navegación astronómica, ya que marca aproximadamente la posición del Polo Norte Celeste en el cielo.&lt;/p&gt;
@@ -1445,15 +1445,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;p&gt;En resumen, Polaris es una estrella brillante y significativa en la constelación de la Osa Menor, utilizada históricamente como guía para la navegación debido a su proximidad al Polo Norte Celeste y su constancia en el cielo nocturno. Su importancia astronómica y cultural la convierten en una estrella destacada en el firmamento.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/astros/polaris/" >
+            <link href="https://wikiterra.xyz/fenomenos/astros/polaris/" >
         </entry>
         <entry>
             <title>
                 luna
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/astros/luna/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/astros/luna/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-luna&quot; tabindex=&quot;-1&quot;&gt;La Luna&lt;/h1&gt;
 &lt;p&gt;La Luna es una luminaria de la Tierra junto al So,  rota encima del plano terrestre de Este a Oeste en torno al polo norte.&lt;/p&gt;
@@ -1473,15 +1473,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;p&gt;El analema lunar es la forma que dibuja la Luna cuando es fotografiada todos los días a la misma hora durante su ciclo completo.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/astros/luna/" >
+            <link href="https://wikiterra.xyz/fenomenos/astros/luna/" >
         </entry>
         <entry>
             <title>
                 estrellas
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//fenomenos/astros/estrellas/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/fenomenos/astros/estrellas/</id>
             <content type="html">
                 &lt;h1 id=&quot;las-estrellas&quot; tabindex=&quot;-1&quot;&gt;Las estrellas&lt;/h1&gt;
 &lt;p&gt;Las estrellas del cielo son objetos luminosos, hay dos tipos de estrellas:&lt;/p&gt;
@@ -1497,15 +1497,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;p&gt;Las estrellas sirven para posicionarte y se usan en la navegación junto con el astrolabio para situarse en el plano.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//fenomenos/astros/estrellas/" >
+            <link href="https://wikiterra.xyz/fenomenos/astros/estrellas/" >
         </entry>
         <entry>
             <title>
                 vacio
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/vacio/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/vacio/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-vacio&quot; tabindex=&quot;-1&quot;&gt;El vacío&lt;/h1&gt;
 &lt;p&gt;El vacío no existe como tal, por definición si algo existe no puede ser vacío, puede estar vacío en términos de materia por no serlo.&lt;/p&gt;
@@ -1515,15 +1515,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;p&gt;En un habitación donde se ha realizado el &amp;quot;vacío&amp;quot; o se ha puesto a presión muy baja, los experimentos donde tiran una pluma y un martillo caen a la vez porque los materiales no se ven afectados por el rozamiento y ambos son más densos que el aire.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/vacio/" >
+            <link href="https://wikiterra.xyz/conceptos/vacio/" >
         </entry>
         <entry>
             <title>
                 tierra
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/tierra/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/tierra/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-tierra&quot; tabindex=&quot;-1&quot;&gt;La Tierra&lt;/h1&gt;
 &lt;p&gt;La Tierra o &#39;The Earth&#39; es el lugar donde habitan los seres humanos, animales, plantas está constituida por zona terrestre y zona marina. La tierra sobresale por encima del agua, y tiene multitud de formas montañas, cuevas, valles, volcanes, La tierra proviene del fondo terrestre, del subsuelo y es la que al salir a superficie forma la orografía.&lt;/p&gt;
@@ -1545,15 +1545,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;/blockquote&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/tierra/" >
+            <link href="https://wikiterra.xyz/conceptos/tierra/" >
         </entry>
         <entry>
             <title>
                 perspectiva
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/perspectiva/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/perspectiva/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-perspectiva&quot; tabindex=&quot;-1&quot;&gt;La perspectiva&lt;/h1&gt;
 &lt;p&gt;Desde un punto de vista de la realidad tridimensional, la perspectiva se refiere a la forma en que percibimos y experimentamos el mundo que nos rodea en tres dimensiones: longitud, anchura y altura. Nuestra capacidad para comprender y apreciar la profundidad y la distancia en el espacio es fundamental para nuestra percepción y orientación en el entorno tridimensional.&lt;/p&gt;
@@ -1579,15 +1579,15 @@ El efecto de las distinas estaciones sobre la superficie terrestre se debe a la 
 &lt;p&gt;&lt;a href=&quot;https://scontent.cdninstagram.com/o1/v/t16/f1/m84/C34DC3C8653AF4B004E872AEDAA3E7A1_video_dashinit.mp4?efg=eyJxZV9ncm91cHMiOiJbXCJpZ193ZWJfZGVsaXZlcnlfdnRzX290ZlwiXSIsInZlbmNvZGVfdGFnIjoidnRzX3ZvZF91cmxnZW4uZmVlZC5jMi42NDAuYmFzZWxpbmUifQ&amp;amp;_nc_ht=scontent.cdninstagram.com&amp;amp;_nc_cat=105&amp;amp;vs=855831982617670_2438492171&amp;amp;_nc_vs=HBksFQIYTGlnX2JhY2tmaWxsX3RpbWVsaW5lX3ZvZC9DMzREQzNDODY1M0FGNEIwMDRFODcyQUVEQUEzRTdBMV92aWRlb19kYXNoaW5pdC5tcDQVAALIAQAVAhg6cGFzc3Rocm91Z2hfZXZlcnN0b3JlL0dFRllaQmYzSW1QeTZwZ0FBTDcyZF91ckphVU1icGt3QUFBRhUCAsgBACgAGAAbABUAACbCmIDIlrjgPxUCKAJDMywXQEMIcrAgxJwYEmRhc2hfYmFzZWxpbmVfMV92MREAdeoHAA%3D%3D&amp;amp;ccb=9-4&amp;amp;oh=00_AfDsFhFFWLfbcHV494hA27qYt4THwlO5PJ5SfOBMdOJRtw&amp;amp;oe=653E2546&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Perspective - pvrellis&lt;/a&gt;&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/perspectiva/" >
+            <link href="https://wikiterra.xyz/conceptos/perspectiva/" >
         </entry>
         <entry>
             <title>
                 mapas
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/mapas/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/mapas/</id>
             <content type="html">
                 &lt;h1 id=&quot;los-mapas&quot; tabindex=&quot;-1&quot;&gt;Los mapas&lt;/h1&gt;
 &lt;p&gt;Existen muchos tipos de mapas cada uno especializado en una tarea. No hay una mapa perfecto hay un mapa hecho para cada cosa. Mapa con áreas iguales, mapas con ángulos sin deformar... La diferencia entre los mapas se debe a las proyecciones que se lleven a cabo.&lt;/p&gt;
@@ -1620,15 +1620,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/mapas/" >
+            <link href="https://wikiterra.xyz/conceptos/mapas/" >
         </entry>
         <entry>
             <title>
                 horizonte
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/horizonte/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/horizonte/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-horizonte&quot; tabindex=&quot;-1&quot;&gt;El horizonte&lt;/h1&gt;
 &lt;p&gt;El horizonte que se forma en La Tierra es un concepto puramente óptico no interviene la geometría ni la forma del objeto. Se forma debido a que la luz tiene un rango de alcance máximo dentro del medio en el que se propaga, Este límite óptico de visión, el cual es circular en torno al observador genera una línea de visión máximo entre dos medios de separación, la cual se le llama línea del horizonte u horizonte. El horizonte al ser un concepto óptico se forma siempre de manera perpendicular a un observador en el suelo mirando paralelo al plano del mar.&lt;/p&gt;
@@ -1677,15 +1677,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/horizonte/" >
+            <link href="https://wikiterra.xyz/conceptos/horizonte/" >
         </entry>
         <entry>
             <title>
                 gravedad
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/gravedad/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/gravedad/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-gravedad&quot; tabindex=&quot;-1&quot;&gt;La gravedad&lt;/h1&gt;
 &lt;p&gt;La gravedad es conocida como una fuerza de atracción de masas o de los cuerpos físicos materiales inherente a la materia.&lt;/p&gt;
@@ -1704,15 +1704,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;h2 id=&quot;el-problema-de-los-3-cuerpos&quot; tabindex=&quot;-1&quot;&gt;El problema de los 3 cuerpos&lt;/h2&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/gravedad/" >
+            <link href="https://wikiterra.xyz/conceptos/gravedad/" >
         </entry>
         <entry>
             <title>
                 flotabiliad
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/flotabiliad/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/flotabiliad/</id>
             <content type="html">
                 &lt;h1 id=&quot;flotabilidad&quot; tabindex=&quot;-1&quot;&gt;Flotabilidad&lt;/h1&gt;
 &lt;p&gt;La flotabilidad es el ajuste termodinámico que sufren los cuerpos en un medio para alcanzar un estado de equilibrio.&lt;/p&gt;
@@ -1752,15 +1752,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/flotabiliad/" >
+            <link href="https://wikiterra.xyz/conceptos/flotabiliad/" >
         </entry>
         <entry>
             <title>
                 domo
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/domo/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/domo/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-domo&quot; tabindex=&quot;-1&quot;&gt;El domo&lt;/h1&gt;
 &lt;p&gt;El domo en una estructura permeable con forma de semiesfera que cubre la superficie terrestre manteniendo la presión atmosférica.&lt;/p&gt;
@@ -1789,15 +1789,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;p&gt;Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la existencia de un &amp;quot;firmamento&amp;quot; o &amp;quot;expansión&amp;quot; sólida que separa las aguas superiores e inferiores, con las estrellas y el sol y la luna colocados en o sobre este firmamento.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/domo/" >
+            <link href="https://wikiterra.xyz/conceptos/domo/" >
         </entry>
         <entry>
             <title>
                 campo-electromagnetico
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//conceptos/campo-electromagnetico/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/conceptos/campo-electromagnetico/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-campo-electromagnetico&quot; tabindex=&quot;-1&quot;&gt;El campo electromagnético&lt;/h1&gt;
 &lt;p&gt;El campo electromagnético terrestre tiene una estructura compleja que puede describirse como un campo magnético dipolar, lo que significa que se asemeja al campo generado por un imán con un polo norte y un polo sur. Sin embargo, al considerar el campo magnético terrestre en un nivel más detallado, especialmente en relación con su origen y comportamiento, se puede conceptualizar de manera más precisa como un campo toroidal.&lt;/p&gt;
@@ -1826,15 +1826,15 @@ d) Arno Peters&lt;/p&gt;
 &lt;p&gt;En resumen, el campo electromagnético terrestre, especialmente cuando se considera en detalle, puede describirse como un campo magnético toroidal generado por corrientes eléctricas en el núcleo externo de la Tierra. Esta estructura toroidal tiene implicaciones significativas para la protección y la navegación en nuestro planeta.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//conceptos/campo-electromagnetico/" >
+            <link href="https://wikiterra.xyz/conceptos/campo-electromagnetico/" >
         </entry>
         <entry>
             <title>
                 metodo-cientifico
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//ciencia/metodo-cientifico/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/ciencia/metodo-cientifico/</id>
             <content type="html">
                 &lt;h1 id=&quot;metodo-cientifico&quot; tabindex=&quot;-1&quot;&gt;Método científico&lt;/h1&gt;
 &lt;p&gt;Una forma fiable de comprender la realidad es mediante el uso del método científico, haciendo uso de tu razonamiento y de sus sentidos.&lt;/p&gt;
@@ -1849,15 +1849,15 @@ Y ese mundo también se ve alterado por las acciones y pensamientos de cada uno 
 &lt;p&gt;&amp;quot;Earth is a realm, it is not a planet. It is not an object, therefore, it has no edge. Earth would be more easily defined as a system environment. Earth is also a machine, it is a Tesla coil. The Sun and the Moon are powered wirelessly with the electromagnetic field (the Aether). This field also suspends the celestial spheres with electromagnetic levitation. Electromagnetic levitation disapproves gravity because the only force you need to counter is the electromagnetic force, not gravity. The stars are attached to the firmament.&amp;quot; ~ Nikola Tesla.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//ciencia/metodo-cientifico/" >
+            <link href="https://wikiterra.xyz/ciencia/metodo-cientifico/" >
         </entry>
         <entry>
             <title>
                 experimentos-listado
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//ciencia/experimentos-listado/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/ciencia/experimentos-listado/</id>
             <content type="html">
                 &lt;h1 id=&quot;listado-de-experimentos-astronomicos&quot; tabindex=&quot;-1&quot;&gt;Listado de experimentos astronómicos&lt;/h1&gt;
 &lt;ul&gt;
@@ -1907,15 +1907,15 @@ Y ese mundo también se ve alterado por las acciones y pensamientos de cada uno 
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//ciencia/experimentos-listado/" >
+            <link href="https://wikiterra.xyz/ciencia/experimentos-listado/" >
         </entry>
         <entry>
             <title>
                 ciencia
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//ciencia/ciencia/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/ciencia/ciencia/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-ciencia&quot; tabindex=&quot;-1&quot;&gt;La Ciencia&lt;/h1&gt;
 &lt;p&gt;Lo primero que se le viene a la mente es la idea que se tiene de la ciencia y de sus ramas física, biología, química...&lt;/p&gt;
@@ -1948,15 +1948,15 @@ Ahora bien, si la argumentación es sólida, es replicable y experimentable ento
 &lt;p&gt;La ciencia no es la verdad absoluta, la ciencia es la aplicación de método científico realizado por seres humanos en nuestro caso con una parte subjetiva implícita en nosotros y con un objetivo final de fondo.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//ciencia/ciencia/" >
+            <link href="https://wikiterra.xyz/ciencia/ciencia/" >
         </entry>
         <entry>
             <title>
                 wikiterra-dev
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//about/wikiterra-dev/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/about/wikiterra-dev/</id>
             <content type="html">
                 &lt;h1 id=&quot;que-es-wiki-terra&quot; tabindex=&quot;-1&quot;&gt;¿Qué es WikiTerra ?&lt;/h1&gt;
 &lt;p&gt;WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos.&lt;/p&gt;
@@ -2008,15 +2008,15 @@ npm run watch:eleventy # visualizar la web en localhost # npm run start or npx @
 &lt;p&gt;Para editar la wiki consulta la sección de &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://wikiterra.xyz/about/editar-contenido/&quot;&gt;editar-contenido&lt;/a&gt;.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//about/wikiterra-dev/" >
+            <link href="https://wikiterra.xyz/about/wikiterra-dev/" >
         </entry>
         <entry>
             <title>
                 wiki-estatica
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//about/wiki-estatica/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/about/wiki-estatica/</id>
             <content type="html">
                 &lt;h1 id=&quot;wiki-estatica&quot; tabindex=&quot;-1&quot;&gt;Wiki estática&lt;/h1&gt;
 &lt;p&gt;Las wikis estáticas son páginas web estáticas que solo interactúan en el lado cliente o front-end donde el formato web (HTML, CSS, JS) es visible por los navegadores web.&lt;/p&gt;
@@ -2040,15 +2040,15 @@ con lado cliente y lado servidor (con base de datos). Lo que facilita la edició
 &lt;p&gt;Las wikis dinámicas están pensadas para proyectos muy grandes pero tienen la desventaja de que su mantenimiento es más caro que una web estática.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//about/wiki-estatica/" >
+            <link href="https://wikiterra.xyz/about/wiki-estatica/" >
         </entry>
         <entry>
             <title>
                 markdown
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//about/markdown/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/about/markdown/</id>
             <content type="html">
                 &lt;h1 id=&quot;markdown&quot; tabindex=&quot;-1&quot;&gt;Markdown&lt;/h1&gt;
 &lt;p&gt;&amp;quot;Markdown es un lenguaje de marcado ligero para crear texto formateado utilizando un editor de texto plano.&amp;quot;&amp;quot;&lt;/p&gt;
@@ -2180,15 +2180,15 @@ func main() {
 &lt;/ul&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//about/markdown/" >
+            <link href="https://wikiterra.xyz/about/markdown/" >
         </entry>
         <entry>
             <title>
                 editar-contenido
                 
             </title>
-            <updated>2024-04-09T23:24:45Z</updated>
-            <id>https://wikiterra.xyz//about/editar-contenido/</id>
+            <updated>2024-04-09T23:32:33Z</updated>
+            <id>https://wikiterra.xyz/about/editar-contenido/</id>
             <content type="html">
                 &lt;h2 id=&quot;editar-contenido&quot; tabindex=&quot;-1&quot;&gt;Editar contenido&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -2219,6 +2219,6 @@ También se puede colaborar a través del &lt;a href=&quot;https://t.me/+FrnHAyn
 &lt;p&gt;El conjunto de artículos de WikiTerra se almacena en la bóveda o &amp;quot;vault&amp;quot; de &lt;a href=&quot;https://github.com/Wikiterra/wikiterra-vault&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WikiTerra&lt;/a&gt; publicada en GitHub. Para descargarlo solo hay descargar el &lt;a href=&quot;https://github.com/Wikiterra/wikiterra-vault/archive/refs/heads/main.zip&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;repositorio de GitHub en formato zip&lt;/a&gt; o clonarlo en local &lt;code&gt;git clone https://github.com/Wikiterra/wikiterra-vault.git&lt;/code&gt;.&lt;/p&gt;
 
             </content>
-            <link href="https://wikiterra.xyz//about/editar-contenido/" >
+            <link href="https://wikiterra.xyz/about/editar-contenido/" >
         </entry>
 </feed>
