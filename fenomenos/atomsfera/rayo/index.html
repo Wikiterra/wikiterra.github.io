@@ -924,7 +924,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-09T23:35:38.691Z';
+        const searchIndexDate = '2024-04-09T23:35:39.635Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -936,9 +936,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-09T23:35:38.691Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-09T23:35:39.635Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-09T23:35:38.691Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-09T23:35:39.635Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1222,7 +1222,23 @@
       alt="rayo-Krunkwerke.jpg|300"
       width="300px"
       ></picture></p>
-<p><img src="/img/user/recursos/img/rayo-ascendente.webp" alt="rayo-ascendente.webp"></p>
+<p><picture src="/img/user/recursos/img/rayo-ascendente.webp" alt="rayo-ascendente.webp"><source       media="(max-width:480px)"
+      srcset="/img/optimized/-TSIe8eK-u-500.webp"
+      type="image/webp"
+      >
+      <source       media="(max-width:480px)"
+      srcset="/img/optimized/-TSIe8eK-u-500.jpeg"
+      >
+      <source         media="(max-width:1920px)"
+        srcset="/img/optimized/-TSIe8eK-u-700.webp"
+        type="image/webp"
+        ><source         media="(max-width:1920px)"
+        srcset="/img/optimized/-TSIe8eK-u-700.jpeg"
+        ><img       class=""
+      src="/img/user/recursos/img/rayo-ascendente.webp"
+      alt="rayo-ascendente.webp"
+      width=""
+      ></picture></p>
 
       
       
