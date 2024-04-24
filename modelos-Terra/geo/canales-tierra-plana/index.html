@@ -924,7 +924,7 @@
     async function init() {
         //init offline search index
 
-        const searchIndexDate = '2024-04-21T19:57:51.121Z';
+        const searchIndexDate = '2024-04-24T00:21:58.830Z';
         let shouldFetch = true;
         if(localStorage.getItem("searchIndex")) {
             let {date, docs}= JSON.parse(localStorage.getItem('searchIndex'));
@@ -936,9 +936,9 @@
             }        
         }
         if(shouldFetch){
-            let docs = await(await fetch('/searchIndex.json?v=2024-04-21T19:57:51.121Z')).json();
+            let docs = await(await fetch('/searchIndex.json?v=2024-04-24T00:21:58.830Z')).json();
             let index = createIndex(docs);
-            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-21T19:57:51.121Z', docs}));
+            localStorage.setItem("searchIndex", JSON.stringify({date: '2024-04-24T00:21:58.830Z', docs}));
             window.docs = docs
             window.index = index;
         }
@@ -1183,19 +1183,40 @@
       </header>
       
       
-      <h1 id="canales-tierra-plana-you-tube" tabindex="-1">Canales Tierra Plana YouTube</h1>
+      <h1 id="canales-tierra-plana" tabindex="-1">Canales Tierra Plana</h1>
+<h2 id="canales-you-tube" tabindex="-1">Canales YouTube</h2>
 <ul>
-<li>Nur Para Todos Principal (Iru Landucci): <a href="https://www.youtube.com/c/NurParaTodosIruLanducciTierraPlana/videos" target="_blank" class="external-link">https://www.youtube.com/c/NurParaTodosIruLanducciTierraPlana/videos</a></li>
-<li>LA EMETH DE YAHWEH: <a href="https://www.youtube.com/channel/UCrN5mAYRA8G0GF7-Otr7p1A/videos" target="_blank" class="external-link">https://www.youtube.com/channel/UCrN5mAYRA8G0GF7-Otr7p1A/videos</a></li>
-<li>Planet Plane: <a href="https://www.youtube.com/c/PlanetPlane/videos" target="_blank" class="external-link">https://www.youtube.com/c/PlanetPlane/videos</a></li>
-<li>ArFLAT Experimentación Científica: <a href="https://www.youtube.com/c/ArFLATExperimentaci%C3%B3nCient%C3%ADfica/videos" target="_blank" class="external-link">https://www.youtube.com/c/ArFLATExperimentaciónCientífica/videos</a></li>
-<li>La Verdad nos hará libres: <a href="https://www.youtube.com/c/LaVerdadnoshar%C3%A1libres/videos" target="_blank" class="external-link">https://www.youtube.com/c/LaVerdadnosharálibres/videos</a></li>
-<li>EN HONOR A LA VERDAD: <a href="https://www.youtube.com/c/ENHONORALAVERDADfelipecanepa/videos" target="_blank" class="external-link">https://www.youtube.com/c/ENHONORALAVERDADfelipecanepa/videos</a></li>
-<li>México Tierra plana: <a href="https://www.youtube.com/channel/UCgZokK-CLYqCOAGt6wGzirQ/videos" target="_blank" class="external-link">https://www.youtube.com/channel/UCgZokK-CLYqCOAGt6wGzirQ/videos</a></li>
-<li>Tierra Plana Asturias: <a href="https://www.youtube.com/channel/UC5Ul5epWNE3zTYjH9WtoqfA/videos" target="_blank" class="external-link">https://www.youtube.com/channel/UC5Ul5epWNE3zTYjH9WtoqfA/videos</a></li>
-<li>Edith Tierra Plana: <a href="https://www.youtube.com/c/EdithTierraPlana/videos" target="_blank" class="external-link">https://www.youtube.com/c/EdithTierraPlana/videos</a></li>
-<li>Enrique de ELV: <a href="https://www.youtube.com/@Exponiendolaverdad" target="_blank" class="external-link">https://www.youtube.com/@Exponiendolaverdad</a></li>
-<li>Hermanos Barea: <a href="https://hermanosbarea.tv/" target="_blank" class="external-link">https://hermanosbarea.tv/</a></li>
+<li><a href="https://www.youtube.com/@escueladelconocimiento" target="_blank" class="external-link">| Escuela de Conocimiento | - YouTube</a></li>
+<li><a href="https://www.youtube.com/@AlarmaMundial" target="_blank" class="external-link">Alarma mundial - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/ArFLATExperimentaci%C3%B3nCient%C3%ADfica" target="_blank" class="external-link">ArFLAT Experimentación Científica - YouTube</a></li>
+<li><a href="https://www.youtube.com/@CanalDacoria" target="_blank" class="external-link">Canal Dacoria</a></li>
+<li><a href="https://www.youtube.com/@DITRH" target="_blank" class="external-link">DITRH- YouTube</a></li>
+<li><a href="https://www.youtube.com/@DwayneKellum/" target="_blank" class="external-link">DwayneKellum - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/ENHONORALAVERDADfelipecanepa" target="_blank" class="external-link">EN HONOR A LA VERDAD - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/EdithTierraPlana" target="_blank" class="external-link">Edith Tierra Plana - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Exponiendolaverdad" target="_blank" class="external-link">Exponiendo la Verdad - YouTube</a></li>
+<li><a href="https://www.youtube.com/@flatfingerswithsantosbonac8435" target="_blank" class="external-link">Flat fingers - YouTube</a></li>
+<li><a href="https://www.youtube.com/@flatearthtv71" target="_blank" class="external-link">Flat Earth TV - YouTube</a></li>
+<li><a href="https://www.youtube.com/@HermanosBarea" target="_blank" class="external-link">Hermanos Barea - YouTube</a></li>
+<li><a href="https://www.youtube.com/channel/UCrN5mAYRA8G0GF7-Otr7p1A" target="_blank" class="external-link">LA EMETH DE YAHWEH - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/LaVerdadnoshar%C3%A1libres" target="_blank" class="external-link">La Verdad nos hará libres - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Nurparatodos" target="_blank" class="external-link">Nur Para Todos (Iru Landucci) - YouTube</a></li>
+<li><a href="https://www.youtube.com/@oliveribanez" target="_blank" class="external-link">Oliver Ibáñez - YouTube</a></li>
+<li><a href="https://www.youtube.com/@pachamamaflat" target="_blank" class="external-link">Pachamam Flat - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/PlanetPlane" target="_blank" class="external-link">Planet Plane - YouTube</a></li>
+<li><a href="https://www.youtube.com/@sanchezma" target="_blank" class="external-link">Sanchez Ma - YouTube</a></li>
+<li><a href="https://www.youtube.com/@tierratecnologica5050/videos" target="_blank" class="external-link">Tierra Tecnologica - YouTube</a></li>
+<li>[Truthseeker - YouTube]<a href="https://www.youtube.com/@Truthseeker3" target="_blank" class="external-link">https://www.youtube.com/@Truthseeker3</a>)</li>
+<li><a href="https://www.youtube.com/@VIBESOFCOSMOS" target="_blank" class="external-link">Vibes of Cosmos</a></li>
+<li><a href="https://www.youtube.com/@reconectandoconelespiritu8318" target="_blank" class="external-link">Reconectando con el Espíritu- YouTube</a></li>
+</ul>
+<h2 id="canales-tv" tabindex="-1">Canales TV</h2>
+<ul>
+<li><a href="https://canal5radio.tv/" target="_blank" class="external-link">Canal 5 Radio TV</a></li>
+<li><a href="https://cienciayamor.tv/" target="_blank" class="external-link">Ciencia y amor TV</a></li>
+<li><a href="https://nptmedia.tv/" target="_blank" class="external-link">NPT Media</a></li>
+<li><a href="https://hermanosbarea.tv/" target="_blank" class="external-link">Hermanos Barea</a></li>
+<li><a href="https://pachamamaflat.tv/" target="_blank" class="external-link">Pachamama Flat TV</a></li>
 </ul>
 
       
