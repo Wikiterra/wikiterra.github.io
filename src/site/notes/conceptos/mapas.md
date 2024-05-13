@@ -5,6 +5,8 @@
 
 # Los mapas
 
+Un **mapa** es una representación gráfica simplificada de un [territorio](https://es.wikipedia.org/wiki/Territorio "Territorio") con propiedades [métricas](https://es.wikipedia.org/wiki/Espacio_m%C3%A9trico "Espacio métrico") sobre una superficie bidimensional que puede ser plana, esférica o incluso poliédrica. Las propiedades métricas del mapa dependen de la proyección utilizada, y posibilitan la toma de medidas de distancias, ángulos o superficies sobre él y su relación con la realidad, en algunos casos aplicando coeficientes conocidos para la corrección de las medidas.
+
 Existen muchos tipos de mapas cada uno especializado en una tarea. No hay una mapa perfecto hay un mapa hecho para cada cosa. Mapa con áreas iguales, mapas con ángulos sin deformar... La diferencia entre los mapas se debe a las proyecciones que se lleven a cabo.
 
 Una proyección conocida es la de Mercathor que situa a los países del Norte más grandes que el resto, se dice que esta proyección fue hecha por ingleses para beneficiar las rutas comerciales de Inglaterra y así dar mayor tamaño y poderío a Europa.
