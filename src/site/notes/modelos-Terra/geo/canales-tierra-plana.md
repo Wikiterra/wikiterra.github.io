@@ -25,7 +25,7 @@
 - [Planet Plane - YouTube](https://www.youtube.com/c/PlanetPlane)
 - [Sanchez Ma - YouTube](https://www.youtube.com/@sanchezma)
 - [Tierra Tecnologica - YouTube](https://www.youtube.com/@tierratecnologica5050/videos)
-- [Truthseeker - YouTube]https://www.youtube.com/@Truthseeker3)
+- [Truthseeker - YouTube](https://www.youtube.com/@Truthseeker3)
 - [Vibes of Cosmos](https://www.youtube.com/@VIBESOFCOSMOS)
 - [Reconectando con el Espíritu- YouTube](https://www.youtube.com/@reconectandoconelespiritu8318)
 
