@@ -5,9 +5,11 @@
 
 # La atmósfera
 
-La atmósfera terrestre es la capa de gases que se encuentra en el interior de nuestro mundo, proporcionando el entorno vital para la vida tal como la conocemos. Es un componente fundamental de la Tierra y desempeña un papel crucial en la regulación del clima, ciclo del agua y radiación solar.
+La atmósfera terrestre es la capa de gases que envuelve a la superficie terrestre, proporcionando el entorno vital para la vida tal como la conocemos. Es un componente fundamental de la Tierra y desempeña un papel crucial en la regulación del clima, ciclo del agua y radiación solar.
 
 La atmósfera tiene ejerce una presión sobre la superficie terrestre y se mantiene gracias a un domo contenedor que hace de sistema de cerrado. Si la Tierra no tuviese ese contenedor la presión parcial se perdería ya que el aire tiende a expandirse. El concepto de gravedad Newtoniana o de Einstein no explica este fenómeno.
+
+![capas-atmosfera.png|right htall](/img/user/recursos/img/capas-atmosfera.png)
 
 ## Composición atmośferica
 

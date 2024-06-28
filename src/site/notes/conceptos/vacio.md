@@ -5,13 +5,10 @@
 
 # El vacío
 
-El vacío no existe como tal, por definición si algo existe no puede ser vacío, puede estar vacío en términos de materia por no serlo.
+El vacío es un concepto teórico que se asocia a la nada, como tal no puede existir ya que por definición si existe es porque es medible o cuantificable.  
 
-Cuando se habla de envase al vacío significa que es un sistema cerrado aislado del resto, sin intercambio de presión principalmente.
+En astrofísica se suele decir que el espacio exterior o el cosmos es vacío, es decir, que su presión es cero y no hay ningún medio existente. Sin embargo esto no puede ser cierto, ya que las ondas includo la luz necesitan de un medio para desplazarse.
 
-Los objetos cuando están sometidos a presiones muy bajas en un medio poco denso tienden a caer a la vez
+Otro concepto del vacío se refiere a poca termodinámico cerrado aislado del resto, sin intercambio de presión. Por ejemplo, "la comida está envasada al vacío para conservarse mejor", es sinónimo de hermético.
 
- Cando se realiza "vacío" es poner a presión mínima el medio.
- 
- En un habitación donde se ha realizado el "vacío" o se ha puesto a presión muy baja, los experimentos donde tiran una pluma y un martillo caen a la vez porque los materiales no se ven afectados por el rozamiento y ambos son más densos que el aire.
  

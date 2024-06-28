@@ -4,7 +4,11 @@
 
 # Markdown
 
-"Markdown es un lenguaje de marcado ligero para crear texto formateado utilizando un editor de texto plano.""
+Markdown es un lenguaje de marcado simple que permite formatear texto fácilmente en un editor de texto plano, utilizando una sintaxis mínima y fácil de leer.
+
+La renderización de Markdown se realiza convirtiéndolo a HTML, que luego se procesa normalmente en un navegador web. Además, se incluyen CSS predefinidos para dar estilo al texto.
+
+Algunos temas de Obsidian integran estilos especiales para formatos de Markdown, como infoboxes, grids, tarjetas. Un ejemplo es [ITS Theme Documentación](https://publish.obsidian.md/slrvb-docs/ITS+Theme/ITS+Theme) usado para esta wiki.
 
 A continuación se cita la sintaxis básica de Markdown.
 
@@ -72,10 +76,10 @@ Puedes combinarlos
 ### Imágenes
 
 ```markdown
- ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+ ![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ```
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 ### Videos
 > [!warning] Insertar videos mediante !\[[(video.mp4]\]  no es posible

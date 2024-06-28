@@ -5,6 +5,9 @@
 
 # La visibilidad
 
+
+![visibilidad-aeropuerto.jpg|banner](/img/user/recursos/img/visibilidad-aeropuerto.jpg)
+
 La visibilidad es el alcance máximo de la luz para un medio determinado sobre un observador en concreto.
 
 Las mejores condiciones ópticas entre el observador y el objeto observado (receptor y emisor de luz) para garantizar visibilidad máxima son:
