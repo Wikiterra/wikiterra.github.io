@@ -7,6 +7,17 @@
 
 La Tierra o 'The Earth' es el lugar donde habitan los seres humanos, animales, plantas está constituida por zona terrestre y zona marina. La tierra sobresale por encima del agua, y tiene multitud de formas montañas, cuevas, valles, volcanes, La tierra proviene del fondo terrestre, del subsuelo y es la que al salir a superficie forma la orografía.
 
+> [!infobox]+ Collapsible Infobox
+> # Antigua concepción hebrea del mundo
+> ![concepcion-mundo-hebrea.png|cover small](/img/user/recursos/img/concepcion-mundo-hebrea.png)
+> Se concibe mundo, como un sistema con tierra a nivel, domo o firmamento, que separa de las aguas de arriba, y abajo el inframundo.
+> ###### Datos
+> | Dimensiones |  Distancia |
+> | ---- | ---- |
+> | Altura | 7 000 Km |
+> | Diámetro | 21 000 Km |
+
+
 La mayor parte de la superficie de la superficie es agua de mar compone el 80% de la superficie y se extiende a lo largo y ancho de forma plana y permaneciendo siempre a nivel. En el mar se forman las olas, que se deben al viento, la marea y los fenómenos de la Luna.
 
 En el centro del plano se encuentra el norte a donde a puntan las brújulas, y en el borde del círculo la Antártida. Su diámetro es de 13,000 Km aproximadamente, su altura al domo en torno a los 300 Km, con varias capas de distinta densidad y su profundidad máxima excavada 15 Km (pozo de Cola en Rusia).

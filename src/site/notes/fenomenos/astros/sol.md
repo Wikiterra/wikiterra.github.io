@@ -7,16 +7,26 @@
 
 El Sol es la principal figura que marca la diferencia del tiempo, marca los días y las noches. Da luz a los seres vivos. humanos plantas, animales y objetos.
 
-Desde las antiguas civilizacioens ha sido una figura de adoración, de culto y con una carga ritualistica muy importante.
+Desde las antiguas civilizaciones ha sido una figura de adoración, de culto y con una carga ritualista muy importante.
 
-Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el [[modelo-heliocentrico \|modelo-heliocentrico ]]y el [[modelos-Terra/geo/modelo-geocentrico\|modelo-geocentrico]]. La principal diferencia estriva en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).
 
-Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaiones.
+> [!infobox]+ Collapsible Infobox
+> # El Sol
+> ![sol-arbol.jpg|cover small](/img/user/recursos/img/sol-arbol.jpg)
+> ###### Datos
+> | Dato |  Medida |
+> | ---- | ---- |
+> | Altura | 7 000 Km |
+> | Diámetro | 90 Km |
+
+Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el [[modelo-heliocentrico \|modelo-heliocentrico ]]y el [[modelos-Terra/geo/modelo-geocentrico\|modelo-geocentrico]]. La principal diferencia estriba en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).
+
+Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaciones.
 
 ## El Sol Geocéntrico
 
 El Sol es un objeto luminoso que arroja luz sobre la Tierra, se deplaza en círculos sobre la el plano terrestre. Su periodo de rotación es de 24 horas de media según la latitud, el Sol sale por el Este y se pone por el Oeste.
-El efecto de las distinas estaciones sobre la superficie terrestre se debe a la variación de la altura del Sol respecto del plano, el Sol realiza un analema solar.
+El efecto de las distintas estaciones sobre la superficie terrestre se debe a la variación de la altura del Sol respecto del plano, el Sol realiza un analema solar.
 
 Las salidas y puestas de Sol son un efecto óptico producido para cada observador terrestre que ve como el Sol sale o desaparece por la línea del horizonte. Este fenómeno es un efecto óptico y no geométrico, es decir el Sol no baja en altura sino que cae en la visual por perspectiva y óptica. Todo objeto que se aleja hacia el infinito converge hacia el punto de fuga, esto ocurre en espacios pequeños y es replicable con objetos.
 

@@ -7,7 +7,7 @@
 
 **WikiTerra** es una enciclopedia libre que tiene como fin entender el funcionamiento de la naturaleza en especial tratando el tema de la cosmología.
 
-![plasma-moon-map.png|320x320](/img/user/recursos/plasma-moon-map.png)
+![plasma-moon-map.png|320x320](/img/user/recursos/img/plasma-moon-map.png)
 
 ## Filosofía
 

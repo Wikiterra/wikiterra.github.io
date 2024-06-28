@@ -5,11 +5,24 @@
 
 # La Luna
 
-La Luna es una luminaria de la Tierra junto al So,  rota encima del plano terrestre de Este a Oeste en torno al polo norte.
+La Luna es una luminaria de la Tierra junto al Sol, rota encima del plano terrestre de Este a Oeste en torno al polo norte.
 
 Se cree que está formada por kriptón en estado de plasma ionizado que interactua con el Sol negro situado en el centro de la plano terrestre, generando ese toroide elctromagnético que los mantiene en suspensión.
 
 Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y distintas densidades atmoféricas.
+
+
+> [!infobox]+ Collapsible Infobox
+> # La Luna
+> ![luna-ojo.webp|cover small](/img/user/recursos/img/luna-ojo.webp)
+> La Luna llena vista entre el hueco de un pared rocosa, con personas caminando por debajo.
+> ###### Datos
+> | Datos |  Distancia |
+> | ---- | --------------- |
+> | Distancia | 6 000 a 7 000 Km |
+> | Diámetro | 60 Km |
+> | Material | kriptón ionizado |
+
 
 La Luna tiene un ciclo de 27 días, con las fases lunares creciente y decreciente, donde parte de la Luna se pone en sombra y parte ilumina. A la parte en sombra también se le conoce como luz de cenicienta "Lumen cinereum".
 
