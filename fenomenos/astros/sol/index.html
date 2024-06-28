@@ -143,10 +143,6 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/flotabiliad/">flotabiliad </a>
-</div>
-</div>
-<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/horizonte/">horizonte </a>
 </div>
 </div>
@@ -231,6 +227,10 @@ CTRL + K
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fenomenos/atomsfera/rayo/">rayo </a>
 </div>
 </div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fenomenos/flotabiliad/">flotabiliad </a>
 </div>
 </div>
 </div>
@@ -382,7 +382,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T09:18:57.310Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T09:18:57.310Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T09:18:57.310Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T10:40:41.264Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T10:40:41.264Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T10:40:41.264Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -407,17 +407,44 @@ CTRL + K
 </header>
 <h1 id="el-sol" tabindex="-1">El Sol</h1>
 <p>El Sol es la principal figura que marca la diferencia del tiempo, marca los días y las noches. Da luz a los seres vivos. humanos plantas, animales y objetos.</p>
-<p>Desde las antiguas civilizacioens ha sido una figura de adoración, de culto y con una carga ritualistica muy importante.</p>
-<p>Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el <a class="internal-link is-unresolved" href="/404" target="">modelo-heliocentrico </a>y el <a class="internal-link is-unresolved" href="/404" target="">modelo-geocentrico</a>. La principal diferencia estriva en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).</p>
-<p>Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaiones.</p>
+<p>Desde las antiguas civilizaciones ha sido una figura de adoración, de culto y con una carga ritualista muy importante.</p>
+<div class="callout is-collapsible" data-callout="infobox"><div class="callout-title"><div class="callout-title-inner"> Collapsible Infobox</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+</p><h1 id="el-sol-1" tabindex="-1">El Sol</h1>
+<p></p><p><picture src="/img/user/recursos/img/sol-arbol.jpg" alt="sol-arbol.jpg|cover small"><source media="(max-width:480px)" srcset="/img/optimized/It0bNJ1iSw-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/It0bNJ1iSw-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/It0bNJ1iSw-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/It0bNJ1iSw-700.jpeg"><img class="" src="/img/user/recursos/img/sol-arbol.jpg" alt="sol-arbol.jpg|cover small" width=""></picture></p>
+<h6 id="datos" tabindex="-1">Datos</h6>
+<table>
+<thead>
+<tr>
+<th>Dato</th>
+<th>Medida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Altura</td>
+<td>7 000 Km</td>
+</tr>
+<tr>
+<td>Diámetro</td>
+<td>90 Km</td>
+</tr>
+</tbody>
+</table>
+</div></div>
+<p>Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el <a class="internal-link is-unresolved" href="/404" target="">modelo-heliocentrico </a>y el <a class="internal-link is-unresolved" href="/404" target="">modelo-geocentrico</a>. La principal diferencia estriba en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).</p>
+<p>Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaciones.</p>
 <h2 id="el-sol-geocentrico" tabindex="-1">El Sol Geocéntrico</h2>
 <p>El Sol es un objeto luminoso que arroja luz sobre la Tierra, se deplaza en círculos sobre la el plano terrestre. Su periodo de rotación es de 24 horas de media según la latitud, el Sol sale por el Este y se pone por el Oeste.<br>
-El efecto de las distinas estaciones sobre la superficie terrestre se debe a la variación de la altura del Sol respecto del plano, el Sol realiza un analema solar.</p>
+El efecto de las distintas estaciones sobre la superficie terrestre se debe a la variación de la altura del Sol respecto del plano, el Sol realiza un analema solar.</p>
 <p>Las salidas y puestas de Sol son un efecto óptico producido para cada observador terrestre que ve como el Sol sale o desaparece por la línea del horizonte. Este fenómeno es un efecto óptico y no geométrico, es decir el Sol no baja en altura sino que cae en la visual por perspectiva y óptica. Todo objeto que se aleja hacia el infinito converge hacia el punto de fuga, esto ocurre en espacios pequeños y es replicable con objetos.</p>
 <p>Para entender el comportamiento del Sol, hay que entender el comportamiento de la luz, es decir estudiar la óptica, una rama del electromagnetismo que se centra la parte visible del espectro electromagnético.</p>
 <h2 id="analema-solar" tabindex="-1">Analema solar</h2>
 <p>El analema solar es una figura con forma de infinito (ocho acostado) que puede observarse cuando se saca fotografías al Sol a la misma hora todos los días durante su ciclo completo, es decir un año 365 días y 6 horas.</p>
-<h2 id="datos" tabindex="-1">Datos</h2>
+<h2 id="datos-1" tabindex="-1">Datos</h2>
 <ul>
 <li>Radio: 60 Km</li>
 <li>Periodo de rotación: 24 horas = 1440 min = 86400 s</li>

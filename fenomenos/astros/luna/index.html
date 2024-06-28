@@ -143,10 +143,6 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/flotabiliad/">flotabiliad </a>
-</div>
-</div>
-<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/horizonte/">horizonte </a>
 </div>
 </div>
@@ -231,6 +227,10 @@ CTRL + K
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fenomenos/atomsfera/rayo/">rayo </a>
 </div>
 </div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/fenomenos/flotabiliad/">flotabiliad </a>
 </div>
 </div>
 </div>
@@ -382,7 +382,7 @@ CTRL + K
                    repeatCount="indefinite" />
           </circle>
       </g>
-  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T09:18:57.310Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T09:18:57.310Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T09:18:57.310Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
+  </svg>`;function debounce(n,r,i){var c;return function(){var e=this,t=arguments,a=i&&!c;clearTimeout(c),c=setTimeout(function(){c=null,i||n.apply(e,t)},r),a&&n.apply(e,t)}}function setCorrectShortcut(){0<=navigator.platform.toUpperCase().indexOf("MAC")&&document.querySelectorAll(".search-keys").forEach(e=>e.innerHTML="⌘ + K")}function createIndex(e){var t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/);const a=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach((e,t)=>{a.add({id:t,title:e.title,content:e.content,tags:e.tags})}),a}async function init(){var e;let t=!0;localStorage.getItem("searchIndex")&&({date:e,docs:n}=JSON.parse(localStorage.getItem("searchIndex")),"2024-06-28T10:40:41.264Z"===e)&&(t=!1,e=createIndex(n),window.docs=n,window.index=e),t&&(e=createIndex(n=await(await fetch("/searchIndex.json?v=2024-06-28T10:40:41.264Z")).json()),localStorage.setItem("searchIndex",JSON.stringify({date:"2024-06-28T10:40:41.264Z",docs:n})),window.docs=n,window.index=e),document.addEventListener("keydown",e=>{var t;(e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),((t=document.querySelector(".searchresult.active"))&&(t.classList.remove("active"),t.nextElementSibling)||document.querySelector(".searchresult")).classList.add("active"),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"ArrowUp"===e.key&&(e.preventDefault(),(t=document.querySelector(".searchresult.active"))?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling||e.classList.add("active")})):document.querySelectorAll(".searchresult").forEach(e=>{e.nextElementSibling&&e.classList.add("active")}),t=document.querySelector(".searchresult.active"))&&t.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"}),"Enter"===e.key)&&(e.preventDefault(),t=document.querySelector(".searchresult.active"))&&(window.location.href=t.querySelector("a").href)});const a=debounce(search,200,!1);(field=document.querySelector("#term")).addEventListener("keydown",e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&a()}),resultsDiv=document.querySelector("#search-results");var n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){var e=field.value.trim();if(e&&e!=lastSearch){console.log("search for "+e),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;var a=offlineSearch(e);let t="";a.length?(t+='<div style="max-width:100%;">',a.forEach(e=>{e.tags&&0<e.tags.length?t+=`<div class="searchresult">
                     <a class="search-link" href="${e.url}">${e.title}</a>
                     <div onclick="window.location='${e.url}'">
                         <div class="header-meta">
@@ -406,14 +406,46 @@ CTRL + K
 <div class="timestamps"></div></div>
 </header>
 <h1 id="la-luna" tabindex="-1">La Luna</h1>
-<p>La Luna es una luminaria de la Tierra junto al So, rota encima del plano terrestre de Este a Oeste en torno al polo norte.</p>
+<p>La Luna es una luminaria de la Tierra junto al Sol, rota encima del plano terrestre de Este a Oeste en torno al polo norte.</p>
 <p>Se cree que está formada por kriptón en estado de plasma ionizado que interactua con el Sol negro situado en el centro de la plano terrestre, generando ese toroide elctromagnético que los mantiene en suspensión.</p>
 <p>Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y distintas densidades atmoféricas.</p>
+<div class="callout is-collapsible" data-callout="infobox"><div class="callout-title"><div class="callout-title-inner"> Collapsible Infobox</div><div class="callout-fold"><i icon-name="chevron-down"></i></div></div>
+<div class="callout-content">
+<p>
+</p><h1 id="la-luna-1" tabindex="-1">La Luna</h1>
+<p></p><p><picture src="/img/user/recursos/img/luna-ojo.webp" alt="luna-ojo.webp|cover small"><source media="(max-width:480px)" srcset="/img/optimized/Mo_52VPVED-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Mo_52VPVED-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Mo_52VPVED-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Mo_52VPVED-700.jpeg"><img class="" src="/img/user/recursos/img/luna-ojo.webp" alt="luna-ojo.webp|cover small" width=""></picture><br>
+La Luna llena vista entre el hueco de un pared rocosa, con personas caminando por debajo.</p>
+<h6 id="datos" tabindex="-1">Datos</h6>
+<table>
+<thead>
+<tr>
+<th>Datos</th>
+<th>Distancia</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distancia</td>
+<td>6 000 a 7 000 Km</td>
+</tr>
+<tr>
+<td>Diámetro</td>
+<td>60 Km</td>
+</tr>
+<tr>
+<td>Material</td>
+<td>kriptón ionizado</td>
+</tr>
+</tbody>
+</table>
+</div></div>
 <p>La Luna tiene un ciclo de 27 días, con las fases lunares creciente y decreciente, donde parte de la Luna se pone en sombra y parte ilumina. A la parte en sombra también se le conoce como luz de cenicienta &quot;Lumen cinereum&quot;.</p>
 <p>La Luna es uno de los misterios más grandes que hay, de primeras es un objeto que emite luz de carácter diferente a la del Sol, no es un reflejo del Sol porque se pueden observar ambos a la vez y su sombra no es producida por la superficie terrestre.</p>
 <p>La Luna tiene el mismo tamaño aparente que el Sol y muestra siempre la misma cara. La Luna tiene un movimiento de rotación contiguo en torno al Norte, lo que explica por que se ve rotada según la longitud del plano terreste.</p>
 <p>Es el cuerpo encargado de generar las mareas debido a su comportamiento electromagnético sobre la superficie terrestre.</p>
-<h2 id="datos" tabindex="-1">Datos</h2>
+<h2 id="datos-1" tabindex="-1">Datos</h2>
 <ul>
 <li>Luz: Luz propia</li>
 <li>Radio: 60 Km</li>
