@@ -19,7 +19,7 @@ Desde las antiguas civilizaciones ha sido una figura de adoración, de culto y c
 > | Altura | 7 000 Km |
 > | Diámetro | 90 Km |
 
-Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el [[modelo-heliocentrico \|modelo-heliocentrico ]]y el [[modelos-Terra/geo/modelo-geocentrico\|modelo-geocentrico]]. La principal diferencia estriba en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).
+Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el [[modelo-heliocentrico \|modelo-heliocentrico ]]y el [[modelos-Terra/modelo-geocentrico\|modelo-geocentrico]]. La principal diferencia estriba en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).
 
 Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaciones.
 

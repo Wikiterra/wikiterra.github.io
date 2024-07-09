@@ -9,7 +9,7 @@ WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre ges
 
 ## ¿Cómo se desarrolla?
 
-Wikiterra es una [[about/wiki-estatica\|wiki-estatica]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador). Los artículos están escritos en formato [[about/markdown\|markdown]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
+Wikiterra es una [[about/wikiterra-estatica\|wikiterra-estatica]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador web, "chrome", "firefox", etc). Los artículos están escritos en formato [[about/markdown/md-sintaxis\|md-sintaxis]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
 
 Hay cientos de generadores estáticos en [JamStack](https://jamstack.org/generators/) clasifican 355 SSGs, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy. 
 
@@ -21,19 +21,19 @@ Sin embargo la opción que se ha mantenido ha sido la plantilla web de [Digital 
 
 ### Plantilla Digital Garden
 
-> Wikiterra usa la plantilla web [Digital Garden de Ole Eskild](https://github.com/oleeskild/digitalgarden) que utiliza el SSG 11Ty
+> Wikiterra se basa la plantilla web [Digital Garden de Ole Eskild](https://github.com/oleeskild/digitalgarden) que utiliza 11Ty como generador estático SSG
 
-Esta plantilla está diseñada para ser usada junto el plugin [Obsidian Digital Garden](https://github.com/oleeskild/obsidian-digital-garden),  siguiendo estos pasos:
+Esta plantilla está diseñada para ser usada junto el plugin [Obsidian Digital Garden](https://github.com/oleeskild/obsidian-digital-garden),  de la siguiente forma:
 1. Clonar la plantilla de Digital Garden en GitHub (como control de versiones) y hospedarlo en Vercel (para el despliegue web), cosa automatizable pulsando el siguiente link https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden
-2. Obtener un token para sincronizar los cambios en local al repositorio remoto de GitHub
+2. Obtener un token para sincronizar los cambios en local al repositorio remoto de GitHub.
 3. Configurar lo básico en el plugin de Obsidian: {username}, {repository name }, {token}.
 
-Sin embargo este método hacía que la web no fuese accesible localmente, y que todos los cambios se enviasen a Vercel, sin saber que ocurría por detrás. Por lo que ahora la web usa GitHub como control de versiones y como sitio de despliegue.
+Ahora la web usa GitHub como control de versiones y como sitio de despliegue haciendo uso de [GitHub actions](https://docs.github.com/en/actions) para automatizar el despliegue usando el siguiente [workflow de ejemplo](https://github.com/oleeskild/obsidian-digital-garden/discussions/389#discussioncomment-7437123) y configurando un token como secreto en el repositorio para automatizar los cambios.
 
-Y hay dos formas de desplegar el contenido en GitHub:
-1. Usar [GitHub actions](https://docs.github.com/en/actions) para automatizar el despliegue en una máquina virtual Ubuntu, usando el siguiente [workflow de ejemplo](https://github.com/oleeskild/obsidian-digital-garden/discussions/389#discussioncomment-7437123) y configurando un token como secreto en el repositorio para que se hagan los cambios automáticamente.
-2. Construir la web en local con npm (node.js package manager) y desplegarla en GitHub en el directorio `docs/`.
-
+El proceso es el siguiente.
+1. Se escribe en formato markdown en obsidian.md
+2. Se publica el contenido con el plugin "Digital Garden Publication Center", que convierte los enlaces al formato de 11ty, sincroniza los archivos con git en GitHub.
+3. GitHub manda los cambios al servidor en cuestión sea GitHub Pages, Vercel o Cloudflare. Y ejecuta los comando de nodeJS para construir la web estática.
 ```bash
 npm install # instalar paquetes de node.js
 npm run build # construir web por por defecto en "dist/"
@@ -48,6 +48,7 @@ Para más información visitar la documentación oficial, [Digital Garden Docs](
 	- El conjunto de notas markdown se encuentra indexado en una bóveda con los gestores de conocimiento (PKM) como Obsidian.md.
 	- Permite enlazar artículos de manera sencilla y ver su relación en un grafo.
 	- El contenido está en local en tu propia máquina.
+
 - **Desventajas (contras)**
 	- Requiere conocer la sintaxis markdown.
 	- El lenguaje markdown varía según la aplicación, no tiene un estándar fijo.
@@ -55,4 +56,4 @@ Para más información visitar la documentación oficial, [Digital Garden Docs](
 
 ## ¿Cómo editar?
 
-Para editar la wiki consulta la sección de [[about/editar-contenido\|editar-contenido]].
+Para editar la wiki consulta la sección de [[about/wikiterra-edicion\|wikiterra-edicion]].

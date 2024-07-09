@@ -3,9 +3,13 @@
 ---
 
 
-👋 ¡Hola! ¡Bienvenido a WikiTerra!
+## ¡Bienvenido a WikiTerra! 👋 
 
-**WikiTerra** es una enciclopedia libre que tiene como fin entender el funcionamiento de la naturaleza en especial tratando el tema de la cosmología.
+**WikiTerra** es un bóveda o "vault" de artículos que tiene como fin explicar el funcionamiento de la naturaleza en especial tratando el tema cosmológico, para entender mejor el mundo que habitamos.
+{ #intro1}
+
+
+Navega por el panel lateral izquierdo para leer los artículos.
 
 ![plasma-moon-map.png|320x320](/img/user/recursos/img/plasma-moon-map.png)
 
