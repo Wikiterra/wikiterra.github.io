@@ -14,7 +14,7 @@ Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y di
 
 > [!infobox]+ Collapsible Infobox
 > # La Luna
-> ![luna-ojo.webp|cover small](/img/user/zen/recursos/conceptos/luna-ojo.webp)
+> ![[luna-ojo.webp\|cover small]]
 > La Luna llena vista entre el hueco de un pared rocosa, con personas caminando por debajo.
 > ###### Datos
 > | Datos |  Distancia |

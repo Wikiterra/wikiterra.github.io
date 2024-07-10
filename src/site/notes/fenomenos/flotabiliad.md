@@ -9,7 +9,7 @@ La flotabilidad es el ajuste termodinámico que sufren los cuerpos en un medio p
 
 > [!infobox]+ Collapsible Infobox
 > # Densidad y flotabilidad
-> ![densidad-flotabilidad.jpg|cover small](/img/user/zen/recursos/conceptos/densidad-flotabilidad.jpg)
+> ![[densidad-flotabilidad.jpg\|cover small]]
 
 Ejemplo: Una bola de billar y una bola gigante si son más densos que el medio en el que están inmersos caen a la vez.
 

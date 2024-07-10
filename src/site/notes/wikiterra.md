@@ -11,7 +11,7 @@
 
 Navega por el panel lateral izquierdo para leer los artículos.
 
-![plasma-moon-map.png|320x320](/img/user/zen/recursos/conceptos/plasma-moon-map.png)
+![[plasma-moon-map.png\|320x320]]
 
 ## Filosofía
 

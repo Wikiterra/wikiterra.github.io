@@ -30,6 +30,6 @@ Los rayos son extremadamente peligrosos debido a su alta energía. Pueden causar
 
 En conclusión, el rayo es un impresionante fenómeno atmosférico eléctrico que surge de la interacción de cargas eléctricas en las nubes durante tormentas eléctricas. Su estudio es esencial para entender los procesos meteorológicos y sus efectos en nuestro entorno.
 
-![rayo-Krunkwerke.jpg|300](/img/user/zen/recursos/conceptos/rayo-Krunkwerke.jpg)
+![[rayo-Krunkwerke.jpg\|300]]
 
-![rayo-ascendente.webp](/img/user/zen/recursos/conceptos/rayo-ascendente.webp)
+![[rayo-ascendente.webp\|rayo-ascendente.webp]]
