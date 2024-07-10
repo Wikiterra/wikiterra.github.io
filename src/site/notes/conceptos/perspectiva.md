@@ -7,7 +7,7 @@
 
 Desde un punto de vista de la realidad tridimensional, la perspectiva se refiere a la forma en que percibimos y experimentamos el mundo que nos rodea en tres dimensiones: longitud, anchura y altura. Nuestra capacidad para comprender y apreciar la profundidad y la distancia en el espacio es fundamental para nuestra percepción y orientación en el entorno tridimensional.
 
-![[perspectiva.webp\|perspectiva.webp]]
+![perspectiva.webp](/img/user/recursos/conceptos/perspectiva.webp)
 
 A continuación, se explican algunos conceptos clave de la perspectiva en la realidad tridimensional:
 

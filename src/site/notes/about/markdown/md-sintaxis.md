@@ -214,12 +214,12 @@ Este es un ejemplo de cómo agregar una nota al pie de página[^1].
 ```markdown
  ![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-![[github-logo.png\|github-logo.png]]
+![[github-logo.png]]
 ```
 
 ![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-![[github-logo.png]]
+![github-icon.png](/img/user/recursos/icons/github-icon.png)
 
 #### Audios (mp3, .wav, .ogg)
 
