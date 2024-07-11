@@ -3,7 +3,6 @@
 ---
 
 # Markdown
-
 Markdown es un lenguaje de marcado simple que permite formatear texto fácilmente en un editor de texto plano, utilizando una sintaxis mínima y fácil de leer.
 
 El renderizado de Markdown se realiza con un motor de Javascript que lo convierte en formato web, HTML para la estructura y CSS para los estilos. Y este formato web se muestra gracias a un navegador web.
@@ -108,7 +107,8 @@ Este es un ejemplo de cómo agregar una nota al pie de página[^1].
 
 ### Archivos:
 
-> [!warning] No se recomienda poner archivos muy pesados. Para no sobrecargar la web estática.
+> [!warning] Para evitar sobrecargar la web, se recomienda utilizar archivos livianos y alojarlos en un servidor externo especializado para imágenes, como CDNs (Amazon CloudFront, Cloudflare CDN, Akamai), servicios en la nube con CDN integrado (Amazon S3, Google Cloud), o plataformas de alojamiento de imágenes (Imgur, Flickr).
+>  El generador estático 11Ty se sobrecarga cuando tiene decenas de imágenes o archivos pesados, y además puede dar problemas con el servidor de sitios estático como GitHub Pages.
 
 #### Documentos (.md, .html, .excalidraw, .pdf)
 ```markdown
@@ -210,7 +210,7 @@ Este es un ejemplo de cómo agregar una nota al pie de página[^1].
 
 
 #### Imágenes (.jpg, .png, .svg)
-
+> [!note] Recomendable insertarlos desde CDN o servidor de imágenes.
 ```markdown
  ![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
@@ -219,48 +219,35 @@ Este es un ejemplo de cómo agregar una nota al pie de página[^1].
 
 ![GitHub Logo|300](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-![github-icon.png](/img/user/recursos/icons/github-icon.png)
-
 #### Audios (mp3, .wav, .ogg)
-
+> [!note] No es recomendable insertarlos directamente.
 ```html
 <audio controls>  
   <source src="../recursos/audio/flute.mp3" type="audio/mp3">
   audio not supported
 </audio>
 
-![[flute.mp3\|flute.mp3]]
+![[flute.mp3]]
 ```
 
-<audio controls>  
-  <source src="../recursos/audio/flute.mp3" type="audio/mp3">  
-  audio not supported
-</audio>
-
-![[flute.mp3]]
 
 #### Videos (.mp4, .webm)
-> [!warning] Usando el generador estático HUGO, no es posible instertar videos mediante `![[(video.mp4]]` es necesario usar HTML con la ruta del video.
-
-Si usamos la plantilla de Digital Gardens es recomendable escribirlo en formato markdown, ya que el plugin se encarga de convertir las rutas en formato válido.
+> [!warning] No es recomendable insertar videos directamente como un archivo por temas de rendimiento, mejor incrustando video externo.
+>
+> Usando el generador estático HUGO, no se puede en MD es necesario usar HTML. 
 
 ```html
 <video src="../recursos/video/Bunny.mp4" controls></video>
 
-![[Bunny.mp4\|Bunny.mp4]]
+![[Bunny.mp4]]
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1AeihtlrAkU?si=ZmtKlUeIU_LYpgSr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 ```
-
-<video src="../recursos/video/Bunny.mp4" controls>Not working</video>
-
-![[Bunny.mp4]]
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/1AeihtlrAkU?si=ZmtKlUeIU_LYpgSr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 ### Enlaces o links
-
 ```markdown
 [[wikiterra\|wikiterra]]
 [[wikiterra#Objetivo\|wikiterra#Objetivo]]
@@ -276,7 +263,6 @@ Si usamos la plantilla de Digital Gardens es recomendable escribirlo en formato 
 [Hugo](https://gohugo.io)
 
 ### Bloques de referencia
-
 ```markdown
 > Si he visto más lejos es por estar de pie sobre los hombros de Gigantes.
 ```
@@ -284,7 +270,6 @@ Si usamos la plantilla de Digital Gardens es recomendable escribirlo en formato 
 > Si he visto más allá es porque me he subido a hombros de gigantes.
 
 ### Código en línea
-
 ```markdown
 El `código` en línea tiene `marcas de retroceso` a su alrededor.
 ```
@@ -306,7 +291,6 @@ func main() {
 ```
 
 ### Tablas
-
 ```markdown
 | Syntax    | Description |
 | --------- | ----------- |
@@ -322,7 +306,6 @@ func main() {
 ---
 
 ### Callouts
-
 ```
 > [!NOTE] Título de la nota
 > Información
@@ -366,18 +349,15 @@ func main() {
 Obsidian soporta de forma nativa la integración con Canvas (formato JSON), Excalidraw (formato JSON), KaTeX, Mermaid y PlantUML mediante convertidores en JavaScript y plugins especializados. Además con plugins se pueden usar otros como Graphviz, AsciiMath, Timeline, Chess, Dita.
 
 ### Canvas
+> No está soportado, solo funciona visualizándolo desde Obsidian.
 ```md
 ![[mindmap-luz.canvas|mindmap-luz]]
 ```
-
-![[mindmap-luz.canvas|mindmap-luz]]
 
 ### Excalidraw
 ```md
-![[squares.excalidraw\|squares.excalidraw]]
-```
-
 ![[squares.excalidraw]]
+```
 
 ### KaTEX (formulas matemáticas)
 ```latex
@@ -425,7 +405,7 @@ $$ E = mc^2 $$
 ---
 
 ### PlantUML  (diagramas UML)
-> To render PlantUML in Obsidian.md you need to install the plugin PlantUML.
+> Para renderizar PlantUML en Obsidian.md es necesario instalar el plugin PlantUML, sin embargo Digital garden si lo renderiza.
 ```plantuml
 @startuml
 Bob -> Alice : hello

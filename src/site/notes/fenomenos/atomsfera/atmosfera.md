@@ -9,7 +9,7 @@ La atmósfera terrestre es la capa de gases que envuelve a la superficie terrest
 
 La atmósfera tiene ejerce una presión sobre la superficie terrestre y se mantiene gracias a un domo contenedor que hace de sistema de cerrado. Si la Tierra no tuviese ese contenedor la presión parcial se perdería ya que el aire tiende a expandirse. El concepto de gravedad Newtoniana o de Einstein no explica este fenómeno.
 
-![capas-atmosfera.png|right htall](/img/user/recursos/conceptos/capas-atmosfera.png)
+![capas-atmosfera.png|right htall](https://i.imgur.com/NpxqOE1.png)
 
 ## Composición atmośferica
 

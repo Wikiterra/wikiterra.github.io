@@ -9,7 +9,7 @@ La Tierra o 'The Earth' es el lugar donde habitan los seres humanos, animales, p
 
 > [!infobox]+ Collapsible Infobox
 > # Antigua concepción hebrea del mundo
-> ![concepcion-mundo-hebrea.png|cover small](/img/user/recursos/conceptos/concepcion-mundo-hebrea.png)
+> ![concepcion-mundo-hebrea|cover small](https://i.imgur.com/lFsHtbC.png)
 > Se concibe mundo, como un sistema con tierra a nivel, domo o firmamento, que separa de las aguas de arriba, y abajo el inframundo.
 > ###### Datos
 > | Dimensiones |  Distancia |

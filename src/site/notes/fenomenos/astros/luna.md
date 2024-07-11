@@ -11,10 +11,9 @@ Se cree que está formada por kriptón en estado de plasma ionizado que interact
 
 Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y distintas densidades atmoféricas.
 
-
 > [!infobox]+ Collapsible Infobox
 > # La Luna
-> ![luna-ojo.webp|cover small](/img/user/recursos/conceptos/luna-ojo.webp)
+> ![luna-ojo|cover small](https://i.imgur.com/9mGOiSO.jpeg)
 > La Luna llena vista entre el hueco de un pared rocosa, con personas caminando por debajo.
 > ###### Datos
 > | Datos |  Distancia |

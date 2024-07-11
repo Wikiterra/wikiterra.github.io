@@ -41,7 +41,7 @@ Para tener el poder sobre el resto solo hay definir o redefinir las leyes, ya se
 
 La élite, grupos de poder esto lo conocen al dedillo porque es la base para mantener sus estatus, poderío y control.
 
-Un concepto importante es que la realidad depende del ser, del sujeto, si cambias la mente, eliminas la parte esperitual y controlas lo físico estás controlando todos los puntos del sujeto. Básicamente serían los objetivos si aspiras al control total.
+Un concepto importante es que la realidad depende del ser, del sujeto, si cambias la mente, eliminas la parte espiritual y controlas lo físico estás controlando todos los puntos del sujeto. Básicamente serían los objetivos si aspiras al control total.
 
 
 Ahora volviendo al tema de la ciencia lo que intenta es dejar de lado lo subjetivo y hacer experimentación, comprobación y análisis de manera objetiva. Pero en el experimento está implícita la manera de pensar y la "leyes físicas" ya definidas. Ir en contra de algo que asume como ley o "verdad", se considera ir en contra de la ciencia y no está bien visto.

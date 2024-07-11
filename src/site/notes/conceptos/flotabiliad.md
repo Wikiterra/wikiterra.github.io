@@ -9,7 +9,7 @@ La flotabilidad es el ajuste termodinámico que sufren los cuerpos en un medio p
 
 > [!infobox]+ Collapsible Infobox
 > # Densidad y flotabilidad
-> ![densidad-flotabilidad.jpg|cover small](/img/user/recursos/conceptos/densidad-flotabilidad.jpg)
+> ![densidad|cover small](https://i.imgur.com/7AC3Sby.jpeg)
 
 Ejemplo: Una bola de billar y una bola gigante si son más densos que el medio en el que están inmersos caen a la vez.
 
@@ -39,4 +39,4 @@ donde:
 
 
 ## References
-- https://es.wikipedia.org/wiki/Principio_de_Arqu%C3%ADmedes
+- [Principio de Arquímedes - Wikipedia](https://es.wikipedia.org/wiki/Principio_de_Arqu%C3%ADmedes]
