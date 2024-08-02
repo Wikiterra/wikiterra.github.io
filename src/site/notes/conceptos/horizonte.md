@@ -9,7 +9,7 @@ El horizonte que se forma en La Tierra es un concepto puramente óptico no inter
 
 > [!infobox]+ Collapsible Infobox
 > # Horizonte con puesta de Sol
-> ![horizonte-puesta-sol.jpg|cover small](https://i.imgur.com/TEvoK23.jpeg)
+> ![horizonte-puesta-sol.jpg|cover small](https://i.imgur.com/TEvoK23.jpg)
 
 Según la altura del observador y las condiciones climatológicas las distancias máximas observadas variarán.
 

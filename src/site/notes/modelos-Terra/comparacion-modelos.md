@@ -45,7 +45,7 @@ Videos independientes muestran un horizonte plano a más de 33 kilómetros.
 
 - **Tierra esférica**
 Modelo oficial vigente en 2021, versión de Wikipedia.
-![Tierra esférica | 330x330 ](https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1024px-The_Earth_seen_from_Apollo_17.jpg)
+![Tierra esférica | 330x330 ](https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg)
  Figura 1 : Tierra esférica desde fuera, según la NASA 
 
 - **Tierra plana** 

@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/about/wikiterra-estatica/"}
 ---
 
+
 # Wiki estática
 
 > WikiTerra es una wiki estática escrita en formato markdown desde Obsidian.md y desplegada en formato web en GitHub.

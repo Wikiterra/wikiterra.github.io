@@ -24,4 +24,4 @@ A continuación, se explican algunos conceptos clave de la perspectiva en la rea
 
 La perspectiva en la realidad tridimensional es una parte esencial de nuestra experiencia humana y desempeña un papel fundamental en cómo interactuamos con el mundo y comprendemos nuestro entorno. Nuestros sentidos, en particular la visión estereoscópica, nos proporcionan la información necesaria para percibir y comprender la perspectiva en un espacio tridimensional.
 
-![](https://i.imgur.com/F4KkdvH.jpeg)
+![](https://i.imgur.com/F4KkdvH.jpg)
