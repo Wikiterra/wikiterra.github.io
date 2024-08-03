@@ -2,7 +2,8 @@
 {"dg-publish":true,"permalink":"/modelos-Terra/helios/wikipedia-enlaces-cosmos/"}
 ---
 
-Todo lo citado a continuación son páginas de Wikipedia que contienen la versión oficial (en inglés).
+
+# Artículos de Wikipedia del cosmos
 
 ## Categorías y portales de Wikipedia
 * [Category Astronomy](https://en.wikipedia.org/wiki/Category:Astronomy)

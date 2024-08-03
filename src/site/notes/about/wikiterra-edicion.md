@@ -3,7 +3,7 @@
 ---
 
 
-## Editar contenido
+# Editar contenido
 
 > También se puede colaborar a través del [grupo de Telegram](https://t.me/+FrnHAynHpXxlNWNk)
 
@@ -14,7 +14,7 @@ El método de edición sería el siguiente:
 2. Realizar los cambios y mejoras correspondientes en los artículos.
 3. Solicitar cambios en el repositorio haciendo una "Pull Request".
 
-Los artículos están escritos en formato [[about/markdown/md-sintaxis\|md-sintaxis]] un lenguaje de marcado muy sencillo. Por tanto hay que conocer la sintaxis para poder editar.
+Los artículos están escritos en formato [[about/markdown/markdown-sintaxis\|markdown-sintaxis]] un lenguaje de marcado muy sencillo. Por tanto hay que conocer la sintaxis para poder editar.
 
 ### Normas de edición
 

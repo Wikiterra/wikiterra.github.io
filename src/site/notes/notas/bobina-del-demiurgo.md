@@ -4,7 +4,7 @@
 
 # La Bobina del demiurgo el controlador y ladrón de energía
 
-Escrito por Roberto Kuikakoatl en Facebook.
+> Escrito por Roberto Kuikakoatl en Facebook.
 
 "La Tierra no es un planeta, sino un reino, no es un objeto, por lo tanto no tiene bordes, es un entorno sistemático y una máquina que funciona como una bobina. La luna y el Sol están alimentados por el campo electromagnético, este mismo campo suspende a los cuerpos celestes con la levitación magnética, acústica y por diversos gases atmosféricos como el hexafluoruro. Todo esto desaprueba la fuerza de la gravedad, ya que la única fuerza necesaria para contrarrestar es el dio electromagnetismo más la electricidad".
 
