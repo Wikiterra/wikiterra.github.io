@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>estrellas</title>
+<title>distancias-vuelos</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -102,7 +102,7 @@ CTRL + K
 <span class="foldername">astros</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/astros/estrellas/">estrellas </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/astros/estrellas/">estrellas </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -226,7 +226,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/distancias-vuelos/">distancias-vuelos </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/distancias-vuelos/">distancias-vuelos </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -350,18 +350,23 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="las-estrellas" tabindex="-1">Las estrellas</h1>
-<p>Las estrellas del cielo son objetos luminosos, hay dos tipos de estrellas:</p>
-<ol>
+<h1 id="distancias-de-vuelos" tabindex="-1">Distancias de vuelos</h1>
+<p>Un argumento que se suele usar para decir que las distancias en el modelo plano son erróneas es la variación de tiempos en los vuelos que hacen la ruta entre Auckland, Nueva Zelanda - Santiago de Chile y viceversa.</p>
+<p>Los tiempos son los siguientes:</p>
+<ul>
 <li>
-<p><strong>Estrellas errantes o móviles:</strong> Estas son estrellas que tienen un movimiento aparente respecto al movimiento del domo celeste. En contraste con las estrellas fijas, que se mueven a la par que el domo. Los &quot;planetas&quot; son estrellas errantes.</p>
+<p>Auckland - Santiago (AKL - SCL), dirección Oeste - Este: entre 650 ~ 710 minutos.</p>
 </li>
 <li>
-<p><strong>Estrellas fijas o estrellas fijas:</strong> son estrellas que se mueven con el domo y no hacen órbitas propias.</p>
+<p>Santiago - Auckland (SCL - AKL), dirección Este - Oeste: entre 730 ~ 755 minutos.</p>
 </li>
-</ol>
-<p>Las estrellas giran en conjunto con el cielo de Este a Oeste, y tienen un aspecto ondulatorio cuando son miradas con telescopios o cámaras de largo alcance. Recuerdan al comportamiento de el agua en estado de vibración, la cimática.</p>
-<p>Las estrellas sirven para posicionarte y se usan en la navegación junto con el astrolabio para situarse en el plano.</p>
+<li>
+<p>¿A que se debe esta variación en las rutas aéreas de algo más de una hora?<br>
+Esta variación de tiempos es principalmente por un factor las corrientes de chorro del sur. Esta corriente circula de Oeste a Este y van desde los 90 Km/h hasta incluso los 398 Km/h de velocidad, además circula desde los 9 Km hasta los 12 Km, los aviones vuelan de media 33,000 pies unos 11 Km justo la franja de esta corriente. Esta corriente supone un impulso en el trayecto Auckland Santiago y reduce la velocidad en el trayecto Santiago - Auckland. Por eso los vuelos tienen una diferencia de una hora.</p>
+</li>
+</ul>
+<p>La distancia según Google Earth es de 9,677.14 Km, hecho que implica que en el modelo esférico (radio R=6371 Km) el avión debe bajar por la caída de curvatura 5209.73 Km respecto de la posición de partida.<br>
+Solo hace falta grabar el trayecto de un aeroplano (la palabra te lo dice) para ver que el avión planea todo el rato sobre un océano que se extiende de forma plana, en el modelo plano encaja más con la realidad, la ruta aérea es un línea recta sobre un plano, por eso las compañías aéreas se llaman aerolíneas.</p>
 </main>
 <aside>
 <div class="sidebar">
