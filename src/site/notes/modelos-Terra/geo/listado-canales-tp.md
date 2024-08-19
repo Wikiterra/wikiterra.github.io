@@ -23,15 +23,15 @@
 - [Oliver Ibáñez - YouTube](https://www.youtube.com/@oliveribanez)
 - [Pachamam Flat - YouTube](https://www.youtube.com/@pachamamaflat)
 - [Planet Plane - YouTube](https://www.youtube.com/c/PlanetPlane)
+- [Reconectando con el Espíritu- YouTube](https://www.youtube.com/@reconectandoconelespiritu8318)
 - [Sanchez Ma - YouTube](https://www.youtube.com/@sanchezma)
 - [Tierra Tecnologica - YouTube](https://www.youtube.com/@tierratecnologica5050/videos)
 - [Truthseeker - YouTube](https://www.youtube.com/@Truthseeker3)
 - [Vibes of Cosmos](https://www.youtube.com/@VIBESOFCOSMOS)
-- [Reconectando con el Espíritu- YouTube](https://www.youtube.com/@reconectandoconelespiritu8318)
 
-## Canales TV
+## Plataformas TV
 - [Canal 5 Radio TV](https://canal5radio.tv/)
 - [Ciencia y amor TV](https://cienciayamor.tv/)
-- [NPT Media](https://nptmedia.tv/)
-- [Hermanos Barea](https://hermanosbarea.tv/)
+- [NPT Media TV](https://nptmedia.tv/)
+- [Hermanos Barea TV](https://hermanosbarea.tv/)
 - [Pachamama Flat TV](https://pachamamaflat.tv/)
