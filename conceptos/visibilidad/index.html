@@ -238,6 +238,10 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/listado-famosos-tp/">listado-famosos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/tierra-estacionaria/">tierra-estacionaria </a>
 </div>
 </div>
@@ -334,7 +338,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-12T13:18:43.083Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-12T13:18:43.083Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-12T13:18:43.083Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-19T05:43:23.714Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-19T05:43:23.714Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-19T05:43:23.714Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -351,55 +355,191 @@ CTRL + K
 <li>Densidad del medio baja (condiciones atmosféricas de humedad baja, partículas en suspensión mínimas)</li>
 <li>Objeto iluminado con alto contraste de color con el fondo y baja sobre-exposición de luz alrededor</li>
 </ul>
-<h2 id="tabla-de-visibilidad-atmosferica" tabindex="-1">Tabla de visibilidad atmosférica</h2>
-<p>En condiciones óptimas atmosféricas para un observador y objeto con alcance lumínico. La limitación de alcance de distancia visible se debe a la densidad atmosférica junto con sobrecarga de fuente de luz externa.</p>
+<p>La visibilidad atmosférica máxima depende de diversos factores como la claridad del aire, la humedad, la contaminación, la presencia de partículas en suspensión y la topografía del área. A continuación, te presento una tabla de referencia que muestra diferentes categorías de visibilidad atmosférica en condiciones típicas.</p>
+<h3 id="tabla-de-visibilidad-atmosferica-maxima" tabindex="-1">Tabla de Visibilidad Atmosférica Máxima</h3>
 <div class="table-wrapper"><table>
 <thead>
 <tr>
-<th>Altura observador</th>
-<th>Altura observada</th>
-<th>Visibilidad máxima</th>
+<th><strong>Categoría de Visibilidad</strong></th>
+<th><strong>Distancia de Visibilidad (km)</strong></th>
+<th><strong>Descripción</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>0.01 Km</td>
-<td>0.003 Km</td>
-<td>20 Km</td>
+<td><strong>Excepcionalmente clara</strong></td>
+<td>100 km o más</td>
+<td>Visibilidad en condiciones extremadamente claras, como en áreas de alta montaña o desiertos, con aire muy seco y limpio.</td>
 </tr>
 <tr>
-<td>0.01 Km</td>
-<td>0.03 Km</td>
-<td>50 Km</td>
+<td><strong>Muy clara</strong></td>
+<td>50 - 100 km</td>
+<td>Cielos despejados con aire limpio, típicamente en zonas rurales o áreas poco contaminadas.</td>
 </tr>
 <tr>
-<td>0.01 Km</td>
-<td>0.3 Km</td>
-<td>100 Km</td>
+<td><strong>Clara</strong></td>
+<td>20 - 50 km</td>
+<td>Buenas condiciones atmosféricas en áreas suburbanas o rurales con poca contaminación.</td>
 </tr>
 <tr>
-<td>0.01 Km</td>
-<td>3 Km</td>
-<td>400 Km</td>
+<td><strong>Moderada</strong></td>
+<td>10 - 20 km</td>
+<td>Condiciones típicas en áreas suburbanas con algo de contaminación o humedad.</td>
 </tr>
 <tr>
-<td>0.01 Km</td>
-<td>30 Km</td>
-<td>700 Km</td>
+<td><strong>Limitada</strong></td>
+<td>5 - 10 km</td>
+<td>Condiciones atmosféricas típicas en áreas urbanas con contaminación moderada o en días nublados.</td>
 </tr>
 <tr>
-<td>0.01 Km</td>
-<td>300 Km</td>
-<td>120 Km</td>
+<td><strong>Baja</strong></td>
+<td>1 - 5 km</td>
+<td>Alta humedad, neblina o smog en áreas urbanas densas, limitando la visibilidad.</td>
+</tr>
+<tr>
+<td><strong>Muy baja</strong></td>
+<td>0.5 - 1 km</td>
+<td>Neblina densa, niebla o humo, visibilidad extremadamente limitada.</td>
+</tr>
+<tr>
+<td><strong>Nula</strong></td>
+<td>Menos de 0.5 km</td>
+<td>Neblina muy densa, tormentas de arena o condiciones de humo intenso, prácticamente sin visibilidad.</td>
 </tr>
 </tbody>
 </table></div>
+<h3 id="tabla-de-visibilidad-maxima" tabindex="-1">Tabla de Visibilidad Máxima</h3>
+<p>En condiciones óptimas atmosféricas para un observador y objeto con alcance lumínico. La limitación de alcance de distancia visible se debe a la densidad atmosférica junto con sobrecarga de fuente de luz externa.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Altura del Observador (km)</strong></th>
+<th><strong>Altura del Objeto Observado (km)</strong></th>
+<th><strong>Visibilidad Máxima (km)</strong></th>
+<th><strong>Altura Oculta por Curvatura (km)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0.0</td>
+<td>0.1</td>
+<td>35.7</td>
+<td>0.10</td>
+</tr>
+<tr>
+<td>0.0</td>
+<td>0.5</td>
+<td>79.6</td>
+<td>0.50</td>
+</tr>
+<tr>
+<td>0.0</td>
+<td>1.0</td>
+<td>112.8</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>0.1</td>
+<td>0.1</td>
+<td>44.9</td>
+<td>0.16</td>
+</tr>
+<tr>
+<td>0.1</td>
+<td>0.5</td>
+<td>84.6</td>
+<td>0.56</td>
+</tr>
+<tr>
+<td>0.1</td>
+<td>1.0</td>
+<td>117.8</td>
+<td>1.09</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>0.5</td>
+<td>100.7</td>
+<td>0.80</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>1.0</td>
+<td>133.9</td>
+<td>1.41</td>
+</tr>
+<tr>
+<td>0.5</td>
+<td>2.0</td>
+<td>181.2</td>
+<td>2.57</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>1.0</td>
+<td>160.9</td>
+<td>2.03</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>2.0</td>
+<td>208.2</td>
+<td>3.40</td>
+</tr>
+<tr>
+<td>1.0</td>
+<td>4.0</td>
+<td>294.7</td>
+<td>6.82</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>2.0</td>
+<td>227.6</td>
+<td>4.06</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>4.0</td>
+<td>314.2</td>
+<td>7.74</td>
+</tr>
+<tr>
+<td>2.0</td>
+<td>8.8</td>
+<td>452.2</td>
+<td>16.05</td>
+</tr>
+<tr>
+<td>4.0</td>
+<td>4.0</td>
+<td>321.8</td>
+<td>8.13</td>
+</tr>
+<tr>
+<td>4.0</td>
+<td>8.8</td>
+<td>459.8</td>
+<td>17.02</td>
+</tr>
+<tr>
+<td>8.8</td>
+<td>0.0</td>
+<td>537.7</td>
+<td>22.68</td>
+</tr>
+<tr>
+<td>8.8</td>
+<td>4.0</td>
+<td>509.3</td>
+<td>20.35</td>
+</tr>
+</tbody>
+</table></div>
+<hr>
 <blockquote>
 <p>Si el observador alcanza a ver al objeto, viceversa también se cumpliría a no ser que haya un espejo de por medio o menos luz en la zona observada. Por ejemplo un niño mirando por una ventana puede ver un montaña a lo lejos pero desde la montaña puede no verse al niño porque la ventana haga reflejo o porque haya poca luz dentro de la habitación.</p>
 </blockquote>
-<h2 id="comparacion-visibilidad-a-distintas-alturas" tabindex="-1">Comparación visibilidad a distintas alturas</h2>
-<p>Foto 1</p>
-<p>Foto 2</p>
 </main>
 <aside>
 <div class="sidebar">
