@@ -3,7 +3,7 @@
     <title>WikiTerra</title>
     <link href="https://wikiterra.xyz//feed.xml" rel="self" >
     <link href="https://wikiterra.xyz/" >
-    <updated>2024-08-20T18:49:51Z</updated>
+    <updated>2024-08-20T18:49:52Z</updated>
     <id>https://wikiterra.xyz/</id>
         <entry>
             <title>
@@ -2888,6 +2888,23 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
         </entry>
         <entry>
             <title>
+                cielo
+                
+            </title>
+            <updated>2024-08-20T18:49:43Z</updated>
+            <id>https://wikiterra.xyz//conceptos/atomsfera/cielo/</id>
+            <content type="html">
+                &lt;h1 id=&quot;el-cielo&quot; tabindex=&quot;-1&quot;&gt;El cielo&lt;/h1&gt;
+&lt;p&gt;El cielo es el lugar donde se encuentran los astros, estrellas, estrellas errantes y cuerpos en suspensión, si ordenamos por densidad se encuentra en la zona menos densa o arriba de la superficie terrestre.&lt;/p&gt;
+&lt;p&gt;El cielo se le suele asociar con el concepto de &lt;a class=&quot;internal-link&quot; target=&quot;&quot; data-note-icon=&quot;&quot; href=&quot;https://wikiterra.xyz/conceptos/domo-terrestre/&quot;&gt;domo-terrestre&lt;/a&gt; o semiesfera, aunque otros apuntan a una esfera celeste.&lt;/p&gt;
+&lt;p&gt;Tiene un giro síncrono de Este a Oeste sobre el plano en torno a la estrella central, Polaris.&lt;/p&gt;
+&lt;p&gt;De día el cielo tiene un color azul claro debido al comportamiento la luz solar al atravesar los gases de la atmósfera. Cuando es de día el Sol se encuentra encima de un punto en concreto de la superficie que permite que la luz recorra menos cantidad de atmósfera por lo que las frecuencias altas (o de longitud corta) como los colores azules llegan y dan ese color al cielo, mientras cuando hay una salida o puesta de Sol, la cantidad de atmósfera que tiene que recorrer la luz es mucho mayor ocasionando que llegan las frecuencias más bajas (longitudes de onda larga), generando un tono más rojizo anaranjado en el cielo.&lt;/p&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//conceptos/atomsfera/cielo/" >
+        </entry>
+        <entry>
+            <title>
                 atmosfera
                 
             </title>
@@ -2923,6 +2940,167 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
 
             </content>
             <link href="https://wikiterra.xyz//conceptos/atomsfera/atmosfera/" >
+        </entry>
+        <entry>
+            <title>
+                sol
+                
+            </title>
+            <updated>2024-08-20T18:49:43Z</updated>
+            <id>https://wikiterra.xyz//conceptos/astros/sol/</id>
+            <content type="html">
+                &lt;h1 id=&quot;el-sol&quot; tabindex=&quot;-1&quot;&gt;El Sol&lt;/h1&gt;
+&lt;p&gt;El Sol es la principal figura que marca la diferencia del tiempo, marca los días y las noches. Da luz a los seres vivos. humanos plantas, animales y objetos.&lt;/p&gt;
+&lt;p&gt;Desde las antiguas civilizaciones ha sido una figura de adoración, de culto y con una carga ritualista muy importante.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!infobox]+ Collapsible Infobox&lt;/p&gt;
+&lt;h1 id=&quot;el-sol-1&quot; tabindex=&quot;-1&quot;&gt;El Sol&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/z0GdgBg.jpg&quot; alt=&quot;sol-arbol.jpg|cover small&quot; /&gt;&lt;/p&gt;
+&lt;h6 id=&quot;datos&quot; tabindex=&quot;-1&quot;&gt;Datos&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dato&lt;/th&gt;
+&lt;th&gt;Medida&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Altura&lt;/td&gt;
+&lt;td&gt;7 000 Km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Diámetro&lt;/td&gt;
+&lt;td&gt;90 Km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Existen varios modelos que describen el comportamiento del Sol, principalmente se clasifican en el &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://wikiterra.xyz/404&quot; target=&quot;&quot;&gt;modelo-heliocentrico &lt;/a&gt;y el &lt;a class=&quot;internal-link is-unresolved&quot; href=&quot;https://wikiterra.xyz/404&quot; target=&quot;&quot;&gt;modelo-geocentrico&lt;/a&gt;. La principal diferencia estriba en quién está en el centro, en el geocentrismo es la Tierra (Gea) es el centro mientras en el Heliocentrismo es el Sol (Helios).&lt;/p&gt;
+&lt;p&gt;Ambos modelos tienen puntos que son verdad, pero desde un punto de vista general el modelo heliocéntrico es incorrecto, mientras el modeo geocéntrico es el más realista con posibles faltas de explicaciones.&lt;/p&gt;
+&lt;h2 id=&quot;el-sol-geocentrico&quot; tabindex=&quot;-1&quot;&gt;El Sol Geocéntrico&lt;/h2&gt;
+&lt;p&gt;El Sol es un objeto luminoso que arroja luz sobre la Tierra, se deplaza en círculos sobre la el plano terrestre. Su periodo de rotación es de 24 horas de media según la latitud, el Sol sale por el Este y se pone por el Oeste.&lt;br /&gt;
+El efecto de las distintas estaciones sobre la superficie terrestre se debe a la variación de la altura del Sol respecto del plano, el Sol realiza un analema solar.&lt;/p&gt;
+&lt;p&gt;Las salidas y puestas de Sol son un efecto óptico producido para cada observador terrestre que ve como el Sol sale o desaparece por la línea del horizonte. Este fenómeno es un efecto óptico y no geométrico, es decir el Sol no baja en altura sino que cae en la visual por perspectiva y óptica. Todo objeto que se aleja hacia el infinito converge hacia el punto de fuga, esto ocurre en espacios pequeños y es replicable con objetos.&lt;/p&gt;
+&lt;p&gt;Para entender el comportamiento del Sol, hay que entender el comportamiento de la luz, es decir estudiar la óptica, una rama del electromagnetismo que se centra la parte visible del espectro electromagnético.&lt;/p&gt;
+&lt;h2 id=&quot;analema-solar&quot; tabindex=&quot;-1&quot;&gt;Analema solar&lt;/h2&gt;
+&lt;p&gt;El analema solar es una figura con forma de infinito (ocho acostado) que puede observarse cuando se saca fotografías al Sol a la misma hora todos los días durante su ciclo completo, es decir un año 365 días y 6 horas.&lt;/p&gt;
+&lt;h2 id=&quot;datos-1&quot; tabindex=&quot;-1&quot;&gt;Datos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Radio: 60 Km&lt;/li&gt;
+&lt;li&gt;Periodo de rotación: 24 horas = 1440 min = 86400 s&lt;/li&gt;
+&lt;li&gt;Altura: 6000 Km - 8000 Km&lt;/li&gt;
+&lt;li&gt;Material: Hidrógeno y Helio&lt;/li&gt;
+&lt;li&gt;Campo electromagnético:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;referencias&quot; tabindex=&quot;-1&quot;&gt;Referencias&lt;/h2&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//conceptos/astros/sol/" >
+        </entry>
+        <entry>
+            <title>
+                sol-luna
+                
+            </title>
+            <updated>2024-08-20T18:49:43Z</updated>
+            <id>https://wikiterra.xyz//conceptos/astros/sol-luna/</id>
+            <content type="html">
+                &lt;h2 id=&quot;sol-luna&quot; tabindex=&quot;-1&quot;&gt;Sol-Luna&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;El Sol se desplaza 1° en el cielo cada 4 minutos, en 1 minuto 0.25°. En 360 minutos, 6 horas realiza 90°. Si la Tierra rotase rotaría con la misma velocidad que el Sol, ya que el Sol estaría quieto y sus efectos de.&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//conceptos/astros/sol-luna/" >
+        </entry>
+        <entry>
+            <title>
+                polaris
+                
+            </title>
+            <updated>2024-08-20T18:49:43Z</updated>
+            <id>https://wikiterra.xyz//conceptos/astros/polaris/</id>
+            <content type="html">
+                &lt;h1 id=&quot;polaris&quot; tabindex=&quot;-1&quot;&gt;Polaris&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Polaris&lt;/strong&gt;, también conocida como la &lt;strong&gt;Estrella Polar&lt;/strong&gt; o &lt;strong&gt;Polaris Alfa Ursae Minoris&lt;/strong&gt;, es una estrella notable en el cielo nocturno y es reconocida por ser la estrella más brillante en la constelación de la Osa Menor (Ursa Minor). Polaris desempeña un papel importante en la navegación astronómica, ya que marca aproximadamente la posición del Polo Norte Celeste en el cielo.&lt;/p&gt;
+&lt;p&gt;Polaris es la única estrelle en el firmamento que no gira, se encuentra en el centro del domo y todas las estrellas giran en torno a ella de Este a Oeste&lt;/p&gt;
+&lt;p&gt;Debido a su proximidad al Polo Norte Celeste, Polaris ha sido utilizada durante siglos como una estrella guía para la navegación. En las latitudes nortes, apunta en dirección al norte verdadero y es útil para determinar la dirección hacia el Polo Norte.&lt;/p&gt;
+&lt;h3 id=&quot;historia-y-uso-en-la-navegacion&quot; tabindex=&quot;-1&quot;&gt;Historia y Uso en la Navegación&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Los marineros y exploradores han utilizado Polaris durante siglos para determinar la latitud norte en el hemisferio norte, ya que su altura sobre el horizonte corresponde directamente a la latitud observada.&lt;/li&gt;
+&lt;li&gt;La constancia aparente de la posición de Polaris en el cielo lo convierte en un punto de referencia confiable para la orientación en el mar o en tierra.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;variabilidad-y-evolucion&quot; tabindex=&quot;-1&quot;&gt;Variabilidad y Evolución&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Polaris es una estrella variable, lo que significa que su brillo cambia ligeramente con el tiempo. Este cambio de brillo se debe a pulsaciones en su atmósfera exterior.&lt;/li&gt;
+&lt;li&gt;Se cree que Polaris ha evolucionado hacia su etapa actual como una supergigante amarilla y eventualmente experimentará cambios adicionales a medida que continúa su ciclo de vida estelar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;significado-cultural&quot; tabindex=&quot;-1&quot;&gt;Significado Cultural&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Polaris ha sido objeto de interés en varias culturas y civilizaciones a lo largo de la historia. Se ha asociado con conceptos como la estabilidad, la dirección y la guía debido a su constante posición en el cielo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;En resumen, Polaris es una estrella brillante y significativa en la constelación de la Osa Menor, utilizada históricamente como guía para la navegación debido a su proximidad al Polo Norte Celeste y su constancia en el cielo nocturno. Su importancia astronómica y cultural la convierten en una estrella destacada en el firmamento.&lt;/p&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//conceptos/astros/polaris/" >
+        </entry>
+        <entry>
+            <title>
+                luna
+                
+            </title>
+            <updated>2024-08-20T18:49:43Z</updated>
+            <id>https://wikiterra.xyz//conceptos/astros/luna/</id>
+            <content type="html">
+                &lt;h1 id=&quot;la-luna&quot; tabindex=&quot;-1&quot;&gt;La Luna&lt;/h1&gt;
+&lt;p&gt;La Luna es una luminaria de la Tierra junto al Sol, rota encima del plano terrestre de Este a Oeste en torno al polo norte.&lt;/p&gt;
+&lt;p&gt;Se cree que está formada por kriptón en estado de plasma ionizado que interactua con el Sol negro situado en el centro de la plano terrestre, generando ese toroide elctromagnético que los mantiene en suspensión.&lt;/p&gt;
+&lt;p&gt;Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y distintas densidades atmoféricas.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;[!infobox]+ Collapsible Infobox&lt;/p&gt;
+&lt;h1 id=&quot;la-luna-1&quot; tabindex=&quot;-1&quot;&gt;La Luna&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/9mGOiSO.jpg&quot; alt=&quot;luna-ojo|cover small&quot; /&gt;&lt;br /&gt;
+La Luna llena vista entre el hueco de un pared rocosa, con personas caminando por debajo.&lt;/p&gt;
+&lt;h6 id=&quot;datos&quot; tabindex=&quot;-1&quot;&gt;Datos&lt;/h6&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Datos&lt;/th&gt;
+&lt;th&gt;Distancia&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Distancia&lt;/td&gt;
+&lt;td&gt;6 000 a 7 000 Km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Diámetro&lt;/td&gt;
+&lt;td&gt;60 Km&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Material&lt;/td&gt;
+&lt;td&gt;kriptón ionizado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;La Luna tiene un ciclo de 27 días, con las fases lunares creciente y decreciente, donde parte de la Luna se pone en sombra y parte ilumina. A la parte en sombra también se le conoce como luz de cenicienta &amp;quot;Lumen cinereum&amp;quot;.&lt;/p&gt;
+&lt;p&gt;La Luna es uno de los misterios más grandes que hay, de primeras es un objeto que emite luz de carácter diferente a la del Sol, no es un reflejo del Sol porque se pueden observar ambos a la vez y su sombra no es producida por la superficie terrestre.&lt;/p&gt;
+&lt;p&gt;La Luna tiene el mismo tamaño aparente que el Sol y muestra siempre la misma cara. La Luna tiene un movimiento de rotación contiguo en torno al Norte, lo que explica por que se ve rotada según la longitud del plano terreste.&lt;/p&gt;
+&lt;p&gt;Es el cuerpo encargado de generar las mareas debido a su comportamiento electromagnético sobre la superficie terrestre.&lt;/p&gt;
+&lt;h2 id=&quot;datos-1&quot; tabindex=&quot;-1&quot;&gt;Datos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Luz: Luz propia&lt;/li&gt;
+&lt;li&gt;Radio: 60 Km&lt;/li&gt;
+&lt;li&gt;Altura: 6000 - 8000 Km&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;analema-lunar&quot; tabindex=&quot;-1&quot;&gt;Analema lunar&lt;/h2&gt;
+&lt;p&gt;El analema lunar es la forma que dibuja la Luna cuando es fotografiada todos los días a la misma hora durante su ciclo completo.&lt;/p&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//conceptos/astros/luna/" >
         </entry>
         <entry>
             <title>

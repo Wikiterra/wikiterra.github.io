@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>wikiterra-dev</title>
+<title>cielo</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -74,7 +74,7 @@ CTRL + K
 <span class="foldername">about</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wikiterra-dev/">wikiterra-dev </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wikiterra-dev/">wikiterra-dev </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -131,7 +131,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/atomsfera/cielo/">cielo </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/atomsfera/cielo/">cielo </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -379,58 +379,11 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="que-es-wiki-terra" tabindex="-1">¿Qué es WikiTerra ?</h1>
-<p>WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos desde el gestor de notas <a href="https://obsidian.md/" target="_blank" class="external-link">Obsidian.md</a>.</p>
-<h2 id="web-estatica" tabindex="-1">Web estática</h2>
-<p>Wikiterra es una <a class="internal-link" target="" data-note-icon="" href="/about/wikiterra-estatica/">web estática</a>, lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador web, &quot;chrome&quot;, &quot;firefox&quot;, etc). Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown-sintaxis</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
-<p>Hay cientos de generadores estáticos en <a href="https://jamstack.org/generators/" target="_blank" class="external-link">JamStack</a> clasifican 355, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.</p>
-<p>Cada SSG uno tiene su propio lenguaje de programación con su propio estilo de plantillas para ser transformados a formato web. Pero al final lo que importa es la plantilla que uses y que el framework o SSG sea intuitivo, tenga una gran comunidad y se mantenga en desarrollo.</p>
-<p>En el caso de Wikiterra, la web ha sido testeada en local con diferentes SSG como HUGO con el tema <a href="https://imfing.github.io/hextra/" target="_blank" class="external-link">Hextra</a>, Astro con el tema <a href="https://starlight.astro.build/" target="_blank" class="external-link">Starlight</a>, o Tiddlywiki con el tema <a href="https://feather.wiki/" target="_blank" class="external-link">Featherwiki</a> que permite tener un web entera sobre un único HTML.</p>
-<p>Sin embargo la opción que se ha mantenido ha sido la plantilla web de <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que usa 11Ty como generador, por su bonito diseño y su fácil uso através de Obsidian.</p>
-<h2 id="creacion-de-la-web-con-digital-garden" tabindex="-1">Creación de la web con Digital Garden</h2>
-<blockquote>
-<p>Wikiterra se basa la plantilla web <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que utiliza 11Ty como generador de sitios estáticos (SSG)</p>
-</blockquote>
-<p>Para configurar la web es necesario realizar los siguientes pasos:</p>
-<ol>
-<li>Primero tenemos que tener instalado <a href="https://obsidian.md/download" target="_blank" class="external-link">obsidian</a> y nuestro vault de notas abierto.</li>
-<li>Tener una cuenta en una plataforma de git (GitHub, GitLab, Codeberg, etc).</li>
-<li>Instalar el plugin para Obsidian <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Digital Garden Publication Center</a>, y configurar el nombre de usuario, repositorio y token de la plataforma de git.</li>
-<li>Clonar la <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">plantilla de Digital Garden</a> para <strong>hospedar la plantilla con el contenido</strong> y configurar el proveedor de alojamiento de sitios estáticos para **desplegar la webgenerada **, puede ser: <a href="https://pages.cloudflare.com/" target="_blank" class="external-link">Cloudflare Pages</a>, <a href="https://pages.github.com/" target="_blank" class="external-link">GitHub Pages</a>, <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank" class="external-link">GitLab Pages</a>, <a href="https://www.netlify.com/" target="_blank" class="external-link">Netlify</a>, <a href="https://vercel.com/" target="_blank" class="external-link">Vercel</a>.</li>
-<li>Y configurar el proceso de despliegue, para GitHub Pages con <a href="https://docs.github.com/en/actions" target="_blank" class="external-link">GitHub actions</a> en <code>.github/workflows/build.yml</code>, para Vercel en <code>vercel.json</code>, para Netlify en <code>netlify.toml</code>, etc.</li>
-</ol>
-<p>En el caso de WikiTerra es lo siguiente:</p>
-<ol>
-<li>Se escribe en formato markdown en <a href="http://obsidian.md" target="_blank" class="external-link">obsidian.md</a>.</li>
-<li>Se publica el contenido con el plugin de Obsidian <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Digital Garden Publication Center</a> que sincroniza los archivos con el la plantilla web <a href="https://github.com/Wikiterra/wikiterra.github.io" target="_blank" class="external-link">WikiTerra/wikiterra.github.io en GitHub</a>.</li>
-<li>Se despliega la web usando &quot;flujos de trabajo de GitHub Actions&quot; configurado en <a href="https://github.com/Wikiterra/wikiterra.github.io/blob/main/.github/workflows/build.yml" target="_blank" class="external-link"><code>.github/workflows/build.yml</code></a> que hacen uso de 11Ty programado en la plantilla.</li>
-</ol>
-<pre><code class="language-bash">npm install # instalar paquetes de node.js
-npm run build # construir web
-npm run watch:eleventy # visualizar web, alternativas &quot;npm run start&quot; o &quot;npx @11ty/eleventy --serve&quot;
-</code></pre>
-<p>Para más información visitar la documentación oficial, <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
-<h3 id="pros-vs-contras" tabindex="-1">Pros vs contras</h3>
-<ul>
-<li>
-<p><strong>Ventajas (pros)</strong></p>
-<ul>
-<li>El conjunto de notas markdown se encuentra indexado en una bóveda con los gestores de conocimiento (PKM) como <a href="http://Obsidian.md" target="_blank" class="external-link">Obsidian.md</a>.</li>
-<li>Permite enlazar artículos de manera sencilla y ver su relación en un grafo.</li>
-<li>El contenido está en local en tu propia máquina.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desventajas (contras)</strong></p>
-<ul>
-<li>Requiere conocer la sintaxis markdown.</li>
-<li>El lenguaje markdown varía según la aplicación, no tiene un estándar fijo.</li>
-<li>Los navegadores web solo leen HTML (junto con CSS y JS), para visualizar markdown con formato se necesita un conversor (como hace obsidian, vscode y otros).</li>
-</ul>
-</li>
-</ul>
-<h2 id="como-editar" tabindex="-1">¿Cómo editar?</h2>
-<p>Para editar la wiki consulta la sección de <a class="internal-link" target="" data-note-icon="" href="/about/wikiterra-edicion/">wikiterra-edicion</a>.</p>
+<h1 id="el-cielo" tabindex="-1">El cielo</h1>
+<p>El cielo es el lugar donde se encuentran los astros, estrellas, estrellas errantes y cuerpos en suspensión, si ordenamos por densidad se encuentra en la zona menos densa o arriba de la superficie terrestre.</p>
+<p>El cielo se le suele asociar con el concepto de <a class="internal-link" target="" data-note-icon="" href="/conceptos/domo-terrestre/">domo-terrestre</a> o semiesfera, aunque otros apuntan a una esfera celeste.</p>
+<p>Tiene un giro síncrono de Este a Oeste sobre el plano en torno a la estrella central, Polaris.</p>
+<p>De día el cielo tiene un color azul claro debido al comportamiento la luz solar al atravesar los gases de la atmósfera. Cuando es de día el Sol se encuentra encima de un punto en concreto de la superficie que permite que la luz recorra menos cantidad de atmósfera por lo que las frecuencias altas (o de longitud corta) como los colores azules llegan y dan ese color al cielo, mientras cuando hay una salida o puesta de Sol, la cantidad de atmósfera que tiene que recorrer la luz es mucho mayor ocasionando que llegan las frecuencias más bajas (longitudes de onda larga), generando un tono más rojizo anaranjado en el cielo.</p>
 </main>
 <aside>
 <div class="sidebar">
