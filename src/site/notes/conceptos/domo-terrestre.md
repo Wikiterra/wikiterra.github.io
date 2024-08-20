@@ -43,31 +43,30 @@ Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- [Fictional buildings size comparison | 3D Real Scale 🏠](https://www.youtube.com/watch?v=hjIci91FRX4&t=332s)
+![](https://i.imgur.com/FE0ryKh.png)
 
 
-1. 00:00 - [Sandy Treedome - SpongeBob Squarepants](https://spongebob.fandom.com/wiki/Sandy_Cheeks%27_treedome) (radio: 1.5 m)
-2. 01:20 - ["Band Geeks" concert at Bubble Bowl - SpongeBob Squarepants](https://spongebob.fandom.com/wiki/Bubble_Bowl) (radio: 9 m)
-3. 01:40 - [The Simpsons Movie](https://simpsons.fandom.com/wiki/Dome) (radio: 0.5 Km)
-4. 02:11 - ["The Hex" or "Westview anomaly" - WandaVision](https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly) (apotema: 0.8 Km)
-5. 03:27 - [Arena - The Hunger Games](https://thehungergames.fandom.com/wiki/Arena) (radio: 12 Km)
-6. 05:00 - [The Dome - Under the Dome](https://underthedome.fandom.com/wiki/The_Dome) (radio 8 Km)
-7. 05:28 - [The Dome of Earth-X Arrow](https://arrow.fandom.com/wiki/Earth-X) - [Arrow scene](https://www.youtube.com/watch?v=aX3RpaBY0aQ) (radio: 1.5 Km)
-8. 06:44 - Truman Burbank - [The Truman Show](https://en.wikipedia.org/wiki/The_Truman_Show) (radio: 1.2 Km)
-9. 06:51 - Skull Island (Kong Dome by [Monarch](https://godzilla.fandom.com/wiki/Monarch)) - [Godzilla vs Kong scene](https://www.youtube.com/watch?v=UhLiCUaxVIc) (radio: 8 Km)
-10. 07:54 - [WonderDome techonology on Themyscira - Wonder Woman](https://wonder-woman.fandom.com/wiki/Themyscira) (radio: 15 Km)
-11. 08:28 - [Dome of Fortnite](https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative) (radio: 30 Km)
-12. 09:36 - [The Flammarion Engraving](https://en.wikipedia.org/wiki/Flammarion_engraving) (radio: desconocido)
-13. 09:46 - [The Garden of Earthly Delights](https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights) (radio: desconocido)
-14. 09:32 - [Anna](https://v.fandom.com/wiki/Anna) holding the Earth Dome - Serie V (radio: desconocido)
+- [Sandy Treedome - SpongeBob Squarepants](https://spongebob.fandom.com/wiki/Sandy_Cheeks%27_treedome) (radio: 1.5 m)
+- ["Band Geeks" concert at Bubble Bowl - SpongeBob Squarepants](https://spongebob.fandom.com/wiki/Bubble_Bowl) (radio: 9 m)
+- [The Simpsons Movie](https://simpsons.fandom.com/wiki/Dome) (radio: 0.5 Km)
+- ["The Hex" or "Westview anomaly" - WandaVision](https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly) (apotema: 0.8 Km)
+- [Arena - The Hunger Games](https://thehungergames.fandom.com/wiki/Arena) (radio: 12 Km)
+- [The Dome - Under the Dome](https://underthedome.fandom.com/wiki/The_Dome) (radio 8 Km)
+- [The Dome of Earth-X Arrow](https://arrow.fandom.com/wiki/Earth-X) - [Arrow escena](https://www.youtube.com/watch?v=aX3RpaBY0aQ) (radio: 1.5 Km)
+- Truman Burbank - [The Truman Show](https://en.wikipedia.org/wiki/The_Truman_Show) (radio: 1.2 Km)
+- Skull Island (Kong Dome by [Monarch](https://godzilla.fandom.com/wiki/Monarch)) - [Godzilla vs Kong escena](https://www.youtube.com/watch?v=UhLiCUaxVIc) (radio: 8 Km)
+- [WonderDome techonology on Themyscira - Wonder Woman](https://wonder-woman.fandom.com/wiki/Themyscira) (radio: 15 Km)
+- [Dome of Fortnite](https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative) (radio: 30 Km)
+- [The Flammarion Engraving](https://en.wikipedia.org/wiki/Flammarion_engraving) (imitación de la Tierra)
+- [The Garden of Earthly Delights](https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights) (imitación de la Tierra)
+- [Anna](https://v.fandom.com/wiki/Anna) sostiendo el domo de la Tierra - Serie V (imitación de la Tierra)
 
-### Series y pelis
+### Domos en escenas de películas o series
 - Arrow
 	- [Arrow | Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)
 - Dragon Ball
 	- [Vegeta Nukes The Glass Dome Barrier](https://www.youtube.com/watch?v=iaUUvv7NL_Q)
 - Godzilla vs Kong
-	- Incongruence with Hollow Earth because is showing a model of the land in the interior and another like the land in the exterior official spherical model
 	- [Godzilla vs Kong - Kong in the Dome (Opening Scene)](https://www.youtube.com/watch?v=UhLiCUaxVIc)
 	- [Godzilla vs Kong - Opening scene](https://www.youtube.com/watch?v=AU0Jn6C6GAw)
 - King of Queens
@@ -75,9 +74,7 @@ Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la 
 - Lord of Rings. "One ring to rule them all"
 	- [One ring to rule them all | Lord Of Rings](https://www.youtube.com/watch?v=qj139dE7tFI)
 - Sponge Bob: 
-	- [SpongeBob SquarePants - Sweet Victory](https://www.youtube.com/watch?v=cUZNXgIXM1c)
-	- [SpongeBob - Band Geeks | Sweet Victory (4K/60 FPS)](https://www.youtube.com/watch?v=EE6wJ_ja9KI)
-	- [SpongeBob singing Goofy Goober Rock](https://www.youtube.com/watch?v=MlnDf3e3PQ0)
+	- [SpongeBob - Band Geeks | Sweet Victory](https://www.youtube.com/watch?v=EE6wJ_ja9KI)
 	- [Band Geeks ft "Sweet Victory" | SpongeBob SquarePants](https://www.youtube.com/watch?v=J3gOVvWjOmY&t=184s)
 - The Arrow
 	- [The Arrow | Under The Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)
@@ -101,8 +98,8 @@ Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la 
 - WandaVision
 	- [WandaVision 1x06 - Wanda Makes The Dome Bigger](https://www.youtube.com/watch?v=PCVUl8CsWM0)
 
-### Videojuegos
+### Domos o tierras planas en videojuegos
 
-- [252,000 m Above the Fortnite map](https://www.youtube.com/watch?v=JNLGtdACHSU)
-[How high / low can you go in Minecraft?](https://www.youtube.com/watch?v=SYuocMFOD6w)
-[What does Render Distance Infinity ∞ look like in Minecraft?](https://www.youtube.com/watch?v=Ff5uWPvtbQg)
+- [252 km Above the Fortnite map](https://www.youtube.com/watch?v=JNLGtdACHSU)
+- [How high / low can you go in Minecraft?](https://www.youtube.com/watch?v=SYuocMFOD6w)
+- [What does Render Distance Infinity ∞ look like in Minecraft?](https://www.youtube.com/watch?v=Ff5uWPvtbQg)
