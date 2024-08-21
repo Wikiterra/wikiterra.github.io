@@ -7,7 +7,7 @@
 ## Canales YouTube
 - [Alarma mundial - YouTube](https://www.youtube.com/@AlarmaMundial)
 - [ArFLAT Experimentación Científica - YouTube](https://www.youtube.com/c/ArFLATExperimentaci%C3%B3nCient%C3%ADfica)
-- [Canal Dacoria](https://www.youtube.com/@CanalDacoria)
+- [Canal Dacoria - YouTube](https://www.youtube.com/@CanalDacoria)
 - [DITRH- YouTube](https://www.youtube.com/@DITRH)
 - [DwayneKellum - YouTube](https://www.youtube.com/@DwayneKellum/)
 - [EN HONOR A LA VERDAD - YouTube](https://www.youtube.com/c/ENHONORALAVERDADfelipecanepa)
@@ -25,9 +25,10 @@
 - [Planet Plane - YouTube](https://www.youtube.com/c/PlanetPlane)
 - [Reconectando con el Espíritu- YouTube](https://www.youtube.com/@reconectandoconelespiritu8318)
 - [Sanchez Ma - YouTube](https://www.youtube.com/@sanchezma)
+- [Shane St Pierre - Odysee](https://odysee.com/@stpierrs:f)
 - [Tierra Tecnologica - YouTube](https://www.youtube.com/@tierratecnologica5050/videos)
 - [Truthseeker - YouTube](https://www.youtube.com/@Truthseeker3)
-- [Vibes of Cosmos](https://www.youtube.com/@VIBESOFCOSMOS)
+- [Vibes of Cosmos - YouTube](https://www.youtube.com/@VIBESOFCOSMOS)
 
 ## Plataformas TV
 - [Canal 5 Radio TV](https://canal5radio.tv/)
