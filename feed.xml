@@ -3,14 +3,14 @@
     <title>WikiTerra</title>
     <link href="https://wikiterra.xyz//feed.xml" rel="self" >
     <link href="https://wikiterra.xyz/" >
-    <updated>2024-08-21T19:35:54Z</updated>
+    <updated>2024-08-22T01:13:07Z</updated>
     <id>https://wikiterra.xyz/</id>
         <entry>
             <title>
                 wikiterra
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//</id>
             <content type="html">
                 &lt;h2 id=&quot;bienvenido-a-wiki-terra&quot; tabindex=&quot;-1&quot;&gt;¡Bienvenido a WikiTerra! 👋&lt;/h2&gt;
@@ -36,7 +36,7 @@
                 replantear-ideas
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//notas/replantear-ideas/</id>
             <content type="html">
                 &lt;h2 id=&quot;reflexion&quot; tabindex=&quot;-1&quot;&gt;Reflexión&lt;/h2&gt;
@@ -54,10 +54,316 @@
         </entry>
         <entry>
             <title>
+                programacion-media
+                
+            </title>
+            <updated>2024-08-22T01:12:59Z</updated>
+            <id>https://wikiterra.xyz//notas/programacion-media/</id>
+            <content type="html">
+                &lt;h1 id=&quot;programacion-en-medios-de-masas&quot; tabindex=&quot;-1&quot;&gt;Programación en medios de masas&lt;/h1&gt;
+&lt;h2 id=&quot;tierra-estacionaria-o-no-rotacion&quot; tabindex=&quot;-1&quot;&gt;Tierra estacionaria o no rotación&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=mna5J7bctLg&amp;amp;t=170s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Gumball | The Vegging (3:03)&lt;/a&gt; -&amp;gt; &amp;quot;Wait, I have a better idea. We have wheels, we just have to stop and let the rotation of the Earth do the leg work for us. (music...) Alright let&#39;s just call a cab company.&amp;quot; («Espera, tengo una idea mejor. Tenemos ruedas, sólo tenemos que parar y dejar que la rotación de la Tierra haga el trabajo por nosotros. (música...) Vale, llamemos a un taxi.»)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;recopilacion-de-and-quot-domos-terrestres-and-quot-en-medios&quot; tabindex=&quot;-1&quot;&gt;Recopilación de &amp;quot;Domos Terrestres&amp;quot; en medios&lt;/h2&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/FE0ryKh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;domo-terrestre-ordenados-por-tamano&quot; tabindex=&quot;-1&quot;&gt;Domo terrestre (ordenados por tamaño)&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Información&lt;/th&gt;
+&lt;th&gt;Lugar (ficticio / real)&lt;/th&gt;
+&lt;th&gt;Radio (km)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://spongebob.fandom.com/wiki/Sandy_Cheeks%27_treedome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Domo de Arenita - Bob Esponja&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://spongebob.fandom.com/wiki/Bubble_Bowl&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bubble Bowl - Bob Esponja&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Fondo de Atolón Bikini, Islas Marshall&lt;/td&gt;
+&lt;td&gt;0.002&lt;br /&gt;0.009&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://theinfosphere.org/Chamber_of_Understanding&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Cámara de entendimiento - Futurama&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://theinfosphere.org/Monsanto&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Domo de Monsanto&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://theinfosphere.org/Orbiting_Meadows&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Orbitas Medows - Futurama&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Ciudad de Nueva Nueva&lt;br /&gt;La Luna&lt;br /&gt;Órbita de la Tierra&lt;/td&gt;
+&lt;td&gt;0.005&lt;br /&gt;0.05&lt;br /&gt;0.03&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bio-Dome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Domo - Bio-Dome (película)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Tierra, Arizona&lt;/td&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://simpsons.fandom.com/wiki/Dome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El domo - Los Simpsons (peli)&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Spriengfield, USA&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El Hex - WandaVision&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Westview, Nueva Jersey&lt;/td&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://thehungergames.fandom.com/wiki/Arena&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;La Arena - Los Juegos del Hambre&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Panem, USA&lt;/td&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://underthedome.fandom.com/wiki/The_Dome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El domo - Under the Dome&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Chester&#39;s Mill&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://arrow.fandom.com/wiki/Earth-X&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El domo de Tierra-X - Arrow&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Earth-X&lt;/td&gt;
+&lt;td&gt;1.5&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Truman_Show&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Domo gigante plató de TV - El Show de Truman&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Seahaven, Los Angeles (USA)&lt;/td&gt;
+&lt;td&gt;1.2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://godzilla.fandom.com/wiki/Skull_Island#Godzilla_vs._Kong&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Biodomo de Monarch - Godzilla vs Kong&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Isla de Craneo (Océano Pacífico)&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://wonder-woman.fandom.com/wiki/Themyscira&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WonderDome - Wonder Woman&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Isla Themyscira&lt;/td&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Domo atmosférico - Fortnite&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Mapa de Fortnite, Helios&lt;/td&gt;
+&lt;td&gt;60&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://es.wikipedia.org/wiki/Grabado_Flammarion&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El Grabado Flammarion&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Cuadro en el Museo del Prado&lt;/td&gt;
+&lt;td&gt;--&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El jardín de las delicias&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Ilustración de Camille Flammarion en &lt;em&gt;L&#39;atmosphère&lt;/em&gt;&lt;/td&gt;
+&lt;td&gt;--&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&quot;https://v.fandom.com/wiki/Anna&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Anna líder de los V&lt;/a&gt; sostiendo un &lt;a href=&quot;https://i.imgur.com/6zVC3nl.jpeg&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;domo con luminarias&lt;/a&gt; - Serie V&lt;/td&gt;
+&lt;td&gt;Imagen promocional de la serie V&lt;/td&gt;
+&lt;td&gt;--&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;domo-en-escenas-de-show-tv&quot; tabindex=&quot;-1&quot;&gt;Domo en escenas de Show TV&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;TV Show&lt;/th&gt;
+&lt;th&gt;Escena&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Arrow&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aX3RpaBY0aQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Arrow - Dome&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dragon Ball&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iaUUvv7NL_Q&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vegeta Nukes The Glass Dome Barrier&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Godzilla vs Kong&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UhLiCUaxVIc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Godzilla vs Kong - Kong in the Dome (Opening Scene)&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AU0Jn6C6GAw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Godzilla vs Kong - Opening scene&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;King of Queens&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DxLIq-SZaVA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;King of Queens - S1 E21&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Lord Of The Rings&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qj139dE7tFI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;One ring to rule them all | Lord Of Rings&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sponge Bob&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EE6wJ_ja9KI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SpongeBob - Band Geeks | Sweet Victory&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=J3gOVvWjOmY&amp;amp;t=184s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Band Geeks ft &amp;quot;Sweet Victory&amp;quot; | SpongeBob SquarePants&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Arrow&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aX3RpaBY0aQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Arrow | Under The Dome&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Flash&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=W0b5HU1qm8M&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Flash - I&#39;m Coming Home&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Hunger Games&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MLVo-KKEaxQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Hunger Games 2012 Flat Earth Dome Scene&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ULUEcET_luU&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Hunger Games: Catching Fire Movie CLIP &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#11&quot;&gt;#11&lt;/a&gt; - Destroying the Arena (2013)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Magicians&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WZK_BuEeNXY&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flat Earth Land Discovered in &amp;quot;The Magicians&amp;quot;&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Signal (2014)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2hTZGzjp1BY&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flat Earth - Breaking The Glass Ceiling&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Simpsons (The movie)&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kPiQiToZn6s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Simpsons Movie. Delivering a Dome&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=njnlI7fOoHI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Simpsons - Under The Dome &amp;amp; Space Farts (Flat Earth)&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Truman Show&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jrxDDlDdCDI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El show de Truman - Escena final&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Under the dome&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1syIrrwSIh0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Under The Dome - Dropping The Dome&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f_Y5YeYrqUk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Under the Dome - Trailer&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;WandaVision&lt;/td&gt;
+&lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PCVUl8CsWM0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WandaVision 1x06 - Wanda Makes The Dome Bigger&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Futurama&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&quot;videojuegos-3-d-que-usan-un-mapa-plano&quot; tabindex=&quot;-1&quot;&gt;Videojuegos 3D que usan un mapa plano&lt;/h3&gt;
+&lt;p&gt;La mayoría de videojuegos 3d de mundo abierto usan un mapa plano, aquí una lista de los más famosos.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Videojuego&lt;/th&gt;
+&lt;th&gt;Información del mapa&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Battlefield&lt;/td&gt;
+&lt;td&gt;Los mapas multijugador son planos o contienen áreas relativamente planas con variaciones en elevación.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Call of Duty&lt;/td&gt;
+&lt;td&gt;Similar a Battlefield, los mapas en el modo multijugador y en algunos modos de campaña tienen una topografía variada, pero generalmente se manejan en mapas planos en términos de diseño de niveles.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cities: Skylines&lt;/td&gt;
+&lt;td&gt;El mapa es plano y se puede expandir en diferentes direcciones sin límites de altura significativos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Civilization VI&lt;/td&gt;
+&lt;td&gt;El mapa del juego está representado en un plano con casillas hexagonales que permiten la expansión de civilizaciones.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Cyberpunk 2077&lt;/td&gt;
+&lt;td&gt;Aunque el mundo es grande y detallado, la experiencia de exploración se basa en un diseño de mapa urbano plano con una perspectiva tridimensional en su estructura.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dark Souls&lt;/td&gt;
+&lt;td&gt;Los niveles son tridimensionales pero presentan áreas de juego relativamente planas con obstáculos verticales y complejas interacciones.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Elden Ring&lt;/td&gt;
+&lt;td&gt;Aunque es un mundo abierto, el terreno a menudo tiene zonas relativamente planas para facilitar la exploración y el combate.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Far Cry&lt;/td&gt;
+&lt;td&gt;El mapa es grande y abierto, pero las áreas jugables son esencialmente planas, con montañas y otros obstáculos que forman parte del entorno.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fortnite&lt;/td&gt;
+&lt;td&gt;El mapa es un plano con un domo Sol y Luna proyectados, se puede manipular desde el &lt;a href=&quot;https://fortnite.fandom.com/wiki/Skydome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Skydome&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;GTA V&lt;/td&gt;
+&lt;td&gt;El mundo abierto es urbano y contiene áreas planas junto con elevaciones, con la ciudad de Los Santos diseñada para una experiencia de navegación extensa.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Halo 3&lt;/td&gt;
+&lt;td&gt;Los mapas de multijugador son planos en su estructura básica, aunque contienen diversas elevaciones y obstáculos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hogwarts Legacy&lt;/td&gt;
+&lt;td&gt;El mundo es un entorno abierto en 3D con un diseño detallado, pero las áreas explorables están diseñadas para parecer amplias y relativamente planas.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Horizon Zero Dawn&lt;/td&gt;
+&lt;td&gt;El mundo es vasto y detallado, con terrenos que pueden parecer planos en términos de diseño de juego, aunque hay variaciones en elevación.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Minecraft&lt;/td&gt;
+&lt;td&gt;El mundo estándar en Minecraft es generado proceduralmente y es prácticamente infinito en todas direcciones. El modo &lt;a href=&quot;https://minecraft.wiki/w/Superflat&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Superflat&lt;/a&gt; ofrece un mundo completamente plano, sin características topográficas, ideal para construcciones y experimentación.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;No Man&#39;s Sky&lt;/td&gt;
+&lt;td&gt;Los planetas son esféricos, pero las áreas explorables son planos con algo de orografía.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Overwatch&lt;/td&gt;
+&lt;td&gt;Los mapas de juego son planos en su estructura básica, diseñados para la competencia en entornos urbanos y exteriores.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pokémon&lt;/td&gt;
+&lt;td&gt;Los mapas en los juegos de Pokémon suelen ser bidimensionales, pero en los juegos recientes, como &lt;strong&gt;Pokémon Sword and Shield&lt;/strong&gt;, el diseño de los entornos puede dar la sensación de ser relativamente plano, especialmente en áreas de libre exploración.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;PUBG (PlayerUnknown&#39;s Battlegrounds)&lt;/td&gt;
+&lt;td&gt;El mapa es grande y abierto, diseñado para ofrecer áreas extensas y relativamente planas con elevaciones y obstáculos.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Red Dead Redemption 2&lt;/td&gt;
+&lt;td&gt;El mundo abierto es vasto y natural, con terrenos variados que pueden tener áreas planas significativas.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Rocket League&lt;/td&gt;
+&lt;td&gt;El campo de juego es un plano con una superficie uniforme donde se juegan los partidos. El mundo tiene un Sol y Luna que orbitan en un domo.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skyrim&lt;/td&gt;
+&lt;td&gt;El mundo es vasto y montañoso, pero las áreas explorables y las ciudades se presentan en un plano extendido.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Starcraft&lt;/td&gt;
+&lt;td&gt;El mapa es un plano en el que los jugadores colocan y mueven sus unidades en una cuadrícula o terreno plano con detalles específicos del entorno.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Super Mario Galaxy&lt;/td&gt;
+&lt;td&gt;El juego presenta niveles en planetas esféricos, pero la experiencia de juego es lineal y guiada por el diseño de cada planeta.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Legend of Zelda: Tears of the Kingdom&lt;/td&gt;
+&lt;td&gt;El mundo es abierto y montañoso, pero la experiencia de exploración está diseñada en un terreno tridimensional que puede tener áreas relativamente planas.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Sims&lt;/td&gt;
+&lt;td&gt;El mapa de los vecindarios y lotes es plano, permitiendo la construcción y la interacción en un entorno bidimensional.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;The Witcher 3&lt;/td&gt;
+&lt;td&gt;El mundo abierto es grande y detallado con una topografía variada, pero los entornos jugables se presentan en un formato relativamente plano.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Warcraft III&lt;/td&gt;
+&lt;td&gt;El mapa es un plano dividido en casillas donde los jugadores construyen y mueven unidades, con detalles específicos en la superficie.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//notas/programacion-media/" >
+        </entry>
+        <entry>
+            <title>
                 metodo-cientifico
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//notas/metodo-cientifico/</id>
             <content type="html">
                 &lt;h1 id=&quot;metodo-cientifico&quot; tabindex=&quot;-1&quot;&gt;Método científico&lt;/h1&gt;
@@ -80,7 +386,7 @@ Y ese mundo también se ve alterado por las acciones y pensamientos de cada uno 
                 flor-vida-simil
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//notas/flor-vida-simil/</id>
             <content type="html">
                 &lt;h2 id=&quot;flor-de-la-vida&quot; tabindex=&quot;-1&quot;&gt;Flor de la vida&lt;/h2&gt;
@@ -129,7 +435,7 @@ Y ese mundo también se ve alterado por las acciones y pensamientos de cada uno 
                 ciencia-nota
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//notas/ciencia-nota/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-ciencia&quot; tabindex=&quot;-1&quot;&gt;La Ciencia&lt;/h1&gt;
@@ -170,7 +476,7 @@ Ahora bien, si la argumentación es sólida, es replicable y experimentable ento
                 bobina-del-demiurgo
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//notas/bobina-del-demiurgo/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-bobina-del-demiurgo-el-controlador-y-ladron-de-energia&quot; tabindex=&quot;-1&quot;&gt;La Bobina del demiurgo el controlador y ladrón de energía&lt;/h1&gt;
@@ -210,7 +516,7 @@ El Centro magnético de la Tierra contiene su propia naturaleza, así como los &
                 tierra-esferica-vs-tierra-plana
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/tierra-esferica-vs-tierra-plana/</id>
             <content type="html">
                 &lt;h1 id=&quot;comparacion-modelos-de-la-tierra&quot; tabindex=&quot;-1&quot;&gt;Comparación modelos de la Tierra&lt;/h1&gt;
@@ -532,7 +838,7 @@ No se sabe la forma por debajo max excavación 12 Km, ni en extensión a los lad
                 modelos-Terra
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/modelos-Terra/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelos-de-la-tierra-propuestos&quot; tabindex=&quot;-1&quot;&gt;Modelos de La Tierra propuestos&lt;/h1&gt;
@@ -606,7 +912,7 @@ Representación de Tierra cóncava con esfera celeste en el interior.&lt;/p&gt;
                 wikipedia-enlaces-cosmos
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/helios/wikipedia-enlaces-cosmos/</id>
             <content type="html">
                 &lt;h1 id=&quot;articulos-de-wikipedia-del-cosmos&quot; tabindex=&quot;-1&quot;&gt;Artículos de Wikipedia del cosmos&lt;/h1&gt;
@@ -846,7 +1152,7 @@ Representación de Tierra cóncava con esfera celeste en el interior.&lt;/p&gt;
                 modelo-heliocentrico
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/helios/modelo-heliocentrico/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelo-heliocentrico&quot; tabindex=&quot;-1&quot;&gt;Modelo heliocéntrico&lt;/h1&gt;
@@ -869,7 +1175,7 @@ Lo mismo ocurre si consideramos el observador desde el modelo esférico de La Ti
                 incongruencias-modelo-esferico
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/helios/incongruencias-modelo-esferico/</id>
             <content type="html">
                 &lt;h1 id=&quot;incongruencias-del-modelo-esferico&quot; tabindex=&quot;-1&quot;&gt;Incongruencias del modelo esférico&lt;/h1&gt;
@@ -990,7 +1296,7 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
                 heliocentrismo-666
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/helios/heliocentrismo-666/</id>
             <content type="html">
                 &lt;h1 id=&quot;modelo-esferico-666-encriptado&quot; tabindex=&quot;-1&quot;&gt;Modelo esférico (666 encriptado)&lt;/h1&gt;
@@ -1051,7 +1357,7 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
                 tierra-plana
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/tierra-plana/</id>
             <content type="html">
                 &lt;h1 id=&quot;tierra-plana&quot; tabindex=&quot;-1&quot;&gt;Tierra plana&lt;/h1&gt;
@@ -1101,7 +1407,7 @@ Para el aspa de 10 m, la aceleración tangencial es de &lt;mjx-container class=&
                 listado-famosos-tp
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/listado-famosos-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;listado-de-famosos&quot; tabindex=&quot;-1&quot;&gt;Listado de famosos&lt;/h1&gt;
@@ -1128,7 +1434,7 @@ Su razonamiento? Él cuando ha viajado de Florida a California todo el camino ha
                 listado-cientificos-tp
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/listado-cientificos-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;cientificos-modelo-geocentrico&quot; tabindex=&quot;-1&quot;&gt;Científicos modelo geocéntrico&lt;/h1&gt;
@@ -1210,7 +1516,7 @@ Su razonamiento? Él cuando ha viajado de Florida a California todo el camino ha
                 listado-canales-tp
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/listado-canales-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;listado-de-canales-de-tierra-plana&quot; tabindex=&quot;-1&quot;&gt;Listado de canales de Tierra Plana&lt;/h1&gt;
@@ -1258,7 +1564,7 @@ Su razonamiento? Él cuando ha viajado de Florida a California todo el camino ha
                 distancias-vuelos
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/distancias-vuelos/</id>
             <content type="html">
                 &lt;h1 id=&quot;distancias-de-vuelos&quot; tabindex=&quot;-1&quot;&gt;Distancias de vuelos&lt;/h1&gt;
@@ -1287,7 +1593,7 @@ Solo hace falta grabar el trayecto de un aeroplano (la palabra te lo dice) para 
                 argumentos-tp
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//modelos-Terra/geo/argumentos-tp/</id>
             <content type="html">
                 &lt;h2 id=&quot;argumentos&quot; tabindex=&quot;-1&quot;&gt;Argumentos&lt;/h2&gt;
@@ -1326,7 +1632,7 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
                 wikis-tp
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//listado/wikis-tp/</id>
             <content type="html">
                 &lt;h1 id=&quot;wikis-t-ierra-plana&quot; tabindex=&quot;-1&quot;&gt;Wikis TIerra Plana&lt;/h1&gt;
@@ -1349,10 +1655,33 @@ Geometría esférica (circunferencia de un círculo, trigonometría, Pitágoras)
         </entry>
         <entry>
             <title>
+                astrofotografos
+                
+            </title>
+            <updated>2024-08-22T01:12:59Z</updated>
+            <id>https://wikiterra.xyz//listado/astrofotografos/</id>
+            <content type="html">
+                &lt;h2 id=&quot;astrofotografos&quot; tabindex=&quot;-1&quot;&gt;Astrofotógrafos&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://alexwides.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Alex Wides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.flickr.com/photos/starryearth&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;starryearth (Juan Carlos Casado) - flickr&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://wikiterra.xyz/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Stéphane Guisard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.eso.org/public/outreach/partnerships/photo-ambassadors/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Embajadores de ESO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://artuniverse.eu/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Bartosz Wojczyński - ArtUniverse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.instagram.com/urosfink/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://www.instagram.com/urosfink/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://stevenilsen.no/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://stevenilsen.no/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://belindashi.com/&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;https://belindashi.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content>
+            <link href="https://wikiterra.xyz//listado/astrofotografos/" >
+        </entry>
+        <entry>
+            <title>
                 medir-alturas
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//experimentos/medir-alturas/</id>
             <content type="html">
                 &lt;h1 id=&quot;medicion-de-alturas&quot; tabindex=&quot;-1&quot;&gt;Medición de alturas&lt;/h1&gt;
@@ -1435,7 +1764,7 @@ donde:
                 experimentos-astronomicos
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//experimentos/experimentos-astronomicos/</id>
             <content type="html">
                 &lt;h1 id=&quot;listado-de-experimentos-astronomicos&quot; tabindex=&quot;-1&quot;&gt;Listado de experimentos astronómicos&lt;/h1&gt;
@@ -1493,7 +1822,7 @@ donde:
                 visibilidad
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/visibilidad/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-visibilidad&quot; tabindex=&quot;-1&quot;&gt;La visibilidad&lt;/h1&gt;
@@ -1699,7 +2028,7 @@ donde:
                 vacio
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/vacio/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-vacio&quot; tabindex=&quot;-1&quot;&gt;El vacío&lt;/h1&gt;
@@ -1715,7 +2044,7 @@ donde:
                 tierra
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/tierra/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-tierra&quot; tabindex=&quot;-1&quot;&gt;La Tierra&lt;/h1&gt;
@@ -1770,7 +2099,7 @@ Se concibe mundo, como un sistema con tierra a nivel, domo o firmamento, que sep
                 perspectiva
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/perspectiva/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-perspectiva&quot; tabindex=&quot;-1&quot;&gt;La perspectiva&lt;/h1&gt;
@@ -1805,7 +2134,7 @@ Se concibe mundo, como un sistema con tierra a nivel, domo o firmamento, que sep
                 mapas
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/mapas/</id>
             <content type="html">
                 &lt;h1 id=&quot;los-mapas&quot; tabindex=&quot;-1&quot;&gt;Los mapas&lt;/h1&gt;
@@ -1848,7 +2177,7 @@ d) Arno Peters&lt;/p&gt;
                 luz
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/luz/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-luz&quot; tabindex=&quot;-1&quot;&gt;La Luz&lt;/h1&gt;
@@ -1905,7 +2234,7 @@ Buceador yendo hacia un haz de luz desde las profundidades del mar.&lt;/p&gt;
                 horizonte
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/horizonte/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-horizonte&quot; tabindex=&quot;-1&quot;&gt;El horizonte&lt;/h1&gt;
@@ -2041,7 +2370,7 @@ Buceador yendo hacia un haz de luz desde las profundidades del mar.&lt;/p&gt;
                 gravedad
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/gravedad/</id>
             <content type="html">
                 &lt;h1 id=&quot;gravedad&quot; tabindex=&quot;-1&quot;&gt;Gravedad&lt;/h1&gt;
@@ -2098,7 +2427,7 @@ Aparato de torsión de Cavendish&lt;/p&gt;
                 flotabiliad
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/flotabiliad/</id>
             <content type="html">
                 &lt;h1 id=&quot;flotabilidad&quot; tabindex=&quot;-1&quot;&gt;Flotabilidad&lt;/h1&gt;
@@ -2151,7 +2480,7 @@ Aparato de torsión de Cavendish&lt;/p&gt;
                 domo-terrestre
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/domo-terrestre/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-domo-terrestre&quot; tabindex=&quot;-1&quot;&gt;El domo terrestre&lt;/h1&gt;
@@ -2178,114 +2507,6 @@ Aparato de torsión de Cavendish&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Estos pasajes, junto con otros, han llevado a algunos intérpretes a sugerir la existencia de un &amp;quot;firmamento&amp;quot; o &amp;quot;expansión&amp;quot; sólida que separa las aguas superiores e inferiores, con las estrellas, el sol y la luna colocadas en el firmamento.&lt;/p&gt;
-&lt;h2 id=&quot;recopilacion-de-and-quot-domos-terrestres-and-quot-en-medios&quot; tabindex=&quot;-1&quot;&gt;Recopilación de &amp;quot;Domos Terrestres&amp;quot; en medios&lt;/h2&gt;
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/FE0ryKh.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://spongebob.fandom.com/wiki/Sandy_Cheeks%27_treedome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Sandy Treedome - SpongeBob Squarepants&lt;/a&gt; (radio: 1.5 m)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://spongebob.fandom.com/wiki/Bubble_Bowl&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;Band Geeks&amp;quot; concert at Bubble Bowl - SpongeBob Squarepants&lt;/a&gt; (radio: 9 m)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://simpsons.fandom.com/wiki/Dome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Simpsons Movie&lt;/a&gt; (radio: 0.5 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;&amp;quot;The Hex&amp;quot; or &amp;quot;Westview anomaly&amp;quot; - WandaVision&lt;/a&gt; (apotema: 0.8 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://thehungergames.fandom.com/wiki/Arena&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Arena - The Hunger Games&lt;/a&gt; (radio: 12 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://underthedome.fandom.com/wiki/The_Dome&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Dome - Under the Dome&lt;/a&gt; (radio 8 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://arrow.fandom.com/wiki/Earth-X&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Dome of Earth-X Arrow&lt;/a&gt; - &lt;a href=&quot;https://www.youtube.com/watch?v=aX3RpaBY0aQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Arrow escena&lt;/a&gt; (radio: 1.5 Km)&lt;/li&gt;
-&lt;li&gt;Truman Burbank - &lt;a href=&quot;https://en.wikipedia.org/wiki/The_Truman_Show&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Truman Show&lt;/a&gt; (radio: 1.2 Km)&lt;/li&gt;
-&lt;li&gt;Skull Island (Kong Dome by &lt;a href=&quot;https://godzilla.fandom.com/wiki/Monarch&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Monarch&lt;/a&gt;) - &lt;a href=&quot;https://www.youtube.com/watch?v=UhLiCUaxVIc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Godzilla vs Kong escena&lt;/a&gt; (radio: 8 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://wonder-woman.fandom.com/wiki/Themyscira&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WonderDome techonology on Themyscira - Wonder Woman&lt;/a&gt; (radio: 15 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Dome of Fortnite&lt;/a&gt; (radio: 30 Km)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Flammarion_engraving&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Flammarion Engraving&lt;/a&gt; (imitación de la Tierra)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Garden of Earthly Delights&lt;/a&gt; (imitación de la Tierra)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://v.fandom.com/wiki/Anna&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Anna&lt;/a&gt; sostiendo el domo de la Tierra - Serie V (imitación de la Tierra)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;domos-en-escenas-de-peliculas-o-series&quot; tabindex=&quot;-1&quot;&gt;Domos en escenas de películas o series&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Arrow
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aX3RpaBY0aQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Arrow | Dome&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Dragon Ball
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=iaUUvv7NL_Q&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Vegeta Nukes The Glass Dome Barrier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Godzilla vs Kong
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=UhLiCUaxVIc&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Godzilla vs Kong - Kong in the Dome (Opening Scene)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=AU0Jn6C6GAw&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Godzilla vs Kong - Opening scene&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;King of Queens
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=DxLIq-SZaVA&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;S1 E21&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Lord of Rings. &amp;quot;One ring to rule them all&amp;quot;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=qj139dE7tFI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;One ring to rule them all | Lord Of Rings&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Sponge Bob:
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=EE6wJ_ja9KI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;SpongeBob - Band Geeks | Sweet Victory&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=J3gOVvWjOmY&amp;amp;t=184s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Band Geeks ft &amp;quot;Sweet Victory&amp;quot; | SpongeBob SquarePants&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Arrow
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=aX3RpaBY0aQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Arrow | Under The Dome&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Flash
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=W0b5HU1qm8M&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Flash - I&#39;m Coming Home&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Hunger Games
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=MLVo-KKEaxQ&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Hunger Games 2012 Flat Earth Dome Scene&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ULUEcET_luU&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Hunger Games: Catching Fire Movie CLIP &lt;a class=&quot;tag&quot; onclick=&quot;toggleTagSearch(this)&quot; data-content=&quot;#11&quot;&gt;#11&lt;/a&gt; - Destroying the Arena (2013)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Magicians
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=WZK_BuEeNXY&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flat Earth Land Discovered in &amp;quot;The Magicians&amp;quot; TV Show (2019)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Signal (2014)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=2hTZGzjp1BY&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Flat Earth - Breaking The Glass Ceiling&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Simpsons (The movie)
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=kPiQiToZn6s&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Simpsons Movie. Delivering a Dome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=njnlI7fOoHI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;The Simpsons - Under The Dome &amp;amp; Space Farts (Flat Earth)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;The Truman Show
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=jrxDDlDdCDI&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;El show de Truman - Escena final&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Under the dome
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=1syIrrwSIh0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Under The Dome - Dropping The Dome&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=f_Y5YeYrqUk&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;Under the Dome - Trailer&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;WandaVision
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=PCVUl8CsWM0&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;WandaVision 1x06 - Wanda Makes The Dome Bigger&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&quot;domos-o-tierras-planas-en-videojuegos&quot; tabindex=&quot;-1&quot;&gt;Domos o tierras planas en videojuegos&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=JNLGtdACHSU&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;252 km Above the Fortnite map&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=SYuocMFOD6w&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;How high / low can you go in Minecraft?&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Ff5uWPvtbQg&quot; target=&quot;_blank&quot; class=&quot;external-link&quot;&gt;What does Render Distance Infinity ∞ look like in Minecraft?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 
             </content>
             <link href="https://wikiterra.xyz//conceptos/domo-terrestre/" >
@@ -2295,7 +2516,7 @@ Aparato de torsión de Cavendish&lt;/p&gt;
                 star-trail
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/star-trail/</id>
             <content type="html">
                 &lt;h1 id=&quot;star-trail&quot; tabindex=&quot;-1&quot;&gt;Star Trail&lt;/h1&gt;
@@ -2383,7 +2604,7 @@ Star trail fotografiado desde el Monte Mellington en Tasmania, 42.896º S.&lt;/p
                 sol
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/sol/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-sol&quot; tabindex=&quot;-1&quot;&gt;El Sol&lt;/h1&gt;
@@ -2440,7 +2661,7 @@ El efecto de las distintas estaciones sobre la superficie terrestre se debe a la
                 polaris
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/polaris/</id>
             <content type="html">
                 &lt;h1 id=&quot;polaris&quot; tabindex=&quot;-1&quot;&gt;Polaris&lt;/h1&gt;
@@ -2478,7 +2699,7 @@ El efecto de las distintas estaciones sobre la superficie terrestre se debe a la
                 meteoro
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/meteoro/</id>
             <content type="html">
                 &lt;h1 id=&quot;meteoro&quot; tabindex=&quot;-1&quot;&gt;Meteoro&lt;/h1&gt;
@@ -2515,7 +2736,7 @@ El efecto de las distintas estaciones sobre la superficie terrestre se debe a la
                 luna
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/luna/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-luna&quot; tabindex=&quot;-1&quot;&gt;La Luna&lt;/h1&gt;
@@ -2574,7 +2795,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 estrellas
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/estrellas/</id>
             <content type="html">
                 &lt;h1 id=&quot;las-estrellas&quot; tabindex=&quot;-1&quot;&gt;Las estrellas&lt;/h1&gt;
@@ -2598,7 +2819,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 cielo
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/cielo-astros/cielo/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-cielo&quot; tabindex=&quot;-1&quot;&gt;El cielo&lt;/h1&gt;
@@ -2615,7 +2836,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 campo-magnetico-terrestre
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/campo-magnetico-terrestre/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-campo-magnetico-terrestre&quot; tabindex=&quot;-1&quot;&gt;El campo magnético terrestre&lt;/h1&gt;
@@ -2644,7 +2865,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 rayo
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/atomsfera/rayo/</id>
             <content type="html">
                 &lt;h1 id=&quot;el-rayo&quot; tabindex=&quot;-1&quot;&gt;El rayo&lt;/h1&gt;
@@ -2680,7 +2901,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 nubes
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/atomsfera/nubes/</id>
             <content type="html">
                 &lt;h1 id=&quot;las-nubes&quot; tabindex=&quot;-1&quot;&gt;Las nubes&lt;/h1&gt;
@@ -2741,7 +2962,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 atmosfera
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//conceptos/atomsfera/atmosfera/</id>
             <content type="html">
                 &lt;h1 id=&quot;la-atmosfera&quot; tabindex=&quot;-1&quot;&gt;La atmósfera&lt;/h1&gt;
@@ -2779,7 +3000,7 @@ Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.&l
                 wikiterra-estatica
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//about/wikiterra-estatica/</id>
             <content type="html">
                 &lt;h1 id=&quot;wiki-estatica&quot; tabindex=&quot;-1&quot;&gt;Wiki estática&lt;/h1&gt;
@@ -2808,7 +3029,7 @@ con lado cliente y lado servidor (con base de datos). Lo que facilita la edició
                 wikiterra-edicion
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//about/wikiterra-edicion/</id>
             <content type="html">
                 &lt;h1 id=&quot;editar-contenido&quot; tabindex=&quot;-1&quot;&gt;Editar contenido&lt;/h1&gt;
@@ -2846,7 +3067,7 @@ con lado cliente y lado servidor (con base de datos). Lo que facilita la edició
                 wikiterra-dev
                 
             </title>
-            <updated>2024-08-21T19:35:43Z</updated>
+            <updated>2024-08-22T01:12:59Z</updated>
             <id>https://wikiterra.xyz//about/wikiterra-dev/</id>
             <content type="html">
                 &lt;h1 id=&quot;que-es-wiki-terra&quot; tabindex=&quot;-1&quot;&gt;¿Qué es WikiTerra ?&lt;/h1&gt;
