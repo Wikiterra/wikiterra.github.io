@@ -15,7 +15,7 @@
 <script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
 <link href="/styles/digital-garden-base.css" rel="stylesheet">
 <link href="/styles/obsidian-base.css" rel="stylesheet">
-<link href="/styles/_theme.a947d3c4.css" rel="stylesheet">
+<link href="/styles/_theme.3e8e80d6.css" rel="stylesheet">
 <link href="/styles/custom-style.css" rel="stylesheet">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -88,6 +88,35 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('argumentos')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">argumentos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/argumentos/argumentos-tp/">argumentos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/argumentos/grandes-llanuras/">grandes-llanuras </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/argumentos/heliocentrismo-666/">heliocentrismo-666 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/argumentos/incongruencias-modelo-esferico/">incongruencias-modelo-esferico </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/argumentos/vuelo-aviones/">vuelo-aviones </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
 <div class="folder inner-folder" x-data="{isOpen: $persist(false).as('conceptos')}" @click.stop="isOpen=!isOpen">
 <div class="foldername-wrapper align-icon">
 <i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
@@ -153,6 +182,19 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('conceptos/cosmos')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">cosmos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/cosmos/capas-cosmos-dante/">capas-cosmos-dante </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/campo-magnetico-terrestre/">campo-magnetico-terrestre </a>
 </div>
 </div>
@@ -210,7 +252,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medir-alturas/">medir-alturas </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medicion-alturas/">medicion-alturas </a>
 </div>
 </div>
 </div>
@@ -224,6 +266,18 @@ CTRL + K
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/astrofotografos/">astrofotografos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-canales-tp/">listado-canales-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-cientificos-tp/">listado-cientificos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-famosos-tp/">listado-famosos-tp </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -245,10 +299,6 @@ CTRL + K
 <i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
 <i x-show="!isOpen" icon-name="chevron-right"></i>
 <span class="foldername">geo</span>
-</div>
-<div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/argumentos-tp/">argumentos-tp </a>
-</div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/geo/distancias-vuelos/">distancias-vuelos </a>
@@ -295,6 +345,14 @@ CTRL + K
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/helios/wikipedia-enlaces-cosmos/">wikipedia-enlaces-cosmos </a>
 </div>
 </div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-geo-tierra-plana/">modelo-geo-tierra-plana </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-heliocentrico/">modelo-heliocentrico </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -367,7 +425,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-22T01:13:06.671Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-22T01:13:06.671Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-22T01:13:06.671Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-25T00:15:06.356Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-25T00:15:06.356Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-25T00:15:06.356Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -377,14 +435,39 @@ CTRL + K
 </header>
 <h1 id="modelos-de-la-tierra-propuestos" tabindex="-1">Modelos de La Tierra propuestos</h1>
 <p>Un modelo es el consenso de un grupo de personas a través del método científico para explicar la realidad, sin embargo pueden haber variaciones o diferencia de pensamientos dentro de un mismo modelo.</p>
-<p>A lo largo de la historia filósofos y científicos han desarrollado distintos modelos para explicar el funcionamiento de la cosmología terrestre, dando lugar a discusiones y opiniones para demostrar o desacreditar los modelos propuestos.</p>
-<h2 id="clasificacion-de-los-modelos-cosmologicos" tabindex="-1">Clasificación de los modelos cosmológicos</h2>
-<p>Principalmente los podemos clasificar según según que ocupe el centro del sistema y dentro según la forma de la superficie terrestre.</p>
-<h4 id="strong-modelo-geocentrico-strong" tabindex="-1"><strong>Modelo Geocéntrico</strong></h4>
-<p>Establece que la Tierra ocupa el centro del universo y que todos los cuerpos celestes giran a su alrededor. Este modelo se puede entender de dos maneras principales.</p>
+<p>A lo largo de la historia filósofos y científicos han desarrollado distintos modelos cosmológicos para explicar el mecanismo del cielo y el movimientos de los astros, dando lugar a discusiones y variadas opiniones para demostrar o desacreditar los modelos propuestos.</p>
+<h2 id="indice" tabindex="-1">Índice</h2>
 <ul>
-<li><strong>Geocéntrico Tierra plana sistema cerrado</strong>: En esta visión, la Tierra no es un planeta sino un sistema cerrado o semipermeable donde se encuentra la superficie terrestre con agua a nivel contenido en el interior y una esfera celeste con el domo superior y el domo inferior.</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#clasificacion-de-los-modelos-cosmologicos">#Clasificación de los modelos cosmológicos</a>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#modelo-geocentrico">#Modelo Geocéntrico</a>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#terraplanismo-geocentrico">#Terraplanismo geocéntrico</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#tierra-esferica-geocentrica">#Tierra esférica geocéntrica</a></li>
 </ul>
+</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#modelo-heliocentrico">#Modelo Heliocéntrico</a>
+<ul>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#heliocentrismo-copernicano">#Heliocentrismo Copernicano</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#heliocentrismo-kepleriano">#Heliocentrismo Kepleriano</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#heliocentrismo-newtoniano">#Heliocentrismo Newtoniano</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#universo-relativista-big-bang">#Universo relativista Big Bang</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#teorias-extras-no-fructiferas">#Teorías extras no fructíferas</a></li>
+<li><a class="internal-link" target="" data-note-icon="" href="/modelos-Terra/modelos-Terra/#conclusion">#Conclusión</a></li>
+</ul>
+<h2 id="clasificacion-de-los-modelos-cosmologicos" tabindex="-1">Clasificación de los modelos cosmológicos</h2>
+<p>Los modelos se pueden clasificar de diferentes maneras: según el centro del sistema de giro, la forma de la superficie terrestre y también según el tipo de sistema (abierto, cerrado).</p>
+<p>Existen subvariantes dentro de un mismo modelo, como la consideración de rotación, esfericidad, órbitas de los astros, los tipos de mapas o el origen del mundo. Aquí vamos a tratar los modelos principales.</p>
+<h3 id="modelo-geocentrico" tabindex="-1">Modelo Geocéntrico</h3>
+<p>Establece que la Tierra ocupa el centro del sistema y que todos los cuerpos celestes giran a su alrededor. Este modelo solo define el centro de giro del sistema y no implica de un único sistema o Universo.</p>
+<h4 id="terraplanismo-geocentrico" tabindex="-1">Terraplanismo geocéntrico</h4>
+<p>En esta visión, la Tierra no es un planeta sino un sistema cerrado o semipermeable donde se encuentra la superficie terrestre con agua a nivel contenido en el interior y una esfera celeste con el domo superior y el domo inferior. Hay variantes en la extensión de la Tierra y en tierras más lejanas, la existencia múltiples domos y Soles, y la posibilidad de más sistemas cerrados alrededor.</p>
+<p>Es una de la cosmovisiones más antiguas, desde los Mayas, egipcios, romanos, griegos, tribus africanas, hasta en tiempos más modernos. Cada uno tenía sus puntos pero mantenían un base similar.</p>
+<p>Hoy en día es considerada como pseudociencia por la ciencia oficial.</p>
 <div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
 <div class="callout-content">
 <p>
@@ -397,9 +480,8 @@ Representación de la Tierra plana vista desde arriba</p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Am_Anfang_schuffF_GOtt_Himel_vnd_Erden.jpg/328px-Am_Anfang_schuffF_GOtt_Himel_vnd_Erden.jpg" alt="Modelo geocentrico biblia de Lutero"><br>
 Modelo geocéntrico biblia de Lutero</p>
 </div></div>
-<ul>
-<li><strong>Geocéntrico Tierra astro esférico</strong>: En esta variante, la Tierra se considera una esfera y los astros también son esféricos. Este modelo es similar al heliocentrismo, pero en lugar de que los planetas giren alrededor del Sol los astros orbitan alrededor de la Tierra.</li>
-</ul>
+<h4 id="tierra-esferica-geocentrica" tabindex="-1">Tierra esférica geocéntrica</h4>
+<p>En esta variante, la Tierra se considera una esfera y los astros celestes también son esféricos. Este modelo es similar al heliocentrismo, pero en lugar de que los planetas giren alrededor del Sol los astros orbitan alrededor de la Tierra.</p>
 <div class="callout" data-callout="cards" data-callout-metadata="2"><div class="callout-title"><div class="callout-title-inner">Cards</div></div>
 <div class="callout-content">
 <p>
@@ -408,42 +490,68 @@ Geocentrismo de Cassini</p>
 <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Bartolomeu_Velho_1568.jpg/540px-Bartolomeu_Velho_1568.jpg" alt="modelo geocentrico tierra esferica"><br>
 Modelo geocéntrico con Tierra esferica</p>
 </div></div>
-<h4 id="modelo-heliocentrico-modelo-heliocentrico-moderno-con-big-bang" tabindex="-1"><a class="internal-link is-unresolved" href="/404" target=""> Modelo Heliocéntrico moderno con Big Bang</a></h4>
-<p>Establece que el Sol es el centro del sistema solar, alrededor del cual orbitan el resto de planetas del sistema (incluido la Tierra) y otros cuerpos celestes. Mientras que el sistema solar entero se mueve alrededor del centro de la Vía Láctea y la galaxia se expanden, debido a una explosión inicial el &quot;Big Bang&quot; que dio origen al Universo.</p>
-<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
-<div class="callout-content">
-<p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Heliocentric.jpg" alt="modelo heliocéntrico"><br>
-Modelo heliocéntrico</p>
-</div></div>
-<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
-<div class="callout-content">
-<p>
-<img src="https://i.imgur.com/1I84obi.jpg" alt="orbitas heliocentricas"><br>
-Modelo heliocéntrico son las órbitas planetarias</p>
-</div></div>
+<h3 id="modelo-heliocentrico" tabindex="-1">Modelo Heliocéntrico</h3>
+<p>La historia cuenta que desde el siglo XVI en las instituciones oficiales se desechó el modelo geocéntrico y se pasó al model heliocéntrico que ha evolucionando hasta la &quot;teoría oficial&quot; de hoy en día.</p>
+<h4 id="heliocentrismo-copernicano" tabindex="-1">Heliocentrismo Copernicano</h4>
 <ul>
-<li><strong>Modelo del universo heliocéntrico con Tierra esférica convexa</strong>: modelo oficial impuesto desde el siglo XVII hasta el XXI con pequeñas variaciones a lo largo de la historia. En este modelo, la Tierra es descrita como una esfera convexa (próxima a un geoide, que es una esfera ligeramente achatada en los polos y ensanchada en el ecuador) que rota alrededor de su propio eje y orbita alrededor del Sol, el cual está en el centro del sistema solar. Este concepto se basa en la evidencia científica acumulada a través de observaciones astronómicas, experimentos y exploraciones, y es respaldado por datos de geología, física y astronomía.</li>
+<li><strong>Autor:</strong> Nicolás Copérnico</li>
+<li><strong>Fecha de Inicio:</strong> 1543</li>
+<li><strong>Descripción:</strong> Copérnico propuso que la Tierra y los planetas giran alrededor del Sol, desafiando el modelo geocéntrico de Ptolomeo.</li>
 </ul>
 <div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
 <div class="callout-content">
 <p>
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Tierra esférica | 330x330 "><br>
-<em>The Blue Marble</em> &quot;fotografía&quot; sacada por la tripulación del Apollo 17, el día 7 de diciembre de 1972 en su tránsito a La Luna.</p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Heliocentric.jpg" alt="modelo heliocéntrico"><br>
+Modelo heliocéntrico con órbitas circulares, Sol y Tierra</p>
 </div></div>
-<h4 id="modelo-de-tierra-concava" tabindex="-1">Modelo de Tierra cóncava</h4>
-<p>Propone que la Tierra tiene la forma de una esfera con la superficie interna en la que vivimos y los continentes y océanos ubicados en el interior. Según esta teoría, la gravedad atrae todo hacia el centro de la esfera cóncava, lo que mantiene a los habitantes en la superficie interna como si estuvieran en un cuenco gigante. Los defensores de este modelo argumentan que las observaciones tradicionales como la curvatura del horizonte y el movimiento de las estrellas deben interpretarse según una esfera cóncava en lugar de una esfera convexa.</p>
+<h4 id="heliocentrismo-kepleriano" tabindex="-1">Heliocentrismo Kepleriano</h4>
+<ul>
+<li><strong>Autor:</strong> Johannes Kepler</li>
+<li><strong>Fecha de Inicio:</strong> 1609-1619</li>
+<li><strong>Descripción:</strong> Kepler formuló sus tres leyes del movimiento planetario, mejorando el modelo heliocéntrico con órbitas elípticas en lugar de circulares.</li>
+</ul>
+<blockquote>
+<p><img src="https://i.imgur.com/TnILKS8.jpeg" alt="Heliocentrimo de Johannes Kepler| 500" width=" 500px"><br>
+Modelo heliocéntrico con órbitas de Kepler</p>
+</blockquote>
+<h4 id="heliocentrismo-newtoniano" tabindex="-1">Heliocentrismo Newtoniano</h4>
+<ul>
+<li><strong>Autor:</strong> Isaac Newton</li>
+<li><strong>Fecha de Inicio:</strong> 1687</li>
+<li><strong>Descripción:</strong> Newton unificó las leyes de Kepler y desarrolló la ley de la gravitación universal, proporcionando una base matemática sólida para el movimiento planetario.</li>
+</ul>
+<h4 id="universo-relativista-big-bang" tabindex="-1">Universo relativista Big Bang</h4>
+<ul>
+<li><strong>Autores Principales:</strong> Albert Einstein (Relatividad General), Georges Lemaître (Universo en expansión y átomo primigéneo, Big Bang), Edwin Hubble (corrimiento al rojo en las galaxias), George Gamow (formación del Big Bang), Arno Penzias y Robert Wilson (radiación cósmica de fondo de microondas), Stephen Hawking (investigó la cosmología teórica y los agujeros negros), Vera Rubin (materia oscura), Saul Perlmutter, Adam Riess, Brian Schmidt (energía oscura).</li>
+<li><strong>Fecha de Inicio:</strong> principios del siglo XX hasta la actualidad.</li>
+<li><strong>Descripción:</strong> un único Universo en expansión, dominado por la materia oscura y la energía oscura, y gobernado por las leyes de la relatividad general de Einstein (la gravedad deforma la malla del espacio-tiempo). La Tierra esférica perteneciente al Sistema Solar rota sobre sí misma, se traslada alrededor del Sol, el cual se traslada alrededor del centro de la vía Láctea, el cual gira alrededor de un cúmulo de galaxias que están en constante expansión.</li>
+</ul>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://i.imgur.com/1I84obi.jpg" alt="orbitas heliocentricas"><br>
+Sistema solar del Universo del &quot;Big Bang&quot;</p>
+</div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Tierra esférica | 330x330 "><br>
+La única &quot;fotografía de la Tierra&quot; sacada por un humano, en la misión Apollo 17 en su tránsito a La Luna en 1972</p>
+</div></div>
+<h3 id="teorias-extras-no-fructiferas" tabindex="-1">Teorías extras no fructíferas</h3>
+<ul>
+<li>Tierra cóncava: Propone que el mundo se encuentra encerrado en una esfera, con la superficie terrestre en el interior y el cielo en el centro de la esfera. El modelo argumenta que las observaciones tradicionales como la curvatura del horizonte y el movimiento de las estrellas deben interpretarse según una esfera cóncava en lugar de una esfera convexa.</li>
+</ul>
 <div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
 <div class="callout-content">
 <p>
 <img src="https://i.imgur.com/KP12Iqg.jpg" alt="Tierra cóncava | 330x440"><br>
-Representación de Tierra cóncava con esfera celeste en el interior.</p>
+Representación de Tierra cóncava con esfera celeste en el interior</p>
 </div></div>
 <h2 id="conclusion" tabindex="-1">Conclusión</h2>
-<p>Los más conocidos son el modelo del Universo heliocéntrico con una Tierra esférica convexa y el modelo de Tierra Plana como sistema cerrado geocéntrico.</p>
-<p>Sin embargo el modelo de Tierra plana es mostrado y enseñado mal con representaciones falsas y asumiendo el Universo Heliocentrista con el &quot;espacio exterior&quot;. Hay un especial interés en descalificar este movimiento desde los medios de comunicación y desde instituciones como el Gobierno de Estados Unidos llegando a hacer que YouTube informe en los videos con esa temática que se trata &quot;teorías de la conspiración pseudocientíficas&quot;.</p>
-<p>También hay que decir que el modelo cosmológico no representa el pensamiento de una persona, ya que puede que hay astrofísicos que no defienden la rotación ni traslación terrestre pero si defienden la tierra esférica. O personas que defienden el modelo de Tierra plana pero no lo sitúan como un sistema geocéntrico o que defienden una esfera celeste en lugar de un domo celeste.</p>
-<p>Cada persona tiene su opinión y tiene derecho a expresar su opinión libremente.</p>
+<p>Los más conocidos en el siglo XXI en Occidente son el modelo oficial de Universo heliocéntrico relativista del Big Bang con Tierra esférica y el modelo terraplanista como sistema cerrado.</p>
+<p>Sin embargo el modelo de Tierra plana cuando es criticado, es mostrado mal con representaciones falsas y asumiendo el Universo Heliocentrista con el Sol en el centro y &quot;espacio exterior&quot;. Y este modelo presenta un especial interés en en ser descalificado por: gobiernos de la agenda espacial (Estados Unidos, Reino Unido, Alemania, Francia, Italia, España). Y de grandes corporaciones como Apple, Google, Microsoft, Disney, Meta, Amazon, OpenAI, etc. como por ejemplo censurando contenido o informando que es falso.</p>
+<p>También hay que decir que el modelo cosmológico no representa el pensamiento de una persona, ya que puede que haber astrofísicos que no defienden la rotación ni traslación terrestre pero si defienden la tierra esférica. O personas que defienden el modelo de Tierra plana pero no lo sitúan como un sistema geocéntrico o que defienden una esfera celeste en lugar de un domo. Cada persona tiene su opinión y tiene derecho a expresar su opinión libremente.</p>
 </main>
 <aside>
 <div class="sidebar">
