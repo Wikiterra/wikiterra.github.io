@@ -5,7 +5,7 @@
 
 ## Flor de la vida
 
-La figura de la flor de la vida, se puede entender también como un conjunto de observadores con un campo de visión limitado hasta el horizonte (círculos internos) y un círculo externo que sería como el contorno del planeta plano.
+La figura de la flor de la vida, se puede entender también como un conjunto de observadores con un campo de visión limitado hasta el horizonte (círculos internos) y un círculo externo que sería como el contorno del plano (la Antártida).
 
 La flor de la vida es un conjunto de círculos con los centros alineados separados a una distancia del radio circular dentro de un gran círculo que incluye a todos. El símil es de una visión de águila de la Tierra desde arriba (círculo grande) con la visión del horizonte para distintos observadores sobre el plano (círculos interiores), cada observador está justo a la distancia máxima del otro es decir en el borde del horizonte circular plano.
 
@@ -33,4 +33,4 @@ La flor de la vida es un conjunto de círculos con los centros alineados separad
 
 ---
 
-Conjunto de domos forman la flor de la vida
+> [!note] Conjunto de domos personales sobre la Tierra plana forman la flor de la vida vista desde arriba

@@ -6,9 +6,10 @@
 # Wikis TIerra Plana
 
 - [True Earth - Wikitilde](https://trueearth.wikitide.org/wiki/Main_Page)
-- [Flat Earth](https://publish.obsidian.md/flatearth)
-- [Shane's FE Model](https://publish.obsidian.md/shanesql/Shanes+FE+Model)
-- [Space Audits](https://publish.obsidian.md/spaceaudits)
+- [Flat Earth - Obsidian Publish](https://publish.obsidian.md/flatearth)
+- [Shane's FE Model - Obsidian Publish](https://publish.obsidian.md/shanesql/Shanes+FE+Model)
+- [Space Audits - Obsidian Publish](https://publish.obsidian.md/spaceaudits)
+- [WikiTerra](https://wikiterra.github.io/)
 
 ## Flat Earth Model
 

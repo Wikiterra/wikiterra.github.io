@@ -13,6 +13,10 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+<iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/$/embed/@C432:b/uder-the-dome-SR:d?r=Hjx2pGcACrcganargB4eZvp8qgapzPus" allowfullscreen></iframe>
+ 
+<iframe src="https://yewtu.be/embed/2hTZGzjp1BY?autoplay=0" width='640' height='360'  frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+
 ![](https://i.imgur.com/FE0ryKh.png)
 
 ### Domo terrestre (ordenados por tamaño)
@@ -23,7 +27,7 @@
 | [Cámara de entendimiento - Futurama](https://theinfosphere.org/Chamber_of_Understanding)<br>[Domo de Monsanto](https://theinfosphere.org/Monsanto)<br>[Orbitas Medows - Futurama](https://theinfosphere.org/Orbiting_Meadows) | Ciudad de Nueva Nueva<br>La Luna<br>Órbita de la Tierra | 0.005<br>0.05<br>0.03 |
 | [Domo - Bio-Dome (película)](https://en.wikipedia.org/wiki/Bio-Dome)                                                                                                                                                          | Tierra, Arizona                                         | 0.1                   |
 | [El domo - Los Simpsons (peli)](https://simpsons.fandom.com/wiki/Dome)                                                                                                                                                        | Spriengfield, USA                                       | 0.5                   |
-| [El Hex - WandaVision](https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly)                                                                                                                                     | Westview, Nueva Jersey                                  | 0.8                   |
+| [El Hex - WandaVision](https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly)                                                                                                                                      | Westview, Nueva Jersey                                  | 0.8                   |
 | [La Arena - Los Juegos del Hambre](https://thehungergames.fandom.com/wiki/Arena)                                                                                                                                              | Panem, USA                                              | 12                    |
 | [El domo - Under the Dome](https://underthedome.fandom.com/wiki/The_Dome)                                                                                                                                                     | Chester's Mill                                          | 8                     |
 | [El domo de Tierra-X - Arrow](https://arrow.fandom.com/wiki/Earth-X)                                                                                                                                                          | Earth-X                                                 | 1.5                   |
@@ -31,33 +35,30 @@
 | [Biodomo de Monarch - Godzilla vs Kong](https://godzilla.fandom.com/wiki/Skull_Island#Godzilla_vs._Kong)                                                                                                                      | Isla de Craneo (Océano Pacífico)                        | 8                     |
 | [WonderDome - Wonder Woman](https://wonder-woman.fandom.com/wiki/Themyscira)                                                                                                                                                  | Isla Themyscira                                         | 15                    |
 | [Domo atmosférico - Fortnite](https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative)                                                                                     | Mapa de Fortnite, Helios                                | 60                    |
-| [El Grabado Flammarion](https://es.wikipedia.org/wiki/Grabado_Flammarion)                                                                                                                                                     | Cuadro en el Museo del Prado                            | --                    |
-| [El jardín de las delicias](https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights)                                                                                                                                | Ilustración de Camille Flammarion en _L'atmosphère_     | --                    |
-| [Anna líder de los V](https://v.fandom.com/wiki/Anna) sostiendo un [domo con luminarias](https://i.imgur.com/6zVC3nl.jpeg) - Serie V                                                                                          | Imagen promocional de la serie V                        | --                    |
+| [El Grabado Flammarion](https://es.wikipedia.org/wiki/Grabado_Flammarion)                                                                                                                                                     | Ilustración de Camille Flammarion en _L'atmosphère_     | --                    |
+| [El jardín de las delicias](https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights)                                                                                                                                     | Cuadro del Bosco en el Museo del Prado                  | --                    |
+| [Anna líder de los V](https://v.fandom.com/wiki/Anna) sostiendo un [domo con luminarias](https://i.imgur.com/6zVC3nl.jpeg) - Serie V                                                                                          | Promoción de la serie V                                 | --                    |
+
+### Escenas donde aparecen domos
+- [Apartments.com (anuncio) - Jeff Goldblum haciendo llover inquilinos](https://www.youtube.com/watch?v=Knv6_PgUVY8)
+- [Arrow - Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)
+- [Dragon Ball - Vegeta Nukes The Glass Dome Barrier](https://www.youtube.com/watch?v=iaUUvv7NL_Q)
+- [El show de Truman - Escena final](https://www.youtube.com/watch?v=jrxDDlDdCDI)
+- [Godzilla vs Kong - Kong in the Dome (Opening Scene)](https://www.youtube.com/watch?v=UhLiCUaxVIc)
+- [King of Queens - S1 E21](https://www.youtube.com/watch?v=DxLIq-SZaVA)
+- [Motorcycle fence scene](https://www.youtube.com/watch?v=0EQma00xT8M)
+- [One ring to rule them all \| Lord Of Rings](https://www.youtube.com/watch?v=qj139dE7tFI)
+- [Band Geeks ft "Sweet Victory" \| SpongeBob SquarePants](https://www.youtube.com/watch?v=J3gOVvWjOmY&t=184s)
+- [The Arrow \| Under The Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)
+- [The Cabin in the Woods - Motorcycle crash into graphene dome](https://www.youtube.com/watch?v=0EQma00xT8M)
+- [The Flash - I'm Coming Home](https://www.youtube.com/watch?v=W0b5HU1qm8M)
+- [The Hunger Games 2012 Flat Earth Dome Scene](https://www.youtube.com/watch?v=MLVo-KKEaxQ), [The Hunger Games: Catching Fire Movie CLIP #11 - Destroying the Arena (2013)](https://www.youtube.com/watch?v=ULUEcET_luU)
+- [The Simpsons Movie. Delivering a Dome](https://www.youtube.com/watch?v=kPiQiToZn6s), [The Simpsons - Under The Dome & Space Farts (Flat Earth)](https://www.youtube.com/watch?v=njnlI7fOoHI)
+- [Under The Dome - Dropping The Dome](https://www.youtube.com/watch?v=1syIrrwSIh0), [Under the Dome - Trailer](https://www.youtube.com/watch?v=f_Y5YeYrqUk)
+- [WandaVision 1x06 - Wanda Makes The Dome Bigger](https://www.youtube.com/watch?v=PCVUl8CsWM0)
+- [World of Warcraft - Sylvanas rompiendo el domo](https://www.youtube.com/watch?v=s4gBChg6AII)
 
 
-### Domo en escenas de Show TV
-
-| TV Show                  | Escena                                                                                                                                                                                                                    |
-| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Arrow                    | [Arrow - Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)                                                                                                                                                               |
-| Dragon Ball              | [Vegeta Nukes The Glass Dome Barrier](https://www.youtube.com/watch?v=iaUUvv7NL_Q)                                                                                                                                        |
-| Godzilla vs Kong         | [Godzilla vs Kong - Kong in the Dome (Opening Scene)](https://www.youtube.com/watch?v=UhLiCUaxVIc)<br>[Godzilla vs Kong - Opening scene](https://www.youtube.com/watch?v=AU0Jn6C6GAw)                                     |
-| King of Queens           | [King of Queens - S1 E21](https://www.youtube.com/watch?v=DxLIq-SZaVA)                                                                                                                                                    |
-| Lord Of The Rings        | [One ring to rule them all \| Lord Of Rings](https://www.youtube.com/watch?v=qj139dE7tFI)                                                                                                                                 |
-| Sponge Bob               | [SpongeBob - Band Geeks \| Sweet Victory](https://www.youtube.com/watch?v=EE6wJ_ja9KI)<br>[Band Geeks ft "Sweet Victory" \| SpongeBob SquarePants](https://www.youtube.com/watch?v=J3gOVvWjOmY&t=184s)<br><br>            |
-| The Arrow                | [The Arrow \| Under The Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)                                                                                                                                                |
-| The Flash                | [The Flash - I'm Coming Home](https://www.youtube.com/watch?v=W0b5HU1qm8M)                                                                                                                                                |
-| The Hunger Games         | [The Hunger Games 2012 Flat Earth Dome Scene](https://www.youtube.com/watch?v=MLVo-KKEaxQ)<br>[The Hunger Games: Catching Fire Movie CLIP #11 - Destroying the Arena (2013)](https://www.youtube.com/watch?v=ULUEcET_luU) |
-| The Magicians            | [Flat Earth Land Discovered in "The Magicians"](https://www.youtube.com/watch?v=WZK_BuEeNXY)                                                                                                                              |
-| The Signal (2014)        | [Flat Earth - Breaking The Glass Ceiling](https://www.youtube.com/watch?v=2hTZGzjp1BY)                                                                                                                                    |
-| The Simpsons (The movie) | [The Simpsons Movie. Delivering a Dome](https://www.youtube.com/watch?v=kPiQiToZn6s)<br>[The Simpsons - Under The Dome & Space Farts (Flat Earth)](https://www.youtube.com/watch?v=njnlI7fOoHI)                           |
-| The Truman Show          | [El show de Truman - Escena final](https://www.youtube.com/watch?v=jrxDDlDdCDI)                                                                                                                                           |
-| Under the dome           | [Under The Dome - Dropping The Dome](https://www.youtube.com/watch?v=1syIrrwSIh0)<br>[Under the Dome - Trailer](https://www.youtube.com/watch?v=f_Y5YeYrqUk)                                                              |
-| WandaVision              | [WandaVision 1x06 - Wanda Makes The Dome Bigger](https://www.youtube.com/watch?v=PCVUl8CsWM0)                                                                                                                             |
-| Futurama                 |                                                                                                                                                                                                                           |
-|                          |                                                                                                                                                                                                                           |
- 
 ### Videojuegos 3D que usan un mapa plano
 
 La mayoría de videojuegos 3d de mundo abierto usan un mapa plano, aquí una lista de los más famosos.

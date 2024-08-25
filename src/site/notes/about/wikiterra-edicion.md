@@ -3,7 +3,7 @@
 ---
 
 
-# Editar contenido
+# Wikiterra edición
 
 > También se puede colaborar a través del [grupo de Telegram](https://t.me/+FrnHAynHpXxlNWNk)
 
