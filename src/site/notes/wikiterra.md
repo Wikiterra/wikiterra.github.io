@@ -3,7 +3,7 @@
 ---
 
 
-## ¡Bienvenido a WikiTerra! 👋 
+## **¡Bienvenido a WikiTerra!** 👋 
 
 **WikiTerra** es un bóveda o "vault" de artículos que tiene como fin explicar el funcionamiento de la naturaleza en especial tratando el tema cosmológico, para entender mejor el mundo que habitamos.
 { #intro1}
@@ -16,7 +16,7 @@ Navega por el panel lateral izquierdo para leer los artículos.
 > Mapa político terrestre de la Luna de plasma
 
 
-## Filosofía
+## **Filosofía**
 
 A lo largo de la historia los conocimientos que se mantenían a cerca de la cosmología de nuestro mundo han ido cambiando. Con en ello se ha adaptado el lenguaje, la forma de vestir, de pensar y de concebir el cosmos.
 
@@ -30,7 +30,7 @@ Partiendo del razonamiento de que dos conclusiones completamente opuestas no pue
 
 Esto no significa que todo se reduce a blanco o negro; pueden existir matices. Sin embargo, aplicando la lógica, algo que es blanco no puede ser negro bajo las mismas condiciones. Dado que la naturaleza sigue un orden, es esencial establecer resultados concretos y no desestimar los hechos simplemente porque aún no los comprendemos plenamente.
 
-## Objetivo
+## **Objetivo**
 
 El objetivo principal de WikiTerra es entender el lugar físico que habitamos, por tanto para ello se tendrá indudablemente que tomar decisiones para establecer que es verdad y que es mentira. Y mediante prueba y error obtener resultados coherentes. Esta wiki cobra relevancia porque da importancia la pregunta de «dónde vivimos» y pretende buscar la respuesta más realista.
 
