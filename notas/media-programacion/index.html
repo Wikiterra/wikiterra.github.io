@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>listado-cientificos-tp</title>
+<title>media-programacion</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -269,15 +269,15 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-canales-tp/">listado-canales-tp </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/canales-tp/">canales-tp </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-cientificos-tp/">listado-cientificos-tp </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/cientificos-tp/">cientificos-tp </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/listado-famosos-tp/">listado-famosos-tp </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/listado/famosos-tp/">famosos-tp </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -331,6 +331,10 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/media-programacion/">media-programacion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/metodo-cientifico/">metodo-cientifico </a>
 </div>
 </div>
@@ -371,7 +375,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-26T13:53:55.019Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-26T13:53:55.019Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-26T13:53:55.019Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-08-27T19:11:41.221Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-08-27T19:11:41.221Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-08-27T19:11:41.221Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -379,76 +383,248 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="cientificos-modelo-geocentrico" tabindex="-1">Científicos modelo geocéntrico</h1>
+<h1 id="programacion-en-medios-de-masas" tabindex="-1">Programación en medios de masas</h1>
+<h2 id="tierra-estacionaria-o-no-rotacion" tabindex="-1">Tierra estacionaria o no rotación</h2>
 <ul>
-<li>Albert Smith</li>
-<li>Alexander McInnes</li>
-<li>Alex Gleason</li>
-<li>Anton Darms</li>
-<li>Arthur V. White</li>
-<li>Aurin F. Hill</li>
-<li>Charles Barry</li>
-<li>Charles Bishop</li>
-<li>Charles K. Johnson</li>
-<li>Charles Levi Hathaway</li>
-<li>Charles W. Morse</li>
-<li>Chester M. Shippey</li>
-<li>C. S. Deford</li>
-<li>D_arcy Adams</li>
-<li>David Wardlaw Scott</li>
-<li>Deacon White</li>
-<li>Dowie</li>
-<li>Earl C. Butterworth</li>
-<li>Ebenezer Breach</li>
-<li>Edwin Abott</li>
-<li>Ellis Simon Hillman</li>
-<li>E. W. Bullinger</li>
-<li>Francis A. Gianinni</li>
-<li>Francis A. Giannini</li>
-<li>Fredrick Cook</li>
-<li>George H. Dowkontt</li>
-<li>George Walter Winckler</li>
-<li>Gerrard Hickson</li>
-<li>Gilbert Johnson</li>
-<li>Gustav F. Ebding</li>
-<li>Henry Goudey</li>
-<li>J. C. Akester</li>
-<li>Jeremiah MacDonald</li>
-<li>J. L. Cooke</li>
-<li>John Abaziad</li>
-<li>John Beardsley</li>
-<li>John Hampden</li>
-<li>John Jasper</li>
-<li>John Quinlan</li>
-<li>John S. McClelland</li>
-<li>Joseph Cooper</li>
-<li>Joseph Holden</li>
-<li>Lady blount</li>
-<li>Leo Ferrari</li>
-<li>Miles Grant</li>
-<li>Orlando Ferguson</li>
-<li>Paul Fisher</li>
-<li>Paul Kruger</li>
-<li>Robert Gould Shaw Collamore</li>
-<li>Robert Scalewald</li>
-<li>Rowbotham</li>
-<li>Royal O. Spear</li>
-<li>S. George Fowler</li>
-<li>Samuel Shenton</li>
-<li>Thomas Winship</li>
-<li>Ulysses G. Morrow</li>
-<li>Voliva</li>
-<li>William Bathgate</li>
-<li>William Brookman</li>
-<li>William Carpenter</li>
-<li>William Edgell</li>
-<li>William Thomas Wiseman</li>
-<li>William Warren</li>
+<li><a href="https://www.youtube.com/watch?v=mna5J7bctLg&amp;t=170s" target="_blank" class="external-link">Gumball | The Vegging (3:03)</a> -&gt; &quot;Wait, I have a better idea. We have wheels, we just have to stop and let the rotation of the Earth do the leg work for us. (music...) Alright let's just call a cab company.&quot; («Espera, tengo una idea mejor. Tenemos ruedas, sólo tenemos que parar y dejar que la rotación de la Tierra haga el trabajo por nosotros. (música...) Vale, llamemos a un taxi.»)</li>
 </ul>
-<h2 id="conocidos" tabindex="-1">Conocidos</h2>
+<h2 id="recopilacion-de-and-quot-domos-terrestres-and-quot-en-medios" tabindex="-1">Recopilación de &quot;Domos Terrestres&quot; en medios</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe id="odysee-iframe" style="width:100%;aspect-ratio:16/9" src="https://odysee.com/$/embed/@C432:b/uder-the-dome-SR:d?r=Hjx2pGcACrcganargB4eZvp8qgapzPus" allowfullscreen></iframe>
+<iframe src="https://yewtu.be/embed/2hTZGzjp1BY?autoplay=0" width="640" height="360" frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+<p><img src="https://i.imgur.com/FE0ryKh.png" alt=""></p>
+<h3 id="domo-terrestre-ordenados-por-tamano" tabindex="-1">Domo terrestre (ordenados por tamaño)</h3>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Información</th>
+<th>Lugar (ficticio / real)</th>
+<th>Radio (km)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://spongebob.fandom.com/wiki/Sandy_Cheeks%27_treedome" target="_blank" class="external-link">Domo de Arenita - Bob Esponja</a><br><a href="https://spongebob.fandom.com/wiki/Bubble_Bowl" target="_blank" class="external-link">Bol de burbuja - Bob Esponja</a></td>
+<td>Fondo de Atolón Bikini, Islas Marshall</td>
+<td>4<br>9</td>
+</tr>
+<tr>
+<td><a href="https://theinfosphere.org/Chamber_of_Understanding" target="_blank" class="external-link">Cámara de entendimiento - Futurama</a><br><a href="https://theinfosphere.org/Orbiting_Meadows" target="_blank" class="external-link">Orbitas Medows - Futurama</a><br><a href="https://theinfosphere.org/City_Zoo" target="_blank" class="external-link">Ciudad Zoo - Futurama</a><br><a href="https://theinfosphere.org/Monsanto" target="_blank" class="external-link">Domo de Monsanto</a></td>
+<td>Nueva Nueva York<br>Simian 7 (planeta simios)<br>Órbita de la Tierra<br>La Luna</td>
+<td>5<br>30<br>40<br>50</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/Bio-Dome" target="_blank" class="external-link">Domo - Bio-Dome (película)</a></td>
+<td>Tierra, Arizona</td>
+<td>100</td>
+</tr>
+<tr>
+<td><a href="https://simpsons.fandom.com/wiki/Dome" target="_blank" class="external-link">El domo - Los Simpsons (peli)</a></td>
+<td>Spriengfield, USA</td>
+<td>500</td>
+</tr>
+<tr>
+<td><a href="https://marvelcinematicuniverse.fandom.com/wiki/Westview_Anomaly" target="_blank" class="external-link">El Hex - WandaVision</a></td>
+<td>Westview, Nueva Jersey</td>
+<td>800</td>
+</tr>
+<tr>
+<td><a href="https://marvel.fandom.com/wiki/Dead-Dome" target="_blank" class="external-link">Dead-Dome - Deadpool</a></td>
+<td>Miami, USA</td>
+<td>1 000</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/The_Truman_Show" target="_blank" class="external-link">Domo gigante plató de TV - El Show de Truman</a></td>
+<td>Seahaven, Los Angeles (USA)</td>
+<td>1 200</td>
+</tr>
+<tr>
+<td><a href="https://arrow.fandom.com/wiki/Earth-X" target="_blank" class="external-link">El domo de Tierra-X - Arrow</a></td>
+<td>Earth-X</td>
+<td>1 500</td>
+</tr>
+<tr>
+<td><a href="https://underthedome.fandom.com/wiki/The_Dome" target="_blank" class="external-link">El domo - Under the Dome</a></td>
+<td>Chester's Mill, Maine, USA</td>
+<td>8 000</td>
+</tr>
+<tr>
+<td><a href="https://godzilla.fandom.com/wiki/Skull_Island#Godzilla_vs._Kong" target="_blank" class="external-link">Biodomo de Monarch - Godzilla vs Kong</a></td>
+<td>Isla de Craneo (Océano Pacífico)</td>
+<td>8 000</td>
+</tr>
+<tr>
+<td><a href="https://thehungergames.fandom.com/wiki/Arena" target="_blank" class="external-link">La Arena - Los Juegos del Hambre</a></td>
+<td>Panem, USA</td>
+<td>12 000</td>
+</tr>
+<tr>
+<td><a href="https://wonder-woman.fandom.com/wiki/Themyscira" target="_blank" class="external-link">WonderDome - Wonder Woman</a></td>
+<td>Isla Themyscira</td>
+<td>15 000</td>
+</tr>
+<tr>
+<td><a href="https://dev.epicgames.com/documentation/en-us/fortnite-creative/using-skydome-devices-in-fortnite-creative" target="_blank" class="external-link">Domo atmosférico - Fortnite</a></td>
+<td>Mapa de Fortnite, Helios</td>
+<td>60 000</td>
+</tr>
+<tr>
+<td><a href="https://es.wikipedia.org/wiki/Grabado_Flammarion" target="_blank" class="external-link">El Grabado Flammarion</a></td>
+<td>Ilustración de Camille Flammarion en <em>L'atmosphère</em></td>
+<td>--</td>
+</tr>
+<tr>
+<td><a href="https://en.wikipedia.org/wiki/The_Garden_of_Earthly_Delights" target="_blank" class="external-link">El jardín de las delicias</a></td>
+<td>Cuadro del Bosco en el Museo del Prado</td>
+<td>--</td>
+</tr>
+<tr>
+<td><a href="https://v.fandom.com/wiki/Diana_(1983-85)" target="_blank" class="external-link">Diana comandante de los Visitantes</a> sostiendo un <a href="https://i.imgur.com/6zVC3nl.jpeg" target="_blank" class="external-link">domo con luminarias</a> - Serie V (1983)</td>
+<td>Promoción de la serie V</td>
+<td>--</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="escenas-donde-aparecen-domos" tabindex="-1">Escenas donde aparecen domos</h3>
 <ul>
-<li>Nikola Tesla</li>
+<li><a href="https://www.youtube.com/watch?v=Knv6_PgUVY8" target="_blank" class="external-link">Apartments.com (anuncio) - Jeff Goldblum haciendo llover inquilinos</a></li>
+<li><a href="https://www.youtube.com/watch?v=aX3RpaBY0aQ" target="_blank" class="external-link">Arrow - Dome</a></li>
+<li><a href="https://www.youtube.com/watch?v=iaUUvv7NL_Q" target="_blank" class="external-link">Dragon Ball - Vegeta Nukes The Glass Dome Barrier</a></li>
+<li><a href="https://www.youtube.com/watch?v=jrxDDlDdCDI" target="_blank" class="external-link">El show de Truman - Escena final</a></li>
+<li><a href="https://www.youtube.com/watch?v=UhLiCUaxVIc" target="_blank" class="external-link">Godzilla vs Kong - Kong in the Dome (Opening Scene)</a></li>
+<li><a href="https://www.youtube.com/watch?v=DxLIq-SZaVA" target="_blank" class="external-link">King of Queens - S1 E21</a></li>
+<li><a href="https://www.youtube.com/watch?v=qj139dE7tFI" target="_blank" class="external-link">One ring to rule them all | Lord Of Rings</a></li>
+<li><a href="https://www.youtube.com/watch?v=J3gOVvWjOmY&amp;t=184s" target="_blank" class="external-link">Band Geeks ft &quot;Sweet Victory&quot; | SpongeBob SquarePants</a></li>
+<li><a href="https://www.youtube.com/watch?v=aX3RpaBY0aQ" target="_blank" class="external-link">The Arrow | Under The Dome</a></li>
+<li><a href="https://www.youtube.com/watch?v=0EQma00xT8M" target="_blank" class="external-link">The Cabin in the Woods - Motorcycle crash into graphene dome</a></li>
+<li><a href="https://www.youtube.com/watch?v=W0b5HU1qm8M" target="_blank" class="external-link">The Flash - I'm Coming Home</a></li>
+<li><a href="https://www.youtube.com/watch?v=MLVo-KKEaxQ" target="_blank" class="external-link">The Hunger Games 2012 Flat Earth Dome Scene</a>, <a href="https://www.youtube.com/watch?v=ULUEcET_luU" target="_blank" class="external-link">The Hunger Games: Catching Fire Movie CLIP <a class="tag" onclick="toggleTagSearch(this)" data-content="#11">#11</a> - Destroying the Arena (2013)</a></li>
+<li><a href="https://www.youtube.com/watch?v=kPiQiToZn6s" target="_blank" class="external-link">The Simpsons Movie. Delivering a Dome</a>, <a href="https://www.youtube.com/watch?v=njnlI7fOoHI" target="_blank" class="external-link">The Simpsons - Under The Dome &amp; Space Farts (Flat Earth)</a></li>
+<li><a href="https://www.youtube.com/watch?v=1syIrrwSIh0" target="_blank" class="external-link">Under The Dome - Dropping The Dome</a>, <a href="https://www.youtube.com/watch?v=f_Y5YeYrqUk" target="_blank" class="external-link">Under the Dome - Trailer</a></li>
+<li><a href="https://www.youtube.com/watch?v=PCVUl8CsWM0" target="_blank" class="external-link">WandaVision 1x06 - Wanda Makes The Dome Bigger</a></li>
+<li><a href="https://i.imgur.com/R0wNfiK.mp4" target="_blank" class="external-link">Wolverine and the X-Men (S1E15) - Dome of Mojo (TV show)</a></li>
+<li><a href="https://www.youtube.com/watch?v=s4gBChg6AII" target="_blank" class="external-link">World of Warcraft - Sylvanas rompiendo el domo</a></li>
 </ul>
+<h3 id="videojuegos-3-d-que-usan-un-mapa-plano" tabindex="-1">Videojuegos 3D que usan un mapa plano</h3>
+<p>La mayoría de videojuegos 3d de mundo abierto usan un mapa plano, aquí una lista de los más famosos.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Videojuego</th>
+<th>Información del mapa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Battlefield</td>
+<td>Los mapas multijugador son planos o contienen áreas relativamente planas con variaciones en elevación.</td>
+</tr>
+<tr>
+<td>Call of Duty</td>
+<td>Similar a Battlefield, los mapas en el modo multijugador y en algunos modos de campaña tienen una topografía variada, pero generalmente se manejan en mapas planos en términos de diseño de niveles.</td>
+</tr>
+<tr>
+<td>Cities: Skylines</td>
+<td>El mapa es plano y se puede expandir en diferentes direcciones sin límites de altura significativos.</td>
+</tr>
+<tr>
+<td>Civilization VI</td>
+<td>El mapa del juego está representado en un plano con casillas hexagonales que permiten la expansión de civilizaciones.</td>
+</tr>
+<tr>
+<td>Cyberpunk 2077</td>
+<td>Aunque el mundo es grande y detallado, la experiencia de exploración se basa en un diseño de mapa urbano plano con una perspectiva tridimensional en su estructura.</td>
+</tr>
+<tr>
+<td>Dark Souls</td>
+<td>Los niveles son tridimensionales pero presentan áreas de juego relativamente planas con obstáculos verticales y complejas interacciones.</td>
+</tr>
+<tr>
+<td>Elden Ring</td>
+<td>Aunque es un mundo abierto, el terreno a menudo tiene zonas relativamente planas para facilitar la exploración y el combate.</td>
+</tr>
+<tr>
+<td>Far Cry</td>
+<td>El mapa es grande y abierto, pero las áreas jugables son esencialmente planas, con montañas y otros obstáculos que forman parte del entorno.</td>
+</tr>
+<tr>
+<td>Fortnite</td>
+<td>El mapa es un plano con un domo Sol y Luna proyectados, se puede manipular desde el <a href="https://fortnite.fandom.com/wiki/Skydome" target="_blank" class="external-link">Skydome</a>.</td>
+</tr>
+<tr>
+<td>GTA V</td>
+<td>El mundo abierto es urbano y contiene áreas planas junto con elevaciones, con la ciudad de Los Santos diseñada para una experiencia de navegación extensa.</td>
+</tr>
+<tr>
+<td>Halo 3</td>
+<td>Los mapas de multijugador son planos en su estructura básica, aunque contienen diversas elevaciones y obstáculos.</td>
+</tr>
+<tr>
+<td>Hogwarts Legacy</td>
+<td>El mundo es un entorno abierto en 3D con un diseño detallado, pero las áreas explorables están diseñadas para parecer amplias y relativamente planas.</td>
+</tr>
+<tr>
+<td>Horizon Zero Dawn</td>
+<td>El mundo es vasto y detallado, con terrenos que pueden parecer planos en términos de diseño de juego, aunque hay variaciones en elevación.</td>
+</tr>
+<tr>
+<td>Minecraft</td>
+<td>El mundo estándar en Minecraft es generado proceduralmente y es prácticamente infinito en todas direcciones. El modo <a href="https://minecraft.wiki/w/Superflat" target="_blank" class="external-link">Superflat</a> ofrece un mundo completamente plano, sin características topográficas, ideal para construcciones y experimentación.</td>
+</tr>
+<tr>
+<td>No Man's Sky</td>
+<td>Los planetas son esféricos, pero las áreas explorables son planos con algo de orografía.</td>
+</tr>
+<tr>
+<td>Overwatch</td>
+<td>Los mapas de juego son planos en su estructura básica, diseñados para la competencia en entornos urbanos y exteriores.</td>
+</tr>
+<tr>
+<td>Pokémon</td>
+<td>Los mapas en los juegos de Pokémon suelen ser bidimensionales, pero en los juegos recientes, como <strong>Pokémon Sword and Shield</strong>, el diseño de los entornos puede dar la sensación de ser relativamente plano, especialmente en áreas de libre exploración.</td>
+</tr>
+<tr>
+<td>PUBG (PlayerUnknown's Battlegrounds)</td>
+<td>El mapa es grande y abierto, diseñado para ofrecer áreas extensas y relativamente planas con elevaciones y obstáculos.</td>
+</tr>
+<tr>
+<td>Red Dead Redemption 2</td>
+<td>El mundo abierto es vasto y natural, con terrenos variados que pueden tener áreas planas significativas.</td>
+</tr>
+<tr>
+<td>Rocket League</td>
+<td>El campo de juego es un plano con una superficie uniforme donde se juegan los partidos. El mundo tiene un Sol y Luna que orbitan en un domo.</td>
+</tr>
+<tr>
+<td>Skyrim</td>
+<td>El mundo es vasto y montañoso, pero las áreas explorables y las ciudades se presentan en un plano extendido.</td>
+</tr>
+<tr>
+<td>Starcraft</td>
+<td>El mapa es un plano en el que los jugadores colocan y mueven sus unidades en una cuadrícula o terreno plano con detalles específicos del entorno.</td>
+</tr>
+<tr>
+<td>Super Mario Galaxy</td>
+<td>El juego presenta niveles en planetas esféricos, pero la experiencia de juego es lineal y guiada por el diseño de cada planeta.</td>
+</tr>
+<tr>
+<td>The Legend of Zelda: Tears of the Kingdom</td>
+<td>El mundo es abierto y montañoso, pero la experiencia de exploración está diseñada en un terreno tridimensional que puede tener áreas relativamente planas.</td>
+</tr>
+<tr>
+<td>The Sims</td>
+<td>El mapa de los vecindarios y lotes es plano, permitiendo la construcción y la interacción en un entorno bidimensional.</td>
+</tr>
+<tr>
+<td>The Witcher 3</td>
+<td>El mundo abierto es grande y detallado con una topografía variada, pero los entornos jugables se presentan en un formato relativamente plano.</td>
+</tr>
+<tr>
+<td>Warcraft III</td>
+<td>El mapa es un plano dividido en casillas donde los jugadores construyen y mueven unidades, con detalles específicos en la superficie.</td>
+</tr>
+</tbody>
+</table></div>
 </main>
 <aside>
 <div class="sidebar">
