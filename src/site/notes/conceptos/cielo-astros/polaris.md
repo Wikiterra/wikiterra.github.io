@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/cielo-astros/polaris/"}
+dg-publish: true
 ---
-
 
 # Polaris
 

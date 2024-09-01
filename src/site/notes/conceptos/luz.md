@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/luz/"}
+dg-publish: true
 ---
-
 
 # La Luz
 

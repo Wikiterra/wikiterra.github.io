@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/notas/ciencia-nota/"}
+dg-publish: true
 ---
-
 
 # La Ciencia
 

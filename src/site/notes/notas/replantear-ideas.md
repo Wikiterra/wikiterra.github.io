@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/notas/replantear-ideas/"}
+dg-publish: true
 ---
-
 
 ## Reflexión
 

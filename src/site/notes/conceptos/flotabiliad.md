@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/flotabiliad/"}
+dg-publish: true
 ---
-
 
 # Flotabilidad
 

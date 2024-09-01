@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/atomsfera/nubes/"}
+dg-publish: true
 ---
-
 
 # Las nubes
   

@@ -1,0 +1,70 @@
+---
+
+dg-publish: true
+---
+# Científicos modelo geocéntrico
+
+- Albert Smith
+- Alexander McInnes
+- Alex Gleason
+- Anton Darms
+- Arthur V. White
+- Aurin F. Hill
+- Charles Barry
+- Charles Bishop
+- Charles K. Johnson
+- Charles Levi Hathaway
+- Charles W. Morse
+- Chester M. Shippey
+- C. S. Deford
+- D_arcy Adams
+- David Wardlaw Scott
+- Deacon White
+- Dowie
+- Earl C. Butterworth
+- Ebenezer Breach
+- Edwin Abott
+- Ellis Simon Hillman
+- E. W. Bullinger
+- Francis A. Gianinni
+- Francis A. Giannini
+- Fredrick Cook
+- George H. Dowkontt
+- George Walter Winckler
+- Gerrard Hickson
+- Gilbert Johnson
+- Gustav F. Ebding
+- Henry Goudey
+- J. C. Akester
+- Jeremiah MacDonald
+- J. L. Cooke
+- John Abaziad
+- John Beardsley 
+- John Hampden 
+- John Jasper 
+- John Quinlan 
+- John S. McClelland 
+- Joseph Cooper 
+- Joseph Holden 
+- Lady blount 
+- Leo Ferrari 
+- Miles Grant
+- Nikola Tesla
+- Orlando Ferguson 
+- Paul Fisher 
+- Paul Kruger 
+- Robert Gould Shaw Collamore 
+- Robert Scalewald 
+- Rowbotham 
+- Royal O. Spear 
+- S. George Fowler 
+- Samuel Shenton 
+- Thomas Winship 
+- Ulysses G. Morrow 
+- Voliva 
+- William Bathgate 
+- William Brookman 
+- William Carpenter 
+- William Edgell 
+- William Thomas Wiseman 
+- William Warren 

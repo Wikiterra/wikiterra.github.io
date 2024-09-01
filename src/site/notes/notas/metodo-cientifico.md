@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/notas/metodo-cientifico/"}
+dg-publish: true
 ---
-
 
 # Método científico
 

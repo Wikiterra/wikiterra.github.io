@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/notas/flor-vida-simil/"}
+dg-publish: true
 ---
-
 
 ## Flor de la vida
 

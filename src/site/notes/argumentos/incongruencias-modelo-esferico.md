@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/argumentos/incongruencias-modelo-esferico/"}
+dg-publish: true
 ---
-
 # Incongruencias del modelo esférico
 
 El modelo esférico se basa en la confianza hacia los argumentos de autoridad y en creer que las imágenes mostradas son reales y no pueden estar falsificadas. Se fundamenta en axiomas falsos que por definición son considerados verdades absolutas sin precisar de demostración, entonces no se pueden refutar.

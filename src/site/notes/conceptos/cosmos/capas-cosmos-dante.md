@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/cosmos/capas-cosmos-dante/"}
+dg-publish: true
 ---
-
 
 # Capas del Cosmos (según Dante Alighieri)
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/mapas/"}
+dg-publish: true
 ---
-
 
 # Los mapas
 

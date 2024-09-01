@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/campo-magnetico-terrestre/"}
+dg-publish: true
 ---
-
 
 # El campo magnético terrestre
 

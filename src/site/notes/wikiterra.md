@@ -37,3 +37,4 @@ El objetivo principal de WikiTerra es entender el lugar físico que habitamos, p
 Sabemos que la naturaleza depende de lo que pensamos, es decir el pensamiento nuestra mente puede cambiar la forma de percibir las cosas, por eso se intentará no anteponer los pensamientos o hacer meras hipótesis, el objetivo es conseguir demostrar los hechos expuestos aplicando el método científico, con argumentación sólida y siguiendo un razonamiento lógico entendible para todos.
 
 Respecto a la ciencia, esta es la rama que surge de la aplicación del método científico. Sin embargo es sabido que la ciencia no es perfecta, es decir, un mismo experimento puede dar resultados diferentes según las consideraciones que se hagan o los axiomas que se establezcan. Por tanto cualquier otra fuente de estudio que arroje luz al entendimiento de la naturaleza es válida, la puerta está abierta para cualquier método que pueda ser comprobable.
+

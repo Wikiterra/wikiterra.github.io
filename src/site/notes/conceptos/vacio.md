@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/vacio/"}
+dg-publish: true
 ---
-
 
 # El vacío
 

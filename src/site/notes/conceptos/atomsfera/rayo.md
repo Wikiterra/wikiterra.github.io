@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/atomsfera/rayo/"}
+dg-publish: true
 ---
-
 # El rayo
 
 El rayo es un fenómeno atmosférico de naturaleza eléctrica que ocurre durante tormentas eléctricas. Consiste en una descarga eléctrica de alta intensidad y corta duración que se produce entre una nube cargada eléctricamente y la superficie terrestre, o entre diferentes regiones de una nube.

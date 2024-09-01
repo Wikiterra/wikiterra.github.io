@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/tierra/"}
+dg-publish: true
 ---
-
 
 # La Tierra
 

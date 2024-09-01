@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/modelos-Terra/tierra-esferica-vs-tierra-plana/"}
+dg-publish: true
 ---
-
 
 # Comparación modelos de la Tierra
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/notas/bobina-del-demiurgo/"}
+dg-publish: true
 ---
-
 # La Bobina del demiurgo el controlador y ladrón de energía
 
 > Escrito por Roberto Kuikakoatl en Facebook.

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/argumentos/vuelo-aviones/"}
+dg-publish: true
 ---
-
 
 # Distancias de vuelos
 

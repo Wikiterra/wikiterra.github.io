@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/argumentos/grandes-llanuras/"}
+dg-publish: true
 ---
-
 # Grandes Llanuras
 
 Las grandes llanuras, tanto desérticas como oceánicas, se explican de acuerdo con la idea de una superficie plana y extensa. Estas llanuras se describen como regiones de gran extensión sin variaciones significativas en altura, lo que contribuye a su apariencia de ser planas desde la perspectiva del observador.

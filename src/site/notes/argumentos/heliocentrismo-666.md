@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/argumentos/heliocentrismo-666/"}
+dg-publish: true
 ---
-
 # Modelo esférico (666 encriptado)
 
 ## La Tierra (666 encriptado)

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/atomsfera/atmosfera/"}
+dg-publish: true
 ---
-
 
 # La atmósfera
 

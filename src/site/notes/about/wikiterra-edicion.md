@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/about/wikiterra-edicion/"}
+dg-publish: true
 ---
-
 
 # Wikiterra edición
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/domo-terrestre/"}
+dg-publish: true
 ---
-
 
 # El domo terrestre
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/gravedad/"}
+dg-publish: true
 ---
-
 
 # Gravedad
 

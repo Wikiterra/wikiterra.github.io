@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/about/wikiterra-estatica/"}
+dg-publish: true
 ---
-
 
 # Wiki estática
 

@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/cielo-astros/sol/"}
+dg-publish: true
 ---
-
 
 # El Sol
 

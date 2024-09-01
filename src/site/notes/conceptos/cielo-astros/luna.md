@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/cielo-astros/luna/"}
+dg-publish: true
 ---
-
 
 # La Luna
 

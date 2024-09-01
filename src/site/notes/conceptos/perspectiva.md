@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/perspectiva/"}
+dg-publish: true
 ---
-
 
 # La perspectiva
 
