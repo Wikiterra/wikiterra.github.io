@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/modelos-Terra/modelo-geo-tierra-plana/"}
 ---
+
 # Tierra plana
 
 ### Tierra plana (Modelo geocéntrico)
