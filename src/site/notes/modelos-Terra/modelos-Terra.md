@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/modelos-Terra/modelos-Terra/"}
 ---
+
 
 # Modelos de La Tierra propuestos
 
