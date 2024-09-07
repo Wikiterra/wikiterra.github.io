@@ -26,8 +26,10 @@ Entre las proyecciones más conocidas se encuentra la proyección de [Mercator](
   Tu navegador no soporta el formato de video.
 </video>
 
-<iframe style="width:100%; aspect-ratio:16 / 10" src="https://i.imgur.com/SDvIwYO.mp4" allowfullscreen></iframe>
-
+<video style="width:100%; aspect-ratio:16 / 10;" controls>
+  <source src="https://i.imgur.com/SDvIwYO.mp4" type="video/mp4">
+  Tu navegador no soporta el formato de video.
+</video>
 
 ### Proyección de Mercator
 
