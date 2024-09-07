@@ -31,6 +31,17 @@ Los star trails no solo son un recurso estético en la fotografía astronómica,
 > ![star-trail|hs-med](https://i.imgur.com/k4XEDPK.png)
 > 
 
+![500](https://i.imgur.com/SnSdQjc.png)
+
+![](https://i.imgur.com/zQgAuih.png)
+
+![](https://i.imgur.com/6UzjWDI.png)
+
+![](https://i.imgur.com/lIg1nPK.png)
+
+![](https://i.imgur.com/6JqckkT.png)
+
+
 ### Fotografías desde el Norte
 
 > ![](https://i.imgur.com/Xy1JafK.jpeg)

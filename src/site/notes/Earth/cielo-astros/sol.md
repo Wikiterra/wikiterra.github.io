@@ -36,6 +36,9 @@ Para entender el comportamiento del Sol, hay que entender el comportamiento de l
 
 El analema solar es una figura con forma de infinito (ocho acostado) que puede observarse cuando se saca fotografías al Sol a la misma hora todos los días durante su ciclo completo, es decir un año 365 días y 6 horas.
 
+![](https://i.imgur.com/uLJVxPW.png)
+
+
 
 ## Datos
 - Radio: 60 Km
