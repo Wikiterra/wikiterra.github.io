@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>mapas</title>
+<title>google-earth</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -194,7 +194,7 @@ CTRL + K
 <span class="foldername">concepto</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/concepto/mapas/">mapas </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/concepto/mapas/">mapas </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -391,7 +391,7 @@ CTRL + K
 <span class="foldername">poder-corrupto</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -443,120 +443,7 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="los-mapas" tabindex="-1">Los mapas</h1>
-<p>Un <strong>mapa</strong> es una representación gráfica simplificada de un <a href="https://es.wikipedia.org/wiki/Territorio" title="Territorio" target="_blank" class="external-link">territorio</a> sobre una superficie bidimensional, que puede ser plana, esférica o incluso poliédrica. Esta representación mantiene ciertas propiedades <a href="https://es.wikipedia.org/wiki/Espacio_m%C3%A9trico" title="Espacio métrico" target="_blank" class="external-link">métricas</a> que permiten medir distancias, ángulos o superficies y relacionarlas con la realidad. Las propiedades métricas del mapa dependen de la proyección utilizada, y en algunos casos se aplican coeficientes conocidos para corregir las medidas y minimizar las distorsiones.</p>
-<div class="callout" data-callout="caption" data-callout-metadata="right"><div class="callout-title"><div class="callout-title-inner"> Proyecciones de mapas<br></div></div>
-<div class="callout-content">
-<p>
-<img src="https://i.imgur.com/PN3JC1b.png" alt="mapas-proyecciones"></p>
-</div></div>
-<p>Existen muchos tipos de mapas, cada uno especializado en una tarea particular. No hay un mapa perfecto; más bien, hay un mapa diseñado para cada propósito específico. Algunos mapas priorizan la representación de áreas iguales, mientras que otros se enfocan en mantener los ángulos sin distorsionar. La diferencia entre los mapas radica en las proyecciones que se utilizan para convertir la superficie curva de la Tierra en una representación plana.</p>
-<h2 id="proyecciones-de-mapas" tabindex="-1">Proyecciones de Mapas</h2>
-<p>Las proyecciones de mapas son técnicas matemáticas que se utilizan para transformar la superficie de la Tierra en diferentes tipos visión. Cada tipo de proyección tiene sus propias ventajas y desventajas, y se elige en función del objetivo del mapa.</p>
-<p>Dicho de otra forma las proyecciones son el mismo mapa pero deformando áreas y ángulos, y cambiando el sistema de referencia central.</p>
-<p>Entre las proyecciones más conocidas se encuentra la proyección de <a href="https://es.wikipedia.org/wiki/Proyecci%C3%B3n_de_Mercator" target="_blank" class="external-link">Mercator</a> (proyección cilíndrica conforme), la de <a href="https://en.wikipedia.org/wiki/Azimuthal_equidistant_projection" target="_blank" class="external-link">Gleason</a> típicamente usada para la Tierra plana (proyección cilíndrica conforme) y la de Tierra esférica (<a href="https://es.wikipedia.org/wiki/WGS84" target="_blank" class="external-link">modelo WGS84</a> o proyección ortográfica conforme).</p>
-<video style="width:100%;aspect-ratio:16/10" controls>
-<source src="https://i.imgur.com/mYuWV77.mp4" type="video/mp4">
-Tu navegador no soporta el formato de video.
-</video>
-<video style="width:100%;aspect-ratio:16/10" controls>
-<source src="https://i.imgur.com/SDvIwYO.mp4" type="video/mp4">
-Tu navegador no soporta el formato de video.
-</video>
-<h3 id="proyeccion-de-mercator" tabindex="-1">Proyección de Mercator</h3>
-<p>La <strong>proyección de Mercator</strong>, desarrollada por Gerardus Mercator en 1569desarrollada por Gerardus Mercator en 1569, es una proyección cilíndrica conforme. Esta proyección hace que los países del Norte aparezcan mucho más grandes en comparación con los países del Sur. Históricamente, se ha sugerido que esta proyección fue diseñada para beneficiar las rutas comerciales de Europa, en particular de Inglaterra, proporcionando una imagen exagerada del tamaño y poderío de los países europeos. Aunque esta teoría tiene fundamento en el contexto histórico, la proyección de Mercator ha sido ampliamente utilizada en cartografía náutica y es conocida por su utilidad en la navegación.</p>
-<ul>
-<li><strong>Ventajas</strong>: Preserva los ángulos, facilitando la navegación y la representación precisa de rutas.</li>
-<li><strong>Desventajas</strong>: Distorsiona las áreas, especialmente en latitudes altas, lo que puede dar una visión exagerada de los tamaños de los continentes.</li>
-</ul>
-<h3 id="proyeccion-de-gleason" tabindex="-1">Proyección de Gleason</h3>
-<p>La <strong>proyección de Gleason</strong> es una proyección azimutal equidistante. En esta proyección, la superficie de la Tierra se proyecta sobre un plano tangente en torno al Polo Norte. Esta técnica preserva las distancias desde el punto de tangencia, lo que es útil para mapas que necesitan mostrar distancias precisas desde un centro específico, como en mapas de radar o de distancias aéreas. Sin embargo, al igual que otras proyecciones azimutales, distorsiona las áreas y las formas a medida que uno se aleja del punto central.</p>
-<ul>
-<li><strong>Ventajas</strong>: Mantiene las distancias precisas desde el punto de tangencia, lo cual es útil para ciertos tipos de análisis.</li>
-<li><strong>Desventajas</strong>: Las áreas y las formas se distorsionan a medida que se alejan del punto central, lo que puede afectar la precisión de la representación global.</li>
-</ul>
-<h3 id="proyeccion-ortografica" tabindex="-1">Proyección Ortográfica</h3>
-<p>La <strong>proyección ortográfica</strong> es también una proyección azimutal, pero se diferencia al ofrecer una vista de la Tierra como si se estuviera mirando desde el espacio. Esta proyección proyecta la superficie terrestre sobre un plano tangente en un punto específico, proporcionando una representación bastante realista de la Tierra cerca del punto de tangencia. Aunque ofrece una visión precisa de las áreas y formas cercanas al punto central, también distorsiona las áreas y las formas a medida que se aleja del punto de tangencia.</p>
-<ul>
-<li><strong>Ventajas</strong>: Ofrece una vista realista de la superficie terrestre desde una perspectiva espacial, ideal para imágenes satelitales y representaciones visuales globales.</li>
-<li><strong>Desventajas</strong>: Las áreas y formas distorsionan a medida que uno se aleja del punto central, lo que limita su precisión en la representación de regiones alejadas del centro.</li>
-</ul>
-<h3 id="comparacion-de-las-proyecciones" tabindex="-1">Comparación de las Proyecciones</h3>
-<p>Aunque todas estas proyecciones buscan representar la superficie de la Tierra en un plano, lo hacen de maneras muy distintas:</p>
-<ul>
-<li>
-<p><strong>Sistema de Referencia Central</strong>:</p>
-<ul>
-<li><strong>Mercator</strong>: Utiliza un cilindro que toca la Tierra en el ecuador, afectando principalmente las regiones polares.</li>
-<li><strong>Gleason</strong>: Utiliza un plano tangente en un punto específico, manteniendo distancias precisas desde ese punto.</li>
-<li><strong>Ortográfica</strong>: Utiliza un plano tangente que simula una vista desde el espacio, ofreciendo una perspectiva cerca del punto de tangencia.</li>
-</ul>
-</li>
-<li>
-<p><strong>Deformaciones</strong>:</p>
-<ul>
-<li><strong>Mercator</strong>: Distorsiona áreas en latitudes altas pero preserva ángulos.</li>
-<li><strong>Gleason</strong>: Mantiene distancias desde el punto central pero distorsiona áreas y formas a medida que se aleja del centro.</li>
-<li><strong>Ortográfica</strong>: Ofrece una visión realista cerca del punto de tangencia, pero distorsiona áreas y formas lejos del centro.</li>
-</ul>
-</li>
-</ul>
-<p>En resumen, cada proyección tiene sus propias ventajas y desventajas que se alinean con sus objetivos específicos. La elección de la proyección adecuada depende del propósito del mapa y de las propiedades geométricas que se desean preservar o destacar.</p>
-<h2 id="proyecciones-matematicas-de-superficies" tabindex="-1">Proyecciones Matemáticas de Superficies</h2>
-<p>En matemáticas y geometría, una <strong>proyección</strong> es el proceso de transformar un conjunto de puntos de una superficie tridimensional en una superficie bidimensional, de manera que se mantengan ciertas propiedades geométricas. Este concepto se aplica no solo a la representación de la Tierra en un mapa, sino a cualquier superficie y en diversos contextos matemáticos.</p>
-<h3 id="tipos-de-proyecciones" tabindex="-1">Tipos de Proyecciones</h3>
-<ol>
-<li>
-<p><strong>Proyecciones Cilíndricas</strong></p>
-<ul>
-<li><strong>Definición</strong>: En una proyección cilíndrica, se proyecta la superficie tridimensional sobre un cilindro que toca la superficie en una línea o una curva. Luego, el cilindro se desenrolla en un plano.</li>
-<li><strong>Características</strong>: Estas proyecciones tienden a preservar los ángulos y la forma local, pero suelen distorsionar el tamaño de las áreas. Un ejemplo es la proyección de Mercator.</li>
-<li><strong>Uso</strong>: Se utilizan comúnmente en la navegación debido a la preservación de ángulos.</li>
-</ul>
-</li>
-<li>
-<p><strong>Proyecciones Cónicas</strong></p>
-<ul>
-<li><strong>Definición</strong>: En una proyección cónica, se proyecta la superficie tridimensional sobre un cono que toca la superficie en una línea o una curva. El cono se desenrolla en un plano.</li>
-<li><strong>Características</strong>: Estas proyecciones suelen mantener bien la forma y las áreas en una región limitada, como un continente o una región.</li>
-<li><strong>Uso</strong>: A menudo se utilizan para mapas de áreas con un mayor desarrollo en latitud, como países o estados.</li>
-</ul>
-</li>
-<li>
-<p><strong>Proyecciones Azimutales</strong></p>
-<ul>
-<li><strong>Definición</strong>: En una proyección azimutal, se proyecta la superficie tridimensional sobre un plano tangente a la superficie en un punto específico.</li>
-<li><strong>Características</strong>: Estas proyecciones pueden preservar las distancias desde el punto de tangencia y los ángulos, pero suelen distorsionar áreas y formas a medida que se alejan del punto central.</li>
-<li><strong>Uso</strong>: Se utilizan para representar áreas alrededor de un punto central, como en mapas de radar o de vuelo.</li>
-</ul>
-</li>
-<li>
-<p><strong>Proyecciones Interseccionales</strong></p>
-<ul>
-<li><strong>Definición</strong>: Estas proyecciones se basan en la intersección de la superficie tridimensional con un plano o una superficie geométrica más compleja.</li>
-<li><strong>Características</strong>: La elección del tipo de proyección interseccional puede variar dependiendo de los objetivos del mapeo y las propiedades que se desean preservar.</li>
-<li><strong>Uso</strong>: Se aplican en diversas áreas como la arquitectura, diseño gráfico, y análisis de datos espaciales.</li>
-</ul>
-</li>
-</ol>
-<h3 id="propiedades-matematicas-de-las-proyecciones" tabindex="-1">Propiedades Matemáticas de las Proyecciones</h3>
-<p>Las proyecciones pueden afectar varias propiedades geométricas:</p>
-<ul>
-<li><strong>Ángulos</strong>: Algunas proyecciones preservan los ángulos (proyecciones conformes), lo que significa que la forma local se mantiene, pero puede haber distorsión en las áreas.</li>
-<li><strong>Áreas</strong>: Otras proyecciones conservan las áreas (proyecciones equivalentes), asegurando que las proporciones de las áreas sean correctas, aunque las formas pueden distorsionarse.</li>
-<li><strong>Distancias</strong>: Algunas proyecciones preservan las distancias desde un punto específico (proyecciones equidistantes), lo que es útil para ciertas aplicaciones prácticas.</li>
-</ul>
-<hr>
-<h2 id="referencias" tabindex="-1">Referencias</h2>
-<ul>
-<li><a href="https://ed.ted.com/lessons/why-every-world-map-is-wrong-kayla-wolf" target="_blank" class="external-link">Vídeo de TED &quot;Por qué todos los mapas del mundo están equivocados&quot;</a></li>
-<li><a href="https://www.youtube.com/watch?v=kIID5FDi2JQ" target="_blank" class="external-link">Vídeo de Vox &quot;Por qué todos los mapas del mundo están mal&quot;</a></li>
-<li><a href="https://thetruesize.com" target="_blank" class="external-link">The true size of</a></li>
-<li><a href="https://en.wikipedia.org/wiki/List_of_map_projections" target="_blank" class="external-link">Lista de proyecciones cartográficas</a></li>
-<li><a href="https://observablehq.com/@d3/projection-transitions" target="_blank" class="external-link">Transición de proyeccciones</a></li>
-<li><a href="https://apl.esri.com/jg/Distortion/index.html" target="_blank" class="external-link">Sede observable</a></li>
-<li><a href="https://www.worldmapgenerator.com/en/wizard/" target="_blank" class="external-link">Generador de mapas mundiales</a></li>
-</ul>
+<h1 id="google-earth" tabindex="-1">Google Earth</h1>
 </main>
 <aside>
 <div class="sidebar">
