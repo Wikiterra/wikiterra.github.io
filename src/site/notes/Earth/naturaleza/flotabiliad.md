@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/naturaleza/flotabiliad/"}
+dg-publish: true
 ---
-
 
 # Flotabilidad
 

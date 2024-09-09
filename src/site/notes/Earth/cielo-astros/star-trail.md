@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/cielo-astros/star-trail/"}
+dg-publish: true
 ---
-
 
 
 # Star Trail

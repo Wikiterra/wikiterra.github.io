@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/cielo-astros/cielo/"}
+dg-publish: true
 ---
-
 
 # El cielo
 

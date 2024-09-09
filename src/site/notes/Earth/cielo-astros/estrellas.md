@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/cielo-astros/estrellas/"}
+dg-publish: true
 ---
-
 
 # Las estrellas
 

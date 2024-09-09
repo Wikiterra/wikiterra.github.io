@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/listado/personas/famosos-tp/"}
+dg-publish: true
 ---
-
 
 
 # Listado de famosos terraplanistas

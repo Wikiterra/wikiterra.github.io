@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/cielo-astros/meteoro/"}
+dg-publish: true
 ---
-
 # Meteoro
 
 Desde la perspectiva del modelo de la Tierra plana, un meteoro es un fenómeno que se observa en el firmamento cuando un objeto luminoso se mueve rápidamente a través del cielo. En lugar de ser fragmentos de roca espacial que entran en la atmósfera de una Tierra esférica, como sugiere la ciencia convencional, los defensores de la Tierra plana proponen varias explicaciones alternativas para los meteoros:

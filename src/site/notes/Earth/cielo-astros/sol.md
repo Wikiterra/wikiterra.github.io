@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/cielo-astros/sol/"}
+dg-publish: true
 ---
-
 
 # El Sol
 

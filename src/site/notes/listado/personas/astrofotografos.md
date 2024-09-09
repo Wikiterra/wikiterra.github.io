@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/listado/personas/astrofotografos/"}
+dg-publish: true
 ---
-
 
 ## Astrofotógrafos
 

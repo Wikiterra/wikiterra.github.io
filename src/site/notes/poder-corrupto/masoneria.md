@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/poder-corrupto/masoneria/"}
+dg-publish: true
 ---
-
 
 # Masones
 

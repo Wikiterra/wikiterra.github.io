@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/atomsfera/atmosfera/"}
+dg-publish: true
 ---
-
 
 # La atmósfera
 

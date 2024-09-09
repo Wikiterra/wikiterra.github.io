@@ -1,7 +1,6 @@
 ---
-{"dg-publish":true,"permalink":"/Earth/concepto/mapas/"}
+dg-publish: true
 ---
-
 
 # Los mapas
 
