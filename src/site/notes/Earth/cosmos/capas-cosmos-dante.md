@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/Earth/cosmos/capas-cosmos-dante/"}
 ---
+
 
 # Capas del Cosmos (según Dante Alighieri)
 

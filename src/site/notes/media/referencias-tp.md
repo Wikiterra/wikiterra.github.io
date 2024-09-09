@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/media/referencias-tp/"}
 ---
+
 
 # Referencias Tierra Plana en Media
 

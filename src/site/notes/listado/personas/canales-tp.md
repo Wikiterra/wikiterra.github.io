@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/listado/personas/canales-tp/"}
 ---
+
 
 # Listado de canales de Tierra Plana
 

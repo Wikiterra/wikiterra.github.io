@@ -1,6 +1,7 @@
 ---
-dg-publish: true
+{"dg-publish":true,"permalink":"/Earth/atomsfera/nubes/"}
 ---
+
 
 # Las nubes
   

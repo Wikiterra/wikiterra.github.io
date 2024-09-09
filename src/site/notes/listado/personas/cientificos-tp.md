@@ -1,7 +1,7 @@
 ---
-
-dg-publish: true
+{"dg-publish":true,"permalink":"/listado/personas/cientificos-tp/"}
 ---
+
 # Científicos modelo geocéntrico
 
 - Albert Smith
