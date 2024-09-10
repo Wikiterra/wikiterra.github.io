@@ -13,7 +13,7 @@ Un **mapa** es una representación gráfica simplificada de un [territorio](http
 
 Existen muchos tipos de mapas, cada uno especializado en una tarea particular. No hay un mapa perfecto; más bien, hay un mapa diseñado para cada propósito específico. Algunos mapas priorizan la representación de áreas iguales, mientras que otros se enfocan en mantener los ángulos sin distorsionar. La diferencia entre los mapas radica en las proyecciones que se utilizan para convertir la superficie curva de la Tierra en una representación plana.
 
-## Proyecciones de Mapas
+## Proyecciones de mapas
 
 Las proyecciones de mapas son técnicas matemáticas que se utilizan para transformar la superficie de la Tierra en diferentes tipos visión. Cada tipo de proyección tiene sus propias ventajas y desventajas, y se elige en función del objetivo del mapa.
 

@@ -5,10 +5,7 @@
 
 ## NASA (National Aeronautics and Space Administration)
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)](https://trueearth.wikitide.org/wiki/File:NASALogo.jpg)
-
-NASA: Never A Straight Answer
-
+![](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
 Según History.com: La NASA ha patrocinado expediciones espaciales, tanto humanas como mecánicas, que han proporcionado información vital sobre el sistema solar y el universo. También ha lanzado numerosos satélites en órbita terrestre que han sido fundamentales para todo, desde la predicción meteorológica hasta la navegación y la comunicación.
 
 ### Origins
@@ -19,21 +16,18 @@ La NASA ha construido un coloso de chupar dinero compuesto por mentiras, engaño
 
 En resumen, una vez que se detecta el fraude todo lo que se le ocurre ahora está en cuestión. Tu credibilidad está disparada. Quién estaría en desacuerdo con la lógica del fraude encontrado destruye la validez de todo? Es razonable, predecible y tiene el poder de cambiar instantáneamente la dirección de la percepción de uno, incluso aquellos que fueron mantenidos sagrados. El fraude no tiene límites por parte de quienes la involucran y ha estado a lo largo del tiempo. Crees que los verdaderos defraudadores se detienen en un solo fraude? O crees que siguen yendo yendo hasta que mueran o sean atadas? La respuesta es simple. Por qué detendrías alguna vez la lucrativa actividad fraudulenta si no has sido atate? Así que la posibilidad de fraude sistémico una vez que se encuentra el fraude inicial se convierte en una certeza virtual.
 
-Para enturbiar aún más las aguas, la NASA fue fundada por culto satánico ocultistas y magos negros. Esto no es un rumor ocioso, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudociencia-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible [^1].
+Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas stánicos y magos negros. A pesar de que suene a meme, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudocientífico-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible[^1].
 
 #### Jack Parsons
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png)](https://trueearth.wikitide.org/wiki/File:JackParsons.png)
+> ![caption]
+![](https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png)>Jack Whiteside Parson
 
-Jack Whiteside Parson
+> ![caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)> El pentágono invertido
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)](https://trueearth.wikitide.org/wiki/File:PentagonPentagram.png)
-
-El pentágono invertido
-
-[![](https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg)](https://trueearth.wikitide.org/wiki/File:Cassini-above-Saturn-s-north-pole.jpg)
-
-CGI imagen de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)
+> ![caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg)> Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)
 
 Jack Whiteside Parsons, por otro lado, fue miembro fundador del Laboratorio de Propulsión a Chorro de la NASA, y algunos lo consideran uno de los "padres de la cohetería" y otros bromean diciendo que el JPL era en realidad el Laboratorio de Jack Parsons, pero no encontrará mucho sobre él en los sitios web de la NASA. El legado de Parsons como ingeniero y químico se ha visto un tanto eclipsado por su interés en lo oculto y ha llevado a lo que algunos críticos describen como una reescritura de los libros de historia.
 
@@ -48,8 +42,11 @@ Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nom
 Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.
 
 #### Aleister Crowley
+> ![caption]
 
-![](https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg)
+> ![caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg)
+> Aleister Crowley
 
 Crowley, que trajo fama a la O.T.O. (que ya era muy conocida en los círculos masónicos), fue una de las principales inspiraciones de Parsons en la vida. Los logros de este anciano habían sido muchos: poeta, editor, escalador de montañas, maestro de ajedrez y practicante bisexual de magia sexual (o “Magick”, como él la llamaba).
 
@@ -61,9 +58,9 @@ A finales de los años 40, Hubbard estaba arruinado y endeudado. Como escritor d
 
 En un momento dado, Hubbard se vio obligado a rogarle a la Administración de Veteranos que le permitiera quedarse con un pago excesivo de 51 dólares de sus prestaciones. “Estoy casi sin dinero”, escribió Hubbard, un ex teniente de la Marina. Hubbard también tenía problemas mentales. A finales de 1947, pidió a la Administración de Veteranos que le ayudara a recibir tratamiento psiquiátrico.
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/a/ad/Church_of_Scientology.png/300px-Church_of_Scientology.png)](https://trueearth.wikitide.org/wiki/File:Church_of_Scientology.png)
-
-Church of Scientology
+> ![caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/a/ad/Church_of_Scientology.png/300px-Church_of_Scientology.png)
+> Church of Scientology
 
 Hubbard también admiraba a Crowley y en una conferencia de 1952 lo describió como "mi muy buen amigo". Parsons y Hubbard pronto vivieron en la vieja mansión de South Orange Grove Avenue en Pasadena. La finca era el hogar de una extraña mezcla de artistas, escritores, científicos y ocultistas bohemios. Un pequeño templo abovedado sostenido por seis columnas de piedra se alzaba en el patio trasero. Hubbard conoció a su segunda esposa, Sara Northrup, en la mansión. Aunque ella era la amante de Parsons en ese momento, Hubbard no se dejó intimidar. Se casó con Northrup antes de divorciarse de su primera esposa. Mucho antes de la contracultura de los años 60, algunos residentes de la finca fumaban marihuana y abrazaban una filosofía de sexo promiscuo y ritualista.
 
@@ -71,20 +68,18 @@ En años posteriores, Hubbard intentó distanciarse de su vergonzosa asociación
 
 Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control mental.
 
-#### A Creepy lineup
+#### Una alineación espeluznante
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/e/e5/OccultBeginingsOfNasa.png/300px-OccultBeginingsOfNasa.png)](https://trueearth.wikitide.org/wiki/File:OccultBeginingsOfNasa.png)
-
-Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney
+> ![caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/e/e5/OccultBeginingsOfNasa.png/300px-OccultBeginingsOfNasa.png)
+> Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney
 
 1. Jack Whiteside Parsons – Ocultista, Mago Negro, Satanista, Líder de la Logia Ágape de California Ordo Templi Orientis
 2. Aleister Crowley – Masón de grado 33 (https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons"), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'
 3. L.Ron Hubbard – Controlador Mental de Masas, Mago Negro, Satanista, Fundador del Culto de la Iglesia de la Cienciología
 4. Wernher von Braun – Exdirector nazi del programa alemán de cohetes V-2 y reclutado en los EE. UU. en el marco de la Operación Paperclip. Es muy probable que fuera el más normal del grupo. 5. Walt Disney: ocultista, controlador mental de masas, mago negro, pedófilo Illuminati, [masón](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons") y fundador de The Ordem DeMolay
 
-Para divertirse, vea el video musical "Blood and Rockets" de Les Claypool. [[2\|2]]
-
-(https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-bloodandrockets-2)
+Para divertirse, vea el video musical "Blood and Rockets" de Les Claypool. [^2]
 
 ### Presupuesto
 
@@ -96,7 +91,7 @@ Actualmente, el presupuesto es de unos 26.000 millones de dólares al año (o un
 
 ### La conexión NAZI
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png)](https://trueearth.wikitide.org/wiki/File:NASANaziOrigins.png)
+![](https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png)
 
 Los orígenes NAZI de la NASA
 
@@ -108,13 +103,13 @@ Se informó que una fábrica en la que trabajaba [von Braun](https://trueearth.w
 
 ### Engañados
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/2/23/NASA_Definition.jpg/300px-NASA_Definition.jpg)](https://trueearth.wikitide.org/wiki/File:NASA_Definition.jpg)
+![](https://static.miraheze.org/trueearthwiki/thumb/2/23/NASA_Definition.jpg/300px-NASA_Definition.jpg)
 
 “NASA” en hebreo
 
 Si buscas el origen de la palabra “NASA” en hebreo (el idioma judío), significa engañar. Así que tenemos científicos, ingenieros y técnicos alemanes nazis trabajando para una organización espacial llamada “NASA”, que significa engañar. ¿Podrían estos nazis haber tenido algo que ver con el nombre de NASA (nasah)? ¿Qué está pasando aquí?
 
-Strong's H5377 - nāšā' [[3\|3]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-h5377-3)
+Strong's H5377 - nāšā' [^3]
 La KJV traduce Strong's H5377 de la siguiente manera: engañar (12x), en gran medida (1x), me engañó (1x), apoderarse (1x), completamente (1x).
 
 - engañar, engañar
@@ -137,7 +132,7 @@ Todos los parches de las misiones de la NASA contienen símbolos ocultistas, y s
 
 Aunque la mayoría de la gente no lo sabe, prácticamente todo lo que hace la NASA está impregnado de satanismo. Su único objetivo es servir a su malvado amo, y el único objetivo de su malvado amo es evitar que conozcas a tu "Buen Amo".
 
-Dado que la [masonería](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons") tiene varias de sus raíces enterradas en la sabiduría del Antiguo Egipto y que, como veremos más adelante, muchos altos funcionarios de la NASA son [masones](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons"), la teoría de la conspiración sostiene que el objetivo final del Apolo 11 era llevar a cabo un ritual ancestral para "establecer comunicación" con una "deidad del principio de los tiempos". [[4\|4]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-infinityexplorers-4)
+Dado que la [masonería](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons") tiene varias de sus raíces enterradas en la sabiduría del Antiguo Egipto y que, como veremos más adelante, muchos altos funcionarios de la NASA son [masones](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons"), la teoría de la conspiración sostiene que el objetivo final del Apolo 11 era llevar a cabo un ritual ancestral para "establecer comunicación" con una "deidad del principio de los tiempos". [^4]
 
 #### ¿La ciencia y la Biblia están en armonía?
 
@@ -175,7 +170,7 @@ El Big Bang es la teoría de que el universo comenzó con una singularidad extre
 
 La teoría de la gran explosión se expandió lentamente a lo largo de 14 mil millones de años hasta llegar a lo que vemos hoy, y Edwin Hubble proporcionó "pruebas cruciales" para la teoría en 1929, cuando teorizó que la mayor parte de la materia del universo se está alejando de nosotros (es decir, su luz se desplaza hacia el rojo).
 
-Se han propuesto varias teorías poco fundamentadas sobre qué causó o qué ocurrió antes del Big Bang. La posición científica es que no sabemos qué lo causó (si es que hubo una causa). Mientras tanto, la mayoría de las culturas a lo largo del tiempo, así como las escrituras, afirman que la Tierra y los cielos fueron cuidadosamente creados por Dios. [[5\|5]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-whynasalies-5)
+Se han propuesto varias teorías poco fundamentadas sobre qué causó o qué ocurrió antes del Big Bang. La posición científica es que no sabemos qué lo causó (si es que hubo una causa). Mientras tanto, la mayoría de las culturas a lo largo del tiempo, así como las escrituras, afirman que la Tierra y los cielos fueron cuidadosamente creados por Dios. [^5]
 
 #### Censura del discurso religioso
 
@@ -199,15 +194,15 @@ La carta de demanda continuaba citando la Ley de Restauración de la Libertad Re
 
 "No entendemos cómo una mención de este tipo en un anuncio que está vinculado específicamente al Club de Alabanza y Adoración JSC puede implicar un patrocinio, respaldo o establecimiento de una religión por parte del estado".
 
-Según Dys, hasta el martes los abogados no habían recibido una respuesta de la NASA con respecto a su carta de demanda en nombre del club. [[6\|6]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-banningjesus-6)
+Según Dys, hasta el martes los abogados no habían recibido una respuesta de la NASA con respecto a su carta de demanda en nombre del club. [^6]
 
 ### La CGI es nuestra "prueba" del globo
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png)](https://trueearth.wikitide.org/wiki/File:ItsPhotoshopedButItHasToBe.webp)
+![](https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png)
 
 El artista de CGI de la NASA Robert Simmon
 
-Robert Simmon - "Artista de CGI" de la NASA [[7\|7]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-RobertSimmon-7):
+Robert Simmon - "Artista de CGI" de la NASA [^7]:
 
 > **La última vez que alguien tomó una fotografía desde arriba de la órbita baja de la Tierra** que mostraba un globo entero El hemisferio (una de las caras del globo) **fue en 1972** durante el Apolo 17. Los satélites del Sistema de Observación de la Tierra (EOS) de la NASA fueron diseñados para proporcionar un chequeo de la salud de la Tierra. En 2002, finalmente teníamos suficientes datos para hacer una instantánea de toda la Tierra. Y así lo hicimos. La parte difícil fue crear un mapa plano de la superficie de la Tierra con cuatro meses de datos satelitales. Reto Stockli, ahora en la Oficina Federal Suiza de Meteorología y Climatología, hizo gran parte de este trabajo. **Luego envolvimos el mapa plano alrededor de una pelota**. Mi parte fue integrar la superficie, las nubes y los océanos **para que coincidieran con las expectativas de la gente sobre cómo se ve la Tierra desde el espacio**. Esa pelota se convirtió en la famosa canica azul.
 
@@ -215,7 +210,7 @@ Robert Simmon - "Artista de CGI" de la NASA [[7\|7]](https://trueearth.wikitide.
 
 ### ¿La NASA es un complejo militar/una bodega?
 
-Parece que la NASA ha gastado una cantidad considerable de dinero en encontrar formas eficientes de matar a grandes cantidades de personas. Dennis M. Bushnell, científico jefe del Centro de Investigación Langley de la NASA, escribió una presentación titulada: "**Cuestiones estratégicas futuras/Guerra futura [circa 2025]**" [[8\|8]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-FutureOfWars2025-8)
+Parece que la NASA ha gastado una cantidad considerable de dinero en encontrar formas eficientes de matar a grandes cantidades de personas. Dennis M. Bushnell, científico jefe del Centro de Investigación Langley de la NASA, escribió una presentación titulada: "Cuestiones estratégicas futuras/Guerra futura" [^8]
 
 Esta presentación describe que los humanos han "tomado el control" y acortado enormemente la "evolución" del planeta, y detalla varios tipos de armas y qué tipos de armas son "legales" y baratas. Este proyecto fue presentado a la USAF, Army After Next, DARPA, SBCCOM, DIA, CIA, etc.
 
@@ -230,20 +225,22 @@ POLVO INTELIGENTE, NANOTAGS, INSECTOS cooptados, posicionamiento óptimo de polv
 
 Entonces, si la NASA gasta 70 millones por día y todo lo que obtenemos son dibujos animados CGI; ¿qué están haciendo realmente? ¿Están planeando formas "legales" y baratas de matar gente? Seguro que sí.
 
-Vea la presentación de Kyle Adams sobre la NASA y MK_Ultra. Parece que la NASA estuvo involucrada en experimentos de control mental oscuro, y Mark Phillips de la CIA dijo que la NASA sería directamente responsable del trauma mental de un niño "Kelly" desde antes de su nacimiento. [[9\|9]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-NASAMKUltra-9)
+Vea la presentación de Kyle Adams sobre la NASA y MK_Ultra. Parece que la NASA estuvo involucrada en experimentos de control mental oscuro, y Mark Phillips de la CIA dijo que la NASA sería directamente responsable del trauma mental de un niño "Kelly" desde antes de su nacimiento. [^9]
 
-### Presidential Direction
+### Dirección Presidencial
 
-The overall goals of United States space activities are:
+Los objetivos generales de las actividades espaciales de Estados Unidos son
 
-1. Strengthen and security of the United States;
-2. Obtain scientific, technological, and economic benefits for the general population and to improve the quality of life on Earth through space-related activities;
-3. Encourage continuing United States private-sector investment in space and related activities;
-4. Promote international cooperative activities taking into account United States national security, foreign policy, scientific, and economic interests;
-5. Cooperate with other nations in maintaining the freedom of space for all activities that enhance the security and welfare of mankind; and, as a long-range goal,
-6. Expand human presence and activity beyond Earth orbit into the solar system.
+1. Fortalecer y seguridad de los Estados Unidos;
+2. Obtener beneficios científicos, tecnológicos y económicos para la población en general y mejorar la calidad de vida en la Tierra mediante actividades relacionadas con el espacio;
+3. 3. Fomentar la inversión continua del sector privado de Estados Unidos en el espacio y las actividades relacionadas;
+4. Promover actividades de cooperación internacional teniendo en cuenta la seguridad nacional, la política exterior y los intereses científicos y económicos de Estados Unidos;
+5. Cooperar con otras naciones en el mantenimiento de la libertad del espacio para todas las actividades que mejoren la seguridad y el bienestar de la humanidad; y, como objetivo a largo plazo,
+6. Expandir la presencia y la actividad humanas más allá de la órbita terrestre, hacia el sistema solar.
 
-We can easily argue that the overall goals have never been met or addressed. Furthermore, every installed president/actor also has given NASA a new "Presidential Directive", from which you can easily see why many people say "NASA going nowhere since 1958".
+Podemos argumentar fácilmente que los objetivos generales nunca se han cumplido o abordado. Además, cada presidente/actor en funciones también ha dado a la NASA una nueva «Directiva Presidencial», de lo que se deduce fácilmente por qué mucha gente dice que «la NASA no va a ninguna parte desde 1958».
+
+Traducción realizada con la versión gratuita del traductor DeepL.com
 
 | Presidente                       | Directiva                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -268,86 +265,62 @@ Parece que la única tecnología que se perdió fue la genialidad de Stanley Kub
 
 > El astronauta de la NASA Don Pettit  
 > 
-> “Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” [[10\|10]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-PettitDestroyedTechnology-10)
+> “Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” [^10]
 
 Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera monitorear y proporcionar imágenes de la Tierra desde el espacio, ¿por qué en 2023 Japón descubrió 7000 nuevas islas? El número de islas del país se ha duplicado y ahora hay más de 14 000 incluidas en su mapa. #GraciasNASA 🤦
 
 ### Galería
 
-- [![Ni una sola imagen de la tierra](https://static.miraheze.org/trueearthwiki/thumb/9/98/NotOnePicOfEarth.jpg/120px-NotOnePicOfEarth.jpg)](https://trueearth.wikitide.org/wiki/File:NotOnePicOfEarth.jpg "Ni una sola imagen de la tierra")
-    
+- ![Ni una sola imagen de la tierra](https://static.miraheze.org/trueearthwiki/thumb/9/98/NotOnePicOfEarth.jpg/120px-NotOnePicOfEarth.jpg)
     Ni una sola imagen de la tierra
     
- - [![Un AstroNOT con el reflejo de Stanley Kubrick en el casco](https://static.miraheze.org/trueearthwiki/thumb/3/3e/AstoNOT.jpg/120px-AstoNOT.jpg)](https://trueearth.wikitide.org/wiki/File:AstoNOT.jpg "Un AstroNOT con el reflejo de Stanley Kubrick en el casco")
-    
+ - ![Un AstroNOT con el reflejo de Stanley Kubrick en el casco](https://static.miraheze.org/trueearthwiki/thumb/3/3e/AstoNOT.jpg/120px-AstoNOT.jpg)
     Un AstroNOT con el reflejo de Stanley Kubrick en el casco
     
- - [![La tumba de von Braun: versículo bíblico que hace referencia al firmamento](https://static.miraheze.org/trueearthwiki/thumb/7/78/WernherVonBraunGrave.jpg/120px-WernherVonBraunGrave.jpg)](https://trueearth.wikitide.org/wiki/File:WernherVonBraunGrave.jpg "La tumba de von Braun: versículo bíblico que hace referencia al firmamento")
-    
+ - ![La tumba de von Braun: versículo bíblico que hace referencia al firmamento](https://static.miraheze.org/trueearthwiki/thumb/7/78/WernherVonBraunGrave.jpg/120px-WernherVonBraunGrave.jpg)
     La tumba de von Braun: versículo bíblico que hace referencia al firmamento
     
- - [![La NASA y el "presidente" instalado Eisenhower](https://static.miraheze.org/trueearthwiki/thumb/5/58/NASA_Pres_Eisenhower.jpg/120px-NASA_Pres_Eisenhower.jpg)](https://trueearth.wikitide.org/wiki/File:NASA_Pres_Eisenhower.jpg "La NASA y el "presidente" instalado Eisenhower")
-    
+ - ![La NASA y el "presidente" instalado Eisenhower](https://static.miraheze.org/trueearthwiki/thumb/5/58/NASA_Pres_Eisenhower.jpg/120px-NASA_Pres_Eisenhower.jpg)
     La NASA y el "presidente" instalado Eisenhower
     
- - [![Buzz dando el símbolo 666 de los Illuminati](https://static.miraheze.org/trueearthwiki/thumb/f/fe/BuzzIlluminati.jpg/120px-BuzzIlluminati.jpg)](https://trueearth.wikitide.org/wiki/File:BuzzIlluminati.jpg "Buzz dando el símbolo 666 de los Illuminati")
-    
+ - ![Buzz dando el símbolo 666 de los Illuminati](https://static.miraheze.org/trueearthwiki/thumb/f/fe/BuzzIlluminati.jpg/120px-BuzzIlluminati.jpg)
     Buzz dando el símbolo 666 de los Illuminati
-    
- - [![Michelle Thaller - No está bien pensar que la tierra es plana](https://static.miraheze.org/trueearthwiki/thumb/8/8c/MichelleThaller.jpg/120px-MichelleThaller.jpg)](https://trueearth.wikitide.org/wiki/File:MichelleThaller.jpg "Michelle Thaller - No está bien pensar que la tierra es plana")
-    
-    Michelle Thaller - No está bien pensar que la tierra es plana
-    
- - [![Lo que los fanáticos de la NASA realmente aman](https://static.miraheze.org/trueearthwiki/thumb/d/df/TheyLiveNASA.jpeg/120px-TheyLiveNASA.jpeg)](https://trueearth.wikitide.org/wiki/File:TheyLiveNASA.jpeg "Lo que los fanáticos de la NASA realmente aman")
-    
-    Lo que los fanáticos de la NASA realmente aman
-    
- - [![Mundo de la NASA](https://static.miraheze.org/trueearthwiki/thumb/8/81/DisneyNASA.jpg/120px-DisneyNASA.jpg)](https://trueearth.wikitide.org/wiki/File:DisneyNASA.jpg "Mundo de la NASA")
-    
+   
+ - ![Mundo de la NASA](https://static.miraheze.org/trueearthwiki/thumb/8/81/DisneyNASA.jpg/120px-DisneyNASA.jpg)
     Mundo de la NASA
     
- - [![Walt Disney y Wernher Von Braun](https://static.miraheze.org/trueearthwiki/thumb/d/d8/WaltDisneyandWernherVonBraun.jpg/120px-WaltDisneyandWernherVonBraun.jpg)](https://trueearth.wikitide.org/wiki/File:WaltDisneyandWernherVonBraun.jpg "Walt Disney y Wernher Von Braun")
-    
+ - ![Walt Disney y Wernher Von Braun](https://static.miraheze.org/trueearthwiki/thumb/d/d8/WaltDisneyandWernherVonBraun.jpg/120px-WaltDisneyandWernherVonBraun.jpg)
     Walt Disney y Wernher Von Braun
     
- - [![Juego de aterrizaje en la luna](https://static.miraheze.org/trueearthwiki/thumb/d/d1/MoonLandingPlayset.jpg/101px-MoonLandingPlayset.jpg)](https://trueearth.wikitide.org/wiki/File:MoonLandingPlayset.jpg "Juego de aterrizaje en la luna")
-    
+ - ![Juego de aterrizaje en la luna](https://static.miraheze.org/trueearthwiki/thumb/d/d1/MoonLandingPlayset.jpg/101px-MoonLandingPlayset.jpg)
     Juego de aterrizaje en la luna
     
- - [![Presupuesto de la NASA para 2023: 26 mil millones de dólares](https://static.miraheze.org/trueearthwiki/thumb/3/35/NASA_budget_2023.png/110px-NASA_budget_2023.png)](https://trueearth.wikitide.org/wiki/File:NASA_budget_2023.png "Presupuesto de la NASA para 2023: 26 mil millones de dólares")
-    
+ - ![Presupuesto de la NASA para 2023: 26 mil millones de dólares](https://static.miraheze.org/trueearthwiki/thumb/3/35/NASA_budget_2023.png/110px-NASA_budget_2023.png)
     Presupuesto de la NASA para 2023: 26 mil millones de dólares
     
- - [![Michio Kafu y el Cosmos relacionado con la Cábala](https://static.miraheze.org/trueearthwiki/thumb/f/fa/MichioKafu_CosmosKabbalah.png/120px-MichioKafu_CosmosKabbalah.png)](https://trueearth.wikitide.org/wiki/File:MichioKafu_CosmosKabbalah.png "Michio Kafu y el Cosmos relacionado con la Cábala")
+ - ![Michio Kafu y el Cosmos relacionado con la Cábala](https://static.miraheze.org/trueearthwiki/thumb/f/fa/MichioKafu_CosmosKabbalah.png/120px-MichioKafu_CosmosKabbalah.png)
     
     Michio Kafu y el Cosmos relacionado con la Cábala
     
- - [![Los masones espeluznantes no ven, no oyen, no hablan](https://static.miraheze.org/trueearthwiki/thumb/7/78/AstroNOTS_hearNoSpeakNo.jpg/120px-AstroNOTS_hearNoSpeakNo.jpg)](https://trueearth.wikitide.org/wiki/File:AstroNOTS_hearNoSpeakNo.jpg "Los masones espeluznantes no ven, no oyen, no hablan")
-    
+ - ![Los masones espeluznantes no ven, no oyen, no hablan](https://static.miraheze.org/trueearthwiki/thumb/7/78/AstroNOTS_hearNoSpeakNo.jpg/120px-AstroNOTS_hearNoSpeakNo.jpg)
     Los masones espeluznantes no ven, no oyen, no hablan
     
- - [![Más AstroNOTS No ver, No oír, No hablar](https://static.miraheze.org/trueearthwiki/thumb/2/28/AstroNOTS_hearNoSpeakNo2.jpg/120px-AstroNOTS_hearNoSpeakNo2.jpg)](https://trueearth.wikitide.org/wiki/File:AstroNOTS_hearNoSpeakNo2.jpg "Más AstroNOTS No ver, No oír, No hablar")
-    
+ - ![Más AstroNOTS No ver, No oír, No hablar](https://static.miraheze.org/trueearthwiki/thumb/2/28/AstroNOTS_hearNoSpeakNo2.jpg/120px-AstroNOTS_hearNoSpeakNo2.jpg)
     Más AstroNOTS No ver, No oír, No hablar
     
- - [![NASA, decídete: ¿cómo es la Tierra?](https://static.miraheze.org/trueearthwiki/thumb/2/2e/YearsOfNASAballs.jpg/120px-YearsOfNASAballs.jpg)](https://trueearth.wikitide.org/wiki/File:YearsOfNASAballs.jpg "NASA, decídete: ¿cómo es la Tierra?")
-    
+ - ![NASA, decídete: ¿cómo es la Tierra?](https://static.miraheze.org/trueearthwiki/thumb/2/2e/YearsOfNASAballs.jpg/120px-YearsOfNASAballs.jpg)
     NASA, decídete: ¿cómo es la Tierra?
     
- - [![Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja](https://static.miraheze.org/trueearthwiki/thumb/1/1d/NASAEarthBlooper.jpg/120px-NASAEarthBlooper.jpg)](https://trueearth.wikitide.org/wiki/File:NASAEarthBlooper.jpg "Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja")
-    
+ - ![Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja](https://static.miraheze.org/trueearthwiki/thumb/1/1d/NASAEarthBlooper.jpg/120px-NASAEarthBlooper.jpg)
     Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja
     
- - [![Plutón y el planeta Plutón de Disney](https://static.miraheze.org/trueearthwiki/thumb/2/2d/DisneyPlanetPluto.jpg/120px-DisneyPlanetPluto.jpg)](https://trueearth.wikitide.org/wiki/File:DisneyPlanetPluto.jpg "Plutón y el planeta Plutón de Disney")
-    
+ - ![Plutón y el planeta Plutón de Disney](https://static.miraheze.org/trueearthwiki/thumb/2/2d/DisneyPlanetPluto.jpg/120px-DisneyPlanetPluto.jpg)
     Plutón y el planeta Plutón de Disney
     
- - [![Una roca lunar entregada a Holanda era madera petrificada](https://static.miraheze.org/trueearthwiki/thumb/c/ce/PetrifiedWood.png/80px-PetrifiedWood.png)](https://trueearth.wikitide.org/wiki/File:PetrifiedWood.png "Una roca lunar entregada a Holanda era madera petrificada")
-    
+ - ![Una roca lunar entregada a Holanda era madera petrificada](https://static.miraheze.org/trueearthwiki/thumb/c/ce/PetrifiedWood.png/80px-PetrifiedWood.png)
     Una roca lunar entregada a Holanda era madera petrificada
     
- - [![Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente](https://static.miraheze.org/trueearthwiki/thumb/f/ff/3e8c98da434e781d.png/120px-3e8c98da434e781d.png)](https://trueearth.wikitide.org/wiki/File:3e8c98da434e781d.png "Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente")
-    
+ - ![Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente](https://static.miraheze.org/trueearthwiki/thumb/f/ff/3e8c98da434e781d.png/120px-3e8c98da434e781d.png)
     Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente
     
 
@@ -355,8 +328,7 @@ Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera mon
 
 #### "Administración Nacional de Aeronáutica y del Espacio" Gematría
 
-Gematría ordinal inversa "Administración Nacional de Aeronáutica y del Espacio" = 666 [[11\|11]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-Nasa666-11)  
-(Véase [666 y Cientificismo](https://trueearth.wikitide.org/wiki/Pseudoscience/666_and_Scientism "Pseudociencia/666 y cientificismo") )
+Gematría ordinal inversa "Administración Nacional de Aeronáutica y del Espacio" = 666 [^11]
 
 #### Incluso la IA cree que los alunizajes de la NASA son falsos
 
@@ -374,22 +346,17 @@ La misión lunar no tripulada de China, denominada Chang'e, es una serie de sond
 
 “Sí, mira, esto es rojo”, le dijeron a Putin.
 
-El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el vídeo, dijo: "Esto es lo que piensa la red neuronal de Google, no nuestro análisis. Por lo tanto, no habrá sesgo". [[12\|12]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-AIfakeMoon-12)
+El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el vídeo, dijo: "Esto es lo que piensa la red neuronal de Google, no nuestro análisis. Por lo tanto, no habrá sesgo". [^12]
 
 
 ### Simbología
 
 #### logotipo de la NASA
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/4/46/Ouroboros.jpg/100px-Ouroboros.jpg)](https://trueearth.wikitide.org/wiki/File:Ouroboros.jpg)
+> ![](https://static.miraheze.org/trueearthwiki/thumb/4/46/Ouroboros.jpg/100px-Ouroboros.jpg)
+> La serpiente Ouroboros se come a sí misma
 
-La serpiente Ouroboros se come a sí misma
-
-[![](https://static.miraheze.org/trueearthwiki/thumb/3/3e/Nasholes_maxresdefault-3709033561.jpg/300px-Nasholes_maxresdefault-3709033561.jpg)](https://trueearth.wikitide.org/wiki/File:Nasholes_maxresdefault-3709033561.jpg)
-
-NASholes
-
-Las letras N, A, S, A, cuando se intercambian y se agrega la letra "T", forman la palabra SATANÁS (quizás de ahí proviene la frase "T menos").
+Las letras N, A, S, A, cuando se intercambian y se agrega la letra "T", forman la palabra SATAN (quizás de ahí proviene la frase "T menos" en la cuenta atrás del lanzamiento de cohetes).
 
 El círculo blanco representa al Ouroboros (una serpiente que se devora a sí misma) y en la parte posterior vemos la lengua roja de una serpiente. El ouroboros o uroboros es un símbolo antiguo que representa a una serpiente o dragón que se muerde su propia cola. El ouroboros entró en la tradición occidental a través de la iconografía del antiguo Egipto y la tradición mágica griega. Fue adoptado como símbolo en el gnosticismo y el hermetismo y, sobre todo, en la alquimia. Se sabe que algunas serpientes, como las serpientes ratoneras, se devoran a sí mismas.
 
@@ -397,18 +364,15 @@ Uno de los motivos de uróboros más antiguos que se conocen se encuentra en el 
 
 #### El diablo que conoces
 
-- [![Parche de diablo llamado Betty L-49](https://static.miraheze.org/trueearthwiki/thumb/a/a5/L49_devil_named_betty_patch.png/120px-L49_devil_named_betty_patch.png)](https://trueearth.wikitide.org/wiki/File:L49_devil_named_betty_patch.png "Parche de diablo llamado Betty L-49")
-    
-    Parche de diablo llamado Betty L-49
-    
- - [![El cohete de la NASA lanza una diabla llamada Betty](https://static.miraheze.org/trueearthwiki/thumb/5/5a/NASA_rocket_a_devil_named_betty.png/79px-NASA_rocket_a_devil_named_betty.png)](https://trueearth.wikitide.org/wiki/File:NASA_rocket_a_devil_named_betty.png "El cohete de la NASA lanza una diabla llamada Betty")
-    
+- ![Parche de diablo llamado Betty L-49](https://static.miraheze.org/trueearthwiki/thumb/a/a5/L49_devil_named_betty_patch.png/120px-L49_devil_named_betty_patch.png)
+Parche de diablo llamado Betty L-49
+
+ - ![El cohete de la NASA lanza una diabla llamada Betty](https://static.miraheze.org/trueearthwiki/thumb/5/5a/NASA_rocket_a_devil_named_betty.png/79px-NASA_rocket_a_devil_named_betty.png)
     El cohete de la NASA lanza una diabla llamada Betty
-    
- - [![Parche Mejor diablo de lo que conoces](https://static.miraheze.org/trueearthwiki/thumb/a/a9/Melior_Diabolus_Quem_Scies_patch.png/119px-Melior_Diabolus_Quem_Scies_patch.png)](https://trueearth.wikitide.org/wiki/File:Melior_Diabolus_Quem_Scies_patch.png "Parche Mejor diablo de lo que conoces")
-    
+
+ - ![Parche Mejor diablo de lo que conoces](https://static.miraheze.org/trueearthwiki/thumb/a/a9/Melior_Diabolus_Quem_Scies_patch.png/119px-Melior_Diabolus_Quem_Scies_patch.png)
     Parche Mejor diablo de lo que conoces
-    
+
 
 Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido.
 
@@ -422,58 +386,57 @@ El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si 
 
 ### Funcionarios que hablaron en contra de la NASA
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg)](https://trueearth.wikitide.org/wiki/File:1986-space-shuttle-challenger-crew-3027475113.jpg)
-
+![](https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg)
 Los gemelos del desastre del transbordador espacial Challenger de 1986
 
-- El ex CIA Robert David Steele dice que "la NASA no es una agencia espacial" [[13\|13]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-nasaNotSpaceAgency-13)
-- Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. [[14\|14]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-grissommurdered-14) [[15\|15]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-wasguskilled-15) [[16\|16]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-DidNASAOffGus-16) Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? [[17\|17]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-silenceoftheNots-17)
+- El ex CIA Robert David Steele dice que "la NASA no es una agencia espacial". [^13]
+- Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. [^14] [^15] [^16] Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? [^17]
 
-- Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo "eliminaron", probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. [[18\|18]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-challenger-18)
-- Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. [[19\|19]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-jameswebb-19)
-- El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. [[20\|20]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-DmitryRogozin-20)
-- Un ex empleado de la NASA revela que los alunizajes fueron falsos y que la Tierra es plana. [[21\|21]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-ExEmployee-21)
-- Dos sustancias químicas altamente tóxicas del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles, según los organismos de control. [[22\|22]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-ChemicalsLeak-22)
-- La NASA admite que nunca fueron a la Luna. [[23\|23]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-NeverWent-23)
-- Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. [[24\|24]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-math-powerland-24)
-- Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! [[25\|25]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-NASACIALIE-25)
+- Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo "eliminaron", probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. [^18]
+- Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. [^19]
+- El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. [^20]
+- Un ex empleado de la NASA revela que los alunizajes fueron falsos y que la Tierra es plana. [^21]
+- Dos sustancias químicas altamente tóxicas del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles, según los organismos de control. [^22]
+- La NASA admite que nunca fueron a la Luna. [^23]
+- Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. [^24]
+- Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! [^25]
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif)](https://trueearth.wikitide.org/wiki/File:NASA_harness_smartselect_20200917-123743_youtube.gif)
-
-La NASA utiliza mazos de cables para simular la gravedad
+> ![](https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif)
+> La NASA utiliza mazos de cables para simular la gravedad
 
 ### ¿Seguramente la NASA no está fingiendo?
 
-⚠️ ¡Cuidado! Descubrir que la NASA es falsa podría convertirte en un terraplanista.
+> [!Warning] Descubrir que la NASA es falsa podría convertirte en un terraplanista.
 
-#### ¿MARS está en Canadá?
+#### ¿Marte está en Canadá?
 
 - ¿Marte está en Canadá? La próxima vez que viajes con Google Earth, echa un vistazo a la isla Devon ^[26]
 
 #### La ISS es falsa
 
-- ¿Están falsificando la Estación Espacial Internacional? [[27\|27]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS-27)
-- ¿Aún crees que la ISS es real? [[28\|28]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS2-28)
-- Más falsificaciones sobre la ISS [[29\|29]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS3-29) [[30\|30]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS4-30) [[31\|31]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS5-31) [[32\|32]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS6-32) [[33\|33]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-IFS7-33)
+La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA. Opera de varias formas: [^27] [^28] [^29] [^30] [^31] [^32] [^33]
+
+- ISS por fuera: Maqueta a gran escala con pantalla verde y CGI
+- ISS por dentro: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos
+- ISS recorriendo: Set de grabación con cables, arneses y hologramas 3D, lentes de contacto e interacción con objetos 3D virtuales.
+- ISS con astronautas en el Espacio: fondo de una piscina con buzos submarinos
+
 
 #### Equipo de natación de la NASA
 
-[![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg)](https://trueearth.wikitide.org/wiki/File:NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg)
+> ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg)
+> Equipo de submarinismo de la NASA
 
-Equipo de natación de la NASA
+La NASA "entrena" a los astronautas en una piscina con una versión a escala real de la Estación Espacial Internacional. ¿Seguramente la NASA no está simulando los paseos espaciales en una piscina? [^34]
 
-La NASA "entrena" a los astronautas en una piscina con una versión a escala real de la Estación Espacial Internacional. ¿Seguramente la NASA no está simulando los paseos espaciales en una piscina? [[34\|34]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-justinharvey-34)  
-
-Aunque ha habido muchos videos que muestran burbujas durante los videos de caminatas espaciales de la NASA en la ISS (no los videos de entrenamiento) [[35\|35]](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_note-bubblesinspace-35)
+Aunque ha habido muchos videos que muestran burbujas durante los videos de caminatas espaciales de la NASA en la ISS (no los videos de entrenamiento) [^35]
 
 A lo largo de los años, numerosos astronautas se han enfrentado a la terrible experiencia de que su casco se llenara de agua. En 2013, una caminata espacial tuvo que ser interrumpida después de que el astronauta de la Agencia Espacial Europea Luca Parmitano estuvo a punto de ahogarse. Un informe de la NASA que detalla el incidente decía que Parmitano se encontró con “agua que le cubría los ojos, la nariz y los oídos”.
 
-[![](https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png)](https://trueearth.wikitide.org/wiki/File:NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png)
+> ![](https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png)
+> La NASA suspende una caminata espacial tras una filtración de agua en el casco
 
-La NASA suspende una caminata espacial tras una filtración de agua en el casco
-
-¿Quizás el espacio sea líquido?
-
+---
 
 ### Ver también
 
@@ -490,38 +453,37 @@ La NASA suspende una caminata espacial tras una filtración de agua en el casco
 
 ### Referencias
 
-1. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-nasaoccult_1-0 "Ponerse de pie de un salto") [bitchute: Eón de Horus: La historia oculta de la NASA](https://www.bitchute.com/video/sEQpFVK65fTF/)
-2. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-bloodandrockets_2-0 "Ponerse de pie de un salto") [YouTube: Canción "Blood and Rockets" de Les Claypool](https://www.youtube.com/watch?v=XcOHiGonWwU)
-3. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-h5377_3-0 "Ponerse de pie de un salto") [BlueLetterBible Web: siguiente'](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/)
-4. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-infinityexplorers_4-0 "Ponerse de pie de un salto") [infinityexplorers.com: Las conexiones masónicas de la NASA](https://www.infinityexplorers.com/nasa-missions-and-their-masonic-connections/)
-5. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-whynasalies_5-0 "Ponerse de pie de un salto") [infinityexplorers.com: Por qué la NASA miente sobre todo](https://nonorthodoxy.com/why-nasa-lies-about-everything/)
-6. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-banningjesus_6-0 "Ponerse de pie de un salto") [christianpost.com: La NASA prohíbe "Jesús" y censura el discurso religioso de los empleados cristianos, afirman los trabajadores](https://www.christianpost.com/news/nasa-johnson-space-center-banning-jesus-censoring-christian-employees-religious-speech-praise-worship-club-newsletter.html)
-7. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-RobertSimmon_7-0 "Ponerse de pie de un salto") [NASA.gov Robert Simmon](https://www.nasa.gov/people-of-nasa/goddard-people/robert-simmon-aka-mr-blue-marble/)
-8. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-FutureOfWars2025_8-0 "Ponerse de pie de un salto") [PDF: Presentación de Future Warfare Circa 2025](https://trueearth.wikitide.org/wiki/File:Future_of_war_2025_dtic.mil-ndia-2001testing-bushnell.pdf "Archivo:El futuro de la guerra en 2025 dtic.mil-ndia-2001testing-bushnell.pdf")
-9. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-NASAMKUltra_9-0 "Ponerse de pie de un salto") [YouTube: Vídeo de la operación MK-Ultra de la NASA](https://www.youtube.com/watch?v=t8MoWyAvxM4)
-10. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-PettitDestroyedTechnology_10-0 "Ponerse de pie de un salto") [YouTube: Video de tecnología destruida de Don Pettit](https://www.youtube.com/watch?v=16MMZJlp_0Y)
-11. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-Nasa666_11-0 "Ponerse de pie de un salto") [Web: Gematria Calc, ingrese el término: Administración Nacional de Aeronáutica y del Espacio](https://gematrinator.com/calculator)
-12. [^](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-AIfakeMoon_12-0 "Ponerse de pie de un salto") [https://ummid.com/news/2023/november/27-11-2023/watch-ai-analysis-says-us-moon-landing-images-are-fake.html](https://ummid.com/news/2023/november/27-11-2023/watch-ai-analysis-says-us-moon-landing-images-are-fake.html)
-13. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-nasaNotSpaceAgency_13-0 "Ponerse de pie de un salto") [YouTube: El ex CIA Robert David Steele dice que la NASA no es una agencia espacial. La NASA miente…](https://www.youtube.com/watch?v=5wo2TKAYR6M)
-14. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-grissommurdered_14-0 "Ponerse de pie de un salto") [TheMillenniumReport.com: El astronauta del Apolo fue asesinado, denuncia su hijo](https://themillenniumreport.com/2017/11/hard-evidence-confirms-astronaut-gus-grissom-was-murdered-by-nasa/)
-15. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-wasguskilled_15-0 "Ponerse de pie de un salto") [themillenniumreport ¿Por qué el astronauta Gus Grissom fue realmente asesinado en el incendio provocado del Apolo 1?](https://themillenniumreport.com/2019/08/why-was-astronaut-gus-grissom-really-murdered-via-the-apollo-1-arson-fire/)
-16. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-DidNASAOffGus_16-0 "Ponerse de pie de un salto") [La conspiración del Apolo 1; ¿La NASA encubrió la muerte de Gus Grissom?](https://www.gaia.com/article/the-apollo-1-conspiracy-did-nasa-covered-up-gus-grissoms-death)
-17. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-silenceoftheNots_17-0 "Ponerse de pie de un salto") [dailystar: Los astronautas de la NASA fueron 'asesinados para mantener encubiertos los falsos alunizajes'](https://www.dailystar.co.uk/news/weird-news/nasa-moon-landing-space-apollo-16778152)
-18. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-challenger_18-0 "Ponerse de pie de un salto") [Recordando a Allan McDonald: se negó a aprobar el lanzamiento del Challenger y expuso un encubrimiento](https://www.npr.org/2021/03/07/974534021/remembering-allan-mcdonald-he-refused-to-approve-challenger-launch-exposed-cover)
-19. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-jameswebb_19-0 "Ponerse de pie de un salto") [futurism.com: Astrónomos influyentes critican a la NASA por un telescopio con un nombre ofensivo: James Webb](https://futurism.com/the-byte/astronomers-call-out-nasa)
-20. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-DmitryRogozin_20-0 "Ponerse de pie de un salto") [YouTube: Exjefe de la Agencia Espacial Rusa hace preguntas sobre supuestos alunizajes](https://www.youtube.com/watch?v=7FRl4nDmHNc)
-21. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-ExEmployee_21-0 "Ponerse de pie de un salto") [YouTube: Ex-employee / Ex trabajadora de la NASA Cyndi Holland](https://www.youtube.com/watch?v=bqldMK41qqI)
-22. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-ChemicalsLeak_22-0 "Ponerse de pie de un salto") [theguardian: Los organismos de control dicen que los productos químicos del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles](https://www.theguardian.com/us-news/2023/sep/28/nasa-boeing-forever-chemicals-los-angeles)
-23. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-NeverWent_23-0 "Ponerse de pie de un salto") [YouTube: LA NASA ADMITE QUE NUNCA FUÍMOS A LA LUNA](https://www.youtube.com/watch?v=DpPMoIv1lxI)
-24. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-math-powerland_24-0 "Ponerse de pie de un salto") [Archive.org: Denunciante de la NASA de Math Powerland](https://archive.org/details/math-powerland-nasa-whistleblower-720)
-25. [↑ Desde](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-NASACIALIE_25-0 "Ponerse de pie de un salto") [la NASA hasta la CIA, todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial!](https://www.youtube.com/watch?v=VFR78p_3cio)
-26. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-DevonIsland_26-0 "Ponerse de pie de un salto") [La misión de la NASA a Marte es un engaño de la isla Devon](https://www.youtube.com/watch?v=i7enyfu1BxI)
-27. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS_27-0 "Ponerse de pie de un salto") [International Fake Station: Reunión de la Comisión del condado de Brevard del 4 de abril de 2023](https://www.youtube.com/watch?v=66kP_fB2I7w&t=1s)
-28. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS2_28-0 "Ponerse de pie de un salto") [YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)](https://www.youtube.com/watch?v=oo3btAFI0O0)
-29. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS3_29-0 "Ponerse de pie de un salto") [YouTube: NASA ISS FALSO - 1](https://www.youtube.com/watch?v=oOa1Zv7nvbc)
-30. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS4_30-0 "Ponerse de pie de un salto") [YouTube: NASA ISS FALSO - 2](https://www.youtube.com/watch?v=nOmaLIT9q34)
-31. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS5_31-0 "Ponerse de pie de un salto") [YouTube: NASA ISS FALSO - 3](https://www.youtube.com/watch?v=MT3UtX1by3E)
-32. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS6_32-0 "Ponerse de pie de un salto") [YouTube: NASA ISS FALSO - 4](https://www.youtube.com/watch?v=cY0ZcIh2x-A)
-33. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-IFS7_33-0 "Ponerse de pie de un salto") [YouTube: NASA ISS FALSO - 5](https://www.youtube.com/watch?v=tGQp6B5m5Dk)
-34. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-justinharvey_34-0 "Ponerse de pie de un salto") [YouTube: Denunciando el fraude de la NASA por Justin Harvey](https://www.youtube.com/watch?v=A3gjvwHskeI)
-35. [↑](https://trueearth.wikitide.org/wiki/Agencies/NASA#cite_ref-bubblesinspace_35-0 "Ponerse de pie de un salto") [YouTube: La NASA fue descubierta nuevamente fingiendo estar en el espacio - Space Bubbles](https://www.youtube.com/watch?v=Hz5xNxMP5lA)
+[^1]: [bitchute: Eón de Horus: La historia oculta de la NASA](https://www.bitchute.com/video/sEQpFVK65fTF/)
+[^2]: [YouTube: Canción "Blood and Rockets" de Les Claypool](https://www.youtube.com/watch?v=XcOHiGonWwU)
+[^3]: [BlueLetterBible Web: siguiente'](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/)
+[^4]: [infinityexplorers.com: Las conexiones masónicas de la NASA](https://www.infinityexplorers.com/nasa-missions-and-their-masonic-connections/)
+[^5]: [infinityexplorers.com: Por qué la NASA miente sobre todo](https://nonorthodoxy.com/why-nasa-lies-about-everything/)
+[^6]: [christianpost.com: La NASA prohíbe "Jesús" y censura el discurso religioso de los empleados cristianos, afirman los trabajadores](https://www.christianpost.com/news/nasa-johnson-space-center-banning-jesus-censoring-christian-employees-religious-speech-praise-worship-club-newsletter.html)
+[^7]: [NASA.gov Robert Simmon](https://www.nasa.gov/people-of-nasa/goddard-people/robert-simmon-aka-mr-blue-marble/)
+[^8]: [PDF: Presentación de Future Warfare Circa 2025](https://trueearth.wikitide.org/wiki/File:Future_of_war_2025_dtic.mil-ndia-2001testing-bushnell.pdf "Archivo:El futuro de la guerra en 2025 dtic.mil-ndia-2001testing-bushnell.pdf")
+[^9]: [YouTube: Vídeo de la operación MK-Ultra de la NASA](https://www.youtube.com/watch?v=t8MoWyAvxM4)
+[^10]: [YouTube: Video de tecnología destruida de Don Pettit](https://www.youtube.com/watch?v=16MMZJlp_0Y)
+[^11]: [Web: Gematria Calc, ingrese el término: Administración Nacional de Aeronáutica y del Espacio](https://gematrinator.com/calculator)
+[^12]: [YouTube: El ex CIA Robert David Steele dice que la NASA no es una agencia espacial. La NASA miente…](https://www.youtube.com/watch?v=5wo2TKAYR6M)
+[^13]: [TheMillenniumReport.com: El astronauta del Apolo fue asesinado, denuncia su hijo](https://themillenniumreport.com/2017/11/hard-evidence-confirms-astronaut-gus-grissom-was-murdered-by-nasa/)
+[^14]: [themillenniumreport ¿Por qué el astronauta Gus Grissom fue realmente asesinado en el incendio provocado del Apolo 1?](https://themillenniumreport.com/2019/08/why-was-astronaut-gus-grissom-really-murdered-via-the-apollo-1-arson-fire/)
+[^15]: [La conspiración del Apolo 1; ¿La NASA encubrió la muerte de Gus Grissom?](https://www.gaia.com/article/the-apollo-1-conspiracy-did-nasa-covered-up-gus-grissoms-death)
+[^16]: [dailystar: Los astronautas de la NASA fueron 'asesinados para mantener encubiertos los falsos alunizajes'](https://www.dailystar.co.uk/news/weird-news/nasa-moon-landing-space-apollo-16778152)
+[^17]: [Recordando a Allan McDonald: se negó a aprobar el lanzamiento del Challenger y expuso un encubrimiento](https://www.npr.org/2021/03/07/974534021/remembering-allan-mcdonald-he-refused-to-approve-challenger-launch-exposed-cover)
+[^18]: [futurism.com: Astrónomos influyentes critican a la NASA por un telescopio con un nombre ofensivo: James Webb](https://futurism.com/the-byte/astronomers-call-out-nasa)
+[^19]: [YouTube: Exjefe de la Agencia Espacial Rusa hace preguntas sobre supuestos alunizajes](https://www.youtube.com/watch?v=7FRl4nDmHNc)
+[^20]: [YouTube: Ex-employee / Ex trabajadora de la NASA Cyndi Holland](https://www.youtube.com/watch?v=bqldMK41qqI)
+[^21]: [theguardian: Los organismos de control dicen que los productos químicos del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles](https://www.theguardian.com/us-news/2023/sep/28/nasa-boeing-forever-chemicals-los-angeles)
+[^22]: [YouTube: LA NASA ADMITE QUE NUNCA FUÍMOS A LA LUNA](https://www.youtube.com/watch?v=DpPMoIv1lxI)
+[^23]: [Archive.org: Denunciante de la NASA de Math Powerland](https://archive.org/details/math-powerland-nasa-whistleblower-720)
+[^24]: [la NASA hasta la CIA, todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial!](https://www.youtube.com/watch?v=VFR78p_3cio)
+[^25]: [La misión de la NASA a Marte es un engaño de la isla Devon](https://www.youtube.com/watch?v=i7enyfu1BxI)
+[^26]: [International Fake Station: Reunión de la Comisión del condado de Brevard del 4 de abril de 2023](https://www.youtube.com/watch?v=66kP_fB2I7w&t=1s)
+[^27]: [YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)](https://www.youtube.com/watch?v=oo3btAFI0O0)
+[^28]: [YouTube: NASA ISS FALSO - 1](https://www.youtube.com/watch?v=oOa1Zv7nvbc)
+[^29]: [YouTube: NASA ISS FALSO - 2](https://www.youtube.com/watch?v=nOmaLIT9q34)
+[^30]: [YouTube: NASA ISS FALSO - 3](https://www.youtube.com/watch?v=MT3UtX1by3E)
+[^31]: [YouTube: NASA ISS FALSO - 4](https://www.youtube.com/watch?v=cY0ZcIh2x-A)
+[^32]: [YouTube: NASA ISS FALSO - 5](https://www.youtube.com/watch?v=tGQp6B5m5Dk)
+[^33]: [YouTube: Denunciando el fraude de la NASA por Justin Harvey](https://www.youtube.com/watch?v=A3gjvwHskeI)
+[^34]: [YouTube: La NASA fue descubierta nuevamente fingiendo estar en el espacio - Space Bubbles](https://www.youtube.com/watch?v=Hz5xNxMP5lA)
