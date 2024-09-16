@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>grandes-llanuras</title>
+<title>wikiterra-estatica</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -89,7 +89,7 @@ CTRL + K
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-estatica/">wikiterra-estatica </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-estatica/">wikiterra-estatica </a>
 </div>
 </div>
 </div>
@@ -278,7 +278,7 @@ CTRL + K
 <span class="foldername">tierra</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/tierra/grandes-llanuras/">grandes-llanuras </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/tierra/grandes-llanuras/">grandes-llanuras </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -464,90 +464,23 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="grandes-llanuras" tabindex="-1">Grandes Llanuras</h1>
-<p>Las grandes llanuras, tanto desérticas como oceánicas, se explican de acuerdo con la idea de una superficie plana y extensa. Estas llanuras se describen como regiones de gran extensión sin variaciones significativas en altura, lo que contribuye a su apariencia de ser planas desde la perspectiva del observador.</p>
-<p>Aquí se presentan ejemplos de grandes llanuras, con sus respectivas superficies totales:</p>
-<h3 id="llanuras-deserticas" tabindex="-1">Llanuras Desérticas</h3>
+<h1 id="wiki-estatica" tabindex="-1">Wiki estática</h1>
+<blockquote>
+<p>WikiTerra es una wiki estática escrita en formato markdown desde <a href="http://Obsidian.md" target="_blank" class="external-link">Obsidian.md</a> y desplegada en formato web en GitHub.</p>
+</blockquote>
+<p>Las wikis estáticas son páginas web estáticas que solo interactúan en el lado cliente o front-end donde el formato web (HTML, CSS, JS) es visible por los navegadores web.</p>
+<p>El término &quot;wiki&quot; alude al nombre que recibe una comunidad virtual, cuyas páginas son editadas directamente desde el navegador web, donde los mismos usuarios crean, modifican, corrigen o eliminan contenidos.</p>
+<p>Sin embargo al ser estáticas no hay registro de usuarios por ello es necesario almacenar los cambios en un una <em>plataforma que tenga un control de versiones</em> , como GitHub, GitLab, Codeberg, etc; con el versión de controles Git.</p>
+<p>Algunas wikis estáticas siguen la estrategia de editar archivos markdown alojados en GItHub y luego mediante un proceso automatizado subir el contenido y convertirlo en formato web. Como es el caso de la <a href="https://wiki.hyprland.org/" target="_blank" class="external-link">wiki de Hyprland</a></p>
+<p>Hacer una web que los usuarios cambien directamente desde GitHub implica usar:</p>
 <ol>
-<li>
-<p><strong>Desierto de Sahara</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 9.2 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Este desierto es uno de los más grandes del mundo y se extiende a través del norte de África. Es una vasta llanura desértica que se extiende sin curvatura visible.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Atacama</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 105,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Ubicado en el norte de Chile, es conocido por ser uno de los desiertos más secos del planeta. Se visualiza como una extensa llanura desértica con una superficie uniforme.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Kalahari</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 900,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Situado en el sur de África, el Kalahari es un desierto árido y semiarido. Se interpreta como una llanura desértica extensa y plana.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Sonora</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 260,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Este desierto abarca partes del sur de los Estados Unidos y el noroeste de México. En la perspectiva de la Tierra plana, es una amplia llanura desértica.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Arabian</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 2.3 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Localizado en la península arábiga, es uno de los desiertos más extensos del mundo. Se considera una vasta llanura desértica en una superficie plana.</li>
-</ul>
-</li>
+<li>Lenguaje de marcado HTML, de estilos CSS y de programación JS, bajo un plantilla.</li>
+<li>Lenguaje de marcado simple markdown, plantilla y generador de sitios estáticos</li>
 </ol>
-<h3 id="llanuras-oceanicas" tabindex="-1">Llanuras Oceánicas</h3>
-<ol>
-<li>
-<p><strong>Llanura Abisal del Océano Atlántico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 10 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Una vasta región del fondo del Océano Atlántico que presenta una profundidad uniforme y extensa.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Océano Pacífico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 18 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Ubicada en el fondo del Océano Pacífico, es una de las regiones más grandes y profundas del océano. Se visualizaría como una llanura oceánica extensa y nivelada.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Océano Índico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 6 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Esta llanura abisal se encuentra en el fondo del Océano Índico, caracterizada por su profundidad uniforme.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Mar de Filipinas</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 5 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Parte del fondo del Océano Pacífico occidental, es una región extensa y profunda.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Mar de Arabia</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 1 millón de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Situada en el fondo del Mar de Arabia, esta llanura es una región extensa con profundidad uniforme.</li>
-</ul>
-</li>
-</ol>
-<h2 id="caracteristicas-comunes" tabindex="-1">Características Comunes</h2>
-<h3 id="uniformidad-en-la-superficie" tabindex="-1">Uniformidad en la Superficie</h3>
-<p>Tanto las llanuras desérticas como las oceánicas se consideran áreas de terreno relativamente plano y uniforme, la percepción de una superficie plana en estas regiones se alinea con la idea de una Tierra sin curvatura visible.</p>
-<h3 id="percepcion-desde-el-nivel-del-mar" tabindex="-1">Percepción desde el Nivel del Mar</h3>
-<p>Desde la perspectiva del nivel del mar, las grandes extensiones de llanuras, ya sean desérticas u oceánicas, no presentan variaciones significativas en altura a lo largo de distancias extensas, lo que refuerza la impresión de una superficie plana.</p>
+<p>La forma tradicional de hacer wikis es mediante una web dinámica, es decir<br>
+con lado cliente y lado servidor (con base de datos). Lo que facilita la edición online y mantiene un registro de los usuarios.</p>
+<p>La wiki por excelencia más famosa de todas es <a href="https://wikipedia.org/" target="_blank" class="external-link">Wikipedia</a>, la cual sigue esta filosofía desde sus inicios en 2001, usando MediaWiki un gestor de wikis desarrollado en PHP que permite alojar el contenido en una base de datos (mySQL) y un servidor web (apache http).</p>
+<p>Las wikis dinámicas están pensadas para proyectos muy grandes pero tienen la desventaja de que su mantenimiento es más caro que una web estática.</p>
 </main>
 <aside>
 <div class="sidebar">

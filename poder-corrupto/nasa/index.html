@@ -74,6 +74,27 @@ CTRL + K
 <span class="foldername">about</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as('about/wiki')}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" icon-name="chevron-down"></i>
+<i x-show="!isOpen" icon-name="chevron-right"></i>
+<span class="foldername">wiki</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-dev/">wikiterra-dev </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-edicion/">wikiterra-edicion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-estatica/">wikiterra-estatica </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
 <div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wikiterra-dev/">wikiterra-dev </a>
 </div>
 </div>
@@ -435,7 +456,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-09-10T00:16:59.716Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-09-10T00:16:59.716Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-09-10T00:16:59.716Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2024-09-16T00:18:13.498Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2024-09-16T00:18:13.498Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2024-09-16T00:18:13.498Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -452,18 +473,24 @@ Según <a href="http://History.com" target="_blank" class="external-link">Histor
 <p>En resumen, una vez que se detecta el fraude todo lo que se le ocurre ahora está en cuestión. Tu credibilidad está disparada. Quién estaría en desacuerdo con la lógica del fraude encontrado destruye la validez de todo? Es razonable, predecible y tiene el poder de cambiar instantáneamente la dirección de la percepción de uno, incluso aquellos que fueron mantenidos sagrados. El fraude no tiene límites por parte de quienes la involucran y ha estado a lo largo del tiempo. Crees que los verdaderos defraudadores se detienen en un solo fraude? O crees que siguen yendo yendo hasta que mueran o sean atadas? La respuesta es simple. Por qué detendrías alguna vez la lucrativa actividad fraudulenta si no has sido atate? Así que la posibilidad de fraude sistémico una vez que se encuentra el fraude inicial se convierte en una certeza virtual.</p>
 <p>Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas stánicos y magos negros. A pesar de que suene a meme, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudocientífico-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
 <h4 id="jack-parsons" tabindex="-1">Jack Parsons</h4>
-<blockquote>
-<p>![caption]<br>
-<img src="https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png" alt="">&gt;Jack Whiteside Parson</p>
-</blockquote>
-<blockquote>
-<p>![caption]<br>
-<img src="https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png" alt="">&gt; El pentágono invertido</p>
-</blockquote>
-<blockquote>
-<p>![caption]<br>
-<img src="https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg" alt="">&gt; Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)</p>
-</blockquote>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png" alt="Jack Whiteside Parson"><br>
+Jack Whiteside Parson</p>
+</div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png" alt=""><br>
+El pentágono invertido</p>
+</div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg" alt=""><br>
+Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)</p>
+</div></div>
 <p>Jack Whiteside Parsons, por otro lado, fue miembro fundador del Laboratorio de Propulsión a Chorro de la NASA, y algunos lo consideran uno de los &quot;padres de la cohetería&quot; y otros bromean diciendo que el JPL era en realidad el Laboratorio de Jack Parsons, pero no encontrará mucho sobre él en los sitios web de la NASA. El legado de Parsons como ingeniero y químico se ha visto un tanto eclipsado por su interés en lo oculto y ha llevado a lo que algunos críticos describen como una reescritura de los libros de historia.</p>
 <p>El conjunto de ideas no científicas estaba impregnado de lo oculto, el satanismo y la magia negra. Parsons &quot;juró el Juramento del Abismo, teniendo solo la opción entre la locura, el suicidio y ese juramento. (Entonces) hice el juramento de un Magister Templi, incluso el Juramento del Anticristo ante Frater 132, el Dios Desconocido. Y así fui yo, el Anticristo, suelto en el mundo; y a esto me he comprometido, a que la obra de la Bestia 666 se cumpla.”</p>
 <p>Aparentemente notando que el Anticristo está a sólo unas pocas letras de distancia de ser “anarquista”, el manifiesto que sigue es en gran parte una exhortación a “hacer lo que quieras” en la mayoría de las cosas empapadas de fluidos corporales, económicas y/o políticas. El objetivo de todos estos esfuerzos, según Metzger, era provocar el Apocalipsis, ya que en teoría las cosas sólo pueden mejorar a partir de ahí.</p>
@@ -471,33 +498,34 @@ Según <a href="http://History.com" target="_blank" class="external-link">Histor
 <p>Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nombre a un cráter en el lado oscuro de la luna. Por supuesto, uno no puede ver realmente el lado oscuro de la luna ni confirmar que tal cráter existe, qué apropiado. “…El programa espacial de Estados Unidos debe mucho al diseño de cohetes y las innovaciones de Parsons, y en 1972 la Unión Astronómica Internacional lo honró bautizando el cráter de Parsons en el lado oscuro de la luna. Después de cofundar el JPL, al que sus admiradores se referían como “el laboratorio de Jack Parsons”, Parsons fundó Aerojet Corp., ahora el mayor productor de cohetes del mundo y fabricante de impulsores de combustible sólido para transbordadores espaciales…”.</p>
 <p>Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.</p>
 <h4 id="aleister-crowley" tabindex="-1">Aleister Crowley</h4>
-<blockquote>
-<p>![caption]</p>
-</blockquote>
-<blockquote>
-<p>![caption]<br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
 <img src="https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg" alt=""><br>
 Aleister Crowley</p>
-</blockquote>
+</div></div>
 <p>Crowley, que trajo fama a la O.T.O. (que ya era muy conocida en los círculos masónicos), fue una de las principales inspiraciones de Parsons en la vida. Los logros de este anciano habían sido muchos: poeta, editor, escalador de montañas, maestro de ajedrez y practicante bisexual de magia sexual (o “Magick”, como él la llamaba).</p>
 <p>Famoso por los periodistas amarillistas como el “hombre más malvado del mundo”, consideraba que su identidad central era la “Gran Bestia 666”, a la que se hace referencia en el libro de las “Revelaciones” de la Biblia, aunque no se apoyaba en esa obra particularmente en sus ideas religiosas.</p>
 <h4 id="l-ron-hubbard" tabindex="-1">L. Ron Hubbard</h4>
 <p>A finales de los años 40, Hubbard estaba arruinado y endeudado. Como escritor de ciencia ficción y fantasía que luchaba por sobrevivir, se vio obligado a vender su máquina de escribir por 28,50 dólares para poder sobrevivir.</p>
 <p>En un momento dado, Hubbard se vio obligado a rogarle a la Administración de Veteranos que le permitiera quedarse con un pago excesivo de 51 dólares de sus prestaciones. “Estoy casi sin dinero”, escribió Hubbard, un ex teniente de la Marina. Hubbard también tenía problemas mentales. A finales de 1947, pidió a la Administración de Veteranos que le ayudara a recibir tratamiento psiquiátrico.</p>
-<blockquote>
-<p>![caption]<br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
 <img src="https://static.miraheze.org/trueearthwiki/thumb/a/ad/Church_of_Scientology.png/300px-Church_of_Scientology.png" alt=""><br>
 Church of Scientology</p>
-</blockquote>
+</div></div>
 <p>Hubbard también admiraba a Crowley y en una conferencia de 1952 lo describió como &quot;mi muy buen amigo&quot;. Parsons y Hubbard pronto vivieron en la vieja mansión de South Orange Grove Avenue en Pasadena. La finca era el hogar de una extraña mezcla de artistas, escritores, científicos y ocultistas bohemios. Un pequeño templo abovedado sostenido por seis columnas de piedra se alzaba en el patio trasero. Hubbard conoció a su segunda esposa, Sara Northrup, en la mansión. Aunque ella era la amante de Parsons en ese momento, Hubbard no se dejó intimidar. Se casó con Northrup antes de divorciarse de su primera esposa. Mucho antes de la contracultura de los años 60, algunos residentes de la finca fumaban marihuana y abrazaban una filosofía de sexo promiscuo y ritualista.</p>
 <p>En años posteriores, Hubbard intentó distanciarse de su vergonzosa asociación con Parsons, quien fue fundador de un proyecto de cohetes del gobierno en el Instituto de Tecnología de California que luego se convirtió en el famoso Laboratorio de Propulsión a Chorro. Parsons murió en 1952 cuando una explosión química destruyó su garaje.</p>
 <p>Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control mental.</p>
 <h4 id="una-alineacion-espeluznante" tabindex="-1">Una alineación espeluznante</h4>
-<blockquote>
-<p>![caption]<br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
 <img src="https://static.miraheze.org/trueearthwiki/thumb/e/e5/OccultBeginingsOfNasa.png/300px-OccultBeginingsOfNasa.png" alt=""><br>
 Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney</p>
-</blockquote>
+</div></div>
 <ol>
 <li>Jack Whiteside Parsons – Ocultista, Mago Negro, Satanista, Líder de la Logia Ágape de California Ordo Templi Orientis</li>
 <li>Aleister Crowley – Masón de grado 33 (<a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" target="_blank" class="external-link">https://trueearth.wikitide.org/wiki/Agencies/Freemasons</a> &quot;Agencies/Freemasons&quot;), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'</li>
@@ -510,8 +538,12 @@ Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt
 <p>Según las Naciones Unidas, 30.000 millones de dólares al año acabarían con el hambre en el mundo. Eso significa que el tamaño del presupuesto anual de la NASA podría alimentar a 2 de cada 3 personas hambrientas en todo el mundo. Si la NASA no existiera y ese dinero se redirigiera, casi podríamos acabar con el hambre en el mundo. Hasta la fecha, se han gastado más de 600.000 millones de dólares en exploración espacial, pero no hemos logrado &quot;volver a la Luna&quot; desde 1969.</p>
 <p>Actualmente, el presupuesto es de unos 26.000 millones de dólares al año (o unos 63 millones de dólares al DÍA, incluidos los fines de semana y los días festivos).</p>
 <h3 id="la-conexion-nazi" tabindex="-1">La conexión NAZI</h3>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png" alt=""></p>
-<p>Los orígenes NAZI de la NASA</p>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png" alt=""><br>
+Los orígenes NAZI de la NASA</p>
+</div></div>
 <blockquote>
 <p>Si dices una mentira lo suficientemente grande y la dices con la suficiente frecuencia, te la creerán. —Adolf Hitler (1889-1945)</p>
 </blockquote>
@@ -551,7 +583,7 @@ La KJV traduce Strong's H5377 de la siguiente manera: engañar (12x), en gran me
 <p>Reconoció que existe una &quot;percepción pública de que la ciencia y la Biblia están en conflicto&quot;.</p>
 <p>&quot;Muy temprano en mi carrera, incluso en los años 90, pasé mucho tiempo estudiando el tema... La ciencia moderna tal como la conocemos surgió realmente de la convicción de que la Biblia era verdadera y de que Dios es el Creador, tal como se ha revelado en las Escrituras&quot;, dijo Williams a Christian Headlines. &quot;Y en esa creación, Él la proveyó y la ordenó&quot;.</p>
 <p>Williams dijo que se ha visto afectado por el &quot;orden&quot; de las matemáticas, la física, la química y la música.</p>
-<p>&quot;Y luego, al llevar la imagen de Dios, se nos da esta capacidad y, de hecho, el mandato de someter a la creación allí mismo en Génesis 1&quot;, dijo. &quot;Esos son los elementos que alimentaron mi comprensión, mi visión del mundo, y realmente corroboraron lo que creo que ha sido el llamado del Señor en mi vida, en este trabajo que llamamos astronauta. Así que [la fe] solo ha corroborado mi comprensión de eso&quot;.</p>
+<p>&quot;Y luego, al llevar la imagen de Dios, se nos da esta capacidad y, de hecho, el mandato de someter a la creación allí mismo en Génesis 1&quot;, dijo. &quot;Esos son los elementos que alimentaron mi comprensión, mi visión del mundo, y realmente corroboraron lo que creo que ha sido el llamado del Señor en mi vida, en este trabajo que llamamos astronauta. Así que la fe solo ha corroborado mi comprensión de eso&quot;.</p>
 <p>Williams dijo que a menudo le preguntan si viajar al espacio cambió su relación con Dios. En cierto sentido, responde, pero no fue así.</p>
 <p>&quot;Tengo una relación con Dios gracias a la obra mediadora de Jesucristo, tal como se revela en las Escrituras&quot;, dijo Williams.</p>
 <p>Aun así, viajar al espacio le proporcionó una &quot;profundidad&quot; de comprensión de ciertos pasajes bíblicos que antes no tenía. Mencionó la &quot;obra de Dios como creador&quot; y &quot;su obra de sustentar su creación&quot;.</p>
@@ -576,8 +608,12 @@ La KJV traduce Strong's H5377 de la siguiente manera: engañar (12x), en gran me
 <p>&quot;No entendemos cómo una mención de este tipo en un anuncio que está vinculado específicamente al Club de Alabanza y Adoración JSC puede implicar un patrocinio, respaldo o establecimiento de una religión por parte del estado&quot;.</p>
 <p>Según Dys, hasta el martes los abogados no habían recibido una respuesta de la NASA con respecto a su carta de demanda en nombre del club. <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
 <h3 id="la-cgi-es-nuestra-and-quot-prueba-and-quot-del-globo" tabindex="-1">La CGI es nuestra &quot;prueba&quot; del globo</h3>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png" alt=""></p>
-<p>El artista de CGI de la NASA Robert Simmon</p>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png" alt=""><br>
+El artista de CGI de la NASA Robert Simmon</p>
+</div></div>
 <p>Robert Simmon - &quot;Artista de CGI&quot; de la NASA <sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>:</p>
 <blockquote>
 <p><strong>La última vez que alguien tomó una fotografía desde arriba de la órbita baja de la Tierra</strong> que mostraba un globo entero El hemisferio (una de las caras del globo) <strong>fue en 1972</strong> durante el Apolo 17. Los satélites del Sistema de Observación de la Tierra (EOS) de la NASA fueron diseñados para proporcionar un chequeo de la salud de la Tierra. En 2002, finalmente teníamos suficientes datos para hacer una instantánea de toda la Tierra. Y así lo hicimos. La parte difícil fue crear un mapa plano de la superficie de la Tierra con cuatro meses de datos satelitales. Reto Stockli, ahora en la Oficina Federal Suiza de Meteorología y Climatología, hizo gran parte de este trabajo. <strong>Luego envolvimos el mapa plano alrededor de una pelota</strong>. Mi parte fue integrar la superficie, las nubes y los océanos <strong>para que coincidieran con las expectativas de la gente sobre cómo se ve la Tierra desde el espacio</strong>. Esa pelota se convirtió en la famosa canica azul.</p>
@@ -677,47 +713,24 @@ La KJV traduce Strong's H5377 de la siguiente manera: engañar (12x), en gran me
 <p>El alunizaje, un acontecimiento histórico, el momento cumbre de la humanidad, quizá la mayor hazaña tecnológica del hombre. Pero parece que no es tan importante para la NASA porque destruyeron el módulo de aterrizaje lunar y las imágenes originales.</p>
 <p>Parece que la única tecnología que se perdió fue la genialidad de Stanley Kubrick. Descansa en paz Stanley y enhorabuena por la hazaña de engañar a todo el país de los baby boomers con tus dotes cinematográficas.</p>
 <blockquote>
-<p>El astronauta de la NASA Don Pettit</p>
-<p>“Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” <sup class="footnote-ref"><a href="#fn10" id="fnref10">[10]</a></sup></p>
+<p>“Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” ~ astronauta Don Pettit <sup class="footnote-ref"><a href="#fn10" id="fnref10">[10]</a></sup></p>
 </blockquote>
 <p>Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera monitorear y proporcionar imágenes de la Tierra desde el espacio, ¿por qué en 2023 Japón descubrió 7000 nuevas islas? El número de islas del país se ha duplicado y ahora hay más de 14 000 incluidas en su mapa. <a class="tag" onclick="toggleTagSearch(this)" data-content="#GraciasNASA">#GraciasNASA</a> 🤦</p>
 <h3 id="galeria" tabindex="-1">Galería</h3>
-<ul>
-<li><img src="https://static.miraheze.org/trueearthwiki/thumb/9/98/NotOnePicOfEarth.jpg/120px-NotOnePicOfEarth.jpg" alt="Ni una sola imagen de la tierra"><br>
-Ni una sola imagen de la tierra</li>
-</ul>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/3/3e/AstoNOT.jpg/120px-AstoNOT.jpg" alt="Un AstroNOT con el reflejo de Stanley Kubrick en el casco"><br>
-Un AstroNOT con el reflejo de Stanley Kubrick en el casco</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/7/78/WernherVonBraunGrave.jpg/120px-WernherVonBraunGrave.jpg" alt="La tumba de von Braun: versículo bíblico que hace referencia al firmamento"><br>
-La tumba de von Braun: versículo bíblico que hace referencia al firmamento</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/5/58/NASA_Pres_Eisenhower.jpg/120px-NASA_Pres_Eisenhower.jpg" alt="La NASA y el &quot;presidente&quot; instalado Eisenhower"><br>
-La NASA y el &quot;presidente&quot; instalado Eisenhower</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/f/fe/BuzzIlluminati.jpg/120px-BuzzIlluminati.jpg" alt="Buzz dando el símbolo 666 de los Illuminati"><br>
-Buzz dando el símbolo 666 de los Illuminati</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/8/81/DisneyNASA.jpg/120px-DisneyNASA.jpg" alt="Mundo de la NASA"><br>
-Mundo de la NASA</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/d/d8/WaltDisneyandWernherVonBraun.jpg/120px-WaltDisneyandWernherVonBraun.jpg" alt="Walt Disney y Wernher Von Braun"><br>
-Walt Disney y Wernher Von Braun</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/d/d1/MoonLandingPlayset.jpg/101px-MoonLandingPlayset.jpg" alt="Juego de aterrizaje en la luna"><br>
-Juego de aterrizaje en la luna</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/3/35/NASA_budget_2023.png/110px-NASA_budget_2023.png" alt="Presupuesto de la NASA para 2023: 26 mil millones de dólares"><br>
-Presupuesto de la NASA para 2023: 26 mil millones de dólares</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/f/fa/MichioKafu_CosmosKabbalah.png/120px-MichioKafu_CosmosKabbalah.png" alt="Michio Kafu y el Cosmos relacionado con la Cábala"></p>
-<p>Michio Kafu y el Cosmos relacionado con la Cábala</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/7/78/AstroNOTS_hearNoSpeakNo.jpg/120px-AstroNOTS_hearNoSpeakNo.jpg" alt="Los masones espeluznantes no ven, no oyen, no hablan"><br>
-Los masones espeluznantes no ven, no oyen, no hablan</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/2/28/AstroNOTS_hearNoSpeakNo2.jpg/120px-AstroNOTS_hearNoSpeakNo2.jpg" alt="Más AstroNOTS No ver, No oír, No hablar"><br>
-Más AstroNOTS No ver, No oír, No hablar</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/2/2e/YearsOfNASAballs.jpg/120px-YearsOfNASAballs.jpg" alt="NASA, decídete: ¿cómo es la Tierra?"><br>
-NASA, decídete: ¿cómo es la Tierra?</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/1/1d/NASAEarthBlooper.jpg/120px-NASAEarthBlooper.jpg" alt="Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja"><br>
-Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/2/2d/DisneyPlanetPluto.jpg/120px-DisneyPlanetPluto.jpg" alt="Plutón y el planeta Plutón de Disney"><br>
-Plutón y el planeta Plutón de Disney</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/c/ce/PetrifiedWood.png/80px-PetrifiedWood.png" alt="Una roca lunar entregada a Holanda era madera petrificada"><br>
-Una roca lunar entregada a Holanda era madera petrificada</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/f/ff/3e8c98da434e781d.png/120px-3e8c98da434e781d.png" alt="Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente"><br>
-Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente</p>
+<div class="callout" data-callout="grid"><div class="callout-title"><div class="callout-title-inner">Grid</div></div>
+<div class="callout-content">
+<p>
+<img src="https://i.imgur.com/sVGV6YL.jpeg" alt="AstroNOTS_hearNoSpeakNo|wsmall"><br>
+<img src="https://i.imgur.com/3N43Bjq.jpeg" alt="AstroNOTS_hearNoSpeakNo2|wsmall"><br>
+<img src="https://i.imgur.com/DYLfh13.jpeg" alt="BuzzIlluminati|wsmall"></p>
+<p><img src="https://i.imgur.com/ZTYh6WK.png" alt="FlatGlobeRSimmon|ws-med"><br>
+<img src="https://i.imgur.com/IwnaHhv.png" alt="MichioKafu_CosmosKabbalah|ws-med"></p>
+<p><img src="https://i.imgur.com/TjwPBfz.jpeg" alt="WaltDisneyandWernherVonBraun|wsmall"><br>
+<img src="https://i.imgur.com/7ElleHL.jpeg" alt="DisneyPlanetPluto|wsmall"><br>
+<img src="https://i.imgur.com/vW4KGrR.jpeg" alt="WernherVonBraunGrave|wsmall"></p>
+<p><img src="https://i.imgur.com/NyamyZ2.jpeg" alt="NASAEarthBlooper|ws-med"><br>
+<img src="https://i.imgur.com/WzHvxGN.jpeg" alt="YearsOfNASAballs|ws-med"></p>
+</div></div>
 <h3 id="datos-curiosos" tabindex="-1">Datos curiosos</h3>
 <h4 id="and-quot-administracion-nacional-de-aeronautica-y-del-espacio-and-quot-gematria" tabindex="-1">&quot;Administración Nacional de Aeronáutica y del Espacio&quot; Gematría</h4>
 <p>Gematría ordinal inversa &quot;Administración Nacional de Aeronáutica y del Espacio&quot; = 666 <sup class="footnote-ref"><a href="#fn11" id="fnref11">[11]</a></sup></p>
@@ -726,100 +739,101 @@ Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas 
 <p>El análisis de algunas fotografías e imágenes de los astronautas estadounidenses aterrizando en la Luna mediante redes neuronales ha demostrado que son falsas, según le dijeron a Vladimir Putin en el “Tour Mundial de Inteligencia Artificial” en Moscú, y el presidente ruso lo encontró “muy interesante”.</p>
 <p>El vídeo del resultado del análisis y la conversación del presidente ruso con el director de investigación de datos del Sberbank, Nikolai Gerasimhen, en el evento de inteligencia artificial de Moscú se ha vuelto viral. “Por el momento, (el análisis de inteligencia artificial) no plantea ninguna pregunta particular sobre esta foto tomada por el explorador lunar chino”, le dijeron a Putin.</p>
 <p>La misión lunar no tripulada de China, denominada Chang'e, es una serie de sondas lunares lanzadas por la Administración Espacial Nacional de China a partir del lanzamiento de Chang'e 1 en octubre de 2007.</p>
-<blockquote>
-<p>“¿Cree que este es falso?”</p>
-</blockquote>
 <p>“¿Cree que esto es falso?”, se ve a Putin en el video tocándose primero el ala de la nariz y luego preguntando después de una breve pausa mientras señala las imágenes del Apolo 11 mostradas en una pantalla.</p>
 <p>“Sí, mira, esto es rojo”, le dijeron a Putin.</p>
 <p>El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el vídeo, dijo: &quot;Esto es lo que piensa la red neuronal de Google, no nuestro análisis. Por lo tanto, no habrá sesgo&quot;. <sup class="footnote-ref"><a href="#fn12" id="fnref12">[12]</a></sup></p>
 <h3 id="simbologia" tabindex="-1">Simbología</h3>
-<h4 id="logotipo-de-la-nasa" tabindex="-1">logotipo de la NASA</h4>
-<blockquote>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/4/46/Ouroboros.jpg/100px-Ouroboros.jpg" alt=""><br>
+<h4 id="logotipo-de-la-nasa" tabindex="-1">Logotipo de la NASA</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Theosophicalseal.svg" alt="ws-med"><br>
 La serpiente Ouroboros se come a sí misma</p>
-</blockquote>
+</div></div>
 <p>Las letras N, A, S, A, cuando se intercambian y se agrega la letra &quot;T&quot;, forman la palabra SATAN (quizás de ahí proviene la frase &quot;T menos&quot; en la cuenta atrás del lanzamiento de cohetes).</p>
 <p>El círculo blanco representa al Ouroboros (una serpiente que se devora a sí misma) y en la parte posterior vemos la lengua roja de una serpiente. El ouroboros o uroboros es un símbolo antiguo que representa a una serpiente o dragón que se muerde su propia cola. El ouroboros entró en la tradición occidental a través de la iconografía del antiguo Egipto y la tradición mágica griega. Fue adoptado como símbolo en el gnosticismo y el hermetismo y, sobre todo, en la alquimia. Se sabe que algunas serpientes, como las serpientes ratoneras, se devoran a sí mismas.</p>
 <p>Uno de los motivos de uróboros más antiguos que se conocen se encuentra en el Libro enigmático del inframundo, un antiguo texto funerario egipcio en KV62, la tumba de Tutankamón, en el siglo XIV a. C. El texto trata de las acciones de Ra y su unión con Osiris en el inframundo. El uróboros está representado dos veces en la figura: sosteniendo sus colas en sus bocas, una rodeando la cabeza y la parte superior del pecho, la otra rodeando los pies de una gran figura, que puede representar al Ra-Osiris unificado (Osiris nacido de nuevo como Ra). El uróboros se traga la cola; basado en el símbolo de Moskowitz para la constelación Draco (palabra grecolatina para serpiente o dragón).</p>
 <h4 id="el-diablo-que-conoces" tabindex="-1">El diablo que conoces</h4>
-<ul>
-<li><img src="https://static.miraheze.org/trueearthwiki/thumb/a/a5/L49_devil_named_betty_patch.png/120px-L49_devil_named_betty_patch.png" alt="Parche de diablo llamado Betty L-49"><br>
-Parche de diablo llamado Betty L-49</li>
-</ul>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/5/5a/NASA_rocket_a_devil_named_betty.png/79px-NASA_rocket_a_devil_named_betty.png" alt="El cohete de la NASA lanza una diabla llamada Betty"><br>
-El cohete de la NASA lanza una diabla llamada Betty</p>
-<p>- <img src="https://static.miraheze.org/trueearthwiki/thumb/a/a9/Melior_Diabolus_Quem_Scies_patch.png/119px-Melior_Diabolus_Quem_Scies_patch.png" alt="Parche Mejor diablo de lo que conoces"><br>
-Parche Mejor diablo de lo que conoces</p>
-<p>Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido.</p>
-<p>El parche de la misión NRO L-49 muestra un fénix surgiendo de entre el fuego, con las palabras “melior diabolus quem scies”, que se traducen al español como “mejor malo conocido”, lo que indica el regreso al sistema anterior tras el fracaso del intento de reemplazarlo.</p>
-<p>Es una elección de palabras bastante extraña para una agencia gubernamental, pero definitivamente está a la altura de todo este tema siniestro e infernal que rodea a los parches PSYOPS.</p>
+<div class="callout" data-callout="grid"><div class="callout-title"><div class="callout-title-inner">Grid</div></div>
+<div class="callout-content">
+<p>
+<img src="https://i.imgur.com/IsiPy7d.png" alt="NROL-49|hsmall"><br>
+<img src="https://i.imgur.com/eLOu0Pk.jpeg" alt="ula-ship|hsmall"><br>
+<img src="https://i.imgur.com/OSwAyuc.png" alt="diabolous-cies|hsmall"></p>
+</div></div>
+<p>Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido. Es una elección de palabras bastante extraña para una agencia gubernamental, pero definitivamente está a la altura de todo este tema siniestro e infernal que rodea a los parches PSYOPS.</p>
 <p>Otro parche relacionado con NRO-49 representa al satélite como un ser de fuego alado (al que la NASA se refiere como un demonio llamado Betty) que sostiene un tridente y una llave inglesa.</p>
-<p>El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si te fijas bien, hay letras en el detalle del cuerpo astral gris. ¿A qué se refieren? En la parte inferior del parche, la frase en latín también es enigmática: “Primoris Gravis Ex Occasus”. Primoris significa “Primero”, Gravis significa “importante, pesado o serio” y Occasus significa “puesta del sol, el Oeste o la caída”. En otras palabras, no sé qué significa. ¿“Primera puesta pesada del sol”? ¿“Lo más importante después de la puesta del sol”? ¿“Primera caída seria”? Independientemente del significado exacto, parece haber un énfasis en el concepto de oscuridad. Betty es pura oscuridad envuelta en llamas y está cubriendo parcialmente el sol. Hay un cuerpo celeste gris que se mueve hacia la tierra… (y todavía estamos hablando de un satélite espía)</p>
+<p>El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si te fijas bien, hay letras en el detalle del cuerpo astral gris. ¿A qué se refieren? En la parte inferior del parche, la frase en latín también es enigmática: “Primoris Gravis Ex Occasus”. Primoris significa “Primero”, Gravis significa “importante, pesado o serio” y Occasus significa “puesta del sol, el Oeste o la caída”. En otras palabras, no sé qué significa. ¿“Primera puesta pesada del sol”? ¿“Lo más importante después de la puesta del sol”? ¿“Primera caída seria”? Independientemente del significado exacto, parece haber un énfasis en el concepto de oscuridad. Betty es pura oscuridad envuelta en llamas y está cubriendo parcialmente el sol. Hay un cuerpo celeste gris que se mueve hacia la tierra.</p>
+<p>El sistema ARGOS (Active Response Gravity Offload System) es una clara referencia a un <a href="https://es.wikipedia.org/wiki/Argos_Panoptes" target="_blank" class="external-link">mounstruo de la mitología griega (Argos Panoptes)</a> el cual representa, &quot;un gigante de cien ojos que todo lo ve&quot;. Este sistema es el que usan para simular y falsear la gravedad de los planetas, La Luna y la ISS. Este es un sofisticado sistema que permite moverse en 3D con cables y arneses pegados a los trajes, les permite moverse libremente y hacer acrobacias, además debido a su diseño los cables se pueden eliminar facilmente por software en directo sin necesidad de post-edición.</p>
+<video style="width:100%;aspect-ratio:16/10" controls>
+<source src="https://ntts-prod.s3.amazonaws.com/t2p/prod/t2media/tops/att/MSC-TOPS-60/NASA_s_Active_Response_Gravity_Offload_System__ARGOS__.mp4" type="video/mp4">
+Tu navegador no soporta el formato de video.
+</video>
 <h3 id="funcionarios-que-hablaron-en-contra-de-la-nasa" tabindex="-1">Funcionarios que hablaron en contra de la NASA</h3>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg" alt=""><br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg" alt=""><br>
 Los gemelos del desastre del transbordador espacial Challenger de 1986</p>
+</div></div>
 <ul>
-<li>
-<p>El ex CIA Robert David Steele dice que &quot;la NASA no es una agencia espacial&quot;. <sup class="footnote-ref"><a href="#fn13" id="fnref13">[13]</a></sup></p>
-</li>
-<li>
-<p>Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. <sup class="footnote-ref"><a href="#fn14" id="fnref14">[14]</a></sup> <sup class="footnote-ref"><a href="#fn15" id="fnref15">[15]</a></sup> <sup class="footnote-ref"><a href="#fn16" id="fnref16">[16]</a></sup> Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? <sup class="footnote-ref"><a href="#fn17" id="fnref17">[17]</a></sup></p>
-</li>
-<li>
-<p>Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo &quot;eliminaron&quot;, probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. <sup class="footnote-ref"><a href="#fn18" id="fnref18">[18]</a></sup></p>
-</li>
-<li>
-<p>Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. <sup class="footnote-ref"><a href="#fn19" id="fnref19">[19]</a></sup></p>
-</li>
-<li>
-<p>El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. <sup class="footnote-ref"><a href="#fn20" id="fnref20">[20]</a></sup></p>
-</li>
-<li>
-<p>Un ex empleado de la NASA revela que los alunizajes fueron falsos y que la Tierra es plana. <sup class="footnote-ref"><a href="#fn21" id="fnref21">[21]</a></sup></p>
-</li>
-<li>
-<p>Dos sustancias químicas altamente tóxicas del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles, según los organismos de control. <sup class="footnote-ref"><a href="#fn22" id="fnref22">[22]</a></sup></p>
-</li>
-<li>
-<p>La NASA admite que nunca fueron a la Luna. <sup class="footnote-ref"><a href="#fn23" id="fnref23">[23]</a></sup></p>
-</li>
-<li>
-<p>Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. <sup class="footnote-ref"><a href="#fn24" id="fnref24">[24]</a></sup></p>
-</li>
-<li>
-<p>Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! <sup class="footnote-ref"><a href="#fn25" id="fnref25">[25]</a></sup></p>
-</li>
+<li>El ex CIA Robert David Steele dice que &quot;la NASA no es una agencia espacial&quot;. <sup class="footnote-ref"><a href="#fn13" id="fnref13">[13]</a></sup></li>
+<li>Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. <sup class="footnote-ref"><a href="#fn14" id="fnref14">[14]</a></sup> <sup class="footnote-ref"><a href="#fn15" id="fnref15">[15]</a></sup> <sup class="footnote-ref"><a href="#fn16" id="fnref16">[16]</a></sup> Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? <sup class="footnote-ref"><a href="#fn17" id="fnref17">[17]</a></sup></li>
+<li>Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo &quot;eliminaron&quot;, probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. <sup class="footnote-ref"><a href="#fn18" id="fnref18">[18]</a></sup></li>
+<li>Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. <sup class="footnote-ref"><a href="#fn19" id="fnref19">[19]</a></sup></li>
+<li>El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. <sup class="footnote-ref"><a href="#fn20" id="fnref20">[20]</a></sup></li>
+<li>Un ex empleado de la NASA revela que los alunizajes fueron falsos y que la Tierra es plana. <sup class="footnote-ref"><a href="#fn21" id="fnref21">[21]</a></sup></li>
+<li>Dos sustancias químicas altamente tóxicas del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles, según los organismos de control. <sup class="footnote-ref"><a href="#fn22" id="fnref22">[22]</a></sup></li>
+<li>La NASA admite que nunca fueron a la Luna. <sup class="footnote-ref"><a href="#fn23" id="fnref23">[23]</a></sup></li>
+<li>Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. <sup class="footnote-ref"><a href="#fn24" id="fnref24">[24]</a></sup></li>
+<li>Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! <sup class="footnote-ref"><a href="#fn25" id="fnref25">[25]</a></sup></li>
 </ul>
-<blockquote>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif" alt=""><br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif" alt=""><br>
 La NASA utiliza mazos de cables para simular la gravedad</p>
-</blockquote>
+</div></div>
 <h3 id="seguramente-la-nasa-no-esta-fingiendo" tabindex="-1">¿Seguramente la NASA no está fingiendo?</h3>
 <div class="callout" data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> Descubrir que la NASA es falsa podría convertirte en un terraplanista.</div></div></div>
-<h4 id="marte-esta-en-canada" tabindex="-1">¿Marte está en Canadá?</h4>
-<ul>
-<li>¿Marte está en Canadá? La próxima vez que viajes con Google Earth, echa un vistazo a la isla Devon <sup class="footnote-ref"><a href="#fn26" id="fnref26">[26]</a></sup></li>
-</ul>
+<h4 id="de-donde-son-las-fotos-de-marte" tabindex="-1">¿De dónde son las fotos de Marte?</h4>
+<p>Marte como estrella herrante u objeto luminoso en el cielo es una cosa, pero las imágenes que muestran o bien son CGI o están sacadas de la Tierra. Muchas de ellas han sido sacadas desde la isla de Devon en Canada, el cual comparte terrenos exactamente iguales y se ha visto camiones y equipos de la NASA &quot;trabajando&quot; allí.</p>
 <h4 id="la-iss-es-falsa" tabindex="-1">La ISS es falsa</h4>
-<p>La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA. Opera de varias formas: <sup class="footnote-ref"><a href="#fn27" id="fnref27">[27]</a></sup> <sup class="footnote-ref"><a href="#fn28" id="fnref28">[28]</a></sup> <sup class="footnote-ref"><a href="#fn29" id="fnref29">[29]</a></sup> <sup class="footnote-ref"><a href="#fn30" id="fnref30">[30]</a></sup> <sup class="footnote-ref"><a href="#fn31" id="fnref31">[31]</a></sup> <sup class="footnote-ref"><a href="#fn32" id="fnref32">[32]</a></sup> <sup class="footnote-ref"><a href="#fn33" id="fnref33">[33]</a></sup></p>
+<blockquote>
+<p>&quot;Space may be the final frontier, but it's made in a Hollywood basement&quot; ~ Californication por Red Hot Chilli Peppers</p>
+</blockquote>
+<p>La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA y el sistema heliocéntrico con todo su posteiror desarrollo. <sup class="footnote-ref"><a href="#fn26" id="fnref26">[26]</a></sup> <sup class="footnote-ref"><a href="#fn27" id="fnref27">[27]</a></sup> <sup class="footnote-ref"><a href="#fn28" id="fnref28">[28]</a></sup> <sup class="footnote-ref"><a href="#fn29" id="fnref29">[29]</a></sup> <sup class="footnote-ref"><a href="#fn30" id="fnref30">[30]</a></sup> <sup class="footnote-ref"><a href="#fn31" id="fnref31">[31]</a></sup> <sup class="footnote-ref"><a href="#fn32" id="fnref32">[32]</a></sup></p>
+<p>Según el tipo de video la ISS se falsea de distintas formas:</p>
 <ul>
-<li>ISS por fuera: Maqueta a gran escala con pantalla verde y CGI</li>
-<li>ISS por dentro: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos</li>
-<li>ISS recorriendo: Set de grabación con cables, arneses y hologramas 3D, lentes de contacto e interacción con objetos 3D virtuales.</li>
-<li>ISS con astronautas en el Espacio: fondo de una piscina con buzos submarinos</li>
+<li>ISS por fuera:
+<ul>
+<li>Vista completa: Maqueta a gran escala con pantalla verde y CGI.</li>
+<li>Astronautas en pasos espaciales: actornautas con buzos en piscinas de entrenamiento y pantalla verde.</li>
+</ul>
+</li>
+<li>ISS por dentro:
+<ul>
+<li>Astronautas en movimiento: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos</li>
+<li>Astronautas quietos: Set de grabación con sistema ARGOS (cables, arneses), sumado a objetos colgados por cables (micros, pelotas, etc.). A veces interactuan con pequeños objetos virtuales con lentes de contacto AR (Realidad Aumentada) y cámaras de video que permiten visualizarlo. En las mujeres con pelo largo suelen laca en el pelo para simular la flotación pero se ve muy poco realista, por eso suelen ser más hombres.</li>
+</ul>
+</li>
 </ul>
 <h4 id="equipo-de-natacion-de-la-nasa" tabindex="-1">Equipo de natación de la NASA</h4>
-<blockquote>
-<p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg" alt=""><br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg" alt=""><br>
 Equipo de submarinismo de la NASA</p>
-</blockquote>
-<p>La NASA &quot;entrena&quot; a los astronautas en una piscina con una versión a escala real de la Estación Espacial Internacional. ¿Seguramente la NASA no está simulando los paseos espaciales en una piscina? <sup class="footnote-ref"><a href="#fn34" id="fnref34">[34]</a></sup></p>
+</div></div>
+<p>La NASA &quot;entrena&quot; a los astronautas en una piscina con una versión a escala real de la Estación Espacial Internacional. ¿Seguramente la NASA no está simulando los paseos espaciales en una piscina? <sup class="footnote-ref"><a href="#fn33" id="fnref33">[33]</a></sup></p>
 <p>Aunque ha habido muchos videos que muestran burbujas durante los videos de caminatas espaciales de la NASA en la ISS (no los videos de entrenamiento) [^35]</p>
 <p>A lo largo de los años, numerosos astronautas se han enfrentado a la terrible experiencia de que su casco se llenara de agua. En 2013, una caminata espacial tuvo que ser interrumpida después de que el astronauta de la Agencia Espacial Europea Luca Parmitano estuvo a punto de ahogarse. Un informe de la NASA que detalla el incidente decía que Parmitano se encontró con “agua que le cubría los ojos, la nariz y los oídos”.</p>
-<blockquote>
-<p><img src="https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png" alt=""><br>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png" alt=""><br>
 La NASA suspende una caminata espacial tras una filtración de agua en el casco</p>
-</blockquote>
+</div></div>
 <hr>
 <h3 id="ver-tambien" tabindex="-1">Ver también</h3>
 <ul>
@@ -888,23 +902,21 @@ La NASA suspende una caminata espacial tras una filtración de agua en el casco<
 </li>
 <li id="fn25" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=i7enyfu1BxI" target="_blank" class="external-link">La misión de la NASA a Marte es un engaño de la isla Devon</a> <a href="#fnref25" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn26" class="footnote-item"><p>26 <a href="#fnref26" class="footnote-backref">↩︎</a></p>
+<li id="fn26" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oo3btAFI0O0" target="_blank" class="external-link">YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)</a> <a href="#fnref26" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn27" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oo3btAFI0O0" target="_blank" class="external-link">YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)</a> <a href="#fnref27" class="footnote-backref">↩︎</a></p>
+<li id="fn27" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oOa1Zv7nvbc" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 1</a> <a href="#fnref27" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn28" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oOa1Zv7nvbc" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 1</a> <a href="#fnref28" class="footnote-backref">↩︎</a></p>
+<li id="fn28" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=nOmaLIT9q34" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 2</a> <a href="#fnref28" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn29" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=nOmaLIT9q34" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 2</a> <a href="#fnref29" class="footnote-backref">↩︎</a></p>
+<li id="fn29" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=MT3UtX1by3E" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 3</a> <a href="#fnref29" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn30" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=MT3UtX1by3E" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 3</a> <a href="#fnref30" class="footnote-backref">↩︎</a></p>
+<li id="fn30" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=cY0ZcIh2x-A" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 4</a> <a href="#fnref30" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn31" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=cY0ZcIh2x-A" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 4</a> <a href="#fnref31" class="footnote-backref">↩︎</a></p>
+<li id="fn31" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=tGQp6B5m5Dk" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 5</a> <a href="#fnref31" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn32" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=tGQp6B5m5Dk" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 5</a> <a href="#fnref32" class="footnote-backref">↩︎</a></p>
+<li id="fn32" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=A3gjvwHskeI" target="_blank" class="external-link">YouTube: Denunciando el fraude de la NASA por Justin Harvey</a> <a href="#fnref32" class="footnote-backref">↩︎</a></p>
 </li>
-<li id="fn33" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=A3gjvwHskeI" target="_blank" class="external-link">YouTube: Denunciando el fraude de la NASA por Justin Harvey</a> <a href="#fnref33" class="footnote-backref">↩︎</a></p>
-</li>
-<li id="fn34" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=Hz5xNxMP5lA" target="_blank" class="external-link">YouTube: La NASA fue descubierta nuevamente fingiendo estar en el espacio - Space Bubbles</a> <a href="#fnref34" class="footnote-backref">↩︎</a></p>
+<li id="fn33" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=Hz5xNxMP5lA" target="_blank" class="external-link">YouTube: La NASA fue descubierta nuevamente fingiendo estar en el espacio - Space Bubbles</a> <a href="#fnref33" class="footnote-backref">↩︎</a></p>
 </li>
 </ol>
 </section>

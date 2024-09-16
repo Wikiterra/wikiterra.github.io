@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="es">
 <head>
-<title>grandes-llanuras</title>
+<title>wikiterra-dev</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -81,7 +81,7 @@ CTRL + K
 <span class="foldername">wiki</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-dev/">wikiterra-dev </a>
+<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/about/wiki/wikiterra-dev/">wikiterra-dev </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -278,7 +278,7 @@ CTRL + K
 <span class="foldername">tierra</span>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
-<div @click.stop class="notelink active-note"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/tierra/grandes-llanuras/">grandes-llanuras </a>
+<div @click.stop class="notelink"><i icon-name="sticky-note" aria-hidden="true"></i><a data-note-icon="" style="text-decoration:none" class="filename" href="/Earth/tierra/grandes-llanuras/">grandes-llanuras </a>
 </div>
 </div>
 <div x-show="isOpen" style="display:none" class="filelist">
@@ -464,90 +464,58 @@ CTRL + K
 </div>
 <div class="timestamps"></div></div>
 </header>
-<h1 id="grandes-llanuras" tabindex="-1">Grandes Llanuras</h1>
-<p>Las grandes llanuras, tanto desérticas como oceánicas, se explican de acuerdo con la idea de una superficie plana y extensa. Estas llanuras se describen como regiones de gran extensión sin variaciones significativas en altura, lo que contribuye a su apariencia de ser planas desde la perspectiva del observador.</p>
-<p>Aquí se presentan ejemplos de grandes llanuras, con sus respectivas superficies totales:</p>
-<h3 id="llanuras-deserticas" tabindex="-1">Llanuras Desérticas</h3>
+<h1 id="que-es-wiki-terra" tabindex="-1">¿Qué es WikiTerra ?</h1>
+<p>WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre gestionada entera sobre una bóveda o baúl de artículos desde el gestor de notas <a href="https://obsidian.md/" target="_blank" class="external-link">Obsidian.md</a>.</p>
+<h2 id="web-estatica" tabindex="-1">Web estática</h2>
+<p>Wikiterra es una <a class="internal-link" target="" data-note-icon="" href="/about/wiki/wikiterra-estatica/">web estática</a>, lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador web, &quot;chrome&quot;, &quot;firefox&quot;, etc). Los artículos están escritos en formato <a class="internal-link is-unresolved" href="/404" target="">markdown</a>, un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un <a href="https://en.wikipedia.org/wiki/Static_site_generator" target="_blank" class="external-link">Generador de sitios estáticos (SSG)</a>.</p>
+<p>Hay cientos de generadores estáticos en <a href="https://jamstack.org/generators/" target="_blank" class="external-link">JamStack</a> clasifican 355, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.</p>
+<p>Cada SSG uno tiene su propio lenguaje de programación con su propio estilo de plantillas para ser transformados a formato web. Pero al final lo que importa es la plantilla que uses y que el framework o SSG sea intuitivo, tenga una gran comunidad y se mantenga en desarrollo.</p>
+<p>En el caso de Wikiterra, la web ha sido testeada en local con diferentes SSG como HUGO con el tema <a href="https://imfing.github.io/hextra/" target="_blank" class="external-link">Hextra</a>, Astro con el tema <a href="https://starlight.astro.build/" target="_blank" class="external-link">Starlight</a>, o Tiddlywiki con el tema <a href="https://feather.wiki/" target="_blank" class="external-link">Featherwiki</a> que permite tener un web entera sobre un único HTML.</p>
+<p>Sin embargo la opción que se ha mantenido ha sido la plantilla web de <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que usa 11Ty como generador, por su bonito diseño y su fácil uso através de Obsidian.</p>
+<h2 id="creacion-de-la-web-con-digital-garden" tabindex="-1">Creación de la web con Digital Garden</h2>
+<blockquote>
+<p>Wikiterra se basa la plantilla web <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">Digital Garden de Ole Eskild</a> que utiliza 11Ty como generador de sitios estáticos (SSG)</p>
+</blockquote>
+<p>Para configurar la web es necesario realizar los siguientes pasos:</p>
 <ol>
-<li>
-<p><strong>Desierto de Sahara</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 9.2 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Este desierto es uno de los más grandes del mundo y se extiende a través del norte de África. Es una vasta llanura desértica que se extiende sin curvatura visible.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Atacama</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 105,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Ubicado en el norte de Chile, es conocido por ser uno de los desiertos más secos del planeta. Se visualiza como una extensa llanura desértica con una superficie uniforme.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Kalahari</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 900,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Situado en el sur de África, el Kalahari es un desierto árido y semiarido. Se interpreta como una llanura desértica extensa y plana.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Sonora</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 260,000 kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Este desierto abarca partes del sur de los Estados Unidos y el noroeste de México. En la perspectiva de la Tierra plana, es una amplia llanura desértica.</li>
-</ul>
-</li>
-<li>
-<p><strong>Desierto de Arabian</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 2.3 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Localizado en la península arábiga, es uno de los desiertos más extensos del mundo. Se considera una vasta llanura desértica en una superficie plana.</li>
-</ul>
-</li>
+<li>Primero tenemos que tener instalado <a href="https://obsidian.md/download" target="_blank" class="external-link">obsidian</a> y nuestro vault de notas abierto.</li>
+<li>Tener una cuenta en una plataforma de git (GitHub, GitLab, Codeberg, etc).</li>
+<li>Instalar el plugin para Obsidian <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Digital Garden Publication Center</a>, y configurar el nombre de usuario, repositorio y token de la plataforma de git.</li>
+<li>Clonar la <a href="https://github.com/oleeskild/digitalgarden" target="_blank" class="external-link">plantilla de Digital Garden</a> para <strong>hospedar la plantilla con el contenido</strong> y configurar el proveedor de alojamiento de sitios estáticos para **desplegar la webgenerada **, puede ser: <a href="https://pages.cloudflare.com/" target="_blank" class="external-link">Cloudflare Pages</a>, <a href="https://pages.github.com/" target="_blank" class="external-link">GitHub Pages</a>, <a href="https://docs.gitlab.com/ee/user/project/pages/" target="_blank" class="external-link">GitLab Pages</a>, <a href="https://www.netlify.com/" target="_blank" class="external-link">Netlify</a>, <a href="https://vercel.com/" target="_blank" class="external-link">Vercel</a>.</li>
+<li>Y configurar el proceso de despliegue, para GitHub Pages con <a href="https://docs.github.com/en/actions" target="_blank" class="external-link">GitHub actions</a> en <code>.github/workflows/build.yml</code>, para Vercel en <code>vercel.json</code>, para Netlify en <code>netlify.toml</code>, etc.</li>
 </ol>
-<h3 id="llanuras-oceanicas" tabindex="-1">Llanuras Oceánicas</h3>
+<p>En el caso de WikiTerra es lo siguiente:</p>
 <ol>
-<li>
-<p><strong>Llanura Abisal del Océano Atlántico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 10 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Una vasta región del fondo del Océano Atlántico que presenta una profundidad uniforme y extensa.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Océano Pacífico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 18 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Ubicada en el fondo del Océano Pacífico, es una de las regiones más grandes y profundas del océano. Se visualizaría como una llanura oceánica extensa y nivelada.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Océano Índico</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 6 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Esta llanura abisal se encuentra en el fondo del Océano Índico, caracterizada por su profundidad uniforme.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Mar de Filipinas</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 5 millones de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Parte del fondo del Océano Pacífico occidental, es una región extensa y profunda.</li>
-</ul>
-</li>
-<li>
-<p><strong>Llanura Abisal del Mar de Arabia</strong></p>
-<ul>
-<li><strong>Superficie:</strong> Aproximadamente 1 millón de kilómetros cuadrados.</li>
-<li><strong>Descripción:</strong> Situada en el fondo del Mar de Arabia, esta llanura es una región extensa con profundidad uniforme.</li>
-</ul>
-</li>
+<li>Se escribe en formato markdown en <a href="http://obsidian.md" target="_blank" class="external-link">obsidian.md</a>.</li>
+<li>Se publica el contenido con el plugin de Obsidian <a href="https://github.com/oleeskild/obsidian-digital-garden" target="_blank" class="external-link">Digital Garden Publication Center</a> que sincroniza los archivos con el la plantilla web <a href="https://github.com/Wikiterra/wikiterra.github.io" target="_blank" class="external-link">WikiTerra/wikiterra.github.io en GitHub</a>.</li>
+<li>Se despliega la web usando &quot;flujos de trabajo de GitHub Actions&quot; configurado en <a href="https://github.com/Wikiterra/wikiterra.github.io/blob/main/.github/workflows/build.yml" target="_blank" class="external-link"><code>.github/workflows/build.yml</code></a> que hacen uso de 11Ty programado en la plantilla.</li>
 </ol>
-<h2 id="caracteristicas-comunes" tabindex="-1">Características Comunes</h2>
-<h3 id="uniformidad-en-la-superficie" tabindex="-1">Uniformidad en la Superficie</h3>
-<p>Tanto las llanuras desérticas como las oceánicas se consideran áreas de terreno relativamente plano y uniforme, la percepción de una superficie plana en estas regiones se alinea con la idea de una Tierra sin curvatura visible.</p>
-<h3 id="percepcion-desde-el-nivel-del-mar" tabindex="-1">Percepción desde el Nivel del Mar</h3>
-<p>Desde la perspectiva del nivel del mar, las grandes extensiones de llanuras, ya sean desérticas u oceánicas, no presentan variaciones significativas en altura a lo largo de distancias extensas, lo que refuerza la impresión de una superficie plana.</p>
+<pre><code class="language-bash">npm install # instalar paquetes de node.js
+npm run build # construir web
+npm run watch:eleventy # visualizar web, alternativas &quot;npm run start&quot; o &quot;npx @11ty/eleventy --serve&quot;
+</code></pre>
+<p>Para más información visitar la documentación oficial, <a href="https://dg-docs.ole.dev/" target="_blank" class="external-link">Digital Garden Docs</a>.</p>
+<h3 id="pros-vs-contras" tabindex="-1">Pros vs contras</h3>
+<ul>
+<li>
+<p><strong>Ventajas (pros)</strong></p>
+<ul>
+<li>El conjunto de notas markdown se encuentra indexado en una bóveda con los gestores de conocimiento (PKM) como <a href="http://Obsidian.md" target="_blank" class="external-link">Obsidian.md</a>.</li>
+<li>Permite enlazar artículos de manera sencilla y ver su relación en un grafo.</li>
+<li>El contenido está en local en tu propia máquina.</li>
+</ul>
+</li>
+<li>
+<p><strong>Desventajas (contras)</strong></p>
+<ul>
+<li>Requiere conocer la sintaxis markdown.</li>
+<li>El lenguaje markdown varía según la aplicación, no tiene un estándar fijo.</li>
+<li>Los navegadores web solo leen HTML (junto con CSS y JS), para visualizar markdown con formato se necesita un conversor (como hace obsidian, vscode y otros).</li>
+</ul>
+</li>
+</ul>
+<h2 id="como-editar" tabindex="-1">¿Cómo editar?</h2>
+<p>Para editar la wiki consulta la sección de <a class="internal-link" target="" data-note-icon="" href="/about/wiki/wikiterra-edicion/">wikiterra-edicion</a>.</p>
 </main>
 <aside>
 <div class="sidebar">
