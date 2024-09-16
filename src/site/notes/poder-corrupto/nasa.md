@@ -20,14 +20,17 @@ Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas stánicos
 
 #### Jack Parsons
 
-> ![caption]
-![](https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png)>Jack Whiteside Parson
+> [!caption]
+![Jack Whiteside Parson](https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png)
+Jack Whiteside Parson
 
-> ![caption]
-> ![](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)> El pentágono invertido
+> [!caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)
+> El pentágono invertido
 
-> ![caption]
-> ![](https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg)> Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)
+> [!caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg)
+> Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)
 
 Jack Whiteside Parsons, por otro lado, fue miembro fundador del Laboratorio de Propulsión a Chorro de la NASA, y algunos lo consideran uno de los "padres de la cohetería" y otros bromean diciendo que el JPL era en realidad el Laboratorio de Jack Parsons, pero no encontrará mucho sobre él en los sitios web de la NASA. El legado de Parsons como ingeniero y químico se ha visto un tanto eclipsado por su interés en lo oculto y ha llevado a lo que algunos críticos describen como una reescritura de los libros de historia.
 
@@ -42,9 +45,9 @@ Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nom
 Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.
 
 #### Aleister Crowley
-> ![caption]
+> [!caption]
 
-> ![caption]
+> [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg)
 > Aleister Crowley
 
@@ -58,7 +61,7 @@ A finales de los años 40, Hubbard estaba arruinado y endeudado. Como escritor d
 
 En un momento dado, Hubbard se vio obligado a rogarle a la Administración de Veteranos que le permitiera quedarse con un pago excesivo de 51 dólares de sus prestaciones. “Estoy casi sin dinero”, escribió Hubbard, un ex teniente de la Marina. Hubbard también tenía problemas mentales. A finales de 1947, pidió a la Administración de Veteranos que le ayudara a recibir tratamiento psiquiátrico.
 
-> ![caption]
+> [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/a/ad/Church_of_Scientology.png/300px-Church_of_Scientology.png)
 > Church of Scientology
 
@@ -70,7 +73,7 @@ Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control 
 
 #### Una alineación espeluznante
 
-> ![caption]
+> [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/e/e5/OccultBeginingsOfNasa.png/300px-OccultBeginingsOfNasa.png)
 > Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney
 
@@ -91,9 +94,9 @@ Actualmente, el presupuesto es de unos 26.000 millones de dólares al año (o un
 
 ### La conexión NAZI
 
-![](https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png)
-
-Los orígenes NAZI de la NASA
+> [!caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png)
+> Los orígenes NAZI de la NASA
 
 > Si dices una mentira lo suficientemente grande y la dices con la suficiente frecuencia, te la creerán. —Adolf Hitler (1889-1945)
 
@@ -148,7 +151,7 @@ Reconoció que existe una "percepción pública de que la ciencia y la Biblia es
 
 Williams dijo que se ha visto afectado por el "orden" de las matemáticas, la física, la química y la música.
 
-"Y luego, al llevar la imagen de Dios, se nos da esta capacidad y, de hecho, el mandato de someter a la creación allí mismo en Génesis 1", dijo. "Esos son los elementos que alimentaron mi comprensión, mi visión del mundo, y realmente corroboraron lo que creo que ha sido el llamado del Señor en mi vida, en este trabajo que llamamos astronauta. Así que [la fe] solo ha corroborado mi comprensión de eso".
+"Y luego, al llevar la imagen de Dios, se nos da esta capacidad y, de hecho, el mandato de someter a la creación allí mismo en Génesis 1", dijo. "Esos son los elementos que alimentaron mi comprensión, mi visión del mundo, y realmente corroboraron lo que creo que ha sido el llamado del Señor en mi vida, en este trabajo que llamamos astronauta. Así que la fe solo ha corroborado mi comprensión de eso".
 
 Williams dijo que a menudo le preguntan si viajar al espacio cambió su relación con Dios. En cierto sentido, responde, pero no fue así.
 
@@ -198,9 +201,9 @@ Según Dys, hasta el martes los abogados no habían recibido una respuesta de la
 
 ### La CGI es nuestra "prueba" del globo
 
-![](https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png)
-
-El artista de CGI de la NASA Robert Simmon
+> [!caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png)
+> El artista de CGI de la NASA Robert Simmon
 
 Robert Simmon - "Artista de CGI" de la NASA [^7]:
 
@@ -262,67 +265,28 @@ Traducción realizada con la versión gratuita del traductor DeepL.com
 El alunizaje, un acontecimiento histórico, el momento cumbre de la humanidad, quizá la mayor hazaña tecnológica del hombre. Pero parece que no es tan importante para la NASA porque destruyeron el módulo de aterrizaje lunar y las imágenes originales.
 
 Parece que la única tecnología que se perdió fue la genialidad de Stanley Kubrick. Descansa en paz Stanley y enhorabuena por la hazaña de engañar a todo el país de los baby boomers con tus dotes cinematográficas.
-
-> El astronauta de la NASA Don Pettit  
-> 
-> “Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” [^10]
+ 
+> “Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” ~ astronauta Don Pettit [^10]
 
 Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera monitorear y proporcionar imágenes de la Tierra desde el espacio, ¿por qué en 2023 Japón descubrió 7000 nuevas islas? El número de islas del país se ha duplicado y ahora hay más de 14 000 incluidas en su mapa. #GraciasNASA 🤦
 
 ### Galería
 
-- ![Ni una sola imagen de la tierra](https://static.miraheze.org/trueearthwiki/thumb/9/98/NotOnePicOfEarth.jpg/120px-NotOnePicOfEarth.jpg)
-    Ni una sola imagen de la tierra
-    
- - ![Un AstroNOT con el reflejo de Stanley Kubrick en el casco](https://static.miraheze.org/trueearthwiki/thumb/3/3e/AstoNOT.jpg/120px-AstoNOT.jpg)
-    Un AstroNOT con el reflejo de Stanley Kubrick en el casco
-    
- - ![La tumba de von Braun: versículo bíblico que hace referencia al firmamento](https://static.miraheze.org/trueearthwiki/thumb/7/78/WernherVonBraunGrave.jpg/120px-WernherVonBraunGrave.jpg)
-    La tumba de von Braun: versículo bíblico que hace referencia al firmamento
-    
- - ![La NASA y el "presidente" instalado Eisenhower](https://static.miraheze.org/trueearthwiki/thumb/5/58/NASA_Pres_Eisenhower.jpg/120px-NASA_Pres_Eisenhower.jpg)
-    La NASA y el "presidente" instalado Eisenhower
-    
- - ![Buzz dando el símbolo 666 de los Illuminati](https://static.miraheze.org/trueearthwiki/thumb/f/fe/BuzzIlluminati.jpg/120px-BuzzIlluminati.jpg)
-    Buzz dando el símbolo 666 de los Illuminati
-   
- - ![Mundo de la NASA](https://static.miraheze.org/trueearthwiki/thumb/8/81/DisneyNASA.jpg/120px-DisneyNASA.jpg)
-    Mundo de la NASA
-    
- - ![Walt Disney y Wernher Von Braun](https://static.miraheze.org/trueearthwiki/thumb/d/d8/WaltDisneyandWernherVonBraun.jpg/120px-WaltDisneyandWernherVonBraun.jpg)
-    Walt Disney y Wernher Von Braun
-    
- - ![Juego de aterrizaje en la luna](https://static.miraheze.org/trueearthwiki/thumb/d/d1/MoonLandingPlayset.jpg/101px-MoonLandingPlayset.jpg)
-    Juego de aterrizaje en la luna
-    
- - ![Presupuesto de la NASA para 2023: 26 mil millones de dólares](https://static.miraheze.org/trueearthwiki/thumb/3/35/NASA_budget_2023.png/110px-NASA_budget_2023.png)
-    Presupuesto de la NASA para 2023: 26 mil millones de dólares
-    
- - ![Michio Kafu y el Cosmos relacionado con la Cábala](https://static.miraheze.org/trueearthwiki/thumb/f/fa/MichioKafu_CosmosKabbalah.png/120px-MichioKafu_CosmosKabbalah.png)
-    
-    Michio Kafu y el Cosmos relacionado con la Cábala
-    
- - ![Los masones espeluznantes no ven, no oyen, no hablan](https://static.miraheze.org/trueearthwiki/thumb/7/78/AstroNOTS_hearNoSpeakNo.jpg/120px-AstroNOTS_hearNoSpeakNo.jpg)
-    Los masones espeluznantes no ven, no oyen, no hablan
-    
- - ![Más AstroNOTS No ver, No oír, No hablar](https://static.miraheze.org/trueearthwiki/thumb/2/28/AstroNOTS_hearNoSpeakNo2.jpg/120px-AstroNOTS_hearNoSpeakNo2.jpg)
-    Más AstroNOTS No ver, No oír, No hablar
-    
- - ![NASA, decídete: ¿cómo es la Tierra?](https://static.miraheze.org/trueearthwiki/thumb/2/2e/YearsOfNASAballs.jpg/120px-YearsOfNASAballs.jpg)
-    NASA, decídete: ¿cómo es la Tierra?
-    
- - ![Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja](https://static.miraheze.org/trueearthwiki/thumb/1/1d/NASAEarthBlooper.jpg/120px-NASAEarthBlooper.jpg)
-    Imagen de la Tierra de la NASA 2002 vs 2012 América del Norte es enorme, jajaja
-    
- - ![Plutón y el planeta Plutón de Disney](https://static.miraheze.org/trueearthwiki/thumb/2/2d/DisneyPlanetPluto.jpg/120px-DisneyPlanetPluto.jpg)
-    Plutón y el planeta Plutón de Disney
-    
- - ![Una roca lunar entregada a Holanda era madera petrificada](https://static.miraheze.org/trueearthwiki/thumb/c/ce/PetrifiedWood.png/80px-PetrifiedWood.png)
-    Una roca lunar entregada a Holanda era madera petrificada
-    
- - ![Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente](https://static.miraheze.org/trueearthwiki/thumb/f/ff/3e8c98da434e781d.png/120px-3e8c98da434e781d.png)
-    Envolver un mapa plano alrededor de una pelota para satisfacer las expectativas de la gente
-    
+> [!grid]
+> ![AstroNOTS_hearNoSpeakNo|wsmall](https://i.imgur.com/sVGV6YL.jpeg)
+> ![AstroNOTS_hearNoSpeakNo2|wsmall](https://i.imgur.com/3N43Bjq.jpeg)
+> ![BuzzIlluminati|wsmall](https://i.imgur.com/DYLfh13.jpeg)
+> 
+> ![FlatGlobeRSimmon|ws-med](https://i.imgur.com/ZTYh6WK.png)
+> ![MichioKafu_CosmosKabbalah|ws-med](https://i.imgur.com/IwnaHhv.png)
+>
+> ![WaltDisneyandWernherVonBraun|wsmall](https://i.imgur.com/TjwPBfz.jpeg)
+> ![DisneyPlanetPluto|wsmall](https://i.imgur.com/7ElleHL.jpeg)
+> ![WernherVonBraunGrave|wsmall](https://i.imgur.com/vW4KGrR.jpeg)
+>
+> ![NASAEarthBlooper|ws-med](https://i.imgur.com/NyamyZ2.jpeg)
+> ![YearsOfNASAballs|ws-med](https://i.imgur.com/WzHvxGN.jpeg)
+
 
 ### Datos curiosos
 
@@ -340,8 +304,6 @@ El vídeo del resultado del análisis y la conversación del presidente ruso con
 
 La misión lunar no tripulada de China, denominada Chang'e, es una serie de sondas lunares lanzadas por la Administración Espacial Nacional de China a partir del lanzamiento de Chang'e 1 en octubre de 2007.
 
-> “¿Cree que este es falso?”
-
 “¿Cree que esto es falso?”, se ve a Putin en el video tocándose primero el ala de la nariz y luego preguntando después de una breve pausa mientras señala las imágenes del Apolo 11 mostradas en una pantalla.
 
 “Sí, mira, esto es rojo”, le dijeron a Putin.
@@ -351,9 +313,10 @@ El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el 
 
 ### Simbología
 
-#### logotipo de la NASA
+#### Logotipo de la NASA
 
-> ![](https://static.miraheze.org/trueearthwiki/thumb/4/46/Ouroboros.jpg/100px-Ouroboros.jpg)
+> [!caption]
+> ![ws-med](https://upload.wikimedia.org/wikipedia/commons/d/de/Theosophicalseal.svg)
 > La serpiente Ouroboros se come a sí misma
 
 Las letras N, A, S, A, cuando se intercambian y se agrega la letra "T", forman la palabra SATAN (quizás de ahí proviene la frase "T menos" en la cuenta atrás del lanzamiento de cohetes).
@@ -364,34 +327,33 @@ Uno de los motivos de uróboros más antiguos que se conocen se encuentra en el 
 
 #### El diablo que conoces
 
-- ![Parche de diablo llamado Betty L-49](https://static.miraheze.org/trueearthwiki/thumb/a/a5/L49_devil_named_betty_patch.png/120px-L49_devil_named_betty_patch.png)
-Parche de diablo llamado Betty L-49
+> [!grid]
+> ![NROL-49|hsmall](https://i.imgur.com/IsiPy7d.png)
+> ![ula-ship|hsmall](https://i.imgur.com/eLOu0Pk.jpeg)
+> ![diabolous-cies|hsmall](https://i.imgur.com/OSwAyuc.png)
 
- - ![El cohete de la NASA lanza una diabla llamada Betty](https://static.miraheze.org/trueearthwiki/thumb/5/5a/NASA_rocket_a_devil_named_betty.png/79px-NASA_rocket_a_devil_named_betty.png)
-    El cohete de la NASA lanza una diabla llamada Betty
-
- - ![Parche Mejor diablo de lo que conoces](https://static.miraheze.org/trueearthwiki/thumb/a/a9/Melior_Diabolus_Quem_Scies_patch.png/119px-Melior_Diabolus_Quem_Scies_patch.png)
-    Parche Mejor diablo de lo que conoces
-
-
-Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido.
-
-El parche de la misión NRO L-49 muestra un fénix surgiendo de entre el fuego, con las palabras “melior diabolus quem scies”, que se traducen al español como “mejor malo conocido”, lo que indica el regreso al sistema anterior tras el fracaso del intento de reemplazarlo.
-
-Es una elección de palabras bastante extraña para una agencia gubernamental, pero definitivamente está a la altura de todo este tema siniestro e infernal que rodea a los parches PSYOPS.
+Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido. Es una elección de palabras bastante extraña para una agencia gubernamental, pero definitivamente está a la altura de todo este tema siniestro e infernal que rodea a los parches PSYOPS.
 
 Otro parche relacionado con NRO-49 representa al satélite como un ser de fuego alado (al que la NASA se refiere como un demonio llamado Betty) que sostiene un tridente y una llave inglesa.
 
-El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si te fijas bien, hay letras en el detalle del cuerpo astral gris. ¿A qué se refieren? En la parte inferior del parche, la frase en latín también es enigmática: “Primoris Gravis Ex Occasus”. Primoris significa “Primero”, Gravis significa “importante, pesado o serio” y Occasus significa “puesta del sol, el Oeste o la caída”. En otras palabras, no sé qué significa. ¿“Primera puesta pesada del sol”? ¿“Lo más importante después de la puesta del sol”? ¿“Primera caída seria”? Independientemente del significado exacto, parece haber un énfasis en el concepto de oscuridad. Betty es pura oscuridad envuelta en llamas y está cubriendo parcialmente el sol. Hay un cuerpo celeste gris que se mueve hacia la tierra… (y todavía estamos hablando de un satélite espía)
+El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si te fijas bien, hay letras en el detalle del cuerpo astral gris. ¿A qué se refieren? En la parte inferior del parche, la frase en latín también es enigmática: “Primoris Gravis Ex Occasus”. Primoris significa “Primero”, Gravis significa “importante, pesado o serio” y Occasus significa “puesta del sol, el Oeste o la caída”. En otras palabras, no sé qué significa. ¿“Primera puesta pesada del sol”? ¿“Lo más importante después de la puesta del sol”? ¿“Primera caída seria”? Independientemente del significado exacto, parece haber un énfasis en el concepto de oscuridad. Betty es pura oscuridad envuelta en llamas y está cubriendo parcialmente el sol. Hay un cuerpo celeste gris que se mueve hacia la tierra.
+
+El sistema ARGOS (Active Response Gravity Offload System) es una clara referencia a un [mounstruo de la mitología griega (Argos Panoptes)](https://es.wikipedia.org/wiki/Argos_Panoptes) el cual representa, "un gigante de cien ojos que todo lo ve". Este sistema es el que usan para simular y falsear la gravedad de los planetas, La Luna y la ISS. Este es un sofisticado sistema que permite moverse en 3D con cables y arneses pegados a los trajes, les permite moverse libremente y hacer acrobacias, además debido a su diseño los cables se pueden eliminar facilmente por software en directo sin necesidad de post-edición.
+
+<video style="width:100%; aspect-ratio:16 / 10;" controls>
+  <source src="https://ntts-prod.s3.amazonaws.com/t2p/prod/t2media/tops/att/MSC-TOPS-60/NASA_s_Active_Response_Gravity_Offload_System__ARGOS__.mp4" type="video/mp4">
+  Tu navegador no soporta el formato de video.
+</video>
+
 
 ### Funcionarios que hablaron en contra de la NASA
 
-![](https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg)
-Los gemelos del desastre del transbordador espacial Challenger de 1986
+> [!caption]
+> ![](https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg)
+> Los gemelos del desastre del transbordador espacial Challenger de 1986
 
 - El ex CIA Robert David Steele dice que "la NASA no es una agencia espacial". [^13]
 - Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. [^14] [^15] [^16] Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? [^17]
-
 - Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo "eliminaron", probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. [^18]
 - Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. [^19]
 - El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. [^20]
@@ -401,6 +363,7 @@ Los gemelos del desastre del transbordador espacial Challenger de 1986
 - Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. [^24]
 - Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! [^25]
 
+> [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif)
 > La NASA utiliza mazos de cables para simular la gravedad
 
@@ -408,22 +371,29 @@ Los gemelos del desastre del transbordador espacial Challenger de 1986
 
 > [!Warning] Descubrir que la NASA es falsa podría convertirte en un terraplanista.
 
-#### ¿Marte está en Canadá?
+#### ¿De dónde son las fotos de Marte?
 
-- ¿Marte está en Canadá? La próxima vez que viajes con Google Earth, echa un vistazo a la isla Devon ^[26]
+Marte como estrella herrante u objeto luminoso en el cielo es una cosa, pero las imágenes que muestran o bien son CGI o están sacadas de la Tierra. Muchas de ellas han sido sacadas desde la isla de Devon en Canada, el cual comparte terrenos exactamente iguales y se ha visto camiones y equipos de la NASA "trabajando" allí.
 
 #### La ISS es falsa
 
-La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA. Opera de varias formas: [^27] [^28] [^29] [^30] [^31] [^32] [^33]
+> "Space may be the final frontier, but it's made in a Hollywood basement" ~ Californication por Red Hot Chilli Peppers 
 
-- ISS por fuera: Maqueta a gran escala con pantalla verde y CGI
-- ISS por dentro: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos
-- ISS recorriendo: Set de grabación con cables, arneses y hologramas 3D, lentes de contacto e interacción con objetos 3D virtuales.
-- ISS con astronautas en el Espacio: fondo de una piscina con buzos submarinos
+La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA y el sistema heliocéntrico con todo su posteiror desarrollo. [^27] [^28] [^29] [^30] [^31] [^32] [^33]
+
+Según el tipo de video la ISS se falsea de distintas formas:
+- ISS por fuera: 
+	- Vista completa: Maqueta a gran escala con pantalla verde y CGI.
+	- Astronautas en pasos espaciales: actornautas con buzos en piscinas de entrenamiento y pantalla verde.
+- ISS por dentro: 
+	- Astronautas en movimiento: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos
+	- Astronautas quietos: Set de grabación con sistema ARGOS (cables, arneses), sumado a objetos colgados por cables (micros, pelotas, etc.). A veces interactuan con pequeños objetos virtuales con lentes de contacto AR (Realidad Aumentada) y cámaras de video que permiten visualizarlo. En las mujeres con pelo largo suelen laca en el pelo para simular la flotación pero se ve muy poco realista, por eso suelen ser más hombres. 
+
 
 
 #### Equipo de natación de la NASA
 
+> [!caption]
 > ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg)
 > Equipo de submarinismo de la NASA
 
@@ -433,6 +403,7 @@ Aunque ha habido muchos videos que muestran burbujas durante los videos de camin
 
 A lo largo de los años, numerosos astronautas se han enfrentado a la terrible experiencia de que su casco se llenara de agua. En 2013, una caminata espacial tuvo que ser interrumpida después de que el astronauta de la Agencia Espacial Europea Luca Parmitano estuvo a punto de ahogarse. Un informe de la NASA que detalla el incidente decía que Parmitano se encontró con “agua que le cubría los ojos, la nariz y los oídos”.
 
+> [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png)
 > La NASA suspende una caminata espacial tras una filtración de agua en el casco
 
