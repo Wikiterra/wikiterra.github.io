@@ -23,6 +23,9 @@ Los calendarios no solo sirven para medir el tiempo, sino que también reflejan 
 #### **Calendario Egipcio**
 El calendario egipcio es uno de los primeros calendarios solares documentados. Introducido alrededor del 4,000 a.C., consistía en un año de 365 días, dividido en 12 meses de 30 días cada uno, con 5 días adicionales añadidos al final del año. Este sistema estaba estrechamente vinculado con la observación de la estrella Sirio, cuyo ciclo de aparición en el horizonte marcaba el inicio de la inundación anual del Nilo, un evento crucial para la agricultura en el antiguo Egipto. El calendario egipcio permitía a los egipcios coordinar actividades agrícolas y ceremoniales con precisión, reflejando una comprensión avanzada de los ciclos astronómicos.
 
+![](https://i.imgur.com/gBCGwZD.jpeg)
+
+
 #### **Calendario Babilónico**
 El calendario babilónico, desarrollado en Mesopotamia, era un sistema lunisolar que combinaba meses lunares con ajustes para alinear el calendario con el año solar. Originalmente, el calendario tenía 12 meses lunares, pero para mantener la sincronización con las estaciones, se añadían meses intercalados periódicamente. Este sistema permitía a los babilonios coordinar festividades religiosas y eventos agrícolas con las estaciones del año. La influencia del calendario babilónico se extendió a otras culturas, incluyendo el calendario hebreo, y tuvo un impacto duradero en la historia de la cronología.
 
