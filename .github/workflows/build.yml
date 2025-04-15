@@ -46,10 +46,10 @@ jobs:
         publish_dir: ./dist
 
         # Usamos GITHUB_TOKEN por defecto: token generado automáticamente por GitHub Actions
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # github_token: ${{ secrets.GITHUB_TOKEN }}
 
         # Alternativa (descomentar si usás un PAT manual creado en https://github.com/settings/tokens)
-        # github_token: ${{ secrets.GH_TOKEN }}
+        github_token: ${{ secrets.GH_TOKEN }}
 
         publish_branch: gh-pages
         force_orphan: true  # Opcional: hace que el historial de gh-pages sea más limpio
