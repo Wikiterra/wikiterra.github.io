@@ -1,8 +1,4 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them,
-# build the source code and run tests across different versions of node. More info:
-# https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
-
-name: Check for any build error
+name: Build and Deploy to GitHub Pages
 
 on:
   push:
@@ -11,31 +7,49 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
-
+  build-deploy:
     runs-on: ubuntu-22.04
 
     strategy:
       matrix:
         node-version: [20.x]
-        # Node.js release schedule https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: 📥 Checkout repo
+      uses: actions/checkout@v4
+
+    - name: 🔧 Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm install
-    - run: npm run build --if-present
 
-    # Create CNAME (alias for domain) to prevente overwrite
-    #- name: Create CNAME file
-    #  run: echo "wikiterra.xyz" > ./dist/CNAME
+    - name: 📦 Install dependencies
+      run: npm ci
 
-    - name: Deploy
+    - name: 🏗️ Build project
+      run: npm run build
+
+    - name: 🧪 Check if dist folder exists
+      run: |
+        if [ ! -d "dist" ]; then
+          echo "❌ Build failed: dist folder not found"
+          exit 1
+        fi
+
+    # - name: 🌐 Create CNAME for custom domain
+    #   run: echo "wikiterra.xyz" > dist/CNAME
+
+    - name: 🚀 Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         publish_dir: ./dist
-        github_token: ${{ secrets.GH_TOKEN }}
+
+        # Usamos GITHUB_TOKEN por defecto: token generado automáticamente por GitHub Actions
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
+        # Alternativa (descomentar si usás un PAT manual creado en https://github.com/settings/tokens)
+        # github_token: ${{ secrets.GH_TOKEN }}
+
+        publish_branch: gh-pages
+        force_orphan: true  # Opcional: hace que el historial de gh-pages sea más limpio
