@@ -2,67 +2,89 @@
 {"dg-publish":true,"permalink":"/Terra/naturaleza/gravedad/"}
 ---
 
+# Gravedad (desde una perspectiva electromagnética)
 
-# Gravedad
+La llamada "gravedad" no es una fuerza fundamental de atracción entre masas, como postula el paradigma clásico, sino un fenómeno emergente que puede entenderse como el **ajuste dinámico de los cuerpos dentro de un campo electromagnético fluido**. En este marco, el comportamiento de un cuerpo en caída libre se rige por su **densidad relativa respecto al medio circundante**, no por una atracción intrínseca entre masas.
 
-La "gravedad" es realmente la [[Terra/naturaleza/flotabiliad\|flotabiliad]] de los cuerpos en un medio, es decir, el equilibrio que sufren los cuerpos sobre el medio en el que se encuentran inmersos. Los cuerpos tienden a hacer un ajuste energético respecto al medio, los más densos se hunden y los más livianos flotan. Así se comprueba en la práctica, por ejemplo: en la atmósfera a nivel del mar se observa que el aire caliente sube y el frío baja, ya que el aire caliente es menos denso que el aire frío.
+Desde esta perspectiva, los cuerpos no “caen” porque sean atraídos por la masa de la Tierra, sino porque buscan **un estado de mínima energía potencial** dentro del campo electromagnético global en el que están inmersos. Este campo, polarizable y dinámico, responde a principios similares a los que regulan la flotabilidad: los cuerpos más densos tienden a descender, y los menos densos tienden a ascender o mantenerse en suspensión.
 
-Este fenómeno ocurre debido a que la materia tiende a un estado de mínima energía interna para alcanzar su equilibrio termodinámico.
+Este fenómeno se observa cotidianamente: el aire caliente asciende por su menor densidad, el helio se eleva en la atmósfera, mientras gases como el hexafluoruro de azufre permanecen bajos debido a su alta densidad. En todos estos casos, el movimiento vertical puede explicarse **sin invocar una fuerza gravitacional entre masas**, sino como un **gradiente de energía en un entorno electromagnético activo**.
+
+En este modelo, el concepto de “peso” no sería otra cosa que **la resistencia electromagnética del medio ante el intento de un cuerpo de moverse dentro de él**. La gravedad sería así una **aceleración electrostática emergente**, dependiente de las propiedades del medio, más que una propiedad intrínseca de la materia.
+
+Incluso la célebre fórmula de Newton:
+$$F = G \frac{m_1 m_2}{r²}$$
+guarda una notable similitud con la ley de Coulomb:
+$$F = K \frac{q_1 q_2}{r²}$$
+
+La única diferencia formal es la sustitución de las cargas 'q' por masas 'm', y de la constante K por G. Esto sugiere que la gravedad podría no ser una fuerza autónoma, sino una manifestación electromagnética enmascarada.
+
+Mientras que el electromagnetismo cuenta con un campo bien definido y una partícula mediadora (el fotón), la gravedad sigue dependiendo de un **gravitón hipotético** que nunca ha sido observado. Esta ausencia plantea dudas sobre la supuesta "fundamentalidad" de la gravedad, sobre todo cuando efectos similares pueden emerger de interacciones electromagnéticas sutiles, pero medibles.
+
+En este contexto, la gravedad no requiere una partícula portadora para existir. Lo que observamos como atracción gravitacional sería una **redistribución de energía en el medio electromagnético global**. Si esta interpretación se valida, abriría la puerta a un nuevo paradigma: el **control tecnológico de la gravedad mediante ingeniería de campos**.
 
 ---
 
-## Gravedad según Newton
+## Breve repaso a los modelos gravitacionales clásicos
 
-Según la física Newtoniana la gravedad es definida como una fuerza de atracción de masas o de los cuerpos físicos materiales inherente a la materia. 
+### Gravedad según Newton
 
-Isaac Newton fue el primero en exponer que es de la misma naturaleza la fuerza que hace que los objetos caigan con aceleración constante en la Tierra (gravedad terrestre) y la fuerza que mantiene en movimiento los planetas y las estrellas. Esta idea le llevó a formular "teoría de gravitación universal", expuesta en su obra "Philosophiae Naturalis Principia Mathematica", con la siguiente formulación.
+En la física clásica, Isaac Newton formuló la gravedad como una fuerza universal de atracción entre masas. Su teoría, presentada en _Philosophiæ Naturalis Principia Mathematica_, propuso que la misma fuerza que hace caer los objetos también mantiene a los planetas en órbita:
 
 $$F = G \frac{m_1 m_2}{r²}$$
 donde:
 $G$: es la constante de gravitación universal
-$m_1$: masa grande
+$m_1, m_2$: masas de los cuerpos
 $m_2$: masa pequeña
 $r$: distancia entre masas
 
-El primer experimento para intentar dar validez a esta teoría fue desarrollado un siglo después en 1789, el experimento de Cavendish.
+Aunque influyente, esta teoría presenta varios problemas si se examina desde un enfoque experimental crítico.
 
-Sin embargo este experimento no demuestra la gravedad como atracción de masas por varios motivos.
+#### Crítica al experimento de Cavendish
 
-- El *experimento de Cavendish* afirma que permitió medir la fuerza gravitacional entre masas y, por ende, calcular la densidad de la Tierra y la constante gravitacional $G$. Sin embargo réplicas más precisas de hoy en día no permiten llegar a esas conclusiones y afirmar que se produce una atracción de masas entre las bolas del péndulo y las bolas que circundean.
-- El experimento de Cavendish usa un péndulo con un barra separada con dos bolas en los extremos, sin tener en cuenta "la rotación terrestre". Sin embargo si dejamos solo una bola, se convertiría en el "péndulo de Foucalt" el cual se usa para demostrar "la rotación terrestre" realizando un círculo completo porque la sección del plano que se encuentra debajo gira por "rotación terrestre". Ambos experimentos se contradicen, si hay dos bolas no hay rotación terrestre pero si hay una sí, y si hay dos bolas afecta la "gravedad" pero si hay una bola solo afecta la rotación.
-- Otro aspecto importante es que toda la materia tiene carga estática, y estos efectos son notirios, por lo que no se puede medir "la atracción de masas única y exclusivamente debido a otras masas". Esto es medido en "el experimento de Coulomb" en el cual se tiene en cuenta que las bolas están cargas eléctricamente.
-- La teoría de gravitación universal formulada por Isaac Newton es muy similar a de la **Ley de Coulomb**:
-	- Ley de gravitación universal: $F = G \frac{m_1 m_2}{r²}$
-	- Ley de Coulomb: $F = K \frac{q_1 q_2}{r²}$
-- No existe partícula en física como gravitón y toda su formulación teórica carece de sentido y lo separa de la física Newtonina pasando a ser parte de la relatividad general de Newton un concepto mucho más enrevesado. Mientras por otro lado si existe la carga estática de los cuerpos y es medible su interacción.
+El experimento de Cavendish (1798) pretendía "medir la fuerza gravitacional" entre masas pequeñas en laboratorio. Sin embargo, hay varios puntos conflictivos:
 
- Por tanto en el experimento de Cavendish no se puede demostrar que las masas se atraen debido a un efecto puramente de la masa, ni medir esa constante de gravitación ni la densidad de "un planeta Tierra",
+1. **Ausencia de control sobre rotación terrestre:** si una bola se deja libre, el mismo montaje se comporta como un _péndulo de Foucault_ y revela la rotación terrestre. Pero en el montaje de Cavendish, con dos bolas, este efecto desaparece misteriosamente. ¿Cómo puede un experimento ser insensible a un fenómeno global que en otros contextos es central?
+2. **Influencia de la carga electrostática:** toda materia posee carga estática, y los cuerpos metálicos del experimento pueden fácilmente influirse electrostáticamente. ¿Cómo se aísla el efecto gravitacional puro si no se descarta la carga?
+3. **Similitud formal con la ley de Coulomb:** las ecuaciones son prácticamente equivalentes, lo que sugiere que la interacción podría tener una naturaleza electromagnética y no gravitatoria.
+4. **No se ha replicado el experimento con resultados concluyentes utilizando tecnología moderna en condiciones totalmente controladas.** Lo que se mide podría ser cualquier cosa menos atracción "pura de masas".
 
-### Experimento de Cavendish
+En resumen, el experimento de Cavendish no demuestra de forma inequívoca la existencia de una fuerza de atracción gravitatoria entre masas aisladas, y su interpretación debería revisarse.
 
-> ![](https://i.imgur.com/7odFBLY.jpeg)
-> Experimento de Cavendish, Henry Cavendish a la derecha
-
-> ![Aparato de torsión de Cavendish](https://i.imgur.com/qvavDTn.png)
-> Aparato de torsión de Cavendish
-
-![](https://i.imgur.com/u3E3GHg.png)
-
+---
 
 ## Gravedad según Einstein
 
-Para Albert Einstein la gravedad puede entenderse como un efecto geométrico de la materia sobre el espacio-tiempo. Visto así, la fuerza gravitatoria deja de ser una «misteriosa fuerza que atrae», y se convierte en el efecto que produce la deformación del espacio-tiempo —de geometría no euclídea — sobre el movimiento de los cuerpos. Según esta teoría, dado que todos los objetos se mueven en el espacio-tiempo, al deformarse este, la trayectoria de aquellos será desviada produciendo su aceleración.
+Albert Einstein redefinió la gravedad no como una fuerza, sino como una **curvatura del espacio-tiempo** inducida por la masa. Según su teoría general de la relatividad, los cuerpos simplemente siguen las trayectorias “naturales” (geodésicas) dentro de ese espacio deformado.
 
+Aunque elegante matemáticamente, esta interpretación también tiene puntos críticos:
 
-## El problema de los 3 cuerpos
+- Es una formulación geométrica abstracta difícil de testear localmente.
+- La curvatura requiere masas enormes para ser perceptible, lo que la aleja de la escala experimental cotidiana.
+- No propone un mecanismo físico de “interacción”, sino una descripción matemática del entorno deformado.
 
-El problema de los tres cuerpos es un planteamiento conocido en física clásica porque cualquier mínima variación en un sistema en rotación y traslación produce órbitas inestables. 
+Además, aunque la relatividad explica bien ciertos fenómenos astronómicos (como la precesión del perihelio de Mercurio), **no unifica la gravedad con las otras fuerzas**, lo que ha sido una limitación clave por más de un siglo.
 
-Ahora imagínate esto con un sistema con trillones de trillones de partículas en interacción, cualquier mínima variación produciría un gran cambio en el sistema. Sin embargo nos hacen creer que el sistema heliocéntrico se mantiene girando en perfecta sincronización de astros, estrellas y galaxias durante milenios.
+---
 
-Los simuladores digitales del Sistema Solar utilizan una combinación de simplificaciones, métodos numéricos avanzados, y condiciones iniciales cuidadosamente seleccionadas para mantener la estabilidad y manejar la interacción de muchos cuerpos celestes. El "Kerbal Space Program" usa una [aproximación de dos cuerpos por secciones](https://es.wikipedia.org/wiki/Aproximaci%C3%B3n_por_secciones_c%C3%B3nicas#cite_note-1) simplificar los cálculos de la trayectoria de una nave espacial que se debe desplazar bajo el influjo gravitatorio de varios cuerpos. Y otros simuladores como "Space Engine" o "Universe Sandbox" usan simplificaciones con simulaciones númericas en cortos periodos de tiempo.
+## El problema de los tres cuerpos
 
-Y no existe ningún experimento que replique el Sistema Solar en escala pequeña.
+En física clásica, el problema de los tres cuerpos demuestra que cualquier sistema con tres o más masas interactuando gravitacionalmente es **caótico e inestable**. Cualquier pequeña variación inicial conduce a trayectorias impredecibles.
 
-Es conclusión el modelo gravitatorio y la explicación del movimiento de los astros en el Sistema Solar debido a la atracción gravitatoria es una gran mentira sin validación científica.
+Esto plantea un serio problema para el modelo heliocéntrico: si trillones de cuerpos celestes interactúan gravitacionalmente, ¿cómo se mantiene un sistema solar estable durante milenios?
 
+Los simuladores digitales actuales (como _Kerbal Space Program_, _Universe Sandbox_, _Space Engine_) resuelven este dilema usando **métodos numéricos y simplificaciones**:
+
+- Se aplica la _aproximación de dos cuerpos_ por tramos.
+- Se ajustan las condiciones iniciales para evitar inestabilidades.
+- Las simulaciones son limitadas en tiempo y precisión.
+
+No existe, hasta la fecha, **ningún experimento físico replicable a escala que reproduzca el comportamiento estable del sistema solar**. Lo que se enseña como modelo heliocéntrico gravitacional **no es verificable de forma empírica**, y su estabilidad parece más una construcción matemática que una observación física replicable.
+
+---
+
+## Conclusión
+
+La interpretación tradicional de la gravedad como fuerza de atracción entre masas está sustentada en formulaciones teóricas y experimentos ambiguos. Si, en cambio, consideramos que el medio en el que vivimos es un **campo electromagnético dinámico**, y que los cuerpos buscan un equilibrio energético dentro de él, entonces la gravedad puede entenderse como un fenómeno emergente de la interacción materia-medio.
+
+Esto abriría la puerta a tecnologías de manipulación gravitacional, a la redefinición de conceptos como el peso, la masa y la energía potencial, y a una visión más integrada entre electromagnetismo, mecánica cuántica y dinámica de sistemas complejos.
