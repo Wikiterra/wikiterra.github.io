@@ -11,17 +11,17 @@ A lo largo de la historia filósofos y científicos han desarrollado distintos m
 
 ## Índice
 
-- [[modelos-Terra/modelos-Terra#Clasificación de los modelos cosmológicos\|#Clasificación de los modelos cosmológicos]]
-	- [[modelos-Terra/modelos-Terra#Modelo Geocéntrico\|#Modelo Geocéntrico]]
-		- [[modelos-Terra/modelos-Terra#Terraplanismo geocéntrico\|#Terraplanismo geocéntrico]]
-		- [[modelos-Terra/modelos-Terra#Tierra esférica geocéntrica\|#Tierra esférica geocéntrica]]
-	- [[modelos-Terra/modelos-Terra#Modelo Heliocéntrico\|#Modelo Heliocéntrico]]
-		- [[modelos-Terra/modelos-Terra#Heliocentrismo Copernicano\|#Heliocentrismo Copernicano]]
-		- [[modelos-Terra/modelos-Terra#Heliocentrismo Kepleriano\|#Heliocentrismo Kepleriano]]
-		- [[modelos-Terra/modelos-Terra#Heliocentrismo Newtoniano\|#Heliocentrismo Newtoniano]]
-		- [[modelos-Terra/modelos-Terra#Universo relativista Big Bang\|#Universo relativista Big Bang]]
-- [[modelos-Terra/modelos-Terra#Teorías extras no fructíferas\|#Teorías extras no fructíferas]]
-- [[modelos-Terra/modelos-Terra#Conclusión\|#Conclusión]]
+- [[#Clasificación de los modelos cosmológicos]]
+	- [[#Modelo Geocéntrico]]
+		- [[#Terraplanismo geocéntrico]]
+		- [[#Tierra esférica geocéntrica]]
+	- [[#Modelo Heliocéntrico]]
+		- [[#Heliocentrismo Copernicano]]
+		- [[#Heliocentrismo Kepleriano]]
+		- [[#Heliocentrismo Newtoniano]]
+		- [[#Universo relativista Big Bang]]
+- [[#Teorías extras no fructíferas]]
+- [[#Conclusión]]
 
 ## Clasificación de los modelos cosmológicos
 
