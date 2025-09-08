@@ -1,4 +1,6 @@
-const slugify = require("@sindresorhus/slugify");
+// Import slugify correctly - it exports a default function
+// Import slugify correctly - it's an ESM module 
+const slugify = require("@sindresorhus/slugify").default;
 
 function headerToId(heading) {
     var slugifiedHeader = slugify(heading);
