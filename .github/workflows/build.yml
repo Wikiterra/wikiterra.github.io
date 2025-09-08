@@ -6,6 +6,11 @@ on:
   pull_request:
     branches: [ "main" ]
 
+# Grant Actions permission to push/publish
+permissions:
+  contents: write
+  pages: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-22.04
@@ -17,6 +22,8 @@ jobs:
     steps:
     - name: 📥 Checkout repo
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
 
     - name: 🔧 Setup Node.js
       uses: actions/setup-node@v4
@@ -44,12 +51,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         publish_dir: ./dist
-
-        # Usamos GITHUB_TOKEN por defecto: token generado automáticamente por GitHub Actions
-        # github_token: ${{ secrets.GITHUB_TOKEN }}
-
-        # Alternativa (descomentar si usás un PAT manual creado en https://github.com/settings/tokens)
+        # Use the automatically provided GH_TOKEN (recommended)
         github_token: ${{ secrets.GH_TOKEN }}
-
         publish_branch: gh-pages
         force_orphan: true  # Opcional: hace que el historial de gh-pages sea más limpio
