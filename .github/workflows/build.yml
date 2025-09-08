@@ -51,7 +51,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         publish_dir: ./dist
-        # Use the automatically provided GH_TOKEN (recommended)
-        github_token: ${{ secrets.GH_TOKEN }}
+        # Use the automatically provided GITHUB_TOKEN (recommended)
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         force_orphan: true  # Opcional: hace que el historial de gh-pages sea más limpio
