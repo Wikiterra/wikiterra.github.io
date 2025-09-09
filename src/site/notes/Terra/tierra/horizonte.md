@@ -151,7 +151,8 @@ del Teide sacada desde Lanzarote (en este caso por [Gustavo Medina](https://www.
 
 En el modelo plano ambos horizontes coinciden, sin embargo en el modelo esférico hay que recurrir a índices de refracción altísimos (fuera del rango medible).
 
-![Horizontes en modelos de Tierra](https://i.imgur.com/qOtMgua.png)
+![Comparación de horizontes según modelo terrestre](https://i.imgur.com/aI2hoTg.png)
+
 
 ---
 
