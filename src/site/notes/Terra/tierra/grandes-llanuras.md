@@ -2,13 +2,14 @@
 {"dg-publish":true,"permalink":"/Terra/tierra/grandes-llanuras/"}
 ---
 
+
 # Grandes Llanuras
 
 Las grandes llanuras, tanto desérticas como oceánicas, se explican de acuerdo con la idea de una superficie plana y extensa. Estas llanuras se describen como regiones de gran extensión sin variaciones significativas en altura, lo que contribuye a su apariencia de ser planas desde la perspectiva del observador.
 
 Aquí se presentan ejemplos de grandes llanuras, con sus respectivas superficies totales:
 
-### Llanuras Desérticas
+## Llanuras Desérticas
 
 1. **Desierto de Sahara**
    - **Superficie:** Aproximadamente 9.2 millones de kilómetros cuadrados.
@@ -30,7 +31,7 @@ Aquí se presentan ejemplos de grandes llanuras, con sus respectivas superficies
    - **Superficie:** Aproximadamente 2.3 millones de kilómetros cuadrados.
    - **Descripción:** Localizado en la península arábiga, es uno de los desiertos más extensos del mundo. Se considera una vasta llanura desértica en una superficie plana.
 
-### Llanuras Oceánicas
+## Llanuras Oceánicas
 
 1. **Llanura Abisal del Océano Atlántico**
    - **Superficie:** Aproximadamente 10 millones de kilómetros cuadrados.

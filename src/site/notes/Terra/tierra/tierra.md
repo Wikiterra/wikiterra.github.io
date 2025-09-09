@@ -8,15 +8,18 @@
 La Tierra o 'The Earth' es el conjunto donde habitan los seres vivos humanos, animales, plantas está constituida por zona terrestre y zona marina. La tierra sobresale por encima del agua, y tiene multitud de formas montañas, cuevas, valles, volcanes, La tierra proviene del fondo terrestre, del subsuelo y es la que al salir a superficie forma la orografía.
 
 > [!infobox]+ Collapsible Infobox
+>
 > # Antigua concepción hebrea del mundo
+>
 > ![concepcion-mundo-hebrea|cover small](https://i.imgur.com/lFsHtbC.png)
 > Se concibe mundo, como un sistema con tierra a nivel, domo o firmamento, que separa de las aguas de arriba, y abajo el inframundo.
+>
 > ###### Datos
+>
 > | Dimensiones |  Distancia |
 > | ---- | ---- |
 > | Altura | 7 000 Km |
 > | Diámetro | 21 000 Km |
-
 
 La mayor parte de la superficie de la superficie es agua de mar compone el 80% de la superficie y se extiende a lo largo y ancho de forma plana y permaneciendo siempre a nivel. En el mar se forman las olas, que se deben al viento, la marea y los fenómenos de la Luna.
 
@@ -34,7 +37,6 @@ La superficie vista desde arriba sin efectos ópticos y objetos que impidan su v
 
 ![](https://i.imgur.com/zJeES5Q.png)
 
-
 ## Quote
 
 > [!quote]
@@ -42,4 +44,3 @@ La superficie vista desde arriba sin efectos ópticos y objetos que impidan su v
 
 > [!quote]
 > "La Tierra es un reino, no es un planeta. No es un objeto, por lo tanto, no tiene borde. La Tierra se definiría más fácilmente como un entorno de sistemas. La Tierra es también una máquina, es una bobina de Tesla. El Sol y la Luna se alimentan de forma inalámbrica con el campo electromagnético (el Aether). Este campo también suspende las esferas celestes con levitación electromagnética. La levitación electromagnética desaprueba la gravedad porque la única fuerza que hay que contrarrestar es la fuerza electromagnética, no la gravedad. Las estrellas están unidas al firmamento". ~ Nikola Tesla
-
