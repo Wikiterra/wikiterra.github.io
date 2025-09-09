@@ -5,9 +5,10 @@
 
 # El horizonte
 
-El horizonte es una línea divisora que se sitúa en el límite geométrico y óptico entre la unión de dos medios.
+El **horizonte** es la línea aparente que separa el cielo de la superficie terrestre o marina, es decir, el límite visual entre dos medios.
+El término proviene del griego antiguo **ὁρίζων κύκλος** (*horizōn kýklos*), literalmente “círculo separador”, de **ὁρίζειν** (*horizéin*, “delimitar”), a su vez derivado de **ὅρος** (*hóros*, “límite, frontera\*).
 
-Típicamente cuando nos referimos al horizonte, pensamos en el horizonte terrestre, la separación visual entre el cielo y la tierra que se observa a lo lejos.
+De esta raíz proceden las formas modernas en distintas lenguas: *horizonte* (español, portugués, gallego), *horitzó* (catalán), *horizon* (francés, inglés, neerlandés), *orizzonte* (italiano), *orizont* (rumano) y *горизонт* (*gorizont*, ruso).
 
 > [!infobox]
 >
@@ -25,7 +26,7 @@ Existen dos tipos de horizonte: el horizonte geométrico, que depende de la geom
 
 ### Horizonte geométrico
 
-El horizonte geométrico viene determinado por la geometría o forma de la superficie y es un puro cálculo matemático, nunca puede observarse en la realidad porque no interviene la óptica.
+El horizonte geométrico viene determinado por la geometría o forma de la superficie y es un puro cálculo matemático, nunca puede observarse en la realidad porque siempre interviene la óptica.
 
 #### Geometría plana
 
