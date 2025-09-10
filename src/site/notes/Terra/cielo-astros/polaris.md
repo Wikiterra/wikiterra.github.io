@@ -12,7 +12,9 @@ Polaris es la única estrelle en el firmamento que no gira, se encuentra en el c
 Debido a su proximidad al Polo Norte Celeste, Polaris ha sido utilizada durante siglos como una estrella guía para la navegación. En las latitudes nortes, apunta en dirección al norte verdadero y es útil para determinar la dirección hacia el Polo Norte.
 
 > [!infobox]+ Polaris
+>
 > # Polaris visto desde Stellarium posicionado sobre El Teide en Canarias
+>
 > ![polaris-star|cover small](https://i.imgur.com/r0HTAYh.png)
 
 Polaris solo es visible en las latitudes Nortes más allá del ecuador, en las zonas más al sur no es visible ya que queda oculto por perspectiva. Sin embargo el equivalente a Polaris en el sur es Crux o la La Cruz del Sur, una constelación del cielo de las latitudes del sur que permanece más o menos fija en el firmamento.

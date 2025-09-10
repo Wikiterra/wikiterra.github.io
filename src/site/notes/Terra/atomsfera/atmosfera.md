@@ -19,7 +19,6 @@ La atmósfera se divide en varias capas. La troposfera es la capa más cercana a
 
 La mesosfera y la termosfera son las siguientes capas, cada una con características únicas. La exosfera es la capa más externa y se fusiona gradualmente con el espacio exterior. A medida que ascendemos en la atmósfera, la presión y la densidad del aire disminuyen, y las temperaturas pueden variar de manera significativa.
 
-
 En resumen, la atmósfera terrestre es una capa de gases esenciales que envuelve nuestro plano, permitiendo la vida y protegiéndonos de la radiación dañina. Su composición y estructura son cruciales para comprender y abordar los desafíos ambientales que enfrentamos en la actualidad.
 
 ## Capas de la atmósfera

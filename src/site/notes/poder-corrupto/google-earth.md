@@ -46,7 +46,6 @@ Una de las críticas más recurrentes a Google Earth es la inexactitud en cierta
 
 Robert Simmon, un exdiseñador de la NASA y creador del famoso "Blue Marble", explicó en relación al mapeado planetario: “Nosotros envolvimos el mapa alrededor de una esfera. Mi parte fue integrar la superficie, nubes y océanos para que coincidieran con las expectativas de la gente. Esa esfera se convirtió en el famoso Blue Marble”. Esta cita refleja cómo los desarrolladores construyeron la esfera terrestre para programar a la gente con que esa es la única verdad.
 
-
 ### Robo de patente
 
 En 2014, la empresa alemana ART+COM demandó a Google, alegando que Google Earth infringía una patente suya. La patente en cuestión, U.S. Patent No. RE44,550, titulada "Método y Dispositivo para la Representación Pictórica de Datos Espaciales", cubría una tecnología similar a la utilizada por Google Earth para representar datos geoespaciales. ART+COM había desarrollado una aplicación llamada Terravision en 1993, que fue patentada en 1995. Terravision permitía a los usuarios navegar de manera tridimensional sobre un mapa del mundo, y ART+COM argumentó que Google había copiado esta tecnología para crear Google Earth.

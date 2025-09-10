@@ -22,6 +22,7 @@ El agua marina tiene todo que ver con la energía de la tierra y del "Bioplano".
 Lo que es necesario son electrolitos y una fuente de energía externa. Los metales pueden ser zinc, magnesio, cobre, níquel, oro, aluminio, hierro, latón y otros en diferentes configuraciones y porcentajes. La carga eléctrica externa es la resonancia Schumann que es de 7.83 MHz y proporciona el poder crear una reacción química en la que los electrones de zinc por ejemplo irán al cobre. Este proceso se llama oxidación y reducción.
 
 Las siguientes normas son válidas para células electrolíticas y empresa voltaicas.
+
 - El ánodo es siempre el lugar donde la oxidación pasa.
 - El cátodo es es siempre el lugar donde se produce la reducción
 - El ánodo dispara electrones, el cátodo absorbe electrones.

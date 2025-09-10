@@ -2,6 +2,7 @@
 {"dg-publish":true,"permalink":"/modelos-Terra/modelo-esferico-incongruencias/"}
 ---
 
+
 # Incongruencias del modelo esférico
 
 El modelo esférico se basa en la confianza hacia los argumentos de autoridad y en creer que las imágenes mostradas son reales y no pueden estar falsificadas. Se fundamenta en axiomas falsos que por definición son considerados verdades absolutas sin precisar de demostración, entonces no se pueden refutar.
@@ -15,20 +16,20 @@ El modelo esférico se basa en la confianza hacia los argumentos de autoridad y 
 4. **No existe el vacío**, la luz por definición necesita un medio para propagarse. Ya que es una interacción del campo energético en el medio en forma de onda o de partícula. Y no puede haber un atmósfera de aire en contacto con el vacío.
 
 - Electromagnetismo:
-	- "A altas temperaturas los materiales pierden las propiedades magnéticas, sin embargo el modelo esférico defiende que hay un núcleo interno ferromagnético a altas temperaturas y presiones que genera el campo electromagnético terrestre."
+   	- "A altas temperaturas los materiales pierden las propiedades magnéticas, sin embargo el modelo esférico defiende que hay un núcleo interno ferromagnético a altas temperaturas y presiones que genera el campo electromagnético terrestre."
 - Óptica:
-	- "El modelo esférico usa como axioma que los rayos solares inciden de forma recta y paralela sobre la superficie terrestre que con el experimento de Eratóstenes concluyen que como las sombras en dos ciudades separadas varían sobre la superficie cuando los rayos inciden verticalmente a la misma hora, se debe a que la superficie es esférica, sin embargo cuando se ven objetos que deberían estar ocultos por la curvatura terrestre oficialmente dicen que es porque los rayos solares se curvan."
-	- "La luz necesita de un medio para viajar sin embargo el modelo oficial dice que existe el vacío cosa que va en contra de la propia definición de materia."
-	- "La línea del horizonte óptico se puede curvar por un efecto de la lente (efecto ojo de pez) sin embargo se le confunde y se le llama curvatura terrestre."
+   	- "El modelo esférico usa como axioma que los rayos solares inciden de forma recta y paralela sobre la superficie terrestre que con el experimento de Eratóstenes concluyen que como las sombras en dos ciudades separadas varían sobre la superficie cuando los rayos inciden verticalmente a la misma hora, se debe a que la superficie es esférica, sin embargo cuando se ven objetos que deberían estar ocultos por la curvatura terrestre oficialmente dicen que es porque los rayos solares se curvan."
+   	- "La luz necesita de un medio para viajar sin embargo el modelo oficial dice que existe el vacío cosa que va en contra de la propia definición de materia."
+   	- "La línea del horizonte óptico se puede curvar por un efecto de la lente (efecto ojo de pez) sin embargo se le confunde y se le llama curvatura terrestre."
 - Mecánica:
-	- "Todos los objetos menos densos que ese medio flotan, sin embargo la fuerza gravitatoria que es siempre radial y depende de la masa no los atrae genera una fuerza radial que depende de la masa."
-	- "Existen millones de partículas en interacción y con más de tres cuerpos surge el "Problema de los 3 cuerpos" en mecánica newtoniana que no forma órbitas estables."
-	- "Newton nunca defendió su modelo de gravitación universal decía: "Precisa de correcciones divinas cada cierto tiempo para poder ser llevado a cabo", pero todo el mundo lo pone como el principal defensor de la teoría.
+   	- "Todos los objetos menos densos que ese medio flotan, sin embargo la fuerza gravitatoria que es siempre radial y depende de la masa no los atrae genera una fuerza radial que depende de la masa."
+   	- "Existen millones de partículas en interacción y con más de tres cuerpos surge el "Problema de los 3 cuerpos" en mecánica newtoniana que no forma órbitas estables."
+   	- "Newton nunca defendió su modelo de gravitación universal decía: "Precisa de correcciones divinas cada cierto tiempo para poder ser llevado a cabo", pero todo el mundo lo pone como el principal defensor de la teoría.
 - Mecánica de fluidos (hidrodinámica):
-	- "La hidrodinámica dice que la superficie del agua macroscópicamente en reposo se mantiene siempre plana a nivel, sin embargo el modelo esférico defiende que los océanos se curvan."
-	- "Los ríos largos como el Nilo recorren miles de kilómetros desde las montañas al mar, en una superficie esférica el Nilo recorrería 3663 Km en línea recta desde su origen a destino con 870 Km de diferencia de altura desde el origen. Si la gravedad actuase como una fuerza centrípeta no tendría sentido que el agua corriese 3663 Km de una curva, además de la invalidez de la superficie del agua curvada."
+   	- "La hidrodinámica dice que la superficie del agua macroscópicamente en reposo se mantiene siempre plana a nivel, sin embargo el modelo esférico defiende que los océanos se curvan."
+   	- "Los ríos largos como el Nilo recorren miles de kilómetros desde las montañas al mar, en una superficie esférica el Nilo recorrería 3663 Km en línea recta desde su origen a destino con 870 Km de diferencia de altura desde el origen. Si la gravedad actuase como una fuerza centrípeta no tendría sentido que el agua corriese 3663 Km de una curva, además de la invalidez de la superficie del agua curvada."
 - Termodinámica:
-	- "La atmósfera termodinámicamente no puede estar en contacto con el vacío ya que necesita de un medio contenedor."
+   	- "La atmósfera termodinámicamente no puede estar en contacto con el vacío ya que necesita de un medio contenedor."
 
 - Si la Tierra se traslada alrededor del Sol para formar un año y a su vez rota con el eje de rotación fijo de (66.6º) para formar los días y las noches. Eso significa que sumados estos dos movimientos el eje de rotación tarda un año en trasladarse o medio año en media vuelta.
 
@@ -42,15 +43,15 @@ Mitad de año: 182 días y 15 horas, 4383 horas o 262980 segundos.
 ---
 
 Las órbitas heliocéntricas si alguien fuese super oficialista y riguroso debería darse cuenta que no casan en muchas cosas:
+
 1. Polaris no podría ser fija en el cielo ya que para eso tendría que rotar y trasladarse a la misma velocidad que el Sistema Solar.
 2. Las constelaciones de estrellas no podrían repetirse ciclicamente cada año ya que es un universo en expansión y donde todo se mueve a velocidades incluso superiores a la de luz (en la expansión acelerada del Big Bang)
-3. Al completar un año, la traslación alrededor del Sol generaría un desfase con los días. Ya que la traslación alrededor del Sol generaría un día a parte de la propia rotación terrestre. Este punto es muy importante y parece que no se tiene en cuenta. 
+3. Al completar un año, la traslación alrededor del Sol generaría un desfase con los días. Ya que la traslación alrededor del Sol generaría un día a parte de la propia rotación terrestre. Este punto es muy importante y parece que no se tiene en cuenta.
 4. Hay que tener en cuenta que el Sol no tarda 24 horas en salir por el mismo sitio sino que tiene un desfase cada día según la latitud. Con lq rotación terrestre, traslación más inclinación esto no tiene sentido, el desfase no podría ser el mismo todos los días.
 5. La teoría de gravitación universal no es ni si quiera capaz de explicarlo en un simulador, los videojuegos con órbitas no usan las ecuaciones de la física con datos reales sino los modifican para encajar. El problema de los 3 cuerpos su solución no forma órbitas estables, cualquier mínima variación le afecta al centro de masas.
 6. Las órbitas tienen el problema de si son elípticas o circulares.
 
 Todo es un engaño pero usando los propios datos te das cuenta que ni encajan.
-
 
 ## Rotación terrestre
 
@@ -61,11 +62,12 @@ Sin embargo esto es falso, si la tierra rotase no puede ser un movimiento relati
 El movimiento terrestre en el modelo heliocéntrico se describe como una suma de movimientos traslación, rotación, nutación. Este movimiento tiene implícitas aceleraciones por lo que no puede ser considerado un movimiento relativo bajo ninguna circunstancia.
 
 El movimiento circular uniforme (MCU) uniforme tiene implícitas las siguientes aceleraciones:
+
 - Aceleración angular, en este caso nula ya que la velocidad angular es constante.
 - Aceleración tangencial, que depende del radio de giro.
 - Aceleración centrípeta, mal entendida ya se debe a la falsa "teoría de la gravedad" donde todas las masas se atraen con mayor o menor fuerza.
 
-Por tanto en el MCU solo hay la aceleración tangencial y esta depende de la distancia al eje de giro, es decir el radio en un círculo. 
+Por tanto en el MCU solo hay la aceleración tangencial y esta depende de la distancia al eje de giro, es decir el radio en un círculo.
 
 ### Ejemplo de objetos en rotación
 
@@ -87,7 +89,7 @@ La aceleración tangencial es: $\alpha_t = R \cdot \omega$
 Para el aspa de 1 m, la aceleración tangencial es de $\alpha_t = 1 m/s²$
 Para el aspa de 10 m, la aceleración tangencial es de $\alpha_t = 10 m/s²$
 
-Cuanto mayor sea el radio del aspa más rápido va el extremo, ya que la la velocidad tangencial es proporcional al radio. 
+Cuanto mayor sea el radio del aspa más rápido va el extremo, ya que la la velocidad tangencial es proporcional al radio.
 
 Por este motivo si la Tierra rotase debería haber variaciones en las corrientes de aire y movimiento de los océanos a medida que te alejas del radio. "La velocidad tangencial **en el ecuador tendría que ser de aproximadamente 1670 km/h mientras que en los polos de 0 km/h**."
 

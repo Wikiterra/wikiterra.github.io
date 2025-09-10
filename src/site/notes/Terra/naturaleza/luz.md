@@ -12,15 +12,17 @@ La **luz** es la manifestación de la propagación de la energía electromagnét
 Esta radiación es percibida por el ojo humano y permite la visión de los objetos. El espectro visible de la luz comprende longitudes de onda que van aproximadamente desde los 400 nanómetros (nm), correspondiente a la luz violeta, hasta los 700 nm, correspondiente a la luz roja.
 
 > [!infobox]+ Collapsible Infobox
+>
 > # La luz
+>
 > ![luz-profundidad.jpg|cover small](https://i.imgur.com/TXN5k7g.jpg)
 > Buceador yendo hacia un haz de luz desde las profundidades del mar.
-
 
 ## Propiedades de la Luz
 
 La luz tiene varias propiedades fundamentales:
--  **Velocidad**: La luz en el vacío viaja a una velocidad constante de aproximadamente 299,792 kilómetros por segundo (km/s). Esta es la velocidad máxima a la que puede viajar cualquier forma de energía o información en el universo.
+
+- **Velocidad**: La luz en el vacío viaja a una velocidad constante de aproximadamente 299,792 kilómetros por segundo (km/s). Esta es la velocidad máxima a la que puede viajar cualquier forma de energía o información en el universo.
 - **Reflexión**: La luz puede rebotar en superficies, lo que se conoce como reflexión. Este fenómeno permite ver objetos que no emiten luz propia.
 - **Refracción**: Al pasar de un medio a otro, la luz cambia de velocidad, lo que provoca un cambio en su dirección. Este fenómeno es la causa de la separación de la luz blanca en los colores del arco iris al pasar a través de un prisma.
 - **Difracción**: La luz puede doblarse alrededor de los bordes de los objetos o al pasar a través de pequeñas aberturas, un fenómeno conocido como difracción.

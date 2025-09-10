@@ -29,7 +29,6 @@ Las cargas eléctricas en las nubes se generan principalmente debido a la fricci
 
 En resumen, las nubes, siendo mayormente agua en forma de gotas o hielo, no son conductores eléctricos eficientes debido a su baja conductividad iónica. Sin embargo, durante las tormentas eléctricas, las nubes pueden acumular cargas eléctricas debido a procesos de fricción y separación de partículas, lo que facilita la generación de campos eléctricos intensos y la producción de rayos atmosféricos.
 
-
 ## Proceso de Formación
 
 La formación de nubes comienza cuando el aire se eleva y se enfría, lo que provoca que el vapor de agua en el aire se condense en pequeñas gotas de agua o cristales de hielo alrededor de partículas de polvo o aerosoles en suspensión. Este proceso puede ocurrir de varias maneras:
@@ -41,6 +40,7 @@ La formación de nubes comienza cuando el aire se eleva y se enfría, lo que pro
 ## Tipos y Clasificación
 
 Las nubes se clasifican según su apariencia y altitud en la atmósfera. Algunos tipos comunes de nubes incluyen:
+
 1. **Nubes Estratiformes (Estratos)**: Capas uniformes y horizontales que cubren gran parte del cielo. Ejemplos: estratos.
 2. **Nubes Cumuliformes (Cúmulos)**: Nubes individuales con bordes definidos y formas redondeadas. Ejemplos: cúmulos.
 3. **Nubes Cirriformes (Cirros)**: Nubes delgadas y fibrosas que se encuentran a gran altitud. Ejemplos: cirros.
@@ -48,6 +48,7 @@ Las nubes se clasifican según su apariencia y altitud en la atmósfera. Algunos
 ### Altitud de las Nubes
 
 Las nubes se clasifican en tres niveles de altitud principales:
+
 - **Nubes Bajas**: Se forman a altitudes inferiores a 2,000 metros (6,500 pies) sobre el nivel del mar.
 - **Nubes Medias**: Se forman entre altitudes de 2,000 y 7,000 metros (6,500 a 23,000 pies).
 - **Nubes Altas**: Se forman a altitudes superiores a 7,000 metros (23,000 pies) y pueden alcanzar altitudes extremadamente altas en la troposfera superior.

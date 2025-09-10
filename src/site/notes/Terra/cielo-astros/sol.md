@@ -10,9 +10,13 @@ El Sol es la principal figura que marca la diferencia del tiempo, marca los día
 Desde las antiguas civilizaciones ha sido una figura de adoración, de culto y con una carga ritualista muy importante.
 
 > [!infobox]+ Collapsible Infobox
+>
 > # El Sol
+>
 > ![sol-arbol.jpg|cover small](https://i.imgur.com/z0GdgBg.jpg)
+>
 > ###### Datos
+>
 > | Dato |  Medida |
 > | ---- | ---- |
 > | Altura | 7 000 Km |
@@ -31,21 +35,18 @@ Las salidas y puestas de Sol son un efecto óptico producido para cada observado
 
 Para entender el comportamiento del Sol, hay que entender el comportamiento de la luz, es decir estudiar la óptica, una rama del electromagnetismo que se centra la parte visible del espectro electromagnético.
 
-
 ## Analema solar
 
 El analema solar es una figura con forma de infinito (ocho acostado) que puede observarse cuando se saca fotografías al Sol a la misma hora todos los días durante su ciclo completo, es decir un año 365 días y 6 horas.
 
 ![](https://i.imgur.com/uLJVxPW.png)
 
-
-
 ## Datos
+
 - Radio: 60 Km
 - Periodo de rotación: 24 horas = 1440 min = 86400 s
 - Altura: 6000 Km - 8000 Km
 - Material: Hidrógeno y Helio
-- Campo electromagnético: 
+- Campo electromagnético:
 
 ## Referencias
-

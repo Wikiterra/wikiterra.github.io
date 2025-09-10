@@ -39,32 +39,32 @@
 - Jeremiah MacDonald
 - J. L. Cooke
 - John Abaziad
-- John Beardsley 
-- John Hampden 
-- John Jasper 
-- John Quinlan 
-- John S. McClelland 
-- Joseph Cooper 
-- Joseph Holden 
-- Lady blount 
-- Leo Ferrari 
+- John Beardsley
+- John Hampden
+- John Jasper
+- John Quinlan
+- John S. McClelland
+- Joseph Cooper
+- Joseph Holden
+- Lady blount
+- Leo Ferrari
 - Miles Grant
 - Nikola Tesla
-- Orlando Ferguson 
-- Paul Fisher 
-- Paul Kruger 
-- Robert Gould Shaw Collamore 
-- Robert Scalewald 
-- Rowbotham 
-- Royal O. Spear 
-- S. George Fowler 
-- Samuel Shenton 
-- Thomas Winship 
-- Ulysses G. Morrow 
-- Voliva 
-- William Bathgate 
-- William Brookman 
-- William Carpenter 
-- William Edgell 
-- William Thomas Wiseman 
-- William Warren 
+- Orlando Ferguson
+- Paul Fisher
+- Paul Kruger
+- Robert Gould Shaw Collamore
+- Robert Scalewald
+- Rowbotham
+- Royal O. Spear
+- S. George Fowler
+- Samuel Shenton
+- Thomas Winship
+- Ulysses G. Morrow
+- Voliva
+- William Bathgate
+- William Brookman
+- William Carpenter
+- William Edgell
+- William Thomas Wiseman
+- William Warren

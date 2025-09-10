@@ -115,4 +115,3 @@ La siguiente es una lista corta e incompleta de masones que han sido parte de la
 - Paul J. Weitz Astronauta Skylab 2, Challenger (STS-6) Lawrence Lodge No. 708 Erie, Pensilvania
 
 Nota: Neil Armstrong no era masón; su padre, Stephen Koenig Armstrong, fue masón activo desde 1931 hasta su muerte en 1990. (Registros de la Gran Logia F&AM de Ohio). Algunos sitios web han informado además que era de grado 33 o "Gran Oficial", pero ninguna de estas afirmaciones ha sido confirmada.
-

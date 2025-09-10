@@ -41,11 +41,10 @@ Aquí un listado de referencias:
 <iframe style="width:100%; aspect-ratio:16 / 9;" src="https://www.youtube.com/embed/DdW-Mi4UR5E?si=tNyyY_GnFYnlj1sO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <iframe id="odysee-iframe" style="width:100%; aspect-ratio:16 / 9;" src="https://odysee.com/$/embed/@C432:b/uder-the-dome-SR:d?r=Hjx2pGcACrcganargB4eZvp8qgapzPus" allowfullscreen></iframe>
- 
+
 <!--<iframe src="https://yewtu.be/embed/2hTZGzjp1BY" style="width:100%; aspect-ratio:16 / 9;"  frameborder="0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>-->
 
 ![](https://i.imgur.com/FE0ryKh.png)
-
 
 - [Apartments.com (anuncio) - Jeff Goldblum haciendo llover inquilinos](https://www.youtube.com/watch?v=Knv6_PgUVY8)
 - [Arrow - Dome](https://www.youtube.com/watch?v=aX3RpaBY0aQ)
@@ -67,14 +66,12 @@ Aquí un listado de referencias:
 
 ### Frases referencias al domo o skydome
 
-
 "Human actions resound on the heavens, about echoes above. What we desire here today, we'll polish or crack the firmament. But shall it be." = "Las acciones humanas resuenan sobre los cielos, sobre los ecos de arriba. Lo que hoy deseamos aquí, pulirá o agrietará el firmamento. Pero así será." - Wallace Blade Runner 2049
 
 "Te voy a contar algo que un día me dijo mi padre. 'Mira las estrellas, los grandes Reyes del pasado nos observan desde arriba.'" - Mufasa a Simba, El rey León
 "Alguien me dijo una vez que los grandes reyes del pasado están arriba observándonos." - Simba, El rey León refiriéndose a las estrellas
 
 ## Simuladores
-
 
 ### Simuladores celestes
 
@@ -88,17 +85,17 @@ La proyección esférica es la técnica más común. En este método, el cielo n
 La mayoría de simuladores de vuelo comparten las siguiente características: Microsoft Flight Simulator, X-Plane, Prepar3D, DCS World, Aerofly FS 2, IL-2 Sturmovik, comparten las siguientes características en cuanto a la geometría del suelo y del cielo:
 
 - **Geometría del Suelo:**
-  - **Geometría Poligonal:** Representación del terreno mediante mallas poligonales para recrear con precisión montañas, llanuras y otros accidentes geográficos.
-  - **Teselación:** Técnica utilizada para incrementar el detalle del terreno en tiempo real, especialmente cuando el usuario se acerca al suelo, añadiendo polígonos según sea necesario.
-  - **Geometría Procedural:** Generación automática de paisajes y vegetación a gran escala mediante algoritmos, permitiendo una recreación expansiva y dinámica de terrenos sin necesidad de modelado manual.
-  - **Height Maps (Mapas de Altura):** Uso de mapas de altura para definir la elevación del terreno, convirtiendo imágenes en escala de grises en superficies tridimensionales detalladas.
-  - **LOD (Level of Detail):** Sistema que ajusta el nivel de detalle del terreno dependiendo de la distancia a la cámara, optimizando el rendimiento al utilizar mallas de menor resolución para áreas distantes.
+    - **Geometría Poligonal:** Representación del terreno mediante mallas poligonales para recrear con precisión montañas, llanuras y otros accidentes geográficos.
+    - **Teselación:** Técnica utilizada para incrementar el detalle del terreno en tiempo real, especialmente cuando el usuario se acerca al suelo, añadiendo polígonos según sea necesario.
+    - **Geometría Procedural:** Generación automática de paisajes y vegetación a gran escala mediante algoritmos, permitiendo una recreación expansiva y dinámica de terrenos sin necesidad de modelado manual.
+    - **Height Maps (Mapas de Altura):** Uso de mapas de altura para definir la elevación del terreno, convirtiendo imágenes en escala de grises en superficies tridimensionales detalladas.
+    - **LOD (Level of Detail):** Sistema que ajusta el nivel de detalle del terreno dependiendo de la distancia a la cámara, optimizando el rendimiento al utilizar mallas de menor resolución para áreas distantes.
 
 - **Geometría del Cielo:**
-  - **Geometría Semiesférica o Cúpula:** Representación del cielo mediante una cúpula que rodea la escena, donde se aplican texturas para crear un entorno celeste envolvente.
-  - **Skybox:** Uso de un cubo que rodea la escena para proyectar texturas del cielo, simulando el horizonte y las condiciones atmosféricas.
-  - **Geometría Volumétrica:** Simulación de fenómenos atmosféricos como nubes y niebla mediante técnicas volumétricas, utilizando voxels o shaders para crear efectos realistas.
-  - **Shader Programming:** Implementación de shaders para simular efectos de luz y dispersión atmosférica, incluyendo el ciclo de día/noche y cambios en las condiciones climáticas.
+    - **Geometría Semiesférica o Cúpula:** Representación del cielo mediante una cúpula que rodea la escena, donde se aplican texturas para crear un entorno celeste envolvente.
+    - **Skybox:** Uso de un cubo que rodea la escena para proyectar texturas del cielo, simulando el horizonte y las condiciones atmosféricas.
+    - **Geometría Volumétrica:** Simulación de fenómenos atmosféricos como nubes y niebla mediante técnicas volumétricas, utilizando voxels o shaders para crear efectos realistas.
+    - **Shader Programming:** Implementación de shaders para simular efectos de luz y dispersión atmosférica, incluyendo el ciclo de día/noche y cambios en las condiciones climáticas.
 
 ### Videojuegos 3D
 
@@ -136,6 +133,3 @@ La mayoría de videojuegos 3D de mundo abierto representan el cielo como un domo
 - **Skybox**: Representa el cielo como un fondo estático o dinámico proyectado en una esfera o cubo que rodea el entorno.
 - **Skydome**: Utiliza una semiesfera o cúpula para representar el cielo, permitiendo efectos de cielo y atmósfera más envolventes.
 - **Tierra**: Varía desde terreno modelado en 3D, superficies planas e islas, hasta mundos abiertos o terrenos cúbicos procedurales.
-
-
-

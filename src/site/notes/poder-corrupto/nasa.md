@@ -3,7 +3,7 @@
 ---
 
 
-## NASA (National Aeronautics and Space Administration)
+# NASA (National Aeronautics and Space Administration)
 
 ![](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
 Según History.com: La NASA ha patrocinado expediciones espaciales, tanto humanas como mecánicas, que han proporcionado información vital sobre el sistema solar y el universo. También ha lanzado numerosos satélites en órbita terrestre que han sido fundamentales para todo, desde la predicción meteorológica hasta la navegación y la comunicación.
@@ -45,6 +45,7 @@ Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nom
 Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.
 
 #### Aleister Crowley
+>
 > [!caption]
 
 > [!caption]
@@ -78,7 +79,7 @@ Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control 
 > Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney
 
 1. Jack Whiteside Parsons – Ocultista, Mago Negro, Satanista, Líder de la Logia Ágape de California Ordo Templi Orientis
-2. Aleister Crowley – Masón de grado 33 (https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons"), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'
+2. Aleister Crowley – Masón de grado 33 (<https://trueearth.wikitide.org/wiki/Agencies/Freemasons> "Agencies/Freemasons"), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'
 3. L.Ron Hubbard – Controlador Mental de Masas, Mago Negro, Satanista, Fundador del Culto de la Iglesia de la Cienciología
 4. Wernher von Braun – Exdirector nazi del programa alemán de cohetes V-2 y reclutado en los EE. UU. en el marco de la Operación Paperclip. Es muy probable que fuera el más normal del grupo. 5. Walt Disney: ocultista, controlador mental de masas, mago negro, pedófilo Illuminati, [masón](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons") y fundador de The Ordem DeMolay
 
@@ -131,6 +132,7 @@ Desde entonces, la NASA ha tomado las riendas de la misión de engaño de Satan�
 Todos los parches de las misiones de la NASA contienen símbolos ocultistas, y sus supuestas misiones espaciales no solo llevan el nombre de dioses griegos, sino que están impregnadas de rituales satánicos.
 
 > “Otra revelación para aquellos que entienden el lenguaje simbólico de los Illuminati es el significado oculto de los nombres de los transbordadores espaciales”.
+>
 > - William Cooper
 
 Aunque la mayoría de la gente no lo sabe, prácticamente todo lo que hace la NASA está impregnado de satanismo. Su único objetivo es servir a su malvado amo, y el único objetivo de su malvado amo es evitar que conozcas a tu "Buen Amo".
@@ -209,8 +211,6 @@ Robert Simmon - "Artista de CGI" de la NASA [^7]:
 
 > **La última vez que alguien tomó una fotografía desde arriba de la órbita baja de la Tierra** que mostraba un globo entero El hemisferio (una de las caras del globo) **fue en 1972** durante el Apolo 17. Los satélites del Sistema de Observación de la Tierra (EOS) de la NASA fueron diseñados para proporcionar un chequeo de la salud de la Tierra. En 2002, finalmente teníamos suficientes datos para hacer una instantánea de toda la Tierra. Y así lo hicimos. La parte difícil fue crear un mapa plano de la superficie de la Tierra con cuatro meses de datos satelitales. Reto Stockli, ahora en la Oficina Federal Suiza de Meteorología y Climatología, hizo gran parte de este trabajo. **Luego envolvimos el mapa plano alrededor de una pelota**. Mi parte fue integrar la superficie, las nubes y los océanos **para que coincidieran con las expectativas de la gente sobre cómo se ve la Tierra desde el espacio**. Esa pelota se convirtió en la famosa canica azul.
 
-
-
 ### ¿La NASA es un complejo militar/una bodega?
 
 Parece que la NASA ha gastado una cantidad considerable de dinero en encontrar formas eficientes de matar a grandes cantidades de personas. Dennis M. Bushnell, científico jefe del Centro de Investigación Langley de la NASA, escribió una presentación titulada: "Cuestiones estratégicas futuras/Guerra futura" [^8]
@@ -260,12 +260,13 @@ Traducción realizada con la versión gratuita del traductor DeepL.com
 | Barack Obama (2009-2017)         | Barry ordenó a la NASA que, en cambio, **enviara astronautas a un asteroide cercano a la Tierra** en 2025, y luego a las **proximidades de Marte** a mediados de la década de 2030.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 | Donald Trump (2017-2021)         | instruir a la NASA para que regrese a los astronautas estadounidenses **a la Luna** , reformar el marco regulatorio espacial comercial de nuestra nación, establecer principios de ciberseguridad para los sistemas espaciales y mucho más.                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | Joe Biden (2021-)                | Biden está comprometido con el objetivo de subir escaleras y con la misión multilateral de la NASA de **regresar a la Luna** y **enviar astronautas a Marte** . “A través del programa Artemis, Estados Unidos está construyendo la coalición internacional de exploración espacial humana más amplia y diversa de la historia”,                                                                                                                                                                                                                                                                                                                                                            |
+
 ### Tecnología de la NASA, jajaja
 
 El alunizaje, un acontecimiento histórico, el momento cumbre de la humanidad, quizá la mayor hazaña tecnológica del hombre. Pero parece que no es tan importante para la NASA porque destruyeron el módulo de aterrizaje lunar y las imágenes originales.
 
 Parece que la única tecnología que se perdió fue la genialidad de Stanley Kubrick. Descansa en paz Stanley y enhorabuena por la hazaña de engañar a todo el país de los baby boomers con tus dotes cinematográficas.
- 
+
 > “Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” ~ astronauta Don Pettit [^10]
 
 Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera monitorear y proporcionar imágenes de la Tierra desde el espacio, ¿por qué en 2023 Japón descubrió 7000 nuevas islas? El número de islas del país se ha duplicado y ahora hay más de 14 000 incluidas en su mapa. #GraciasNASA 🤦
@@ -276,7 +277,7 @@ Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera mon
 > ![AstroNOTS_hearNoSpeakNo|wsmall](https://i.imgur.com/sVGV6YL.jpeg)
 > ![AstroNOTS_hearNoSpeakNo2|wsmall](https://i.imgur.com/3N43Bjq.jpeg)
 > ![BuzzIlluminati|wsmall](https://i.imgur.com/DYLfh13.jpeg)
-> 
+>
 > ![FlatGlobeRSimmon|ws-med](https://i.imgur.com/ZTYh6WK.png)
 > ![MichioKafu_CosmosKabbalah|ws-med](https://i.imgur.com/IwnaHhv.png)
 >
@@ -286,7 +287,6 @@ Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera mon
 >
 > ![NASAEarthBlooper|ws-med](https://i.imgur.com/NyamyZ2.jpeg)
 > ![YearsOfNASAballs|ws-med](https://i.imgur.com/WzHvxGN.jpeg)
-
 
 ### Datos curiosos
 
@@ -309,7 +309,6 @@ La misión lunar no tripulada de China, denominada Chang'e, es una serie de sond
 “Sí, mira, esto es rojo”, le dijeron a Putin.
 
 El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el vídeo, dijo: "Esto es lo que piensa la red neuronal de Google, no nuestro análisis. Por lo tanto, no habrá sesgo". [^12]
-
 
 ### Simbología
 
@@ -345,7 +344,6 @@ El sistema ARGOS (Active Response Gravity Offload System) es una clara referenci
   Tu navegador no soporta el formato de video.
 </video>
 
-
 ### Funcionarios que hablaron en contra de la NASA
 
 > [!caption]
@@ -377,19 +375,18 @@ Marte como estrella herrante u objeto luminoso en el cielo es una cosa, pero las
 
 #### La ISS es falsa
 
-> "Space may be the final frontier, but it's made in a Hollywood basement" ~ Californication por Red Hot Chilli Peppers 
+> "Space may be the final frontier, but it's made in a Hollywood basement" ~ Californication por Red Hot Chilli Peppers
 
 La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA y el sistema heliocéntrico con todo su posteiror desarrollo. [^27] [^28] [^29] [^30] [^31] [^32] [^33]
 
 Según el tipo de video la ISS se falsea de distintas formas:
-- ISS por fuera: 
-	- Vista completa: Maqueta a gran escala con pantalla verde y CGI.
-	- Astronautas en pasos espaciales: actornautas con buzos en piscinas de entrenamiento y pantalla verde.
-- ISS por dentro: 
-	- Astronautas en movimiento: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos
-	- Astronautas quietos: Set de grabación con sistema ARGOS (cables, arneses), sumado a objetos colgados por cables (micros, pelotas, etc.). A veces interactuan con pequeños objetos virtuales con lentes de contacto AR (Realidad Aumentada) y cámaras de video que permiten visualizarlo. En las mujeres con pelo largo suelen laca en el pelo para simular la flotación pero se ve muy poco realista, por eso suelen ser más hombres. 
 
-
+- ISS por fuera:
+   	- Vista completa: Maqueta a gran escala con pantalla verde y CGI.
+   	- Astronautas en pasos espaciales: actornautas con buzos en piscinas de entrenamiento y pantalla verde.
+- ISS por dentro:
+   	- Astronautas en movimiento: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos
+   	- Astronautas quietos: Set de grabación con sistema ARGOS (cables, arneses), sumado a objetos colgados por cables (micros, pelotas, etc.). A veces interactuan con pequeños objetos virtuales con lentes de contacto AR (Realidad Aumentada) y cámaras de video que permiten visualizarlo. En las mujeres con pelo largo suelen laca en el pelo para simular la flotación pero se ve muy poco realista, por eso suelen ser más hombres.
 
 #### Equipo de natación de la NASA
 
@@ -449,7 +446,6 @@ A lo largo de los años, numerosos astronautas se han enfrentado a la terrible e
 [^23]: [Archive.org: Denunciante de la NASA de Math Powerland](https://archive.org/details/math-powerland-nasa-whistleblower-720)
 [^24]: [la NASA hasta la CIA, todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial!](https://www.youtube.com/watch?v=VFR78p_3cio)
 [^25]: [La misión de la NASA a Marte es un engaño de la isla Devon](https://www.youtube.com/watch?v=i7enyfu1BxI)
-[^26]: [International Fake Station: Reunión de la Comisión del condado de Brevard del 4 de abril de 2023](https://www.youtube.com/watch?v=66kP_fB2I7w&t=1s)
 [^27]: [YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)](https://www.youtube.com/watch?v=oo3btAFI0O0)
 [^28]: [YouTube: NASA ISS FALSO - 1](https://www.youtube.com/watch?v=oOa1Zv7nvbc)
 [^29]: [YouTube: NASA ISS FALSO - 2](https://www.youtube.com/watch?v=nOmaLIT9q34)

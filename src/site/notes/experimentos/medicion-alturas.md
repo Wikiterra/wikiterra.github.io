@@ -3,7 +3,6 @@
 ---
 
 
-
 # Medición de alturas
 
 En el modelo de Tierra plana, la medición de alturas de montañas u objetos altos sigue principios geométricos y trigonométricos similares a los utilizados en la Tierra esférica, aunque con algunas interpretaciones particulares adaptadas al concepto de una superficie plana.
@@ -12,8 +11,8 @@ En el modelo de Tierra plana, la medición de alturas de montañas u objetos alt
 
 1. **Triangulación geométrica:**
 
-   - **Método básico:** 
-     - La triangulación es uno de los métodos más comunes para medir alturas. Este método implica medir un ángulo desde dos puntos separados horizontalmente a una distancia conocida desde la base del objeto (por ejemplo, una montaña) hasta su cima. 
+   - **Método básico:**
+     - La triangulación es uno de los métodos más comunes para medir alturas. Este método implica medir un ángulo desde dos puntos separados horizontalmente a una distancia conocida desde la base del objeto (por ejemplo, una montaña) hasta su cima.
      - Se empieza por elegir un punto de observación a una distancia conocida desde la base del objeto. Luego, se mide el ángulo de elevación desde este punto hasta la cima del objeto.
      - Posteriormente, se mide la distancia horizontal desde este primer punto de observación hasta un segundo punto, y se mide de nuevo el ángulo de elevación.
      - Con estas medidas, se puede usar trigonometría para calcular la altura del objeto, asumiendo que la superficie de la Tierra es plana.
