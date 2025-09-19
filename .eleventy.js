@@ -1,5 +1,4 @@
-// Use dynamic import for ES modules
-const { default: slugify } = require('slugify');
+const slugify = require("@sindresorhus/slugify");
 const markdownIt = require("markdown-it");
 const fs = require("fs");
 const matter = require("gray-matter");
