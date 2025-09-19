@@ -1,5 +1,4 @@
-// Use regular slugify instead of @sindresorhus/slugify which is ESM-only
-const { default: slugify } = require('slugify');
+const slugify = require("@sindresorhus/slugify");
 
 function headerToId(heading) {
     var slugifiedHeader = slugify(heading);
