@@ -16,9 +16,7 @@ Está situada a una altura de entre 6000 y 8000 kilómetros entre las capas y di
 > # La Luna
 >
 > ![luna-ojo|cover small](https://i.imgur.com/9mGOiSO.jpg)
-> Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.
->
-> ###### Datos
+> La Luna llena vista entre el hueco de un pared rocosa, con caminantes por debajo.
 >
 > | Datos |  Distancia |
 > | ---- | --------------- |

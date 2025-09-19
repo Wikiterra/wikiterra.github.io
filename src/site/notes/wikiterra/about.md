@@ -9,7 +9,7 @@ WikiTerra es una pequeña enciclopedia web del modelo cosmológico terrestre ges
 
 ## Web estática
 
-Wikiterra es una [[wikiterra-estatica\|web estática]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador web, "chrome", "firefox", etc). Los artículos están escritos en formato [[zen/syntax/markdown\|markdown]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
+Wikiterra es una [[wikiterra-estatica\|web estática]], lo que significa que no hay lado servidor todo se ejecuta en lado cliente (en el navegador web, "chrome", "firefox", etc). Los artículos están escritos en formato [[zen/dev/obsidian-md-syntax/markdown\|markdown]], un lenguaje de marcado sencillo y fácil de leer, que se convierte al formato web (HTML, CSS, JS) usando un [Generador de sitios estáticos (SSG)](https://en.wikipedia.org/wiki/Static_site_generator).
 
 Hay cientos de generadores estáticos en [JamStack](https://jamstack.org/generators/) clasifican 355, algunos de los más importantes son: Next.js, HUGO, Docusaurus, Nuxt, Astro, Jekyll, GitBook, Docsify, VuePress, MkDocs, Eleventy.
 
