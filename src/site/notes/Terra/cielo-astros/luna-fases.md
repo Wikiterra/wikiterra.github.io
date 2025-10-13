@@ -5,7 +5,7 @@
 
 # Fases lunares
 
-Las fases de la Luna son el resultado de la posición relativa entre la Luna, la Tierra y el Sol. El ciclo completo de fases dura aproximadamente 29,53 días (mes sinódico). Las fases principales son:
+Las fases de la Luna son el resultado de la posición relativa entre la Luna, la Tierra y el Sol. El ciclo completo de fases dura aproximadamente 29,53 días o (29d 12h 44m) (mes sinódico). Las fases principales son:
 
 ---
 
@@ -32,11 +32,11 @@ Durante este ciclo, la Luna puede alcanzar declinaciones extremas de ±28,6° (l
 
 ## Otros ciclos y movimientos lunares
 
-- **Mes sinódico**: 29,53 días (de luna nueva a luna nueva).
-- **Mes sideral**: 27,32 días (respecto a las estrellas fijas).
-- **Mes dracónico**: 27,21 días (de nodo a nodo, relevante para eclipses).
-- **Mes anomalístico**: 27,55 días (de perigeo a perigeo, relacionado con la distancia Tierra-Luna).
-- **Año lunar**: 354 días (12 lunaciones completas).
+- **Mes sinódico**: 29d 12h 44m 3s (29,53 días; de luna nueva a luna nueva).
+- **Mes sideral**: 27d 7h 43m 12s (27,32 días; respecto a las estrellas fijas).
+- **Mes dracónico**: 27d 5h 5m 36s (27,21 días; de nodo a nodo, relevante para eclipses).
+- **Mes anomalístico**: 27d 13h 18m 33s (27,55 días; de perigeo a perigeo, relacionado con la distancia Tierra-Luna).
+- **Año lunar**: 354d 8h 48m 34s (354 días; 12 lunaciones completas).
 - **Libraciones**: Oscilaciones aparentes que permiten ver hasta el 59% de la superficie lunar desde la Tierra.
 - **Analema lunar**: Forma que describe la Luna en el cielo a lo largo de un mes, modulada por los ciclos de 8,85 y 18,6 años.
 
