@@ -33,4 +33,4 @@ La atmósfera terrestre se divide en varias capas, cada una con características
 
 4. Termosfera: La termosfera se extiende desde unos 85 kilómetros hasta aproximadamente 600 kilómetros de altitud. A pesar de su nombre, esta capa tiene temperaturas muy altas debido a la absorción de radiación solar.
 
-## [[Terra/concepto/visibilidad\|La visibilidad atmosférica]]
+## [[conceptos/visibilidad\|La visibilidad atmosférica]]

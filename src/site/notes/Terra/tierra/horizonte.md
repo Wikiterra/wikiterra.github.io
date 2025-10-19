@@ -18,7 +18,7 @@ De esta raíz proceden las formas modernas en distintas lenguas: *horizonte* (es
 
 Este límite físico se forma en torno al observador y genera una línea de visión máxima entre dos medios de separación, la cual se denomina línea del horizonte u horizonte. El horizonte, al ser un concepto óptico, se forma siempre en la superficie de separación entre el aire y el nivel del mar o el punto más lejano del terreno visible.
 
-El horizonte está muy ligado al concepto de [[Terra/concepto/visibilidad\|visibilidad]], ya que según la altura del observador y las condiciones climatológicas las distancias máximas observadas variarán.
+El horizonte está muy ligado al concepto de [[conceptos/visibilidad\|visibilidad]], ya que según la altura del observador y las condiciones climatológicas las distancias máximas observadas variarán.
 
 ## Tipos de horizonte
 

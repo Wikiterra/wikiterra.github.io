@@ -21,7 +21,7 @@ Google Earth tiene sus raíces en un proyecto de visualización llamado *EarthVi
 
 El mapeado de la superficie terrestre en Google Earth utiliza una combinación de diferentes tecnologías y empresas especializadas. La base del mapeado proviene de una mezcla de imágenes "satelitales", fotografías aéreas y datos del Sistema de Información Geográfica (GIS).
 
-Recordemos que el [mapa de Gleason](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_acimutal_equidistante), [el mapa Web Mercator o Google Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator_projection) y la [esfera elipsoide WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System#WGS84) son lo mismo. Lea el artículo [[Terra/concepto/mapas/mapas#Proyecciones de mapas\|proyecciones de mapas]] de esta wiki.
+Recordemos que el [mapa de Gleason](https://es.wikipedia.org/wiki/Proyecci%C3%B3n_acimutal_equidistante), [el mapa Web Mercator o Google Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator_projection) y la [esfera elipsoide WGS-84](https://en.wikipedia.org/wiki/World_Geodetic_System#WGS84) son lo mismo. Lea el artículo [[conceptos/mapas/mapas#Proyecciones de mapas\|proyecciones de mapas]] de esta wiki.
 
 ### Tecnología, vehículos y empresas involucradas
 
