@@ -5,7 +5,7 @@
 
 # NASA (National Aeronautics and Space Administration)
 
-![](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
+![A](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
 Según History.com: La NASA ha patrocinado expediciones espaciales, tanto humanas como mecánicas, que han proporcionado información vital sobre el sistema solar y el universo. También ha lanzado numerosos satélites en órbita terrestre que han sido fundamentales para todo, desde la predicción meteorológica hasta la navegación y la comunicación.
 
 ### Origins
