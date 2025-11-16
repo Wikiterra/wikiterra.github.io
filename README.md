@@ -1,9 +1,3 @@
-# Digital Obsidian Garden
-This is the template to be used together with the [Digital Garden Obsidian Plugin](https://github.com/oleeskild/Obsidian-Digital-Garden). 
-See the README in the plugin repo for information on how to set it up.
+# WikiTerra web
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/oleeskild/digitalgarden)
-
----
-## Docs
-Docs are available at [dg-docs.ole.dev](https://dg-docs.ole.dev/)
+Web desplegada en GitHub Pages generada a partir de contenido escrito en [obsidian.md](https://obsidian.md/) que se renderiza en formato web gracias al plugin [Obsidian Digital Garden](https://github.com/oleeskild/obsidian-digital-garden) y su plantilla base [digitalgarden](https://github.com/oleeskild/digitalgarden).
