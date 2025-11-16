@@ -5,18 +5,18 @@
 
 # NASA (National Aeronautics and Space Administration)
 
-![A](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
-Según History.com: La NASA ha patrocinado expediciones espaciales, tanto humanas como mecánicas, que han proporcionado información vital sobre el sistema solar y el universo. También ha lanzado numerosos satélites en órbita terrestre que han sido fundamentales para todo, desde la predicción meteorológica hasta la navegación y la comunicación.
+![Nasa](https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg)
 
-### Origins
+
+### Orígenes
 
 Si alguna vez empezaste a husmear por los aterrizajes de la NASA y la luna del Apollo, un ojo agudo y una mente abierta te llevará a la conclusión de que fue un engaño escenificado. De hecho, la pura y dura evidencia científica y el análisis revela irrevocablemente el fraude entre muchos. Piensen en eso, la mayor hazaña lograda por el hombre es una elaborada producción de Hollywood que le costó al contribuyente estadounidense unos 10.000 millones.
 
-La NASA ha construido un coloso de chupar dinero compuesto por mentiras, engaños y desinformación. El contribuyente estadounidense no obtiene prácticamente ningún beneficio de la existencia de la NASA y supuestas contribuciones científicas derivadas de supuestas exploraciones y experimentos en el espacio. Ausentes de cualquier otra fuente para verificar, hemos tenido que hacer una próstata a los llamados "expertos" a pesar de la evidencia irrefutable de que la NASA no es más que un elaborado mallorpole financiero y vendedor de pseudociencias.
+La NASA ha construido un coloso de chupar dinero compuesto por mentiras, engaños y desinformación. El contribuyente estadounidense no obtiene prácticamente ningún beneficio de la existencia de la NASA y supuestas contribuciones científicas derivadas de supuestas exploraciones y experimentos en el espacio. Ausentes de cualquier otra fuente para verificar, hemos tenido que hacer una próstata a los llamados "expertos" a pesar de la evidencia irrefutable de que la NASA no es más que un elaborado monopolio financiero y vendedor de pseudociencias.
 
 En resumen, una vez que se detecta el fraude todo lo que se le ocurre ahora está en cuestión. Tu credibilidad está disparada. Quién estaría en desacuerdo con la lógica del fraude encontrado destruye la validez de todo? Es razonable, predecible y tiene el poder de cambiar instantáneamente la dirección de la percepción de uno, incluso aquellos que fueron mantenidos sagrados. El fraude no tiene límites por parte de quienes la involucran y ha estado a lo largo del tiempo. Crees que los verdaderos defraudadores se detienen en un solo fraude? O crees que siguen yendo yendo hasta que mueran o sean atadas? La respuesta es simple. Por qué detendrías alguna vez la lucrativa actividad fraudulenta si no has sido atate? Así que la posibilidad de fraude sistémico una vez que se encuentra el fraude inicial se convierte en una certeza virtual.
 
-Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas stánicos y magos negros. A pesar de que suene a meme, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudocientífico-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible[^1].
+Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas satánicos y magos negros. A pesar de que suene a meme, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudocientífico-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible[^1].
 
 #### Jack Parsons
 
@@ -25,7 +25,7 @@ Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas stánicos
 Jack Whiteside Parson
 
 > [!caption]
-> ![](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)
+> ![pentágono invertido](https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png)
 > El pentágono invertido
 
 > [!caption]
@@ -45,8 +45,6 @@ Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nom
 Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.
 
 #### Aleister Crowley
->
-> [!caption]
 
 > [!caption]
 > ![](https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg)
@@ -79,8 +77,8 @@ Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control 
 > Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney
 
 1. Jack Whiteside Parsons – Ocultista, Mago Negro, Satanista, Líder de la Logia Ágape de California Ordo Templi Orientis
-2. Aleister Crowley – Masón de grado 33 (<https://trueearth.wikitide.org/wiki/Agencies/Freemasons> "Agencies/Freemasons"), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'
-3. L.Ron Hubbard – Controlador Mental de Masas, Mago Negro, Satanista, Fundador del Culto de la Iglesia de la Cienciología
+2. Aleister Crowley – Masón de grado 33 ([Agencies/Freemasons](https://trueearth.wikitide.org/wiki/Agencies/Freemasons)), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'
+3. L. Ron Hubbard – Controlador Mental de Masas, Mago Negro, Satanista, Fundador del Culto de la Iglesia de la Cienciología
 4. Wernher von Braun – Exdirector nazi del programa alemán de cohetes V-2 y reclutado en los EE. UU. en el marco de la Operación Paperclip. Es muy probable que fuera el más normal del grupo. 5. Walt Disney: ocultista, controlador mental de masas, mago negro, pedófilo Illuminati, [masón](https://trueearth.wikitide.org/wiki/Agencies/Freemasons "Agencies/Freemasons") y fundador de The Ordem DeMolay
 
 Para divertirse, vea el video musical "Blood and Rockets" de Les Claypool. [^2]
