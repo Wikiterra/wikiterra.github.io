@@ -5,10 +5,8 @@ on:
     branches:
       - main
 
-# Grant workflow the permission to push contents and update GitHub Pages
 permissions:
-  contents: write
-  pages: write
+  contents: write   # Necessary by gh-pages to push
 
 jobs:
   deploy:
@@ -46,4 +44,5 @@ jobs:
           publish_dir: ./dist
           publish_branch: gh-pages
           force_orphan: true
+          keep_files: false
           allow_empty_commit: true
