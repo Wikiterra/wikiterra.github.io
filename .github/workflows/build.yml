@@ -11,6 +11,10 @@ permissions:
   contents: write
   pages: write
 
+concurrency:
+  group: deploy-wikiterra-gh-pages-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build-deploy:
     runs-on: ubuntu-22.04
@@ -44,14 +48,12 @@ jobs:
           exit 1
         fi
 
-    # - name: 🌐 Create CNAME for custom domain
-    #   run: echo "wikiterra.xyz" > dist/CNAME
-
     - name: 🚀 Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         publish_dir: ./dist
-        # Use the automatically provided GITHUB_TOKEN (recommended)
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
-        force_orphan: true  # Opcional: hace que el historial de gh-pages sea más limpio
+        force_orphan: true
+        # Force the push to resolve non-fast-forward conflicts
+        force: true
