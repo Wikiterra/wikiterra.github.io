@@ -11,7 +11,7 @@
 
 Navega por el panel lateral izquierdo para leer los artículos.
 
-> Síguenos en el [grupo de Telegram  🔵](https://t.me/+FrnHAynHpXxlNWNk) para más información.
+> Síguenos en el [canal de Telegram ➤](https://t.me/wikiterra_canal) para más información.
 
 > [!caption]
 > ![320](https://i.imgur.com/p6f9pFp.png)
