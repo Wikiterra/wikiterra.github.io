@@ -1,0 +1,918 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>comparacion-modelos-Terra</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.8bcab37d.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager theme-dark mod-linux is-frameless is-hidden-frameless obsidian-app show-ribbon show-view-header is-focused is-maximized css-settings-manager its-theme sidebar-float-bottom Heading list-default-bullet check-color check-bg pathfinder s-d">
+<div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i data-lucide="menu"></i></span>
+<a href="/" style="text-decoration:none;flex:1;display:flex;justify-content:center">
+<h1 style="margin:15px!important">WikiTerra</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<nav class="filetree-sidebar">
+<a href="/" style="text-decoration:none;display:flex;justify-content:center">
+<h1 style="text-align:center">WikiTerra</h1>
+</a>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">conceptos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos/mapas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">mapas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapa-mercator/">mapa-mercator </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapas/">mapas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/perspectiva/">perspectiva </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/superficies-datum-proyeccion/">superficies-datum-proyeccion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/vacio/">vacio </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/visibilidad/">visibilidad </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;cosmologia-culturas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmologia-culturas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/cosmologia-culturas/calendarios/">calendarios </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;EM&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">EM</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/historia-transmision-info/">historia-transmision-info </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/modulacion-EM/">modulacion-EM </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;experimentos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">experimentos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/experimentos-astronomicos/">experimentos-astronomicos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medicion-alturas/">medicion-alturas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;modelos-Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">modelos-Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/comparacion-modelos-Terra/">comparacion-modelos-Terra </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-esferico-incongruencias/">modelo-esferico-incongruencias </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-tierra-plana/">modelo-tierra-plana </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelos-Terra/">modelos-Terra </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;notas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">notas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/bobina-del-demiurgo/">bobina-del-demiurgo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;poder-corrupto&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">poder-corrupto</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/heliocentrismo-666/">heliocentrismo-666 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/masoneria/">masoneria </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/nasa/">nasa </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">referencias</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias/wikis&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikis</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/wikis/wikis-tp/">wikis-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/astrofotografos/">astrofotografos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/canales-tp/">canales-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/cientificos-tp/">cientificos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/famosos-tp/">famosos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/referencias-tp/">referencias-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/atomsfera&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">atomsfera</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/atmosfera/">atmosfera </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/nubes/">nubes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/rayo/">rayo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cielo-astros&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cielo-astros</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-lunar/">analema-lunar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-solar/">analema-solar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/ciclos-cielo/">ciclos-cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/cielo/">cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/domo-terrestre/">domo-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/estrellas/">estrellas </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna-fases/">luna-fases </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna/">luna </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/meteoro/">meteoro </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/polaris/">polaris </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/sol/">sol </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/star-trail/">star-trail </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cosmos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cosmos/capas-cosmos-dante/">capas-cosmos-dante </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/naturaleza&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">naturaleza</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/campo-magnetico-terrestre/">campo-magnetico-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/flotabiliad/">flotabiliad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/gravedad/">gravedad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/luz/">luz </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/tierra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">tierra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/grandes-llanuras/">grandes-llanuras </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/horizonte/">horizonte </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/tierra/">tierra </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;wikiterra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikiterra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/about/">about </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/edicion/">edicion </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/">index </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box" onclick="event.stopPropagation()">
+<div class="search-header">
+<input type="search" id="term" placeholder="Start typing...">
+</div>
+<div class="search-layout no-preview" id="search-layout">
+<div class="search-results-panel" id="search-results"></div>
+<div class="search-preview-panel" id="search-preview">
+<div class="preview-placeholder">
+<i data-lucide="file-text"></i>
+<p>Select a result to preview</p>
+</div>
+<div class="preview-content" id="preview-content"></div>
+</div>
+</div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i data-lucide="arrow-up" aria-hidden="true"></i>
+<i data-lucide="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-02-13T00:54:45.339Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"></div></div>
+</header>
+<h1 id="comparacion-modelos-de-la-tierra" tabindex="-1">Comparación modelos de la Tierra</h1>
+<p>Existen muchos tipos de modelos para describir la cosmología terrestre que han ido variando con el tiempo, pero dos suelen ser los más discutidos: &quot;Tierra esférica&quot; vs &quot;Tierra plana&quot;</p>
+<h2 id="tierra-esferica-heliocentrica-vs-tierra-a-nivel-geocentrica" tabindex="-1">Tierra esférica heliocéntrica vs Tierra a nivel geocéntrica</h2>
+<p>En este artículo se expondrán de forma organizada todos los tipos de argumentos existentes entre los modelos propuestos para describir la forma de La Tierra, el modelo esférico y el modelo plano circular, con el objetivo de comparar y e intentar encontrar el modelo que más se ajuste a la realidad. A partir de ahora se citará como esférica o plana según corresponda.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Cosa</th>
+<th>Tierra esférica &quot;oficialismo&quot;</th>
+<th>Tierra plana &quot;a nivel&quot; (geocentrismo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Universo</td>
+<td>Universo puramente material en expansión a partir de &quot;Big Bang&quot;, debido a un evento aleatorio<br></td>
+<td>Universo no es solo material, sino también etérico, cuerpo mental. Creado por el la Fuente Divina o Creador con un motivo</td>
+</tr>
+<tr>
+<td>Geometría</td>
+<td>La Tierra es un planeta esférico convexo<br></td>
+<td>El sistema Tierra es un toroide electromagnético, la superficie terrestre se extiende a lo largo de un plano</td>
+</tr>
+<tr>
+<td>Modelo</td>
+<td>Modelo heliocéntrico, centro del Sistema el Sol<br></td>
+<td>Modelo geocéntrico, centro del Sistema Polaris al Norte</td>
+</tr>
+<tr>
+<td>Radio</td>
+<td>Radio esfera terrestre (modelo GS84): R = 6371 Km</td>
+<td>Radio círculo terrestre (mapa de Gleason): R ~ 6371 Km</td>
+</tr>
+<tr>
+<td>Movimiento</td>
+<td>Rotación terrestre (66.6 mph o 107 km/h)<br>Traslación terrestre (1037 mph o 1668 km/h)<br>Nutación eje terrestre (9.2 segundos de arco)</td>
+<td>Tierra estática<br>Los días y noches se producen por la ocultación y salida del Sol en la bóveda celeste<br>Se trasladan los astros, luminarias, etc. en la bóveda celeste<br>Movimiento de Polaris (9.2 segundos de arco)</td>
+</tr>
+<tr>
+<td>Eje inclinación</td>
+<td>Eje inclinación terrestre 23.4º o 66.6 º sobre la normal</td>
+<td>Eje de inclinación del Sol 23.4º o 66.6 º sobre la normal, a lo largo del analema solar</td>
+</tr>
+<tr>
+<td>Tierra</td>
+<td>La Tierra es un Planeta esférico dentro del Sistema Solar</td>
+<td>La Tierra es un lugar habitables dentro del sistema toroidal esférico cerrado con astros, estrellas, luminarias, etc.</td>
+</tr>
+<tr>
+<td>Distancia Tierra Sol</td>
+<td>149 600 000 Km</td>
+<td>6000 - 8000 Km</td>
+</tr>
+<tr>
+<td>La Luna</td>
+<td>Una roca de arena a 300 000 km de distancia</td>
+<td>Una luminaria con luz propia, no es un cuerpo sólido sino de plasma</td>
+</tr>
+<tr>
+<td>Conocimiento Universo</td>
+<td>Universo conocido por mediciones terrestres de telescopios y sondas espaciales.</td>
+<td>Universo muy desconocido, pueden existir múltiples domos con extra-tierras. Y más toroides electromagnéticos.</td>
+</tr>
+<tr>
+<td>Ordenación en plano</td>
+<td>Galaxias se expanden en un plano en el &quot;espacio interestelar&quot;</td>
+<td>Sistemas toroidales se ordenan en un plano</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="pruebas-verificables-desde-tierra" tabindex="-1">Pruebas verificables desde Tierra</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Argumentos</th>
+<th>Tierra esférica (heliocentrismo)</th>
+<th>Tierra plana (geocentrismo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Campo electromagnético</strong></td>
+<td>Circular de polo norte a sur, generado debido al núcleo interno de La Tierra.</td>
+<td>Toroidal, líneas de norte a sur.</td>
+</tr>
+<tr>
+<td><strong>2. Superficie terrestre</strong></td>
+<td>Existe una curvatura geométrica definida por el radio terrestre de la Tierra esférica.<br><br>El horizonte es geométrico teóricamente es “visible” a partir de 20 Km y baja según la altura.<br><br>La NASA ha mandado naves con robots, sondas que han salido de La Tierra y la han “fotografiado” desde el espacio. Además han “fotografiado” todos los planetas del Sistema Solar y determinadas sondas han llegado hasta los confines del Sistema Solar. Entre ellos robots a Marte, pasado cerca Plutón, destruido asteroides.<br><br>Astronautas, perros, monos y robots han pisado el suelo lunar.</td>
+<td>No existe curvatura geométrica, los cálculos de la curvatura no se cumplen. Se pueden ver objetos 4 veces más allá del supuesto horizonte geométrico del modelo esférico.<br><br>Los objetos no se ocultan por curvatura sino por óptica, el límite óptico del horizonte es óptico y no geométrico.<br><br>A 120 Km de altura el horizonte se mantiene plano a nivel alredeor del ángulo de visión de 360º.<br><br>Nadie a superado los 200 Km de altura, ya que existe un domo dificil de atravesar.<br><br>El modelo esférico usa imágenes terrestre editas por computadora (CGI)<br><br>Los planos de los puentes y canales más largos del mundo no tienen en cuenta este efecto.</td>
+</tr>
+<tr>
+<td><strong>3. Distancia a los astros</strong></td>
+<td>Las estrellas en el cielo se ven 'chisporrotenates' debido a la atmósfera que desvía la luz.<br><br>La luz permite medir distancias y conocer composición de los astros.</td>
+<td>No se conoce la distancia a las estrellas, es como medir un objeto en la superficie a mucha profundidad debajo del agua.<br><br>El hecho de que existan cuerpos esféricos en el cielo no implica que la tierra sea esférica.</td>
+</tr>
+<tr>
+<td><strong>4. Hemisferios</strong></td>
+<td>Hemisferio norte: “superior” de la esfera, más alejado del Sol.<br><br>Hemisferio sur: “inferior” esfera, zona más fría del planeta ubicada la Antártida.<br><br>Distinción según el sentido de las líneas de fuerza del campo magnético.</td>
+<td>La brújula apunta siempre al Norte, y el Norte está en el centro del plano.<br><br>La Antártida es el borde de hielo del plano circular terrestre.<br><br>La Antártida tiene 3 Km de media sobre el nivel el mar. y las temperaturas más frías del planeta. Nadie ha atravesado este continente helado en ningún medio, no hay fotografías de vista aérea, no pertenece a ningún país y desde el año 1960 hay un tratado para la distribución de la zona entre países y no permitir la entrada a turistas.</td>
+</tr>
+<tr>
+<td><strong>5. Horizonte</strong></td>
+<td>Las agencias espaciales muestran un horizonte geométrico que se curva según la altura, a partir de los 20 Km se ve curvo.<br><br>Las principales agencias son la NASA, Rokosmos, AJAX, ESA y las de China y la India.</td>
+<td>El horizonte es un fenómeno óptico, se mantiene plano horizontal a la vista de los ojos para todo observador en la vertical.<br> <br>NASA y otros falsean los videos con CGI o usan efecto de ojo de pez para hacer con curvatura el horizonte.<br><br>Imágenes de aviones y globos a alturas de 40 Km muestran horizonte plano.<br><br>Horizonte plano a cualquier altura y en la misma posición para el observador.<br><br>La distancia máxima al horizonte depende de la visibilidad del aire y la refracción de la luz.<br><br>Se puede observar más lejos de lo establecido por el modelo esférico.</td>
+</tr>
+<tr>
+<td><strong>6. Estaciones</strong></td>
+<td>Las estaciones son producidas debidas a la inclinación terrestre que varía la inclinación de los rayos solares. Y según la traslación la incidencia variará.</td>
+<td>Las estaciones son producidas por el ascenso y descenso del Sol en su giro por encima del plano.<br><br>Por eso se produce el analema solar.</td>
+</tr>
+<tr>
+<td><strong>7.1 El Sol</strong></td>
+<td>Estrella en el centro del Sistema Solar, en la cual giran alrededor el resto de planetas.</td>
+<td>Bola ilumina en un campo toroidal, no tiene un posición fija<br><br>Analema solar: es la curva que describe la posición del Sol en el cielo si todos los días del año se lo observa a la misma hora del día (huso horario) y desde el mismo lugar de observación.<br><br>El analema es una lemniscata.</td>
+</tr>
+<tr>
+<td><strong>7.2 Rayos solares</strong></td>
+<td>Al estar la fuente de luz muy alejada, el Sol a 150 millones de km. Los rayos de luz se consideran paralelos.</td>
+<td>Rayos solares no son paralelos, son divergentes y depende de la posición del observador. El Sol está mucho más cerca que el modelo esférico entre 6000 y 7000 Km.</td>
+</tr>
+<tr>
+<td><strong>8.1 La Luna</strong></td>
+<td>Es un satélite del La Tierra.<br><br>La Luna se traslada y tiene una rotación asíncrona con la velocidad terrestre.<br><br>La rotación de la Luna se debe al cambio de hemisferio 180º.</td>
+<td>Mismo tamaño aparente que el Sol, muestra siempre la misma cara. <br><br>La Luna rota por encima del plano, manteniendo una posición fija hacia el norte.<br><br>Analema lunar</td>
+</tr>
+<tr>
+<td><strong>8.3 Luna - Sol</strong></td>
+<td>El Sol y la Luna tienen el mismo tamaño aparente por casualidad.<br><br>El Sol es una estrella en el centro separada a 150 000 000 Km, mientras La Luna está a 330 00 Km.</td>
+<td>El mismo tamaño aparente no es casualidad, el Sol y La Luna tienen una dualidad perfecta entre el día y la noche.<br><br> <br><br>El Sol está a una distancia de entre 6000 – 7000 Km.<br><br>La Luna parecido.</td>
+</tr>
+<tr>
+<td><strong>8.4 Movimiento del planeta en el sistema</strong></td>
+<td>Heliocentrismo: Mercurio, Venus, Tierra, Marte, Júpiter, Urano, Neptuno giran alrededor del Sol con órbitas elípticas.<br><br> <br><br>La Tierra cuenta con un solo satélite La Luna, que gira alrededor de La Tierra con rotación asíncrona (muestra siempre la misma cara).<br><br> <br><br>El Sistema Solar gira en torno a la galaxia, la cual orbita alrededor de un cúmulo de galaxias del Universo Observable en constante expansión acelerada provocada por el Big Bang.</td>
+<td>Geocentrismo: La Tierra es el centro, el Sol y la Luna, las estrellas girna encima de un plano de Este a Oeste. Estos se ocultan por óptica y perspectiva, al llegar la punto de fuga desaparecen, sumado al efecto de lente del domo atmosférico.<br><br> <br><br>La Luna muestra siempre la misma cara. Tiene luz propia o reflejada por otra luz como una proyección pero no es una esfera rocosa iluminada por el Sol.</td>
+</tr>
+<tr>
+<td><strong>9. 1. Rotación del cielo y estrellas</strong></td>
+<td>El Sol está fijo, su movimiento se debe a la rotación terreste.<br><br>El aire rota con la Tierra con la misma velocidad y por eso no hay aceleraciones y velocidades asociadas. Sin embargo la acelarción de Coriolis es medible.<br><br>La Tierra rota con una velocidad de 66.6 mph o 300 Km/s. Además a medida que te alejas del centro la velocidad tangencial aumenta, siendo máxima en el Ecuador y mínima en los polos.<br><br>&quot;La velocidad tangencial en el ecuador tendría que ser de aproximadamente 1670 km/h mientras que en los polos de 0 km/h.&quot;</td>
+<td>La Tierra no rota, y por eso no se percibe la rotación. Rotan los astros y el cielo con las estrellas.<br><br>El efecto Coriolios no es medible en la Tierra.<br><br>La diferencia entre tiempos de aviones reside en la ruta tomada y las corrientes de aire.</td>
+</tr>
+<tr>
+<td><strong>9. 2. Rotación estrellas</strong></td>
+<td>Según el hemisferio el cielo rota del revés, en el norte de este a oeste y en el sur al revés.</td>
+<td>El cambio de sentido en la rotación de las estrellas se debe al punto de mira del observador en el cielo.<br><br>Se puede observar las rotación en ambos sentidos en el mismo lugar.<br><br>Si rotas un eje con dos ruedas hacia delante, desde el observador fijo detrás del eje la rueda izquierda rota en sentido horario y la derecha en sentido antihorario.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="datos-no-verificables-desde-tierra-info-de-nasa" tabindex="-1">Datos no verificables desde Tierra (info de NASA)</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Argumentos</strong></th>
+<th><strong>Tierra esférica</strong></th>
+<th><strong>Tierra plana</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>· Misiones espaciales</strong></td>
+<td>Misiones a La Luna: Apollo (NASA), Rocosmos (URSS)<br><br> <br><br>Misiones a otros planetas: cerca Plutón, cometas Rossetta.</td>
+<td>Las misiones de la NASA y resto de instituciones falsean imágenes con CGI.<br><br>Mision lunar: las fotos presentan fallos, huella en el pie no coincide con la huella del zapato del traje. Los astronautas de La Luna no juraron ante La Biblia para decir la verdad. Foto de una nave despegando de La Luna, quién la sacó. Fotos con ruido de fondo y polvo. Videos con movimientos raros, caídas y cables colgando. Rocas de La Luna desparecen.<br><br>Las rocas lunares del mueso de Ámsterdam eran trozos de madera petrificados.<br><br>Las incongruencias tecnológicas son evidentes, llevan coches a La Luna y juegan al Golf en el Apollo XVII, y 50 años después no tienen la tecnología suficiente para salir de la órbita baja (palabras de astronautas de la NASA).</td>
+</tr>
+<tr>
+<td><strong>Satélites</strong></td>
+<td>Órbita terrestre: satélites, Hubble, ISS<br><br>Los satélites orbitan alrededor de la Tierra, ISS a 400 Km de altura orbitando la Tierra.</td>
+<td>No existen los “satélites orbitando” son globos aerostáticos, drones, zepellin que circunnavegan el cielo. El 95% de las comunicaciones de internet son por cables submarinos.</td>
+</tr>
+<tr>
+<td><strong>· Objetos celestes</strong></td>
+<td>Estrellas, galaxias, planetas, agujeros negros, cometas, meteoros.</td>
+<td>La bóveda celeste con constelaciones no ha cambiado durante milenios, se ha repetido el patrón desde que se tiene constancia. Y hay construcciones milenarias que hacen prueba de ello, como las pirámides de Egipto o de México.<br><br>¿Si todo está en constante expansión, con rotaciones, traslaciones incluidas por qué el cielo sigue igual?</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="teorias-fisicas" tabindex="-1">Teorías físicas</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Teorías</strong></th>
+<th><strong>Tierra esférica</strong></th>
+<th><strong>Tierra plana</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1. Ley de gravitación universal</strong></td>
+<td>Teoría propulsada por Isaac Newton para explicar el comportamiento de los cuerpos celestes.<br><br>El problema de los 3 cuerpos no estable y no genera órbita elípticas. Según el propio Newton su teoría necesitaba de ajuste divinos cada cierto tiempo para que se cumpliese.<br><br>El gravitón es una partícula hipotizada.<br><br>La ley de gravitación universal y la ley de Coulomb (EM) tienen la misma fórmula cambiando la carga del electrón (q) por la masa del objeto (m).</td>
+<td>Ley inventada que no explica el movimiento de los astros y necesita de múltiples correcciones. Newton decía que su teoría necesitaba de correcciones divinas espontáneamente para que se cumpliese.<br><br>Newton fue más un ocultista y alquimista que físico, fue laureado posteriormente por la ciencia, el Vaticano y el movimiento inglés.<br><br>El problema delos 3 cuerpos no genera órbitas estables, aplicados a muchas más órbitas no tiene cabida.<br><br>No se ha aislado el gravitón ni se ha demostrado la existencia de la gravedad en ningún experimento. Con densidades es muy fácil de demostrar la flotabilidad de los cuerpos.</td>
+</tr>
+<tr>
+<td><strong>2. Relatividad General</strong></td>
+<td>Teoría propulsada por Albert Einstein, límite de velocidad en el universo es la luz en el vacío. Para que se cumpla este límite se modifica el espacio-tiempo en el movimiento de la materia y ondas cercanas a esta velocidad, en velocidades bajas se aplica la dinámica Newtoniana.</td>
+<td>Enrevesado para empequeñecer al ser humano, el espacio-tiempo pasa a ser una plano 2D deformable.</td>
+</tr>
+<tr>
+<td><strong>3. Efecto Coriolis</strong></td>
+<td>Efecto por el que los cuerpos en un sistema en rotación se desvían en una dirección.</td>
+<td>No existe este efecto, los francotiradores e ingenieros no lo tienen en cuenta.<br><br>La explicación de la rotación de ciclones en distintos sentidos se debe a la corriente de los vientos.</td>
+</tr>
+<tr>
+<td><strong>4. Principio de Arquímedes</strong></td>
+<td>Se cumple pero no explica los pesos de los cuerpos y en el espacio no hay un medio sin el vacío.</td>
+<td>Propuesto por Arquímedes en el s. X A.C. Explica porque los cuerpos suben o bajan en los medios ya que depende de la densidad de estos.<br><br>La fuerza de flotabilidad es la que hace subir o bajar los cuerpos.<br><br>Por ejemplo: una moneda se hunde en el agua, mientras una capa de hielo fina flota. Esto se debe que la moneda es más densa que el agua, por lo que se hunde (flotabilidad hacia abajo) mientras una capa de hielo flota ya que su densidad es menor que la del agua.</td>
+</tr>
+<tr>
+<td><strong>5. Vacío o éter</strong></td>
+<td>Experimento de Michelson-Morley</td>
+<td>No existe el vacío, hay un medio. Todos los experimentos que intentaron demostrar su existencia, daban resultados falsos y los retiraron porque no lo demostraban. Esto indicaba que tiene que existir un medio, por el que además se propaga la luz,, llamado éter.<br><br>Según la termodinámica es imposible sostener una atmósfera al lado de un vacío puro porque colapsaría el sistema.</td>
+</tr>
+<tr>
+<td><strong>6. Centro del sistema</strong></td>
+<td>Heliocentrismo, Sol en el centro del sistema planetario con planetas girando alrededor.</td>
+<td>Geocentrismo, Tierra en el centro del sistema, Sol y Luna giran alrededor.</td>
+</tr>
+<tr>
+<td><strong>7. Formación sistema</strong></td>
+<td>Big Bang, expansión superior a la velocidad de luz.<br><br>Por gravedad los planetas adoptan su forma y orbitan.</td>
+<td>Un creador externo desde otra dimensión superior. <br>Ya que es una realidad holográfica.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="historicamente" tabindex="-1">Históricamente</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Temas</strong></th>
+<th><strong>Tierra esférica</strong></th>
+<th><strong>Tierra plana</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>· Históricamente</strong></td>
+<td>Logias / Grupos de poder: Jesuitas, Masonería<br><br>Modelo oficial desde el s. XVI</td>
+<td>Civilizaciones antiguas: Egipcia, Maya, Babilónica. Todas las civilizaciones anteriores al siglo XV.<br><br>Los Maya desarrollaron un calendario de eclipses solares más precisos que la NASA y que estos usaban.</td>
+</tr>
+<tr>
+<td><strong>· Instituciones</strong></td>
+<td>Agencias gubernamentales:<br><br>NASA (USA), AJAX (Japón)<br><br>Rocosmos (Rusia), ESA (Europa), India (India), Space One (China),<br><br>CSA (Canada).</td>
+<td>Divulgadores independientes y pequeños grupos de investigación. ELV, NAOV, Óliver Ibañez, hermanos Barea., Nur para todos. Las agencias espaciales velan por sus intereses, mienten para someter al pueblo y poder justificar recursos económicos. Manipulan procesos cognitivos con propaganda y métodos como: primado negativo, programación predictiva y usan CGI (Computer Generated Interface) para crear el modelo esférico.</td>
+</tr>
+<tr>
+<td><strong>· Científicos</strong></td>
+<td>Eratóstenes (no debería ya que los antiguos griegos defendían un modelo plano)<br><br>Jesuitas: Nicolas Copérnico, Galileo Galilei, William Hell, George Lamètre<br><br>Masones: Isaac Newton, Albert Einstein</td>
+<td>Aristóteles, Platón<br><br>Nikola Tesla</td>
+</tr>
+<tr>
+<td><strong>· Citas en la historia</strong></td>
+<td>Establecida en ciencias desde s. XVII (inculcado desde la infancia).</td>
+<td>La Biblia, el Corán, el libro de Enoc, libros hebreos, textos sumerios, textos antiguos.</td>
+</tr>
+<tr>
+<td><strong>· Simulaciones</strong></td>
+<td>Simulaciones de una versión esférica en documentales.<br><br>Intervienen grandes instituciones, universidades y empresas.</td>
+<td>Menos simulaciones de una versión plana y todos sus puntos.<br><br>Los dos juegos más famosos son planos: Minecraft y Fortnite.<br><br>Mapa de Gleason.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="referencias" tabindex="-1">Referencias</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Temas</strong></th>
+<th><strong>Tierra esférica</strong></th>
+<th><strong>Tierra plana</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>· Apariciones</td>
+<td>Anuncios, noticias, películas, series, libros de texto, medios de comunicación.</td>
+<td>Símbolo de la ONU, mapa de Mapa de Gleason.</td>
+</tr>
+<tr>
+<td>· Consideraciones</td>
+<td>Una esfera es un objeto finito, el cual se sabe su radio y su tamaño.</td>
+<td>Un plano en el cual no se conocen sus límites y no hay una foto aérea en su conjunto.<br><br>Tampoco se sabe la profundidad máxima, ya que la excavaciones más profundas son de 15 Km y los efectos de ondas no llegan muy profundo.</td>
+</tr>
+<tr>
+<td>· Etimología</td>
+<td>Esfera, globo.</td>
+<td>Aeroplano, planeador, planeta, plano existencial, horizonte (horizontal).</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="problemas-de-cada-modelo" tabindex="-1">Problemas de cada modelo</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Tierra esférica</strong></th>
+<th><strong>Tierra plana</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>¿Por qué si esférica la construcciones de puentes largos no se curva el agua?<br><br>No hay experimento científico bien hecho que lo avale.<br><br>¿Por qué los giroscopios mecánicos de los aviones transatlánticos no rotan su eje y se mantienen fijos si es una esfera, cuando bordean miles de kilómetros?<br><br>Pilotes reconocen que el giroscopio es un dispositivo mecánico y debería percibirse la inclinación para corregir el ángulo. Además los aviones van con leve inclinación del morro hacia arriba para la sustentación y planeo del avión en el aire.<br><br><br>¿Por qué se aplica la leyes de gravitación universal, si el problema de los 3 cuerpos no forma órbitas estables y Newton reconoció que no servía diciendo que necesitaba de correcciones divinas?<br><br>Separando los planetas lo suficiente encontrarás puntos de estabilidad gravitacional.<br><br>¿Por qué el helio (He) sube en el aire, el hielo flota parcialmente en el agua si la gravedad es interacción de masas que se atraen según su valor y su distancia?<br><br>Según la gravedad no se puede explicar, según la hidrodinámica o termodinámica si, pero entonces contradice a la teoría de la gravedad.<br><br>¿Por qué no notamos la rotación de La Tierra en el aire, los pájaras, cohetes, caen en el mismo sitio?<br><br>No hay explicación, si se moviese debería notarse y no debido a un efecto de corrientes de aire.<br><br>¿Por qué si la Tierra rota los vuelos no se aceleran o frenan según el giro de la Tierra?<br><br>No hay demostración de porque no se nota la aceleración del giro. Se explica con el péndulo de Foucalt.<br><br>¿Por qué en el sur el magnetismo es menor que en el norte, si el núcleo está en el centro?<br><br>No hay explicación.<br><br>¿Cómo es posible un campo electromagnético con un núcleo tan caliente, en el cual el magnetismo desaparecería?</td>
+<td>¿Qué es el Sol?<br><br>¿Qué es la Luna?<br><br>¿Qué son los planetas que observamos?<br><br>¿Cómo se generó La Tierra?<br><br>¿Cuándo surgió la vida?<br><br>¿Cómo se genera el campo electromagnético?<br><br>¿Cómo orbitan la Tierra y La Luna?<br><br>¿Que profundidad tiene La Tierra?<br><br>Se desconoce la excavación máx. 15 Km Pozo de cola (Rusia), las ondas no dan información del fondo de la Tierra.<br><br>¿Qué hay más allá de la Antártida?<br><br>Se desconoce, se presupone que la Antártida es el borde de la Tierra no se sabe de que material ni si se puede atravesar.<br><br>¿El cielo es una cúpula esférica, semiesférica o el espacio?<br><br>La mayoría opina que es una cúpula semiesférica que rota.<br><br>¿El Sol y La Luna están dentro o fuera de la cúpula?<br><br>El consenso estable que están dentro de la cúpula.<br><br>¿Es un holograma creado artificialmente por otros seres superiores?<br><br>Esta pregunta complica la temática y su respuesta no soluciona como se creó, sino que fue creado.<br><br>¿Se conecta con dimensiones superiores?<br><br>Hay quien dice que a través de la luna, a través del mundo astral...</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="argumentos-irrefutables" tabindex="-1">Argumentos irrefutables</h2>
+<p>Ambos modelos defienden cosas que existen pero uno intentan adaptar el modelo a la realidad y otros adaptan la realidad al modelo hecho que es más correcto porque sino puedes demostrar cualquier cosa por válida.</p>
+<p>El campo magnético existe y apunta hacia una dirección a la que llamamos norte.</p>
+<p>La materia cae y sube según su densidad respecto al medio, tienden a un equilibrio de densidades. La densidad depende de la masa y el volumen (d=m/V) y además de factores termodinámicos como la presión, temperatura, solubilidad del medio que influyen en el volumen.</p>
+<p>No hay experimento que demuestre la curvatura de la Tierra, solo imágenes de agencias gubernamentales del espacio (en su mayoría la NASA) y no fotografías solo hay una considerada como tal y es del Apollo XVII en la cual se sacó a una maqueta realista con una patente registrada.</p>
+<p>No hay experimento que demuestre la rotación de la Tierra, el péndulo de Foucalt no sirve, ni el experimento de Michelson-Morley.</p>
+<p>El Geocentrismo y Heliocentrismo son modelos que visualizan los mismo movimientos a pesar de ser observadores diferentes, se puede explicar los movimientos de los astros en el cielo desde ambos modelos.</p>
+<p>La NASA tiene inconsistencias en sus videos en la ISS como tirones de cuerdas de aparatos que están en ingravidez, tirones de ropa, caídas en ingravidez, personas pasando con cables de fondo, imágenes congeladas de personas en la escena. Diferencia de las tierras mostradas en el pasado con respecto a ahora la atmósfera la mostraban diferente al principio, las nubes eran estáticas, no había imágenes nocturnas (suponiendo que órbita a velocidades altas en la cuales amanece 6 veces en 24 horas).</p>
+<p>No hay videos del interior de cabina en el despegue, no hay transición de la nave desde la base hasta la órbita sino un corte de vídeo. Las estrellas en la órbita hay veces que se muestran y otras no independientemente de la entrada de luz a la cámara con la abertura de diafragma.</p>
+<p>Videos de globos aerostáticos independientes muestran un horizonte plano a más de 33 kilómetros.</p>
+<h2 id="preguntas-y-dudas" tabindex="-1">Preguntas y dudas</h2>
+<h3 id="por-que-miente-el-otro-modelo" tabindex="-1">¿Por qué miente el otro modelo?</h3>
+<ul>
+<li><strong>Esférica</strong>, los terraplanistas se equivocan porque se inventan teorías conspirativas, no tienen datos empíricos.</li>
+<li><strong>Plano</strong>, el modelo esférico es contado para cambiar nuestra idea de la realidad y empequeñecernos. Para que no sepamos donde vivimos, para justificar inversiones billonarias de dinero de las agencias del espacio y de los gobiernos. Para meternos miedo y para controlar más nuestra alma.</li>
+<li></li>
+</ul>
+<h3 id="como-hacen-para-mentir" tabindex="-1">¿Cómo hacen para mentir?</h3>
+<ul>
+<li><strong>Esférica</strong>, los terraplanistas no tienen datos empíricos, así que crean teorías conspirativas. El modelo esférico es el verdadero porque es el oficial respaldado por la mayoría de científicos y nadie ha demostrado lo contrario en ninguna revista científica.</li>
+<li><strong>Plano</strong>. Las instituciones del espacio falsean la mayor parte de su contenido, lo llevan haciendo desde la el comienzo de la carrera espacial. Y los grupos de poder lo llevan en práctica desde miles de años atrás con el control mundial. Los videos han sido falsificados desde la década de 1960, con la producción de Hollywood. Primero los videos del espacio eran poco creíbles no rotaba la tierra, no se movían las nubes, no había zonas de penumbra o sombra, no se veían las estrellas, no había zonas de noche. Y a medida que ha ido pasando el tiempo y mejorando la tecnología se han ido corrigiendo esos errores, aunque hay algunos que siguen apareciendo burbujas en el espacio, tirones de cuerdas amarradas a los astronautas fuertes en ingravidez, cuerdas que se ven al dar volteretas.<br>
+Todas las misiones que han salido fuera de la Tierra son falsas, la ISS no existe es un maqueta en un estudio por eso se ve siempre igual, nadie ha ido a La Luna.<br>
+Teorías falsas: el Big Bang, la gravedad.<br>
+Tienen todos los medios, pueden censurar, cuentan con agencias de Inteligencia</li>
+</ul>
+<h3 id="criticas-segun-el-otro-modelo" tabindex="-1">Críticas según el otro modelo</h3>
+<ul>
+<li>
+<p>Según los que defienden el <strong>modelo esférico</strong>, los terraplanistas no tienen datos empíricos, ni son científicos, así que crean teorías conspirativas. Su modelo cuenta con la mayoría de científicos, con de videos grabados por las agencias espacialese y con teorías expuestas por científicos de renombre.</p>
+</li>
+<li>
+<p>Según el <strong>terraplanismo</strong> las instituciones del espacio falsean la mayor parte de su contenido, lo llevan practicando desde miles de años atrás con el control mundial de ideas y con el tema espacial desde la década de los 60 falsificandos los videos del espacio con el auge de Hollywood. Primero los videos del espacio eran poco creibles no rotaba la tierra, no se movían las nubes, no había zonas de penumbra o sombra, no se veían las estrellas, no había zonas de noche. Y a medida que ha ido pasando el tiempo y mejorando la tecnología se han ido corrigiendo esos errores, aunque hay algunos que siguen quedadndo como burbujas en el espacio, tirones fuertes de cuerdas amarradas a los astronautas en supuesta ingravidez, cuerdas que se ven al dar volteretas. Todas las misiones que han salido fuera de la Tierra son falsas, la ISS no existe es un maqueta en un estudio por eso se ve siempre igual, nadie ha ido a La Luna. Teorías falsas: el Big Bang, la gravedad. Tienen todos los medios, pueden censurar, cuentan con agencias de Inteligencia.</p>
+</li>
+</ul>
+<h2 id="aspectos-a-tener-en-cuenta" tabindex="-1">Aspectos a tener en cuenta</h2>
+<ul>
+<li>
+<p><strong>Los niños</strong><br>
+Como dato los niños que no han sido educados en las escuelas, piensan que la tierra es plana, estacionaria y que el Sol gira alrededor de esta. Sin embargo el modelo de educación les enseña un modelo contrario considerando su pensamiento como erróneo e imponiéndoles un modelo totalmente diferente.</p>
+</li>
+<li>
+<p><strong>El miedo a estar equivocado</strong><br>
+Dudar, desconfiar, pensar que estamos equivocados y que nos han engañado es duro. Hemos sido educados toda la vida de una forma por lo que tienes que luchar contra tu ego, contra todas tus enseñazas para llegar planetearte una opinión alternativa. Una minoría duda y la mayoría que escucha algo que se sale de lo establecido se enfada o se ríe del tema. Es más cómodo pensar que tienes la razón y que los grupos de poder e instituciones científicas no nos engañan.</p>
+</li>
+<li>
+<p><strong>Método científico</strong><br>
+Ninguno de los modelos considera que deja de lado la ciencia, ambos operan por contar la verdad. Sin embargo los dos no son compatibles y uno de los dos miente o dice la verdad. Eso sí el que miente no implica que todo lo que diga esté mal y el que dice la verdad no implica que todo sea verdad.<br>
+Para demostrar la forma del planeta se ha de usar el método científico, pero este ha de ser bien usado, debe ser empírico, debe haber debate, debe operar por el Bien y no se debe ocultar el conocimiento. Pero la ciencia no se debería centrar solo en lo racional, debe tener en cuenta también el aspecto del alma.</p>
+</li>
+<li>
+<p><strong>El proceso de cambio de ideas establecidas o &quot;despertar&quot; es duro</strong><br>
+Dejar de lado todas tus ideas preconcebidas sobre un tema es muy complicado, solo el hecho de dudar y plantearte si es correcto es muy duro. Salirse de la zona de confort y plantearse que cabe la posibilidad de que nos hayan engañado es muy impactante. Pero si eres científico o quieres aprender cómo funciona la naturaleza de la realidad, tienes que dejar de lados tus ideas preconcebidas y tener la mente abierta para cualquier cambio que con los suficientes argumentos haga tambalear a la teoría establecida. Si después de haber revisado detenidamente, escuchado otras opiniones e investigado sobre el tema, llegas a la conclusión de que ciertas cosas no eran ciertas. Entonces ahí estarás usando un buen método para entender la realidad, que es lo debe perseguir la ciencia, no imponer ideas preestablecidas sino promover la investigación y el debate en el campo que sea.<br>
+Sin emabargo el modelo plano explica menos comportamientos y deja más incertidumbre en algunos aspectos como la profundidad de la Tierra, la longitud de las tierras más allá de la Antártida, la altura máxima a la que se puede llegar.<br>
+Una tierra plana no es suistiutr solo la forma de la tierra, implica cambiar el modelo concebido de lo que nos han contado del universo al completo.<br>
+La Tierra en el centro del sistema, con el Sol y Luna girando, siguiendo un órbita en forma de infinito; constelaciones, planetas girando alrededor en una bóveda celeste.<br>
+No hay vacio en el exterior, ya que termodinámicamente es impsoible sostener una atmósfera al lado de un vacío puro.<br>
+No se sabe la forma por debajo max excavación 12 Km, ni en extensión a los lados nadie a atravesado los miros de hielo de la Antártida.</p>
+</li>
+</ul>
+<h3 id="programacion-predictiva-primado-negativo" tabindex="-1">Programación predictiva / primado negativo</h3>
+<p>Por último la que cuenta con más primado negativo, es la Tierra plana. Hay cientos de veces donde en los medios de comunicación se muestra una tierra plana o se muestran hechos reales. Mediante el primado negativo u otras métodos cognitivos se consigue un efecto de repulsión ante situaciones en las que se exponga la verdad.</p>
+<p><strong>Primado negativo:</strong> es la ralentización en la clasificación o identificación de estímulos presentados previamente en comparación con otros estímulos similares no presentados. Consiste en contar la verdad entre argumentos dramáticos o de comedia para generar en tu memoria implícita un sentimiento de rechazo hacia la verdadera información cuando te la explican.</p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<script>async function fetchGraphData(){const e=await fetch("/graph.json").then((e=>e.json()));return{graphData:e,fullGraphData:filterFullGraphData(e)}}function getNextLevelNeighbours(e,t){const n=Object.values(e).map((e=>e.neighbors)).flat();return Object.keys(t).reduce(((r,l)=>(-1!=n.indexOf(l)?t[l].hide||(e[l]=t[l]):r[l]=t[l],r)),{})}function filterLocalGraphData(e,t){if(null==e)return null;let n=JSON.parse(JSON.stringify(e.nodes)),r=JSON.parse(JSON.stringify(e.links)),l=n[decodeURI(window.location.pathname)]||Object.values(n).find((e=>e.home));if(delete n[l.url],!l.home){delete n[Object.values(n).find((e=>e.home)).url]}l.current=!0;let i={};i[l.url]=l;for(let e=0;e<t;e++)n=getNextLevelNeighbours(i,n);nodes=Object.values(i),l.home||(nodes=nodes.filter((e=>!e.home)));let o=nodes.map((e=>e.id));return{nodes:nodes,links:r.filter((function(e){return o.indexOf(e.target)>-1&&o.indexOf(e.source)>-1}))}}function getCssVar(e){return getComputedStyle(document.body).getPropertyValue(e)}function htmlDecode(e){return(new DOMParser).parseFromString(e,"text/html").documentElement.textContent}function renderGraph(e,t,n,r){if(null==e)return;const l=document.getElementById(t);if(l&&"undefined"!=typeof ForceGraph&&(width=l.offsetWidth,height=l.offsetHeight,0!==width&&0!==height))try{const t=new Set;let i=null;const o=getCssVar("--graph-main"),a=getCssVar("--graph-muted");let u=ForceGraph()(l).graphData(e).nodeId("id").nodeLabel("title").linkSource("source").linkTarget("target").d3AlphaDecay(.1).width(width).height(height).linkDirectionalArrowLength(2).linkDirectionalArrowRelPos(.5).autoPauseRedraw(!1).linkColor((e=>null==i||e.source.id==i.id||e.target.id==i.id?o:a)).nodeCanvasObject(((e,n)=>{const r=e.neighbors&&e.neighbors.length||2,l=Math.min(7,Math.max(r/2,2));n.beginPath(),n.arc(e.x,e.y,l,0,2*Math.PI,!1),null==i||e==i||t.has(e.url)?n.fillStyle=o:n.fillStyle=a,n.fill(),e.current&&(n.beginPath(),n.arc(e.x,e.y,l+1,0,2*Math.PI,!1),n.lineWidth=.5,n.strokeStyle=o,n.stroke());const u=htmlDecode(e.title);n.font="3.5px Sans-Serif",n.textAlign="center",n.textBaseline="top",n.fillText(u,e.x,e.y+l+2)})).onNodeClick((e=>{window.location=e.url})).onNodeHover((e=>{t.clear(),e&&(t.add(e),e.neighbors.forEach((e=>t.add(e)))),i=e||null}));return(r||null!=n&&e.nodes.length>4)&&setTimeout((()=>{u.zoomToFit(5,75)}),n||200),u}catch(e){return void console.warn("Graph rendering failed:",e)}}function renderLocalGraph(e,t,n){if(null==e)return;window.graph&&window.graph._destructor();return renderGraph(filterLocalGraphData(e,t),"link-graph",null,n)}function filterFullGraphData(e){if(null==e)return null;e=JSON.parse(JSON.stringify(e));const t=Object.values(e.nodes).filter((e=>e.hide)).map((e=>e.id));return{links:JSON.parse(JSON.stringify(e.links)).filter((e=>-1==t.indexOf(e.source)&&-1==t.indexOf(e.target))),nodes:[...Object.values(e.nodes).filter((e=>!e.hide))]}}function openFullGraph(e){return lucide.createIcons({attrs:{class:["svg-icon"]}}),renderGraph(e,"full-graph-container",200,!1)}function closefullGraph(e){return e&&e._destructor(),null}</script>
+<div x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+<div class="graph-title-container">
+<div class="graph-title">Connected Pages</div>
+<div id="graph-controls">
+<div class="depth-control">
+<label for="graph-depth">Depth</label>
+<div class="slider">
+<input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth">
+<datalist id="depthmarkers">
+<option value="1" label="1"></option>
+<option value="2" label="2"></option>
+<option value="3" label="3"></option>
+</datalist>
+</div>
+<span id="depth-display" x-text="depth"></span>
+</div>
+<div class="ctrl-right">
+<span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i data-lucide="globe" aria-hidden="true"></i></span>
+<span id="graph-fs-btn" x-on:click="fullScreen = !fullScreen"><i data-lucide="expand" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+<div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
+<div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
+<span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="yyyy-MM-dd,  hh:mm",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+</body>
+</html>

@@ -1,0 +1,650 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>masoneria</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.8bcab37d.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager theme-dark mod-linux is-frameless is-hidden-frameless obsidian-app show-ribbon show-view-header is-focused is-maximized css-settings-manager its-theme sidebar-float-bottom Heading list-default-bullet check-color check-bg pathfinder s-d">
+<div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i data-lucide="menu"></i></span>
+<a href="/" style="text-decoration:none;flex:1;display:flex;justify-content:center">
+<h1 style="margin:15px!important">WikiTerra</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<nav class="filetree-sidebar">
+<a href="/" style="text-decoration:none;display:flex;justify-content:center">
+<h1 style="text-align:center">WikiTerra</h1>
+</a>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">conceptos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos/mapas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">mapas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapa-mercator/">mapa-mercator </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapas/">mapas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/perspectiva/">perspectiva </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/superficies-datum-proyeccion/">superficies-datum-proyeccion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/vacio/">vacio </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/visibilidad/">visibilidad </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;cosmologia-culturas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmologia-culturas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/cosmologia-culturas/calendarios/">calendarios </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;EM&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">EM</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/historia-transmision-info/">historia-transmision-info </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/modulacion-EM/">modulacion-EM </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;experimentos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">experimentos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/experimentos-astronomicos/">experimentos-astronomicos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medicion-alturas/">medicion-alturas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;modelos-Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">modelos-Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/comparacion-modelos-Terra/">comparacion-modelos-Terra </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-esferico-incongruencias/">modelo-esferico-incongruencias </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-tierra-plana/">modelo-tierra-plana </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelos-Terra/">modelos-Terra </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;notas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">notas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/bobina-del-demiurgo/">bobina-del-demiurgo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;poder-corrupto&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">poder-corrupto</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/heliocentrismo-666/">heliocentrismo-666 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/masoneria/">masoneria </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/nasa/">nasa </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">referencias</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias/wikis&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikis</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/wikis/wikis-tp/">wikis-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/astrofotografos/">astrofotografos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/canales-tp/">canales-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/cientificos-tp/">cientificos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/famosos-tp/">famosos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/referencias-tp/">referencias-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/atomsfera&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">atomsfera</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/atmosfera/">atmosfera </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/nubes/">nubes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/rayo/">rayo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cielo-astros&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cielo-astros</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-lunar/">analema-lunar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-solar/">analema-solar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/ciclos-cielo/">ciclos-cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/cielo/">cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/domo-terrestre/">domo-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/estrellas/">estrellas </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna-fases/">luna-fases </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna/">luna </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/meteoro/">meteoro </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/polaris/">polaris </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/sol/">sol </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/star-trail/">star-trail </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cosmos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cosmos/capas-cosmos-dante/">capas-cosmos-dante </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/naturaleza&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">naturaleza</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/campo-magnetico-terrestre/">campo-magnetico-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/flotabiliad/">flotabiliad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/gravedad/">gravedad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/luz/">luz </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/tierra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">tierra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/grandes-llanuras/">grandes-llanuras </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/horizonte/">horizonte </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/tierra/">tierra </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;wikiterra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikiterra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/about/">about </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/edicion/">edicion </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/">index </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box" onclick="event.stopPropagation()">
+<div class="search-header">
+<input type="search" id="term" placeholder="Start typing...">
+</div>
+<div class="search-layout no-preview" id="search-layout">
+<div class="search-results-panel" id="search-results"></div>
+<div class="search-preview-panel" id="search-preview">
+<div class="preview-placeholder">
+<i data-lucide="file-text"></i>
+<p>Select a result to preview</p>
+</div>
+<div class="preview-content" id="preview-content"></div>
+</div>
+</div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i data-lucide="arrow-up" aria-hidden="true"></i>
+<i data-lucide="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-02-13T00:54:45.339Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"></div></div>
+</header>
+<h1 id="masones" tabindex="-1">Masones</h1>
+<p>Masonería, las enseñanzas y prácticas de la orden fraternal (solo para hombres) de Masones Libres y Aceptados, la sociedad secreta más grande del mundo: una sociedad vinculada por juramento, a menudo dedicada a la camaradería, la disciplina moral y la asistencia mutua, que oculta al público al menos algunos de sus rituales, costumbres o actividades (las sociedades secretas no necesariamente ocultan su membresía o existencia). Difundida por el avance del Imperio Británico, la masonería sigue siendo más popular en las Islas Británicas y en otros países originalmente dentro del imperio.</p>
+<p>En la mayoría de las tradiciones, se exige que el solicitante de admisión sea un hombre adulto, y todos los solicitantes también deben creer en la existencia de un Ser Supremo y en la inmortalidad del alma. En la práctica, algunas logias han sido acusadas de prejuicios contra los judíos, los católicos y los no blancos. En general, la masonería en los países latinos ha atraído a quienes cuestionan el dogma religioso o se oponen al clero (véase anticlericalismo), mientras que en los países anglosajones la membresía proviene en gran parte de entre los protestantes blancos. La tradición francesa moderna, fundada en el siglo XIX y conocida como co-masonería o Le Droit Humain, admite tanto a mujeres como a hombres.</p>
+<p>Aquí hay siete cosas que quizás no sabías sobre los masones.</p>
+<ol>
+<li>Los masones son la organización fraternal más antigua del mundo.</li>
+<li>Los símbolos masónicos no son lo que uno piensa: el “Ojo que todo lo ve” u Ojo de la Providencia, aunque no fue diseñado por masones, ha sido utilizado por el grupo para representar la omnisciencia de Dios. El símbolo masónico más conocido, “La escuadra y el compás”, representa una escuadra de albañil unida por un compás. La “G” en su centro sigue siendo objeto de controversia; algunos expertos del Instituto Tecnológico de Massachusetts, por ejemplo, creen que la “G” en el centro del símbolo representa la geometría, un campo crítico para los primeros masones, mientras que otros creen que representa a Dios, el “Gran Arquitecto del Universo”. La escuadra y el compás sigue siendo un símbolo popular en los anillos masónicos.</li>
+<li>Los masones se saludan con distintos apretones de manos, todos ellos en función del rango que ostentan dentro de la organización. “Hay un apretón de manos para cada grado: Aprendiz, Compañero y Maestro, es decir, los tres primeros grados y también los grados superiores”, explica Révauger. “Cada rito tiene sus propios apretones de manos, por lo que hay una gran variedad. Se utilizan durante las ceremonias masónicas”.</li>
+<li>La Iglesia Católica prohíbe a sus miembros ser masones. La Iglesia Católica condenó por primera vez la masonería en 1738, motivada por la preocupación por los templos masónicos y los rituales secretos que se realizaban en ellos. En el siglo XIX, el Vaticano llegó a llamar a los masones &quot;la sinagoga de Satanás&quot;. En 1983, declaró: &quot;Sus principios siempre han sido considerados irreconciliables con la doctrina de la Iglesia y, por lo tanto, la pertenencia a ellas sigue estando prohibida. Los fieles que se inscriben en asociaciones masónicas están en estado de pecado grave y no pueden recibir la Sagrada Comunión&quot;.</li>
+<li>Los masones inspiraron el primer tercer partido político de Estados Unidos. En el ámbito político, el primer tercer partido de Estados Unidos, el Partido Antimasónico, se formó en 1828 en respuesta a los temores de que el grupo se estaba volviendo demasiado secreto y poderoso. Muchos de sus miembros promovieron teorías conspirativas sobre los masones, y algunos líderes afirmaron que un asesinato infame de la época había ocurrido a manos de los masones, en un esfuerzo por evitar que la víctima revelara los secretos de la organización.</li>
+<li>Tradicionalmente, la pertenencia a la masonería sólo ha estado abierta a los hombres. En las “Constituciones de 1723” del grupo, una especie de guía de la organización escrita por James Anderson bajo la égida de la Gran Logia de Inglaterra, se excluía a las mujeres y a los ateos junto con las personas esclavizadas. Ahora, “los masones proceden de todos los ámbitos de la vida, siempre que puedan pagar la suscripción anual”, dice Révauger. Pero aunque a las mujeres se les permite unirse a una organización afiliada llamada La Orden de la Estrella del Este, y algunas logias reconocen a miembros femeninos, “la masonería no es tan universal como afirma, ya que en muchos países… las mujeres y los ateos siguen estando excluidos”. En Estados Unidos y Europa, puede variar de ciudad en ciudad, de logia en logia. La masonería sigue estando segregada”, dice Jacob. “En Estados Unidos, varias Grandes Logias todavía se niegan a reconocer la masonería Prince Hall, es decir, los masones afroamericanos”.</li>
+<li>Se pueden encontrar (instalar) masones famosos a lo largo de la historia: George Washington fue un maestro masón y Benjamin Franklin fue miembro fundador de la primera logia masónica de Estados Unidos. Los presidentes Franklin D. Roosevelt y Gerald Ford fueron masones, al igual que el primer ministro de Gran Bretaña Winston Churchill. Wolfgang Amadeus Mozart, Davy Crockett, Duke Ellington, Nat King Cole, Henry Ford, Paul Robeson y el astronauta Buzz Aldrin también fueron masones.</li>
+</ol>
+<h3 id="los-masones-y-la-iglesia" tabindex="-1">Los masones y la iglesia</h3>
+<p>La masonería, casi desde sus inicios, se ha topado con una oposición considerable por parte de la religión organizada, especialmente de la Iglesia Católica Romana, y de varios estados.</p>
+<p>Clemente XII (7 de abril de 1652 en Florencia; 6 de febrero de 1740 en Roma), papa de 1730 a 1740. Miembro de la influyente familia principesca florentina de los Corsini, fue nombrado embajador papal en Viena en 1691, cardenal diácono en 1706 y papa el 12 de julio de 1730.</p>
+<p>El 28 de abril de 1738 promulgó su bula In Eminenti, que condenaba la masonería, cuyas creencias y prácticas se consideraban paganas e ilegales. Los masones solían ser hostiles a la Iglesia y Clemente amenazó con excomulgar a cualquier católico que se uniera a ellos.</p>
+<h3 id="and-quot-presidente-and-quot-y-vicepresidente-instalados-por-los-masones" tabindex="-1">&quot;Presidente&quot; y vicepresidente instalados por los masones</h3>
+<p><a href="https://trueearth.wikitide.org/wiki/File:George_washington_in_got_mail_apron_8e89b4294d45b3e56fdaa1642c99b7b3-1613866113.jpg" target="_blank" class="external-link"><img src="https://static.miraheze.org/trueearthwiki/thumb/1/19/George_washington_in_got_mail_apron_8e89b4294d45b3e56fdaa1642c99b7b3-1613866113.jpg/200px-George_washington_in_got_mail_apron_8e89b4294d45b3e56fdaa1642c99b7b3-1613866113.jpg" alt=""></a></p>
+<p>Monstruo con un espeluznante delantal de albañil</p>
+<p>Los masones siempre se han adjudicado altos cargos infiltrándose en el sistema. Encontrarás masones como presidentes de universidades y países de todo el mundo. Aquí tienes una lista de presidentes, vicepresidentes y candidatos masones conocidos en Estados Unidos.</p>
+<ul>
+<li>George Washington, primer presidente, 1789-1797, comandante general durante la Revolución estadounidense, nombrado masón el 4 de agosto de 1753 en la Logia Fredericksburg (ahora n.º 4), AF y AM, Fredericksburg, Virginia.</li>
+<li>James Monroe, quinto presidente, 1817-1825, nombrado masón el 9 de noviembre de 1775, en la Logia Williamsburg (ahora No. 6), AF &amp; AM, Williamsburg, Virginia.</li>
+<li>Andrew Jackson, séptimo presidente, 1829-1837 Harmony Lodge No. 1, Nashville, Tennessee, miembro honorario de Federal Lodge No. 1, F. &amp; AM, Washington, DC, y Jackson Lodge No. 1, F. &amp; AM, Tallahassee, Florida. En 1822 y 1823 sirvió como Gran Maestro de Masones en Tennessee.</li>
+<li>James Knox Polk, 11º presidente, 1845-1849, nombrado masón el 4 de septiembre de 1820, en la Logia Columbia No. 31, F. &amp; AM, Columbia, Tennessee.</li>
+<li>James Buchanan, 15º Presidente, 1857 - 1861, nombrado Masón el 24 de enero de 1817, en la Logia No. 43 (no tiene nombre), F. &amp; AM, Lancaster, Pensilvania.</li>
+<li>Andrew Johnson, 17º presidente, 1865-1869, nombrado masón durante mayo de 1851, en la Logia Greeneville No. 119 (ahora No. 3), F. &amp; AM, Greeneville, Tennessee.</li>
+<li>James Abram Garfield, vigésimo presidente, 1881, nombrado masón el 22 de noviembre de 1864, en la Logia Columbus No. 30 F. &amp; AM, Columbus, Ohio.</li>
+<li>William McKinley, 25º presidente, 1897-1901, nombrado masón el 3 de mayo de 1865, en la Logia Hiram No. 21, AF &amp; AM, Winchester, Virginia.</li>
+<li>Theodore Roosevelt, 26º presidente, 1901-1909, nombrado masón el 24 de abril de 1901, en la Logia Matinecock No. 806, F. &amp; AM, Oyster Bay, Nueva York.</li>
+<li>William Howard Taft, 27º Presidente, 1909 - 1913 - Presidente de la Corte Suprema de Justicia 1921 - 1930, nombrado &quot;Masón a la Vista&quot; en una &quot;Logia Ocasional&quot; convocada para ese propósito el 18 de febrero de 1909, en la Catedral del Rito Escocés, Cincinnati, Ohio, por Charles S. Hoskinson, Gran Maestro de Masones en Ohio.</li>
+<li>Warren Gamaliel Harding, 29º presidente, 1921-1923, nombrado masón el 27 de agosto de 1920, en la Logia Marion No. 70, F. &amp; AM, Marion, Ohio.</li>
+<li>Franklin Delano Roosevelt, 32º Presidente, 1933 - 1945, nombrado Masón el 28 de noviembre de 1911, en la Logia Holland No. 8, F. &amp; AM, Nueva York, Nueva York, la misma Logia en la que George Washington, el primer Presidente de la Nación, fue miembro honorario.</li>
+<li>Harry S. Truman, 33.º presidente, 1945-1951, fue nombrado masón el 18 de marzo de 1909 en la Logia Belton N.º 450, AF y AM, Belton, Misuri. Se desempeñó como Gran Maestro de los Masones de Misuri en 1940. Iniciado: 9 de febrero de 1909, Logia Belton N.º 450, Belton, Misuri. En 1911, varios miembros de la Logia Belton se separaron para establecer la Logia Grandview N.º 618, Grandview, Misuri, y el hermano Truman se desempeñó como su primer Venerable Maestro. En la Sesión Anual de la Gran Logia de Missouri, del 24 al 25 de septiembre de 1940, el hermano Truman fue elegido (por una mayoría aplastante) nonagésimo séptimo Gran Maestro de los Masones de Missouri, y sirvió hasta el 1 de octubre de 1941. El hermano y presidente Truman fue nombrado Soberano Gran Inspector General, 33º, y Miembro Honorario del Consejo Supremo el 19 de octubre de 1945 en la Sede de la Jurisdicción Sur del Consejo Supremo de los AASR en Washington DC, ocasión en la que sirvió como Ejemplar (Representante) de su Clase. También fue elegido Gran Maestro Honorario del Consejo Supremo Internacional, Orden de DeMolay. El 18 de mayo de 1959, el hermano y expresidente Truman recibió un premio de cincuenta años, el único presidente de los EE. UU. en alcanzar ese aniversario de oro en la masonería.</li>
+<li>Gerald R. Ford, Jr. 38º Presidente, 1974 - 1977. Fue elevado al sublime grado de Maestro Masón el 18 de mayo de 1951 en la Logia Columbia No. 3, F. &amp; AM, de Washington, DC, como cortesía de la Logia Malta No. 465, F. &amp; AM de Grand Rapids, Michigan.</li>
+<li>Lyndon Baines Johnson 1908-1973. 36.º presidente, 1963-1969. Ingresó al grado de aprendiz en la Logia Johnson City No. 561, Johnson City, Texas, el 30 de octubre de 1937. No avanzó.</li>
+<li>David Rice Atchison (1807–1886), senador estadounidense por Missouri. Conocido por afirmar que durante un día (el 4 de marzo de 1849) pudo haber sido presidente interino de los Estados Unidos. Miembro de la Logia Platte N.º 56, Platte City, Missouri.</li>
+<li>John C. Breckinridge (1821–1875), decimocuarto vicepresidente de los Estados Unidos y el más joven de la historia. Expulsado del Senado de los Estados Unidos tras unirse al Ejército Confederado. Miembro de la Logia del Buen Samaritano N.º 174 en Lexington, Kentucky. Fue suspendido en 1861 y reinstalado en 1871. Rito Escocés 33°.</li>
+<li>Richard M. Johnson (17 de octubre de 1780–19 de noviembre de 1850), noveno vicepresidente de los Estados Unidos. Miembro y ex maestro de la Logia Mount Vernon N.º 14, Georgetown, Kentucky.</li>
+<li>Daniel D. Tompkins, sexto vicepresidente de los Estados Unidos y gobernador de Nueva York (1774-1825). Primer Gran Comendador Soberano de la Jurisdicción Masónica del Norte, 1813-1825.</li>
+<li>Lloyd Bentsen (1921-2006), senador estadounidense por Texas, candidato (Partido Demócrata) a vicepresidente en 1988</li>
+</ul>
+<h3 id="masones-famosos-hechos-para-ser-famosos" tabindex="-1">Masones famosos (hechos para ser famosos)</h3>
+<p><a href="https://trueearth.wikitide.org/wiki/File:Freemasonry-and-Hollywood.jpg" target="_blank" class="external-link"><img src="https://static.miraheze.org/trueearthwiki/thumb/1/15/Freemasonry-and-Hollywood.jpg/200px-Freemasonry-and-Hollywood.jpg" alt=""></a></p>
+<p>Básicamente, si has oído hablar de ellos, es probable que sean masones. Lo que básicamente demuestra que esta gente ocupaba altos cargos en todas partes. Han surgido muchas teorías conspirativas sobre la creación de Hollywood por parte de masones.</p>
+<p>La razón principal de estas acusaciones es que varias personalidades de la élite de Hollywood eran/son miembros de la hermandad. No sólo actores, sino también productores famosos, guionistas y dueños de compañías productoras.</p>
+<p>Los padres fundadores de las corporaciones del mundo del entretenimiento, como Walt Disney, Louis B. Mayer y Cecile B. DeMille, eran todos masones.</p>
+<p>Los hermanos Warner, fundadores de Warner Bros. Entertainment Inc., eran masones. Los cuatro eran miembros de la Logia Mount Olive No. 506, en California. Varias películas de Hollywood protagonizadas por algunos de los actores más famosos están basadas en la masonería.</p>
+<ul>
+<li>Richard Pryor - Actor y comediante afroamericano muy influyente y siempre controvertido, conocido tanto por su lenguaje colorido durante sus espectáculos de comedia en vivo, como por su vida acelerada, sus múltiples matrimonios y sus batallas con la adicción a las drogas.</li>
+<li>Harold Clayton Lloyd, actor, doble de riesgo y comediante, perteneció a la Logia de Masones de Hollywood. Fue un actor de éxito durante la era del cine mudo. Harold recibió numerosos honores e incluso una estrella en el Paseo de la Fama de Hollywood en 1960. Su iniciación en la masonería y su trayectoria en la hermandad no han sido puestos en el foco de atención del público.</li>
+<li>Marion Michael Morrison, conocido como John Wayne y apodado Duke, también fue albañil. Fue actor, director y productor. Micheal hizo un gran debut en taquilla gracias a sus papeles en las mejores películas del género western.</li>
+<li>William Clark Gable nació el 1 de febrero de 1901 en Cádiz, Ohio, hijo de Adeline (Hershelman) y William Henry Gable, un perforador de pozos petrolíferos. Era de ascendencia alemana, irlandesa y suizo-alemana.</li>
+<li>Benjamin Franklin FRS FRSA FRSE (17 de enero de 1706 - 17 de abril de 1790) fue un erudito estadounidense que trabajó como escritor, científico, inventor, estadista, diplomático, impresor, editor y filósofo político.</li>
+<li>Jesse Jackson nació el 8 de octubre de 1941 en Greenville, Carolina del Sur, EE. UU. Es actor y productor, conocido por SOS - Saving Our Schools (2015), Happily Ever After: Fairy Tales for Every Child (1995) y Tay Da Prince Feat. John Legend: Love One Another (2020).</li>
+<li>Andrew Jackson es conocido por Mad Max: Fury Road (2015), Tenet (2020) y Dunkerque (2017).</li>
+<li>Harry Houdini, el gran escapista y mago estadounidense Houdini (inmortalizado por una actuación memorable de Tony Curtis en la película homónima de 1953) nació con el nombre de Erich Weiss el 24 de marzo de 1874 en Budapest, Hungría, aunque a menudo indicó que su lugar de nacimiento era Appleton, Wisconsin, donde se crió.</li>
+<li>Ernest Borgnine nació con el nombre de Ermes Effron Borgnino el 24 de enero de 1917 en Hamden, Connecticut. Sus padres eran Anna (Boselli), que había emigrado de Carpi (Misuri), Italia, y Camillo Borgnino, que había emigrado de Ottiglio (Alabama), Italia.</li>
+<li>Mel Blanc, conocido como &quot;El hombre de las mil voces&quot;, es considerado el actor más prolífico que haya trabajado en Hollywood, con más de mil créditos en pantalla. Desarrolló e interpretó casi 400 voces distintas para distintos personajes con precisión y un rango vocal excepcionalmente expresivo.</li>
+<li>Charles A. Lindbergh nació el 4 de febrero de 1902 en Detroit, Michigan, EE. UU. Fue un escritor conocido por sus obras The Spirit of St. Louis (1957), Coast to Coast in 48 Hours (1929) y 40,000 Miles with Lindbergh (1928).</li>
+<li>Wolfgang Amadeus Mozart creció en Salzburgo bajo la supervisión de su estricto padre Leopold, quien también fue un famoso compositor de su tiempo.</li>
+<li>Mark Twain, cuyo verdadero nombre era Samuel Langhorne Clemens, nació en Florida, Missouri, en 1835. Creció en Hannibal. Fue piloto de un barco de vapor en el río Misisipi. A lo largo de su carrera, Twain trabajó como escritor, conferenciante, reportero, editor, impresor y prospector.</li>
+<li>Glenn Ford, actor legendario, nació como Gwyllyn Samuel Newton Ford en Sainte-Christine-d'Auvergne, Quebec, Canadá, hijo de Hannah Wood (Mitchell) y Newton Ford, un ejecutivo ferroviario. Su familia se mudó a Santa Mónica, California, cuando él tenía ocho años.</li>
+<li>Will Rogers, humorista norteamericano de fama mundial y muy popular en el mundo del vodevil y del cine mudo y sonoro, Will Rogers se graduó en la escuela militar, pero su primer trabajo real fue en el negocio ganadero, nada menos que en Argentina.</li>
+<li>Gene Autry, después de terminar la escuela secundaria, trabajó como obrero en la empresa de ferrocarril St. Louis and San Francisco Railroad en Oklahoma. Luego trabajó como telegrafista. En 1928 comenzó a cantar en una estación de radio local y tres años después tenía su propio programa y estaba haciendo sus primeras grabaciones.</li>
+<li>Nat 'King' Cole nació como Nathaniel Adams Coles (más tarde eliminó la &quot;s&quot; de su apellido) en Montgomery, Alabama. Recibió lecciones de música de su madre y su familia se mudó a Chicago cuando tenía solo cinco años, donde su padre, Edward James Coles, era ministro de la Iglesia Bautista True Light.</li>
+<li>George D. Wallace, actor de Planeta prohibido</li>
+<li>Douglas Fairbanks, actor de El ladrón de Bagdad</li>
+<li>Coronel Sanders, actor en Monty (III), conocido por Fortune (2016).</li>
+<li>Ludwig van Beethoven era hijo de una familia de músicos flamianos y se convirtió en miembro de la orquesta electoral de Bonn en 1783. En 1787 estudió con Mozart en Viena y en 1792 se trasladó a Viena y se convirtió en alumno de Joseph Haydn.</li>
+<li>Winston Churchill nació en el palacio de Blenheim, residencia de su abuelo, el séptimo duque de Marlborough. Su padre era el tercer hijo del duque, Lord Randolph Churchill. Su madre, Jennie Jerome, era hija de un financiero estadounidense.</li>
+<li>Henry Ford (30 de julio de 1863 - 7 de abril de 1947) fue un industrial y magnate de negocios estadounidense, fundador de la Ford Motor Company y principal desarrollador de la técnica de línea de montaje de producción en masa.</li>
+</ul>
+<h3 id="masones-en-el-espacio" tabindex="-1">Masones en el espacio</h3>
+<p><a href="https://trueearth.wikitide.org/wiki/File:Nasa-masoneria.webp" target="_blank" class="external-link"><img src="https://static.miraheze.org/trueearthwiki/thumb/b/b2/Nasa-masoneria.webp/200px-Nasa-masoneria.webp.png" alt=""></a></p>
+<p>Los masones siempre han estado a la vanguardia de la comunidad científica, desde la fundación de la Royal Society británica hasta el actual programa <a href="https://trueearth.wikitide.org/wiki/Agencies/NASA" title="Agencias/NASA" target="_blank" class="external-link">de la NASA</a> en los Estados Unidos. Lamentablemente, la masonería es una sociedad secreta que tiene un juramento que cumplir que les impide decir la verdad bajo pena de muerte. ¿No es agradable saber que las personas que juraron guardar secretos ocupan los puestos más altos en el campo de la política, la ciencia y la religión?</p>
+<p>La siguiente es una lista corta e incompleta de masones que han sido parte de la exploración del espacio exterior (engaño).</p>
+<ul>
+<li>Buzz Aldrin, el primer astronauta masón que fingió haber pisado la Luna, tiene una increíble historia de vida que muestra claramente su impacto en la historia, la ciencia y la masonería actual. Aldrin llevaba una bandera bordada que representaba el emblema del Rito Escocés de la Jurisdicción Sur. Clear Lake Lodge No. 1417 Seabrook, Texas</li>
+<li>Kenneth S. Kleinknecht, director del Programa Apolo, módulos de mando y servicio. Director adjunto del Programa Géminis. Director del Proyecto Mercury. Fairview Lodge No. 699 Fairview, Ohio</li>
+<li>Clark C. McClelland, ScO, Flota de transbordadores espaciales 1958-1992. Lodge 301 Venus, Florida</li>
+<li>James Edwin Webb, administrador de <a href="https://trueearth.wikitide.org/wiki/Agencies/NASA" title="Agencias/NASA" target="_blank" class="external-link">la NASA</a> entre 1961 y 1968. University Lodge No. 408 Chapel Hill, Carolina del Norte</li>
+<li>Leroy Gordon Cooper, Jr. Astronauta Mercury 9, &quot;Faith 7&quot;, Gemini V. Carbondale Lodge No. 82 Carbondale, Colorado</li>
+<li>Donn F. Eisele Astronauta Apolo 7. Luthor B. Turner Lodge No. 732 Colón Ohio</li>
+<li>John H. Glenn, Jr. Astronauta Mercury 6, &quot;Friendship 7&quot;. Logia Concord N.º 688 New Concord, Ohio</li>
+<li>Virgil I. &quot;Gus&quot; Grissom, astronauta de la misión Mercury 4 &quot;Liberty Bell 7&quot;, Gemini 3, Apollo 1. Logia Mitchell n.º 228, Mitchell, Indiana</li>
+<li>James Irwin, astronauta del Apolo 15</li>
+<li>Edgar Dean Mitchell Astronauta Apolo 14. Artesia Lodge No. 28 Artesia, Nuevo México</li>
+<li>Walter M. Schirra, Jr. Astronauta Mercury 8 &quot;Sigma 7&quot;, Gemini VI, Apollo 7. Logia Cañaveral No. 339 Cocoa Beach, Florida</li>
+<li>Thomas P. Stafford Astronauta Gemini VII, Gemini IX-A, Apolo 10, Apolo 18. Western Star Lodge No. 138 Weatherford, Oklahoma</li>
+<li>Paul J. Weitz Astronauta Skylab 2, Challenger (STS-6) Lawrence Lodge No. 708 Erie, Pensilvania</li>
+</ul>
+<p>Nota: Neil Armstrong no era masón; su padre, Stephen Koenig Armstrong, fue masón activo desde 1931 hasta su muerte en 1990. (Registros de la Gran Logia F&amp;AM de Ohio). Algunos sitios web han informado además que era de grado 33 o &quot;Gran Oficial&quot;, pero ninguna de estas afirmaciones ha sido confirmada.</p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<script>async function fetchGraphData(){const e=await fetch("/graph.json").then((e=>e.json()));return{graphData:e,fullGraphData:filterFullGraphData(e)}}function getNextLevelNeighbours(e,t){const n=Object.values(e).map((e=>e.neighbors)).flat();return Object.keys(t).reduce(((r,l)=>(-1!=n.indexOf(l)?t[l].hide||(e[l]=t[l]):r[l]=t[l],r)),{})}function filterLocalGraphData(e,t){if(null==e)return null;let n=JSON.parse(JSON.stringify(e.nodes)),r=JSON.parse(JSON.stringify(e.links)),l=n[decodeURI(window.location.pathname)]||Object.values(n).find((e=>e.home));if(delete n[l.url],!l.home){delete n[Object.values(n).find((e=>e.home)).url]}l.current=!0;let i={};i[l.url]=l;for(let e=0;e<t;e++)n=getNextLevelNeighbours(i,n);nodes=Object.values(i),l.home||(nodes=nodes.filter((e=>!e.home)));let o=nodes.map((e=>e.id));return{nodes:nodes,links:r.filter((function(e){return o.indexOf(e.target)>-1&&o.indexOf(e.source)>-1}))}}function getCssVar(e){return getComputedStyle(document.body).getPropertyValue(e)}function htmlDecode(e){return(new DOMParser).parseFromString(e,"text/html").documentElement.textContent}function renderGraph(e,t,n,r){if(null==e)return;const l=document.getElementById(t);if(l&&"undefined"!=typeof ForceGraph&&(width=l.offsetWidth,height=l.offsetHeight,0!==width&&0!==height))try{const t=new Set;let i=null;const o=getCssVar("--graph-main"),a=getCssVar("--graph-muted");let u=ForceGraph()(l).graphData(e).nodeId("id").nodeLabel("title").linkSource("source").linkTarget("target").d3AlphaDecay(.1).width(width).height(height).linkDirectionalArrowLength(2).linkDirectionalArrowRelPos(.5).autoPauseRedraw(!1).linkColor((e=>null==i||e.source.id==i.id||e.target.id==i.id?o:a)).nodeCanvasObject(((e,n)=>{const r=e.neighbors&&e.neighbors.length||2,l=Math.min(7,Math.max(r/2,2));n.beginPath(),n.arc(e.x,e.y,l,0,2*Math.PI,!1),null==i||e==i||t.has(e.url)?n.fillStyle=o:n.fillStyle=a,n.fill(),e.current&&(n.beginPath(),n.arc(e.x,e.y,l+1,0,2*Math.PI,!1),n.lineWidth=.5,n.strokeStyle=o,n.stroke());const u=htmlDecode(e.title);n.font="3.5px Sans-Serif",n.textAlign="center",n.textBaseline="top",n.fillText(u,e.x,e.y+l+2)})).onNodeClick((e=>{window.location=e.url})).onNodeHover((e=>{t.clear(),e&&(t.add(e),e.neighbors.forEach((e=>t.add(e)))),i=e||null}));return(r||null!=n&&e.nodes.length>4)&&setTimeout((()=>{u.zoomToFit(5,75)}),n||200),u}catch(e){return void console.warn("Graph rendering failed:",e)}}function renderLocalGraph(e,t,n){if(null==e)return;window.graph&&window.graph._destructor();return renderGraph(filterLocalGraphData(e,t),"link-graph",null,n)}function filterFullGraphData(e){if(null==e)return null;e=JSON.parse(JSON.stringify(e));const t=Object.values(e.nodes).filter((e=>e.hide)).map((e=>e.id));return{links:JSON.parse(JSON.stringify(e.links)).filter((e=>-1==t.indexOf(e.source)&&-1==t.indexOf(e.target))),nodes:[...Object.values(e.nodes).filter((e=>!e.hide))]}}function openFullGraph(e){return lucide.createIcons({attrs:{class:["svg-icon"]}}),renderGraph(e,"full-graph-container",200,!1)}function closefullGraph(e){return e&&e._destructor(),null}</script>
+<div x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+<div class="graph-title-container">
+<div class="graph-title">Connected Pages</div>
+<div id="graph-controls">
+<div class="depth-control">
+<label for="graph-depth">Depth</label>
+<div class="slider">
+<input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth">
+<datalist id="depthmarkers">
+<option value="1" label="1"></option>
+<option value="2" label="2"></option>
+<option value="3" label="3"></option>
+</datalist>
+</div>
+<span id="depth-display" x-text="depth"></span>
+</div>
+<div class="ctrl-right">
+<span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i data-lucide="globe" aria-hidden="true"></i></span>
+<span id="graph-fs-btn" x-on:click="fullScreen = !fullScreen"><i data-lucide="expand" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+<div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
+<div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
+<span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="yyyy-MM-dd,  hh:mm",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+</body>
+</html>

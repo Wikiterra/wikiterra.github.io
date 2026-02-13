@@ -1,0 +1,1737 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>canales-tp</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.8bcab37d.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager theme-dark mod-linux is-frameless is-hidden-frameless obsidian-app show-ribbon show-view-header is-focused is-maximized css-settings-manager its-theme sidebar-float-bottom Heading list-default-bullet check-color check-bg pathfinder s-d">
+<div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i data-lucide="menu"></i></span>
+<a href="/" style="text-decoration:none;flex:1;display:flex;justify-content:center">
+<h1 style="margin:15px!important">WikiTerra</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<nav class="filetree-sidebar">
+<a href="/" style="text-decoration:none;display:flex;justify-content:center">
+<h1 style="text-align:center">WikiTerra</h1>
+</a>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">conceptos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos/mapas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">mapas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapa-mercator/">mapa-mercator </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapas/">mapas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/perspectiva/">perspectiva </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/superficies-datum-proyeccion/">superficies-datum-proyeccion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/vacio/">vacio </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/visibilidad/">visibilidad </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;cosmologia-culturas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmologia-culturas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/cosmologia-culturas/calendarios/">calendarios </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;EM&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">EM</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/historia-transmision-info/">historia-transmision-info </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/modulacion-EM/">modulacion-EM </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;experimentos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">experimentos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/experimentos-astronomicos/">experimentos-astronomicos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medicion-alturas/">medicion-alturas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;modelos-Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">modelos-Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/comparacion-modelos-Terra/">comparacion-modelos-Terra </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-esferico-incongruencias/">modelo-esferico-incongruencias </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-tierra-plana/">modelo-tierra-plana </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelos-Terra/">modelos-Terra </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;notas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">notas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/bobina-del-demiurgo/">bobina-del-demiurgo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;poder-corrupto&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">poder-corrupto</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/heliocentrismo-666/">heliocentrismo-666 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/masoneria/">masoneria </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/nasa/">nasa </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">referencias</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias/wikis&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikis</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/wikis/wikis-tp/">wikis-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/astrofotografos/">astrofotografos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/canales-tp/">canales-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/cientificos-tp/">cientificos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/famosos-tp/">famosos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/referencias-tp/">referencias-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/atomsfera&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">atomsfera</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/atmosfera/">atmosfera </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/nubes/">nubes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/rayo/">rayo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cielo-astros&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cielo-astros</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-lunar/">analema-lunar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-solar/">analema-solar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/ciclos-cielo/">ciclos-cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/cielo/">cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/domo-terrestre/">domo-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/estrellas/">estrellas </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna-fases/">luna-fases </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna/">luna </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/meteoro/">meteoro </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/polaris/">polaris </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/sol/">sol </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/star-trail/">star-trail </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cosmos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cosmos/capas-cosmos-dante/">capas-cosmos-dante </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/naturaleza&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">naturaleza</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/campo-magnetico-terrestre/">campo-magnetico-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/flotabiliad/">flotabiliad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/gravedad/">gravedad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/luz/">luz </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/tierra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">tierra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/grandes-llanuras/">grandes-llanuras </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/horizonte/">horizonte </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/tierra/">tierra </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;wikiterra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikiterra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/about/">about </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/edicion/">edicion </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/">index </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box" onclick="event.stopPropagation()">
+<div class="search-header">
+<input type="search" id="term" placeholder="Start typing...">
+</div>
+<div class="search-layout no-preview" id="search-layout">
+<div class="search-results-panel" id="search-results"></div>
+<div class="search-preview-panel" id="search-preview">
+<div class="preview-placeholder">
+<i data-lucide="file-text"></i>
+<p>Select a result to preview</p>
+</div>
+<div class="preview-content" id="preview-content"></div>
+</div>
+</div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i data-lucide="arrow-up" aria-hidden="true"></i>
+<i data-lucide="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-02-13T00:54:45.339Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"></div></div>
+</header>
+<h1 id="listado-de-canales-de-tierra-plana" tabindex="-1">Listado de canales de Tierra Plana</h1>
+<h2 id="canales-you-tube" tabindex="-1">Canales YouTube</h2>
+<ul>
+<li><a href="https://www.youtube.com/@aewaranon" target="_blank" class="external-link">Aewar - YouTube</a></li>
+<li><a href="https://www.youtube.com/@AlarmaMundial" target="_blank" class="external-link">Alarma mundial - YouTube</a></li>
+<li><a href="https://www.youtube.com/@AlphaMind" target="_blank" class="external-link">Alpha Mind - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/ArFLATExperimentaci%C3%B3nCient%C3%ADfica" target="_blank" class="external-link">ArFLAT Experimentación Científica - YouTube</a></li>
+<li><a href="https://www.youtube.com/@CanalDacoria" target="_blank" class="external-link">Canal Dacoria - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Crrow777" target="_blank" class="external-link">Crrow777 - YouTube</a></li>
+<li><a href="https://www.youtube.com/@DITRH" target="_blank" class="external-link">DITRH - YouTube</a></li>
+<li><a href="https://www.youtube.com/@DwayneKellum/" target="_blank" class="external-link">DwayneKellum - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/ENHONORALAVERDADfelipecanepa" target="_blank" class="external-link">EN HONOR A LA VERDAD - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/EdithTierraPlana" target="_blank" class="external-link">Edith Tierra Plana - YouTube</a></li>
+<li><a href="https://www.youtube.com/@escueladelconocimiento" target="_blank" class="external-link">Escuela de Conocimiento - YouTube</a></li>
+<li>Enrique Pérez
+<ul>
+<li><a href="https://www.youtube.com/@Exponiendolaverdad" target="_blank" class="external-link">Exponiendo la Verdad - YouTube</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@flatearthprojectsantiagoseijas" target="_blank" class="external-link">Flat Earth Project</a></li>
+<li><a href="https://www.youtube.com/@flatearthtv710" target="_blank" class="external-link">Flat Earth TV</a></li>
+<li><a href="https://www.youtube.com/@flatfingerswithsantosbonac8435" target="_blank" class="external-link">Flat fingers - YouTube</a></li>
+<li><a href="https://www.youtube.com/@flatearthtv71" target="_blank" class="external-link">Flat Earth TV - YouTube</a></li>
+<li><a href="https://www.youtube.com/@flatearthbanjo" target="_blank" class="external-link">Flat Earth Banjo</a></li>
+<li><a href="https://www.youtube.com/@FLATFINGERS" target="_blank" class="external-link">Flat Fingers</a></li>
+<li><a href="https://www.youtube.com/@GLOBEBUSTERS1" target="_blank" class="external-link">GlobeBusters - YouTube</a></li>
+<li>Hermanos Barea
+<ul>
+<li><a href="https://www.youtube.com/@HermanosBarea" target="_blank" class="external-link">Hermanos Barea - YouTube</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@infoplano9746" target="_blank" class="external-link">Info Plano - YouTube</a>
+<ul>
+<li><a href="https://hermanosbarea.tv/" target="_blank" class="external-link">Hermano Barea TV</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@jeranism" target="_blank" class="external-link">Jeranism - YouTube</a></li>
+<li><a href="https://www.youtube.com/@KarenB" target="_blank" class="external-link">KarenB - YouTube</a></li>
+<li><a href="https://www.youtube.com/channel/UCrN5mAYRA8G0GF7-Otr7p1A" target="_blank" class="external-link">LA EMETH DE YAHWEH - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/LaVerdadnoshar%C3%A1libres" target="_blank" class="external-link">La Verdad nos hará libres - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Immune2BS" target="_blank" class="external-link">Inmune 2BS</a></li>
+<li>Nur Para Todos (Iru Landucci)
+<ul>
+<li><a href="https://nptmedia.tv/" target="_blank" class="external-link">NTP Media TV</a></li>
+<li><a href="https://www.youtube.com/@Nurparatodos" target="_blank" class="external-link">Nur Para Todos (Iru Landucci) - YouTube</a></li>
+</ul>
+</li>
+<li><a href="https://www.youtube.com/@markksargent" target="_blank" class="external-link">Mark Sargent - YouTube</a></li>
+<li><a href="https://www.youtube.com/@noestoydebroma" target="_blank" class="external-link">No Estoy de Broma - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Truthavision" target="_blank" class="external-link">ODD TV</a></li>
+<li><a href="https://www.youtube.com/@oliveribanez" target="_blank" class="external-link">Oliver Ibáñez - YouTube</a></li>
+<li><a href="https://www.youtube.com/@pachamamaflat" target="_blank" class="external-link">Pachamam Flat - YouTube</a></li>
+<li><a href="https://www.youtube.com/c/PlanetPlane" target="_blank" class="external-link">Planet Plane - YouTube</a></li>
+<li><a href="https://www.youtube.com/@PlanoTierra" target="_blank" class="external-link">Plano Tierra - YouTube</a></li>
+<li><a href="https://www.youtube.com/@reconectandoconelespiritu8318" target="_blank" class="external-link">Reconectando con el Espíritu - YouTube</a></li>
+<li><a href="https://www.youtube.com/@sanchezma" target="_blank" class="external-link">Sanchez Ma - YouTube</a></li>
+<li>Santos Bonacci
+<ul>
+<li><a href="https://www.instagram.com/santos.bonacci/" target="_blank" class="external-link">Santos Bonacci - Instagram</a></li>
+<li><a href="https://www.youtube.com/@SyncretismTheMagnumOpus/videos" target="_blank" class="external-link">Santos YouTube - Instagram</a></li>
+</ul>
+</li>
+<li><a href="https://odysee.com/@stpierrs:f" target="_blank" class="external-link">Shane St Pierre - Odysee</a></li>
+<li><a href="https://www.youtube.com/@space_audits" target="_blank" class="external-link">Space Audits - YouTube</a></li>
+<li><a href="https://www.youtube.com/@thetruthisstrangerthanfict4367" target="_blank" class="external-link">The Truth is stranger than fiction - YouTube</a></li>
+<li><a href="https://www.youtube.com/@tierratecnologica5050/videos" target="_blank" class="external-link">Tierra Tecnologica - YouTube</a></li>
+<li><a href="https://www.youtube.com/@Truthseeker3" target="_blank" class="external-link">Truthseeker - YouTube</a></li>
+<li><a href="https://www.youtube.com/@TrueEarthEntertainment" target="_blank" class="external-link">True Earth Entertainment - YouTube</a></li>
+<li><a href="https://www.youtube.com/@VIBESOFCOSMOS" target="_blank" class="external-link">Vibes of Cosmos - YouTube</a></li>
+</ul>
+<h2 id="plataformas-tv" tabindex="-1">Plataformas TV</h2>
+<ul>
+<li><a href="https://canal5radio.tv/" target="_blank" class="external-link">Canal 5 Radio TV</a></li>
+<li><a href="https://cienciayamor.tv/" target="_blank" class="external-link">Ciencia y amor TV</a></li>
+<li><a href="https://nptmedia.tv/" target="_blank" class="external-link">NPT Media TV</a></li>
+<li><a href="https://hermanosbarea.tv/" target="_blank" class="external-link">Hermanos Barea TV</a></li>
+<li><a href="https://pachamamaflat.tv/" target="_blank" class="external-link">Pachamama Flat TV</a></li>
+</ul>
+<hr>
+<h2 id="true-earth-content-creators" tabindex="-1">True earth Content Creators</h2>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Channel / Content Creator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/A_Flat_Journey" title="People/Content Creators/A Flat Journey" target="_blank" class="external-link">A Flat Journey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/A_Lath_Fret" title="People/Content Creators/A Lath Fret" target="_blank" class="external-link">A Lath Fret</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Aether_Cosmology" title="People/Content Creators/Aether Cosmology" target="_blank" class="external-link">Aether Cosmology / Alan, Toby</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/AGAVE1969" title="People/Content Creators/AGAVE1969" target="_blank" class="external-link">AGAVE1969</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Aisling717" title="People/Content Creators/Aisling717" target="_blank" class="external-link">Aisling717 / Cami Knodel</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Ajaycee1844" title="People/Content Creators/Ajaycee1844" target="_blank" class="external-link">Ajaycee 1844</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Allan_Norstrand" title="People/Content Creators/Allan Norstrand" target="_blank" class="external-link">Allan Norstrand</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Aloha_from_Florida" title="People/Content Creators/Aloha from Florida" target="_blank" class="external-link">Aloha from Florida</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/alphaandomega985" title="People/Content Creators/alphaandomega985" target="_blank" class="external-link">alphaandomega985 / Ryan</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Alternative_Cosmology" title="People/Content Creators/Alternative Cosmology" target="_blank" class="external-link">Alternative Cosmology</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Amish_Space_Station" title="People/Content Creators/Amish Space Station" target="_blank" class="external-link">Amish Space Station</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/AnonymousPhoto" title="People/Content Creators/AnonymousPhoto" target="_blank" class="external-link">Anonymous Photo</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Antarctic_Digital_Heritage" title="People/Content Creators/Antarctic Digital Heritage" target="_blank" class="external-link">Antarctic Digital Heritage</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Anthony_at_ECF" title="People/Content Creators/Anthony at ECF" target="_blank" class="external-link">Anthony at ECF</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/AnthonyBEAR" title="People/Content Creators/AnthonyBEAR" target="_blank" class="external-link">Anthony BEAR</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Anti-Disinfo_League" title="People/Content Creators/Anti-Disinfo League" target="_blank" class="external-link">Anti-Disinfo League</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Archilies7" title="People/Content Creators/Archilies7" target="_blank" class="external-link">Archilies7</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Artes_Liberalis" title="People/Content Creators/Artes Liberalis" target="_blank" class="external-link">Artes Liberalis</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Arwijn" title="People/Content Creators/Arwijn" target="_blank" class="external-link">Arwijn</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Apollo_Detectives" title="People/Content Creators/Apollo Detectives" target="_blank" class="external-link">Apollo Detectives</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Aussie_Rob" title="People/Content Creators/Aussie Rob" target="_blank" class="external-link">Aussie Rob</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Awaken" title="People/Content Creators/Awaken" target="_blank" class="external-link">Awaken</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/awakenofthetruth131999" title="People/Content Creators/awakenofthetruth131999" target="_blank" class="external-link">awakenofthetruth131999</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Back_To_The_Covenant" title="People/Content Creators/Back To The Covenant" target="_blank" class="external-link">Back To The Covenant</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/BeyondImaginaryCurve" title="People/Content Creators/BeyondImaginaryCurve" target="_blank" class="external-link">Beyond the imaginary curve</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/BIBLEU" title="People/Content Creators/BIBLEU" target="_blank" class="external-link">BIBLEU / BibleAnalysis / Paula</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Bill_Keith_Channel" title="People/Content Creators/Bill Keith Channel" target="_blank" class="external-link">Bill Keith Channel</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Bill_Woehl" title="People/Content Creators/Bill Woehl" target="_blank" class="external-link">Bill Woehl</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Billy_Zig" title="People/Content Creators/Billy Zig" target="_blank" class="external-link">Billy Zig</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/BillyPhilly22" title="People/Content Creators/BillyPhilly22" target="_blank" class="external-link">BillyPhilly22</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Blue_Pill_Devolution" title="People/Content Creators/Blue Pill Devolution" target="_blank" class="external-link">Blue Pill Devolution</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Bmlsb69" title="People/Content Creators/Bmlsb69" target="_blank" class="external-link">bmlsb69</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Boston_Ray_Mudflood_Adventures" title="People/Content Creators/Boston Ray Mudflood Adventures" target="_blank" class="external-link">Boston Ray Mudflood Adventures</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Breaking_Down_The_Wall_Of_Lies" title="People/Content Creators/Breaking Down The Wall Of Lies" target="_blank" class="external-link">Breaking Down The Wall Of Lies</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Brian_S_Staveley" title="People/Content Creators/Brian S Staveley" target="_blank" class="external-link">Brian S Staveley</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/BriansLogic" title="People/Content Creators/BriansLogic" target="_blank" class="external-link">Brian's Logic</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Bro._Sanchez_TV" title="People/Content Creators/Bro. Sanchez TV" target="_blank" class="external-link">Bro. Sanchez TV</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/BurnTheCorporateFiction" title="People/Content Creators/BurnTheCorporateFiction" target="_blank" class="external-link">BurnTheCorporateFiction</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Beyond_the_imaginary_curve" title="People/Content Creators/Beyond the imaginary curve" target="_blank" class="external-link">Beyond the imaginary curve / Del</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/C.B.S" title="People/Content Creators/C.B.S" target="_blank" class="external-link">C.B.S. Calling all Bullshit</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Canal_104_Plus" title="People/Content Creators/Canal 104 Plus" target="_blank" class="external-link">Canal 104 Plus</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Celebrate_Truth" title="People/Content Creators/Celebrate Truth" target="_blank" class="external-link">Celebrate Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ChadPreston" title="People/Content Creators/ChadPreston" target="_blank" class="external-link">Chad Preston Official</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Charles_Was" title="People/Content Creators/Charles Was" target="_blank" class="external-link">Charles Was</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ClipCord" title="People/Content Creators/ClipCord" target="_blank" class="external-link">ClipCord</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Coffee_with_Jesus" title="People/Content Creators/Coffee with Jesus" target="_blank" class="external-link">Coffee with Jesus</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/colshycats" title="People/Content Creators/colshycats" target="_blank" class="external-link">colshycats</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Conspiracy_Music_Guru" title="People/Content Creators/Conspiracy Music Guru" target="_blank" class="external-link">Conspiracy Music Guru</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Corey_Coreyifish" title="People/Content Creators/Corey Coreyifish" target="_blank" class="external-link">Corey Coreyifish</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Cover_to_Cover_with_Jeremy_Peiers" title="People/Content Creators/Cover to Cover with Jeremy Peiers" target="_blank" class="external-link">Cover to Cover with Jeremy Peiers</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Creation_Standard" title="People/Content Creators/Creation Standard" target="_blank" class="external-link">Creation Standard (Home School by FEB)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Critical_Inception" title="People/Content Creators/Critical Inception" target="_blank" class="external-link">Critical Inception</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Curve_Buster" title="People/Content Creators/Curve Buster" target="_blank" class="external-link">Curve Buster</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/D._Marble" title="People/Content Creators/D. Marble" target="_blank" class="external-link">D. Marble</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DanDimension" title="People/Content Creators/DanDimension" target="_blank" class="external-link">Dan Dimension</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DarthMojoRisin" title="People/Content Creators/DarthMojoRisin" target="_blank" class="external-link">Darth Mojo Risin</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DaveyTut" title="People/Content Creators/DaveyTut" target="_blank" class="external-link">DaveyTut</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/David_Banner" title="People/Content Creators/David Banner" target="_blank" class="external-link">David Banner</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/david_robert_of_the_hicks_nation" title="People/Content Creators/david robert of the hicks nation" target="_blank" class="external-link">david robert of the hicks nation</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DavidShane" title="People/Content Creators/DavidShane" target="_blank" class="external-link">David Shane (Starman)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/dean_wright" title="People/Content Creators/dean wright" target="_blank" class="external-link">dean wright</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dcforce" title="People/Content Creators/Dcforce" target="_blank" class="external-link">dcforce</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Decimal_Z" title="People/Content Creators/Decimal Z" target="_blank" class="external-link">𝔻𝕖𝕔𝕚𝕞𝕒𝕝 ℤ / Decimal Z</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Deleted_Programming" title="People/Content Creators/Deleted Programming" target="_blank" class="external-link">Deleted Programming / jamesp3k</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dilly_Gill" title="People/Content Creators/Dilly Gill" target="_blank" class="external-link">Dilly Gill</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Divergent" title="People/Content Creators/Divergent" target="_blank" class="external-link">Divergent</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DivineRealms" title="People/Content Creators/DivineRealms" target="_blank" class="external-link">Divine Realms</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/dmurphy25" title="People/Content Creators/dmurphy25" target="_blank" class="external-link">dmurphy25</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dome_of_Doc" title="People/Content Creators/Dome of Doc" target="_blank" class="external-link">Dome of Doc</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Don%27t_Follow_Crumb" title="People/Content Creators/Don't Follow Crumb" target="_blank" class="external-link">Don't Follow Crumb</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Don%27t_Sphere_The_Truth" title="People/Content Creators/Don't Sphere The Truth" target="_blank" class="external-link">Don't Sphere The Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dr_John_D" title="People/Content Creators/Dr John D" target="_blank" class="external-link">Dr John D.</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dr._Bas_Ackwards" title="People/Content Creators/Dr. Bas Ackwards" target="_blank" class="external-link">Dr. Bas Ackwards</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DreamKalibur" title="People/Content Creators/DreamKalibur" target="_blank" class="external-link">DreamKalibur</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/DJ_Newmoon" title="People/Content Creators/DJ Newmoon" target="_blank" class="external-link">DJ Newmoon</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Dustin_Nemos" title="People/Content Creators/Dustin Nemos" target="_blank" class="external-link">Dustin Nemos</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Earth_1st_Space_L8tr" title="People/Content Creators/Earth 1st Space L8tr" target="_blank" class="external-link">Earth 1st Space L8tr</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Earth_Awakenings" title="People/Content Creators/Earth Awakenings" target="_blank" class="external-link">Earth Awakenings</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/earth_is_flat" title="People/Content Creators/earth is flat" target="_blank" class="external-link">earth_is_flat / 🚫🌎 Earth Is FLAT 🌎🚫</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/EarthenVessels" title="People/Content Creators/EarthenVessels" target="_blank" class="external-link">Earthen Vessels</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Electric_Flat_Earth_Hypothesis" title="People/Content Creators/Electric Flat Earth Hypothesis" target="_blank" class="external-link">Electric Flat Earth Hypothesis</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Elissa_Hawke" title="People/Content Creators/Elissa Hawke" target="_blank" class="external-link">Elissa Hawke</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Emrick_Fe" title="People/Content Creators/Emrick Fe" target="_blank" class="external-link">Emrick Fe</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/End_Times_Prodigy_News" title="People/Content Creators/End Times Prodigy News" target="_blank" class="external-link">End Times Prodigy News</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/EricDubay" title="People/Content Creators/EricDubay" target="_blank" class="external-link">Eric Dubay</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Exploring_the_Plane" title="People/Content Creators/Exploring the Plane" target="_blank" class="external-link">Exploring the Plane</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/eftupworld" title="People/Content Creators/eftupworld" target="_blank" class="external-link">eftupworld</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Emily_Suzanne" title="People/Content Creators/Emily Suzanne" target="_blank" class="external-link">Emily Suzanne</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Fastline_V" title="People/Content Creators/Fastline V" target="_blank" class="external-link">Fastline V</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FEDave" title="People/Content Creators/FEDave" target="_blank" class="external-link">FED / Flat Earth Dave / Dave Weiss / DITRH / FE Sun, Moon &amp; Zodiac Clock app</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FEGary" title="People/Content Creators/FEGary" target="_blank" class="external-link">FE GARY</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FE-MEX" title="People/Content Creators/FE-MEX" target="_blank" class="external-link">FE-MEX</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FENation" title="People/Content Creators/FENation" target="_blank" class="external-link">FE Nation / Carl</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FETests" title="People/Content Creators/FETests" target="_blank" class="external-link">FE Tests</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FEBanjo" title="People/Content Creators/FEBanjo" target="_blank" class="external-link">FE, Banjo, USA, Japan and Brazil / Eddie Alencar</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FECORE_Inc" title="People/Content Creators/FECORE Inc" target="_blank" class="external-link">FECORE Inc</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Fesiuk_Films" title="People/Content Creators/Fesiuk Films" target="_blank" class="external-link">Fesiuk Films / David and Sarah Fesiuk</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Fire_and_Grace_Church" title="People/Content Creators/Fire and Grace Church" target="_blank" class="external-link">Fire and Grace Church / Pastor Dean Odle</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Five_Years_Sharing_Level_Earth_Truth_-_James_Mann" title="People/Content Creators/Five Years Sharing Level Earth Truth - James Mann" target="_blank" class="external-link">Five Years Sharing Level Earth Truth - James Mann</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_and_Stationary" title="People/Content Creators/Flat and Stationary" target="_blank" class="external-link">Flat and Stationary</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Addict" title="People/Content Creators/Flat Earth Addict" target="_blank" class="external-link">Flat Earth Addict</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatEarthAndCoffee" title="People/Content Creators/FlatEarthAndCoffee" target="_blank" class="external-link">Flat Earth and Coffee</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_2017_Consciousness" title="People/Content Creators/Flat Earth 2017 Consciousness" target="_blank" class="external-link">Flat Earth 2017 Consciousness</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Debate" title="People/Content Creators/Flat Earth Debate" target="_blank" class="external-link">Flat Earth Debate</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Dude" title="People/Content Creators/Flat Earth Dude" target="_blank" class="external-link">Flat Earth Dude</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Films" title="People/Content Creators/Flat Earth Films" target="_blank" class="external-link">Flat Earth Films</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatEarthCity" title="People/Content Creators/FlatEarthCity" target="_blank" class="external-link">FlatEarthCity</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatEarthHead" title="People/Content Creators/FlatEarthHead" target="_blank" class="external-link">Flat Earth Head</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Hub" title="People/Content Creators/Flat Earth Hub" target="_blank" class="external-link">Flat Earth Hub</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FLAT_EARTH_LT" title="People/Content Creators/FLAT EARTH LT" target="_blank" class="external-link">FLAT EARTH LT (Lithuanian)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Musical" title="People/Content Creators/Flat Earth Musical" target="_blank" class="external-link">Flat Earth Musical</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Perth" title="People/Content Creators/Flat Earth Perth" target="_blank" class="external-link">Flat Earth Perth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Products" title="People/Content Creators/Flat Earth Products" target="_blank" class="external-link">Flat Earth Products</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FLAT_EARTH_REFLECTIONS" title="People/Content Creators/FLAT EARTH REFLECTIONS" target="_blank" class="external-link">FLAT EARTH REFLECTIONS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_Reset" title="People/Content Creators/Flat Earth Reset" target="_blank" class="external-link">Flat Earth Reset</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_SubGenius_Society" title="People/Content Creators/Flat Earth SubGenius Society" target="_blank" class="external-link">Flat Earth SubGenius Society</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Max_UK" title="People/Content Creators/Flat Max UK" target="_blank" class="external-link">Flat Max UK</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Earth_To_Hyperborea" title="People/Content Creators/Flat Earth To Hyperborea" target="_blank" class="external-link">Flat Earth To Hyperborea</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatFingers" title="People/Content Creators/FlatFingers" target="_blank" class="external-link">Flat Fingers</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FLATOUTTRUTH" title="People/Content Creators/FLATOUTTRUTH" target="_blank" class="external-link">FLAT OUT TRUTH</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_Sabbath" title="People/Content Creators/Flat Sabbath" target="_blank" class="external-link">Flat Sabbath</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatStuffEarth" title="People/Content Creators/FlatStuffEarth" target="_blank" class="external-link">Flat Stuff Earth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatWaterFE" title="People/Content Creators/FlatWaterFE" target="_blank" class="external-link">Flat Water FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat_works" title="People/Content Creators/Flat works" target="_blank" class="external-link">Flat works</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flat-Earth-Odysee" title="People/Content Creators/Flat-Earth-Odysee" target="_blank" class="external-link">Flat-Earth-Odysee</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flatearthoutlaw" title="People/Content Creators/Flatearthoutlaw" target="_blank" class="external-link">flatearthoutlaw</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatHeadPolitics" title="People/Content Creators/FlatHeadPolitics" target="_blank" class="external-link">FlatHeadPolitics</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flatline_-_Globe_is_dead" title="People/Content Creators/Flatline - Globe is dead" target="_blank" class="external-link">Flatline - Globe is dead</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatManB" title="People/Content Creators/FlatManB" target="_blank" class="external-link">FlatManB</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatRocky" title="People/Content Creators/FlatRocky" target="_blank" class="external-link">FlatRocky</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FlatSmackers_Playlists" title="People/Content Creators/FlatSmackers Playlists" target="_blank" class="external-link">FlatSmackers Playlists</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FLATTER_DAY_SAINTS" title="People/Content Creators/FLATTER DAY SAINTS" target="_blank" class="external-link">FLATTER DAY SAINTS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flattio_Official" title="People/Content Creators/Flattio Official" target="_blank" class="external-link">Flattio Official</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Flatzoid" title="People/Content Creators/Flatzoid" target="_blank" class="external-link">Flatzoid</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FEB" title="People/Content Creators/FEB" target="_blank" class="external-link">Founded Earth Brothers / FEB / Josh</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FPV_Angel" title="People/Content Creators/FPV Angel" target="_blank" class="external-link">FPV Angel</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Frankyouknow" title="People/Content Creators/Frankyouknow" target="_blank" class="external-link">Frankyouknow</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/FractalWoman" title="People/Content Creators/FractalWoman" target="_blank" class="external-link">FractalWoman</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Friend_of_Yahweh" title="People/Content Creators/Friend of Yahweh" target="_blank" class="external-link">Friend of Yahweh</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/GBClips" title="People/Content Creators/GBClips" target="_blank" class="external-link">GB Clips</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Gibson225" title="People/Content Creators/Gibson225" target="_blank" class="external-link">Gibson225</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Globe_Skeptic" title="People/Content Creators/Globe Skeptic" target="_blank" class="external-link">Globe Skeptic</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/GLOBEBUSTERS" title="People/Content Creators/GLOBEBUSTERS" target="_blank" class="external-link">GLOBEBUSTERS / Globebusters 24x7</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/GlobeHoax" title="People/Content Creators/GlobeHoax" target="_blank" class="external-link">GlobeHoax</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Gods_Flat_Earth" title="People/Content Creators/Gods Flat Earth" target="_blank" class="external-link">God's Flat Earth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Gudtims4all" title="People/Content Creators/Gudtims4all" target="_blank" class="external-link">GudTims4All / Zachary Zabala</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/HelioSkeptic" title="People/Content Creators/HelioSkeptic" target="_blank" class="external-link">HelioSkeptic</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Hibbeler_Productions" title="People/Content Creators/Hibbeler Productions" target="_blank" class="external-link">Hibbeler Productions</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Hitching_4_Truth" title="People/Content Creators/Hitching 4 Truth" target="_blank" class="external-link">Hitching 4 Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Holy_Gram" title="People/Content Creators/Holy Gram" target="_blank" class="external-link">Holy Gram</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Immortalsouls" title="People/Content Creators/Immortalsouls" target="_blank" class="external-link">Immortalsouls</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Immune2BS" title="People/Content Creators/Immune2BS" target="_blank" class="external-link">Immune2BS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Indio007" title="People/Content Creators/Indio007" target="_blank" class="external-link">indio007</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/IronHorse" title="People/Content Creators/IronHorse" target="_blank" class="external-link">Iron Horse</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/IronRealmMedia" title="People/Content Creators/IronRealmMedia" target="_blank" class="external-link">Iron Realm Media</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ironwork92000" title="People/Content Creators/ironwork92000" target="_blank" class="external-link">ironwork92000</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Is_the_Bible_from_Heaven_Is_the_Earth_a_Globe" title="People/Content Creators/Is the Bible from Heaven Is the Earth a Globe" target="_blank" class="external-link">Is the Bible from Heaven? Is the Earth a Globe?</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Italian_P%26C" title="People/Content Creators/Italian P&amp;C" target="_blank" class="external-link">Italian P&amp;C</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/iondonut" title="People/Content Creators/iondonut" target="_blank" class="external-link">iondonut</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Its_Flat_Man" title="People/Content Creators/Its Flat Man" target="_blank" class="external-link">It's Flat Man</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/insideISS" title="People/Content Creators/insideISS" target="_blank" class="external-link">insideISS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/I-Rabbi-T" title="People/Content Creators/I-Rabbi-T" target="_blank" class="external-link">I-Rabbi-T</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Isa_Mahalski" title="People/Content Creators/Isa Mahalski" target="_blank" class="external-link">Isa Mahalski</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Jake_The_Asshole" title="People/Content Creators/Jake The Asshole" target="_blank" class="external-link">Jake The Asshole</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Jeranism" title="People/Content Creators/Jeranism" target="_blank" class="external-link">Jeranism / Jeran Campanella</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/JesusFreak_ComputerGeek" title="People/Content Creators/JesusFreak ComputerGeek" target="_blank" class="external-link">JesusFreak ComputerGeek</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Josh_Corey" title="People/Content Creators/Josh Corey" target="_blank" class="external-link">Josh Corey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/John_Savage" title="People/Content Creators/John Savage" target="_blank" class="external-link">John Savage</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/John_Thor" title="People/Content Creators/John Thor" target="_blank" class="external-link">John Thor</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Joseph_Green" title="People/Content Creators/Joseph Green" target="_blank" class="external-link">Joseph Green</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/JoshMondayMusic_and_Podcast" title="People/Content Creators/JoshMondayMusic and Podcast" target="_blank" class="external-link">JoshMondayMusic and Podcast</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/JTolan_Media1" title="People/Content Creators/JTolan Media1" target="_blank" class="external-link">JTolan Media1</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/JJ_Hempcrete_Bear" title="People/Content Creators/JJ Hempcrete Bear" target="_blank" class="external-link">JJ Hempcrete Bear</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Justin_Johnson" title="People/Content Creators/Justin Johnson" target="_blank" class="external-link">Justin Johnson</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/JayDreamerZ" title="People/Content Creators/JayDreamerZ" target="_blank" class="external-link">JayDreamerZ</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Joseph_Hanvey" title="People/Content Creators/Joseph Hanvey" target="_blank" class="external-link">Joseph Hanvey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Kalebfe" title="People/Content Creators/Kalebfe" target="_blank" class="external-link">Kaleb FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/KarenB" title="People/Content Creators/KarenB" target="_blank" class="external-link">Karen B / Unveiling This Realm</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Karl_Storey" title="People/Content Creators/Karl Storey" target="_blank" class="external-link">Karl Storey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Kingdom_In_Context" title="People/Content Creators/Kingdom In Context" target="_blank" class="external-link">Kingdom In Context</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/KINGJTRUTH" title="People/Content Creators/KINGJTRUTH" target="_blank" class="external-link">KINGJTRUTH</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/KyleAdams" title="People/Content Creators/KyleAdams" target="_blank" class="external-link">Kyle Adams / Abolish NASA</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Kcdindustry" title="People/Content Creators/Kcdindustry" target="_blank" class="external-link">Kcdindustry / Kaleb FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/KBN_Television" title="People/KBN Television" target="_blank" class="external-link">KBN Television</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Laura_Nina" title="People/Content Creators/Laura Nina" target="_blank" class="external-link">Laura Nina</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Law_Of_The_Luminaries" title="People/Content Creators/Law Of The Luminaries" target="_blank" class="external-link">Law Of The Luminaries / The Breakdown 1718 / Nichole</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Levelheaded" title="People/Content Creators/Levelheaded" target="_blank" class="external-link">Levelheaded William &amp; Natalie</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Level_Earth_Berk" title="People/Content Creators/Level Earth Berk" target="_blank" class="external-link">Level Earth Berk</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Level_Headed" title="People/Content Creators/Level Headed" target="_blank" class="external-link">Level Headed</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Level_Earth_Observer" title="People/Content Creators/Level Earth Observer" target="_blank" class="external-link">Level Earth Observer</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/LevelPlaneProductions" title="People/Content Creators/LevelPlaneProductions" target="_blank" class="external-link">LevelPlaneProductions</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Levkungfu_Shaolin" title="People/Content Creators/Levkungfu Shaolin" target="_blank" class="external-link">Levkungfu Shaolin</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Life_hacks" title="People/Content Creators/Life hacks" target="_blank" class="external-link">Life hacks</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Lucky_Haskins" title="People/Content Creators/Lucky Haskins" target="_blank" class="external-link">Lucky Haskins</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/LOGICAL_OBSERVATIONS" title="People/Content Creators/LOGICAL OBSERVATIONS" target="_blank" class="external-link">LOGICAL OBSERVATIONS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/luogocomune2" title="People/Content Creators/luogocomune2" target="_blank" class="external-link">luogocomune2</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Levelheaded_Music" title="People/Content Creators/Levelheaded Music" target="_blank" class="external-link">Levelheaded Music</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/LCKing" title="People/Content Creators/LCKing" target="_blank" class="external-link">LCKing</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Martin_Liedtke" title="People/Content Creators/Martin Liedtke" target="_blank" class="external-link">Martin Liedtke</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MarkSargent" title="People/Content Creators/MarkSargent" target="_blank" class="external-link">Mark Sargent</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Marilyn_Spirit_Level" title="People/Content Creators/Marilyn Spirit Level" target="_blank" class="external-link">Marilyn Spirit Level</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Man_Of_Stone" title="People/Content Creators/Man Of Stone" target="_blank" class="external-link">Man of Stone</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mathieus_The_Walking_Witness" title="People/Content Creators/Mathieus The Walking Witness" target="_blank" class="external-link">Mathieus The Walking Witness</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Matt_Long" title="People/Content Creators/Matt Long" target="_blank" class="external-link">Matt Long</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Matt_H_-_FE" title="People/Content Creators/Matt H - FE" target="_blank" class="external-link">Matt H - FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Matthew_Hakim" title="People/Content Creators/Matthew Hakim" target="_blank" class="external-link">Matthew Hakim</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mayhem100" title="People/Content Creators/Mayhem100" target="_blank" class="external-link">Mayhem100</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/mcscorpio1" title="People/Content Creators/mcscorpio1" target="_blank" class="external-link">mcscorpio1</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mellowdome" title="People/Content Creators/Mellowdome" target="_blank" class="external-link">MellowDome / Austin Thompson</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mr._Anderson" title="People/Content Creators/Mr. Anderson" target="_blank" class="external-link">Mr. Anderson</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MrAstrotheology" title="People/Content Creators/MrAstrotheology" target="_blank" class="external-link">Mr. Astrotheology / Santos</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mr_Cheswick" title="People/Content Creators/Mr Cheswick" target="_blank" class="external-link">Mr Cheswick</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Michael_Khan" title="People/Content Creators/Michael Khan" target="_blank" class="external-link">Michael Khan</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/mitchell_fromAustralia" title="People/Content Creators/mitchell fromAustralia" target="_blank" class="external-link">mitchell fromAustralia</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mikescribner369" title="People/Content Creators/Mikescribner369" target="_blank" class="external-link">Mikescribner369</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Mikey_Smith" title="People/Content Creators/Mikey Smith" target="_blank" class="external-link">Mikey Smith / Horizontally Appozed</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MIG_MAG" title="People/Content Creators/MIG MAG" target="_blank" class="external-link">MIG MAG</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Moonfakery" title="People/Content Creators/Moonfakery" target="_blank" class="external-link">moonfakery (Russian)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MY_CORONA_BOLOGNA_PERSONA" title="People/Content Creators/MY CORONA BOLOGNA PERSONA" target="_blank" class="external-link">MY CORONA BOLOGNA PERSONA</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MrSimulation" title="People/Content Creators/MrSimulation" target="_blank" class="external-link">MrSimulation</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/MindShock" title="People/Content Creators/MindShock" target="_blank" class="external-link">MindShock / Bruce Maguire</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/NathanOakley1980" title="People/Content Creators/NathanOakley1980" target="_blank" class="external-link">NathanOakley1980</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Nee_B" title="People/Content Creators/Nee B" target="_blank" class="external-link">Nee B</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/neo_HUMAN_eve" title="People/Content Creators/neo HUMAN eve" target="_blank" class="external-link">neo HUMAN eve</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Neptune99" title="People/Content Creators/Neptune99" target="_blank" class="external-link">neptune99</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/New_Perspective" title="People/Content Creators/New Perspective" target="_blank" class="external-link">New Perspective</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Nicole_Cot%C3%A9" title="People/Content Creators/Nicole Coté" target="_blank" class="external-link">Nicole Coté</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/noDonK_Records" title="People/Content Creators/noDonK Records" target="_blank" class="external-link">noDonK Records Production</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Nur_for_All" title="People/Content Creators/Nur for All" target="_blank" class="external-link">Nur for All / Iru</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Nur_Para_Todos" title="People/Content Creators/Nur Para Todos" target="_blank" class="external-link">Nur Para Todos / Iru (español)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/NutHouseVideo" title="People/Content Creators/NutHouseVideo" target="_blank" class="external-link">NutHouseVideo</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/NDB" title="People/Content Creators/NDB" target="_blank" class="external-link">NDB</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/NZ_Flat_Earth_Woman" title="People/Content Creators/NZ Flat Earth Woman" target="_blank" class="external-link">NZ Flat Earth Woman</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Observable_Reality" title="People/Content Creators/Observable Reality" target="_blank" class="external-link">Observable Reality</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ODDTV" title="People/Content Creators/ODDTV" target="_blank" class="external-link">ODD TV</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/One_Raven" title="People/Content Creators/One Raven" target="_blank" class="external-link">One Raven</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Organic_Flat_Earth_Prepper" title="People/Content Creators/Organic Flat Earth Prepper" target="_blank" class="external-link">Organic Flat Earth Prepper</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Pablosdog" title="People/Content Creators/Pablosdog" target="_blank" class="external-link">Pablosdog</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Pascalore" title="People/Content Creators/Pascalore" target="_blank" class="external-link">Pascalore</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Paul_On_The_Plane_FE" title="People/Content Creators/Paul On The Plane FE" target="_blank" class="external-link">Paul On The Plane FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/PBrane" title="People/Content Creators/PBrane" target="_blank" class="external-link">p-brane</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Phuket_Word" title="People/Content Creators/Phuket Word" target="_blank" class="external-link">Phuket Word</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/PitchLumin" title="People/Content Creators/PitchLumin" target="_blank" class="external-link">Pitch Lumin</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/PLANATE_VERITAS" title="People/Content Creators/PLANATE VERITAS" target="_blank" class="external-link">PLANATE VERITAS</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ProudFlerf" title="People/Content Creators/ProudFlerf" target="_blank" class="external-link">PʀᴏᴜᴅFʟᴇʀғ 𓁿</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Perceptions_Talk_Radio" title="People/Content Creators/Perceptions Talk Radio" target="_blank" class="external-link">Perceptions Talk Radio</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/pierre@raqiya" title="People/Content Creators/pierre@raqiya" target="_blank" class="external-link">pierre@raqiya</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Paint_Rosy_Lips" title="People/Content Creators/Paint Rosy Lips" target="_blank" class="external-link">Paint Rosy Lips</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/platobel" title="People/Content Creators/platobel" target="_blank" class="external-link">platobel</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/P1000_Coolpix" title="People/Content Creators/P1000 Coolpix" target="_blank" class="external-link">P1000 Coolpix / P900 Coolpics</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Protector_of_the_Realm" title="People/Content Creators/Protector of the Realm" target="_blank" class="external-link">Protector of the Realm</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Plane_Ranger" title="People/Content Creators/Plane Ranger" target="_blank" class="external-link">Plane Ranger</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Planet_Plane" title="People/Content Creators/Planet Plane" target="_blank" class="external-link">Planet Plane</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Peter_%26_Pete" title="People/Content Creators/Peter &amp; Pete" target="_blank" class="external-link">Peter &amp; Pete</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/PJ_Cruickshank" title="People/Content Creators/PJ Cruickshank" target="_blank" class="external-link">PJ Cruickshank</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/PLANE_PERMACULTURE" title="People/Content Creators/PLANE PERMACULTURE" target="_blank" class="external-link">PLANE PERMACULTURE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/QuestionTheAnswers" title="People/Content Creators/QuestionTheAnswers" target="_blank" class="external-link">Question The Answers</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Quantum_Eraser" title="People/Content Creators/Quantum Eraser" target="_blank" class="external-link">Quantum Eraser / The Globe Terminator / John</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/QNFee" title="People/Content Creators/QNFee" target="_blank" class="external-link">QNFee</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/RAQIALIFE" title="People/Content Creators/RAQIALIFE" target="_blank" class="external-link">RAQIA LIFE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rayleigh_Criterion" title="People/Content Creators/Rayleigh Criterion" target="_blank" class="external-link">Rayleigh Criterion</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Reality_Uncensored" title="People/Content Creators/Reality Uncensored" target="_blank" class="external-link">Reality Uncensored</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Real_World" title="People/Content Creators/Real World" target="_blank" class="external-link">Real World</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Red_at_Peace" title="People/Content Creators/Red at Peace" target="_blank" class="external-link">Red_at Peace</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rob_Skiba" title="People/Content Creators/Rob Skiba" target="_blank" class="external-link">Rob Skiba</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Ron_H" title="People/Content Creators/Ron H" target="_blank" class="external-link">Ron H</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/rockets_push_off_air" title="People/Content Creators/rockets push off air" target="_blank" class="external-link">rockets push off air</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rose777" title="People/Content Creators/Rose777" target="_blank" class="external-link">Rose777</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/RunBostonBear" title="People/Content Creators/RunBostonBear" target="_blank" class="external-link">RunBostonBear / RunBostonJT</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Robot_Polisher" title="People/Content Creators/Robot Polisher" target="_blank" class="external-link">Robot Polisher</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Reds_Rhetarded" title="People/Content Creators/Reds Rhetarded" target="_blank" class="external-link">Reds Rhetarded</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rob_Durham" title="People/Content Creators/Rob Durham" target="_blank" class="external-link">Rob Durham</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/RealmWalker" title="People/Content Creators/RealmWalker" target="_blank" class="external-link">RealmWalker</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rich_Hopkins" title="People/Content Creators/Rich Hopkins" target="_blank" class="external-link">Rich Hopkins</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Rich_Tidwell" title="People/Content Creators/Rich Tidwell" target="_blank" class="external-link">Rich Tidwell</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Saltlake_Stacey" title="People/Content Creators/Saltlake Stacey" target="_blank" class="external-link">Saltlake Stacey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Shane_St._Pierre" title="People/Content Creators/Shane St. Pierre" target="_blank" class="external-link">Shane St. Pierre / Anti-Disinformation League</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Shank_the_globe!" title="People/Content Creators/Shank the globe!" target="_blank" class="external-link">Shank the globe!</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Salem_Saberhagen" title="People/Content Creators/Salem Saberhagen" target="_blank" class="external-link">Salem Saberhagen</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Shimshon" title="People/Content Creators/Shimshon" target="_blank" class="external-link">Shimshon</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/SovsPlace" title="People/Content Creators/SovsPlace" target="_blank" class="external-link">Sovereign Soul Unchained Mind / David</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/SpaceAudits" title="People/Content Creators/SpaceAudits" target="_blank" class="external-link">Space Audits / Alan</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Spake_Face" title="People/Content Creators/Spake Face" target="_blank" class="external-link">Spake Face</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Space_Fool" title="People/Content Creators/Space Fool" target="_blank" class="external-link">Space Fool</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Speaking_The_Truth_in_all_the_Realm" title="People/Content Creators/Speaking The Truth in all the Realm" target="_blank" class="external-link">Speaking The Truth in all the Realm</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/StacyB" title="People/Content Creators/StacyB" target="_blank" class="external-link">StacyB 💙</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Stationary_Plane" title="People/Content Creators/Stationary Plane" target="_blank" class="external-link">Stationary Plane</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Steve" title="People/Content Creators/Steve" target="_blank" class="external-link">Steve</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/steve_h_v" title="People/Content Creators/steve h v" target="_blank" class="external-link">steve h v</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Stellium7" title="People/Content Creators/Stellium7" target="_blank" class="external-link">Stellium7</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/StinkyCASH" title="People/Content Creators/StinkyCASH" target="_blank" class="external-link">StinkyCASH</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/scrawny2brawny" title="People/Content Creators/scrawny2brawny" target="_blank" class="external-link">scrawny2brawny</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/SouthBound" title="People/Content Creators/SouthBound" target="_blank" class="external-link">SouthBound</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Sky_Free" title="People/Content Creators/Sky Free" target="_blank" class="external-link">Sky Free</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/StationaryEarth" title="People/Content Creators/StationaryEarth" target="_blank" class="external-link">StationaryEarth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TabooConspiracy" title="People/Content Creators/TabooConspiracy" target="_blank" class="external-link">Taboo Conspiracy</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TEACHEROFTRUTH" title="People/Content Creators/TEACHEROFTRUTH" target="_blank" class="external-link">TEACHEROFTRUTH</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Terra_Plana_Reloaded" title="People/Content Creators/Terra Plana Reloaded" target="_blank" class="external-link">Terra Plana Reloaded (português)</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Thats_Life_But_Not_As_We_Know_It" title="People/Content Creators/Thats Life But Not As We Know It" target="_blank" class="external-link">Thats Life But Not As We Know It</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ThePottersClay" title="People/Content Creators/ThePottersClay" target="_blank" class="external-link">ThePottersClay</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheEarthIsStillFlat" title="People/Content Creators/TheEarthIsStillFlat" target="_blank" class="external-link">TheEarthIsStillFlat</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Flat_Earther" title="People/Content Creators/The Flat Earther" target="_blank" class="external-link">THE FLAT EARTHER</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Missing_Link" title="People/Content Creators/The Missing Link" target="_blank" class="external-link">The Missing Link</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheFullArmor_OG" title="People/Content Creators/TheFullArmor OG" target="_blank" class="external-link">TheFullArmor OG</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheLightIsOn" title="People/Content Creators/TheLightIsOn" target="_blank" class="external-link">THE LIGHT IS ON</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/They_Live_Truth" title="People/Content Creators/They Live Truth" target="_blank" class="external-link">They Live Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Tozzauk_Jamming_Mic" title="People/Content Creators/Tozzauk Jamming Mic" target="_blank" class="external-link">Tozzauk Jamming Mic</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheSeattlegreen" title="People/Content Creators/TheSeattlegreen" target="_blank" class="external-link">TheSeattlegreen</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Bloody_Truth" title="People/Content Creators/The Bloody Truth" target="_blank" class="external-link">The Bloody Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheBuzzdev" title="People/Content Creators/TheBuzzdev" target="_blank" class="external-link">TheBuzzdev</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Flat_Earth" title="People/Content Creators/The Flat Earth" target="_blank" class="external-link">The Flat Earth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Missing_Research" title="People/Content Creators/The Missing Research" target="_blank" class="external-link">The Missing Research</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Other_Side_Of_Nine" title="People/Content Creators/The Other Side Of Nine" target="_blank" class="external-link">The Other Side Of Nine</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheMorgile" title="People/Content Creators/TheMorgile" target="_blank" class="external-link">The Morgile</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Warner" title="People/Content Creators/The Warner" target="_blank" class="external-link">The Warner</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Timo" title="People/Content Creators/Timo" target="_blank" class="external-link">Timo</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Toby_Walker" title="People/Content Creators/Toby Walker" target="_blank" class="external-link">Toby Walker</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TombOfEllumination" title="People/Content Creators/TombOfEllumination" target="_blank" class="external-link">Tomb of El-Lumination</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TommyTellTheTruth" title="People/Content Creators/TommyTellTheTruth" target="_blank" class="external-link">Tommy TellTheTruth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TroublingTribune" title="People/Content Creators/TroublingTribune" target="_blank" class="external-link">Troubling Tribune / Skylar and Mrs. Tribune</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Tru%E2%80%A2Earth_Tru%E2%80%A2Man_Media_Co." title="People/Content Creators/Tru•Earth Tru•Man Media Co." target="_blank" class="external-link">Tru•Earth Tru•Man Media Co.</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TrueEarthEntertainment" title="People/Content Creators/TrueEarthEntertainment" target="_blank" class="external-link">True Earth Entertainment / Chris</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Truth_In_Plain_Sight" title="People/Content Creators/Truth In Plain Sight" target="_blank" class="external-link">Truth In Plain Sight / Vikka Draziv</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Truthers_Hour_of_Comedy" title="People/Content Creators/Truthers Hour of Comedy" target="_blank" class="external-link">Truther's Hour of Comedy / THC</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TruthRevolution101" title="People/Content Creators/TruthRevolution101" target="_blank" class="external-link">TruthRevolution101</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Truthseeker" title="People/Content Creators/Truthseeker" target="_blank" class="external-link">Truthseeker / Truthseeker2</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TerryPress" title="People/Content Creators/TerryPress" target="_blank" class="external-link">TerryPress</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Flat_Truth" title="People/Content Creators/The Flat Truth" target="_blank" class="external-link">The_Flat_Truth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Taking_Back_Eden_-_FE" title="People/Content Creators/Taking Back Eden - FE" target="_blank" class="external-link">Taking Back Eden - FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Truth_Sets_You_Free" title="People/Content Creators/Truth Sets You Free" target="_blank" class="external-link">Truth Sets You Free! / Mediocremonday.com</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/True_Earth_Whisperer" title="People/Content Creators/True Earth Whisperer" target="_blank" class="external-link">True Earth Whisperer</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Truths_In_Plain_Sight" title="People/Content Creators/Truths In Plain Sight" target="_blank" class="external-link">Truths In Plain Sight</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/That_Flat_Fellow" title="People/Content Creators/That Flat Fellow" target="_blank" class="external-link">That Flat Fellow</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TheAdamMeakin" title="People/Content Creators/TheAdamMeakin" target="_blank" class="external-link">TheAdamMeakin</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/TRINITY_4" title="People/Content Creators/TRINITY 4" target="_blank" class="external-link">TRINITY 4</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Reckoner" title="People/Content Creators/The Reckoner" target="_blank" class="external-link">The Reckoner / Lowry</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Tyler432" title="People/Content Creators/Tyler432" target="_blank" class="external-link">Tyler432</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Tyler_Woodz" title="People/Content Creators/Tyler Woodz" target="_blank" class="external-link">Tyler Woodz</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/tellmewhatyoulove%27s_back" title="People/Content Creators/tellmewhatyoulove's back" target="_blank" class="external-link">tellmewhatyoulove's back</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/The_Unexpected_Cosmology" title="People/Content Creators/The Unexpected Cosmology" target="_blank" class="external-link">The Unexpected Cosmology</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/%C3%9CberCaste" title="People/Content Creators/ÜberCaste" target="_blank" class="external-link">The ÜberCaste / Travis Finley</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Unbind_Your_Mind" title="People/Content Creators/Unbind Your Mind" target="_blank" class="external-link">Unbind Your Mind</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Under_No_Pressure" title="People/Content Creators/Under No Pressure" target="_blank" class="external-link">Under No Pressure</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Vikka_Draziv" title="People/Content Creators/Vikka Draziv" target="_blank" class="external-link">Vikka Draziv / themechanicalrealm.com</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Vibes_of_Cosmos" title="People/Content Creators/Vibes of Cosmos" target="_blank" class="external-link">Vibes of Cosmos</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Vlad_on_Zero_Degrees" title="People/Content Creators/Vlad on Zero Degrees" target="_blank" class="external-link">Vlad on Zero Degrees</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Vortexpuppy" title="People/Content Creators/Vortexpuppy" target="_blank" class="external-link">Vortexpuppy</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Wakeuporelse" title="People/Content Creators/Wakeuporelse" target="_blank" class="external-link">Wakeuporelse PMA</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/WaterWorld" title="People/Content Creators/WaterWorld" target="_blank" class="external-link">Water World / Jim @robertmcneil419 / True Earth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/We_Are_Change_Orlando" title="People/Content Creators/We Are Change Orlando" target="_blank" class="external-link">We Are Change Orlando / Justin Harvey</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/WesBlazeMuziK" title="People/Content Creators/WesBlazeMuziK" target="_blank" class="external-link">WesBlazeMuziK</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Wes_FE" title="People/Content Creators/Wes FE" target="_blank" class="external-link">Wes FE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Whiskey,_Beer_and_Conspiracies_Podcast" title="People/Content Creators/Whiskey, Beer and Conspiracies Podcast" target="_blank" class="external-link">Whiskey, Beer and Conspiracies Podcast</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/WitsitGetsIt" title="People/Content Creators/WitsitGetsIt" target="_blank" class="external-link">Witsit Gets It / Austin Whitsitt</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/WHOLE_istic_Media" title="People/Content Creators/WHOLE istic Media" target="_blank" class="external-link">WHOLE_istic Media</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/waykiwayki" title="People/Content Creators/waykiwayki" target="_blank" class="external-link">waykiwayki</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/World_Without_Curve" title="People/Content Creators/World Without Curve" target="_blank" class="external-link">World Without Curve</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/You_Know_I%E2%80%99m_A_Dreamer" title="People/Content Creators/You Know I’m A Dreamer" target="_blank" class="external-link">You Know I’m A Dreamer</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Zeteticism_DotCom" title="People/Content Creators/Zeteticism DotCom" target="_blank" class="external-link">Zeteticism DotCom / Jail THEOLOGY / Jeff Grupp</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/Zetetic_Warrior" title="People/Content Creators/Zetetic Warrior" target="_blank" class="external-link">Zetetic Warrior</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/zeTETic_Truth_Tube" title="People/Content Creators/zeTETic Truth Tube" target="_blank" class="external-link">zeTETic Truth Tube</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/ZULUONE" title="People/Content Creators/ZULUONE" target="_blank" class="external-link">ZULUONE</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/24/7_Flat_Earth" title="People/Content Creators/24/7 Flat Earth" target="_blank" class="external-link">24/7 Flat Earth</a></td>
+</tr>
+<tr>
+<td><a href="https://trueearth.wikitide.org/wiki/People/Content_Creators/432_The_Drop_Radio" title="People/Content Creators/432 The Drop Radio" target="_blank" class="external-link">432 The Drop Radio</a></td>
+</tr>
+</tbody>
+</table></div>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<script>async function fetchGraphData(){const e=await fetch("/graph.json").then((e=>e.json()));return{graphData:e,fullGraphData:filterFullGraphData(e)}}function getNextLevelNeighbours(e,t){const n=Object.values(e).map((e=>e.neighbors)).flat();return Object.keys(t).reduce(((r,l)=>(-1!=n.indexOf(l)?t[l].hide||(e[l]=t[l]):r[l]=t[l],r)),{})}function filterLocalGraphData(e,t){if(null==e)return null;let n=JSON.parse(JSON.stringify(e.nodes)),r=JSON.parse(JSON.stringify(e.links)),l=n[decodeURI(window.location.pathname)]||Object.values(n).find((e=>e.home));if(delete n[l.url],!l.home){delete n[Object.values(n).find((e=>e.home)).url]}l.current=!0;let i={};i[l.url]=l;for(let e=0;e<t;e++)n=getNextLevelNeighbours(i,n);nodes=Object.values(i),l.home||(nodes=nodes.filter((e=>!e.home)));let o=nodes.map((e=>e.id));return{nodes:nodes,links:r.filter((function(e){return o.indexOf(e.target)>-1&&o.indexOf(e.source)>-1}))}}function getCssVar(e){return getComputedStyle(document.body).getPropertyValue(e)}function htmlDecode(e){return(new DOMParser).parseFromString(e,"text/html").documentElement.textContent}function renderGraph(e,t,n,r){if(null==e)return;const l=document.getElementById(t);if(l&&"undefined"!=typeof ForceGraph&&(width=l.offsetWidth,height=l.offsetHeight,0!==width&&0!==height))try{const t=new Set;let i=null;const o=getCssVar("--graph-main"),a=getCssVar("--graph-muted");let u=ForceGraph()(l).graphData(e).nodeId("id").nodeLabel("title").linkSource("source").linkTarget("target").d3AlphaDecay(.1).width(width).height(height).linkDirectionalArrowLength(2).linkDirectionalArrowRelPos(.5).autoPauseRedraw(!1).linkColor((e=>null==i||e.source.id==i.id||e.target.id==i.id?o:a)).nodeCanvasObject(((e,n)=>{const r=e.neighbors&&e.neighbors.length||2,l=Math.min(7,Math.max(r/2,2));n.beginPath(),n.arc(e.x,e.y,l,0,2*Math.PI,!1),null==i||e==i||t.has(e.url)?n.fillStyle=o:n.fillStyle=a,n.fill(),e.current&&(n.beginPath(),n.arc(e.x,e.y,l+1,0,2*Math.PI,!1),n.lineWidth=.5,n.strokeStyle=o,n.stroke());const u=htmlDecode(e.title);n.font="3.5px Sans-Serif",n.textAlign="center",n.textBaseline="top",n.fillText(u,e.x,e.y+l+2)})).onNodeClick((e=>{window.location=e.url})).onNodeHover((e=>{t.clear(),e&&(t.add(e),e.neighbors.forEach((e=>t.add(e)))),i=e||null}));return(r||null!=n&&e.nodes.length>4)&&setTimeout((()=>{u.zoomToFit(5,75)}),n||200),u}catch(e){return void console.warn("Graph rendering failed:",e)}}function renderLocalGraph(e,t,n){if(null==e)return;window.graph&&window.graph._destructor();return renderGraph(filterLocalGraphData(e,t),"link-graph",null,n)}function filterFullGraphData(e){if(null==e)return null;e=JSON.parse(JSON.stringify(e));const t=Object.values(e.nodes).filter((e=>e.hide)).map((e=>e.id));return{links:JSON.parse(JSON.stringify(e.links)).filter((e=>-1==t.indexOf(e.source)&&-1==t.indexOf(e.target))),nodes:[...Object.values(e.nodes).filter((e=>!e.hide))]}}function openFullGraph(e){return lucide.createIcons({attrs:{class:["svg-icon"]}}),renderGraph(e,"full-graph-container",200,!1)}function closefullGraph(e){return e&&e._destructor(),null}</script>
+<div x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+<div class="graph-title-container">
+<div class="graph-title">Connected Pages</div>
+<div id="graph-controls">
+<div class="depth-control">
+<label for="graph-depth">Depth</label>
+<div class="slider">
+<input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth">
+<datalist id="depthmarkers">
+<option value="1" label="1"></option>
+<option value="2" label="2"></option>
+<option value="3" label="3"></option>
+</datalist>
+</div>
+<span id="depth-display" x-text="depth"></span>
+</div>
+<div class="ctrl-right">
+<span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i data-lucide="globe" aria-hidden="true"></i></span>
+<span id="graph-fs-btn" x-on:click="fullScreen = !fullScreen"><i data-lucide="expand" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+<div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
+<div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
+<span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="yyyy-MM-dd,  hh:mm",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+</body>
+</html>

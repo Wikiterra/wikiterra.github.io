@@ -1,0 +1,1010 @@
+<!doctype html>
+<html lang="es">
+<head>
+<title>nasa</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("data-lucide",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script defer="defer" src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.8bcab37d.css" rel="stylesheet">
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section css-settings-manager theme-dark mod-linux is-frameless is-hidden-frameless obsidian-app show-ribbon show-view-header is-focused is-maximized css-settings-manager its-theme sidebar-float-bottom Heading list-default-bullet check-color check-bg pathfinder s-d">
+<div x-init="isDesktop = (window.innerWidth>=1000) ? true: false;" x-on:resize.window="isDesktop = (window.innerWidth>=1000) ? true : false;" x-data="{isDesktop: true, showFilesMobile: false}">
+<div x-show.important="!isDesktop" style="display:none">
+<nav class="navbar">
+<div class="navbar-inner">
+<span style="font-size:1.5rem;margin-right:10px" @click="showFilesMobile=!showFilesMobile"><i data-lucide="menu"></i></span>
+<a href="/" style="text-decoration:none;flex:1;display:flex;justify-content:center">
+<h1 style="margin:15px!important">WikiTerra</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+</nav>
+</div>
+<div x-show="showFilesMobile && !isDesktop" @click="showFilesMobile = false" style="display:none" class="fullpage-overlay"></div>
+<div class="filetree-wrapper" x-show.important="isDesktop || showFilesMobile" style="display:none">
+<nav class="filetree-sidebar">
+<a href="/" style="text-decoration:none;display:flex;justify-content:center">
+<h1 style="text-align:center">WikiTerra</h1>
+</a>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i data-lucide="search"></i>
+</span>
+<span class="search-text">Search</span>
+<span class="search-keys">Ctrl K</span>
+</div>
+<div class="folder" x-data="{isOpen: true}">
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">conceptos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;conceptos/mapas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">mapas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapa-mercator/">mapa-mercator </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/mapas/mapas/">mapas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/perspectiva/">perspectiva </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/superficies-datum-proyeccion/">superficies-datum-proyeccion </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/vacio/">vacio </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/conceptos/visibilidad/">visibilidad </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;cosmologia-culturas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmologia-culturas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/cosmologia-culturas/calendarios/">calendarios </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;EM&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">EM</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/historia-transmision-info/">historia-transmision-info </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/EM/modulacion-EM/">modulacion-EM </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;experimentos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">experimentos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/experimentos-astronomicos/">experimentos-astronomicos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/experimentos/medicion-alturas/">medicion-alturas </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;modelos-Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">modelos-Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/comparacion-modelos-Terra/">comparacion-modelos-Terra </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-esferico-incongruencias/">modelo-esferico-incongruencias </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelo-tierra-plana/">modelo-tierra-plana </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/modelos-Terra/modelos-Terra/">modelos-Terra </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;notas&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">notas</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/notas/bobina-del-demiurgo/">bobina-del-demiurgo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;poder-corrupto&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">poder-corrupto</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/google-earth/">google-earth </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/heliocentrismo-666/">heliocentrismo-666 </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/masoneria/">masoneria </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink active-note">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/poder-corrupto/nasa/">nasa </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">referencias</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;referencias/wikis&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikis</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/wikis/wikis-tp/">wikis-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/astrofotografos/">astrofotografos </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/canales-tp/">canales-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/cientificos-tp/">cientificos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/famosos-tp/">famosos-tp </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/referencias/referencias-tp/">referencias-tp </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">Terra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/atomsfera&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">atomsfera</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/atmosfera/">atmosfera </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/nubes/">nubes </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/atomsfera/rayo/">rayo </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cielo-astros&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cielo-astros</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-lunar/">analema-lunar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/analema-solar/">analema-solar </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/ciclos-cielo/">ciclos-cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/cielo/">cielo </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/domo-terrestre/">domo-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/estrellas/">estrellas </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna-fases/">luna-fases </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/luna/">luna </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/meteoro/">meteoro </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/polaris/">polaris </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/sol/">sol </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cielo-astros/star-trail/">star-trail </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/cosmos&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">cosmos</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/cosmos/capas-cosmos-dante/">capas-cosmos-dante </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/naturaleza&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">naturaleza</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/campo-magnetico-terrestre/">campo-magnetico-terrestre </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/flotabiliad/">flotabiliad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/gravedad/">gravedad </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/naturaleza/luz/">luz </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;Terra/tierra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">tierra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/grandes-llanuras/">grandes-llanuras </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/horizonte/">horizonte </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/Terra/tierra/tierra/">tierra </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div class="folder inner-folder" x-data="{isOpen: $persist(false).as(&quot;wikiterra&quot;)}" @click.stop="isOpen=!isOpen">
+<div class="foldername-wrapper align-icon">
+<i x-show="isOpen" style="display:none" data-lucide="chevron-down"></i>
+<i x-show="!isOpen" data-lucide="chevron-right"></i>
+<span class="foldername">wikiterra</span>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/about/">about </a>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="filelist">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/wikiterra/edicion/">edicion </a>
+</div>
+</div>
+</div>
+</div>
+<div x-show="isOpen" style="display:none" class="">
+<div @click.stop class="notelink">
+<a data-note-icon="" style="text-decoration:none" class="filename" href="/">index </a>
+</div>
+</div>
+</div>
+</nav>
+</div>
+</div>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box" onclick="event.stopPropagation()">
+<div class="search-header">
+<input type="search" id="term" placeholder="Start typing...">
+</div>
+<div class="search-layout no-preview" id="search-layout">
+<div class="search-results-panel" id="search-results"></div>
+<div class="search-preview-panel" id="search-preview">
+<div class="preview-placeholder">
+<i data-lucide="file-text"></i>
+<p>Select a result to preview</p>
+</div>
+<div class="preview-content" id="preview-content"></div>
+</div>
+</div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i data-lucide="arrow-up" aria-hidden="true"></i>
+<i data-lucide="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1);const previewCache=new Map;window.toggleSearch=function(){const e=document.getElementById("globalsearch");e.classList.contains("active")?e.classList.remove("active"):(e.classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){const t=e.textContent;t&&(document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <div style="display: flex; justify-content: center; padding: 40px;">\n        <svg width="40" height="40" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">\n            <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="1.5s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="1.5s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="1.5s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="6" stroke-opacity="0">\n                    <animate attributeName="r" begin="3s" dur="3s" values="6;22" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-opacity" begin="3s" dur="3s" values="1;0" calcMode="linear" repeatCount="indefinite" />\n                    <animate attributeName="stroke-width" begin="3s" dur="3s" values="2;0" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n                <circle cx="22" cy="22" r="8">\n                    <animate attributeName="r" begin="0s" dur="1.5s" values="6;1;2;3;4;5;6" calcMode="linear" repeatCount="indefinite" />\n                </circle>\n            </g>\n        </svg>\n    </div>';function debounce(e,t,n){var r;return function(){var i=this,s=arguments,a=n&&!r;clearTimeout(r),r=setTimeout((function(){r=null,n||e.apply(i,s)}),t),a&&e.apply(i,s)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘K"))}function tokenizeSearchTerms(e){const t=[],n=/"([^"]+)"|(\S+)/g;let r;for(;null!==(r=n.exec(e));){const e=(r[1]||r[2]).toLowerCase();e.length>1&&t.push(e)}return t.sort(((e,t)=>t.length-e.length))}function highlightTerms(e,t){if(!t||0===t.length||!e)return e;let n=e;return t.forEach((e=>{const t=e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&"),r=new RegExp(`(${t})`,"gi");n=n.replace(r,'<span class="search-highlight">$1</span>')})),n}function getContextualExcerpt(e,t,n=150){if(!e)return"";const r=e.replace(/<[^>]*>/g,"");if(!t||0===t.length)return truncateText(r,n);let i=r.length;if(t.forEach((e=>{const t=r.toLowerCase().indexOf(e.toLowerCase());-1!==t&&t<i&&(i=t)})),i===r.length)return truncateText(r,n);const s=Math.max(0,i-50),a=Math.min(r.length,s+n);let c=r.substring(s,a);return s>0&&(c="..."+c),a<r.length&&(c+="..."),c}function truncateText(e,t){return e?(e=e.replace(/<[^>]*>/g,"")).length<=t?e:e.substring(0,t-3)+"...":""}async function fetchPreviewContent(e){if(previewCache.has(e))return previewCache.get(e);try{const t=await fetch(e),n=await t.text(),r=new DOMParser,i=r.parseFromString(n,"text/html").querySelector(".content, .cm-s-obsidian, article, main"),s=i?i.innerHTML:"";return previewCache.set(e,s),s}catch(e){return console.error("Failed to fetch preview:",e),""}}function highlightTextNodes(e,t){if(!t||0===t.length)return;const n=document.createTreeWalker(e,NodeFilter.SHOW_TEXT,null,!1),r=[];for(;n.nextNode();)r.push(n.currentNode);r.forEach((e=>{const n=e.textContent;let r=!1;if(t.forEach((e=>{n.toLowerCase().includes(e.toLowerCase())&&(r=!0)})),r){const r=document.createElement("span");r.innerHTML=highlightTerms(n,t),e.parentNode.replaceChild(r,e)}}))}async function showPreview(e){const t=window.searchResults;if(!t||!t[e])return;const n=t[e],r=document.getElementById("search-preview"),i=document.getElementById("preview-content"),s=r.querySelector(".preview-placeholder");if(!r||!i)return;document.querySelectorAll(".searchresult").forEach((e=>e.classList.remove("active")));const a=document.querySelector(`.searchresult[data-index="${e}"]`);a&&a.classList.add("active"),i.innerHTML=loadingSvg,i.classList.add("has-content"),s.style.display="none";const c=await fetchPreviewContent(n.url),o=n.tags&&n.tags.length>0?`<div class="preview-tags">${n.tags.map((e=>`<a class="tag" href="javascript:void(0);" onclick="toggleTagSearch(this)">#${e}</a>`)).join("")}</div>`:"";i.innerHTML=`\n            <div class="preview-title">${highlightTerms(n.title,window.searchTerms)}</div>\n            ${o}\n            <div class="preview-body">${c}</div>\n        `;const l=i.querySelector(".preview-body");l&&window.searchTerms&&highlightTextNodes(l,window.searchTerms),window.currentPreviewIndex=e}function hidePreview(){const e=document.getElementById("search-preview"),t=document.getElementById("preview-content"),n=e?.querySelector(".preview-placeholder");n&&(n.style.display="flex"),t&&(t.classList.remove("has-content"),t.innerHTML=""),window.currentPreviewIndex=-1}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){const e=await fetch("/searchIndex.json?v=2026-02-13T00:54:45.339Z").then((e=>e.json())),t=createIndex(e);function n(e){const t=document.querySelectorAll(".searchresult");if(0===t.length)return;let n,r=-1;t.forEach(((e,t)=>{e.classList.contains("active")&&(r=t)})),-1===r?n=e>0?0:t.length-1:(n=r+e,n<0&&(n=t.length-1),n>=t.length&&(n=0)),t.forEach((e=>e.classList.remove("active"))),t[n].classList.add("active"),t[n].scrollIntoView({behavior:"smooth",block:"nearest"}),showPreview(parseInt(t[n].dataset.index))}window.docs=e,window.index=t,document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")&&("ArrowDown"===e.key&&(e.preventDefault(),n(1)),"ArrowUp"===e.key&&(e.preventDefault(),n(-1)),"Enter"===e.key)){e.preventDefault();const t=document.querySelector(".searchresult.active");if(t){const e=t.dataset.url;e&&(window.location.href=e)}}}));const r=debounce(search,200,!1);window.field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&"Enter"!==e.key&&r()})),window.resultsDiv=document.querySelector("#search-results");const i=new URL(location.href).searchParams;i.get("q")&&(field.setAttribute("value",i.get("q")),toggleSearch(),search())}async function search(){const e=field.value.trim(),t=document.getElementById("search-layout");if(!e)return resultsDiv.innerHTML="",hidePreview(),void(t&&t.classList.add("no-preview"));if(e===lastSearch)return;window.lastSearch=e,window.searchTerms=tokenizeSearchTerms(e),resultsDiv.innerHTML=loadingSvg,hidePreview();const n=offlineSearch(e);if(window.searchResults=n,!n.length)return t&&t.classList.add("no-preview"),void(resultsDiv.innerHTML=`\n                <div class="no-results">\n                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">\n                        <circle cx="11" cy="11" r="8"></circle>\n                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>\n                        <line x1="8" y1="11" x2="14" y2="11"></line>\n                    </svg>\n                    <p>No results for "${e}"</p>\n                </div>\n            `);t&&t.classList.remove("no-preview");let r="";n.forEach(((e,t)=>{const n=highlightTerms(getContextualExcerpt(e.content,window.searchTerms,120),window.searchTerms),i=highlightTerms(e.title,window.searchTerms),s=e.tags&&e.tags.length>0?`<div class="result-tags">${e.tags.map((e=>`<span class="tag">#${e}</span>`)).join("")}</div>`:"";r+=`\n                <div class="searchresult${0===t?" active":""}"\n                     data-index="${t}"\n                     data-url="${e.url}"\n                     onmouseenter="showPreview(${t})"\n                     onclick="window.location.href='${e.url}'">\n                    <span class="result-title">${i}</span>\n                    ${s}\n                    <div class="result-excerpt">${n}</div>\n                </div>\n            `})),resultsDiv.innerHTML=r,n.length>0&&showPreview(0),"undefined"!=typeof lucide&&lucide.createIcons()}function offlineSearch(e){const t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",limit:10}]),r=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...r("title"),...r("content"),...r("tags")])].map((e=>{const n={...t[e]};return n.tags=n.tags.filter((e=>"gardenEntry"!==e&&"note"!==e)),n}))}window.lastSearch="",window.searchResults=[],window.searchTerms=[],window.currentPreviewIndex=-1,window.search=search</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+<div class="header-tags">
+</div>
+<div class="timestamps"></div></div>
+</header>
+<h1 id="nasa-national-aeronautics-and-space-administration" tabindex="-1">NASA (National Aeronautics and Space Administration)</h1>
+<p><img src="https://static.miraheze.org/trueearthwiki/thumb/0/0e/NASALogo.jpg/300px-NASALogo.jpg" alt="Nasa"></p>
+<h3 id="origenes" tabindex="-1">Orígenes</h3>
+<p>Si alguna vez empezaste a husmear por los aterrizajes de la NASA y la luna del Apollo, un ojo agudo y una mente abierta te llevará a la conclusión de que fue un engaño escenificado. De hecho, la pura y dura evidencia científica y el análisis revela irrevocablemente el fraude entre muchos. Piensen en eso, la mayor hazaña lograda por el hombre es una elaborada producción de Hollywood que le costó al contribuyente estadounidense unos 10.000 millones.</p>
+<p>La NASA ha construido un coloso de chupar dinero compuesto por mentiras, engaños y desinformación. El contribuyente estadounidense no obtiene prácticamente ningún beneficio de la existencia de la NASA y supuestas contribuciones científicas derivadas de supuestas exploraciones y experimentos en el espacio. Ausentes de cualquier otra fuente para verificar, hemos tenido que hacer una próstata a los llamados &quot;expertos&quot; a pesar de la evidencia irrefutable de que la NASA no es más que un elaborado monopolio financiero y vendedor de pseudociencias.</p>
+<p>En resumen, una vez que se detecta el fraude todo lo que se le ocurre ahora está en cuestión. Tu credibilidad está disparada. Quién estaría en desacuerdo con la lógica del fraude encontrado destruye la validez de todo? Es razonable, predecible y tiene el poder de cambiar instantáneamente la dirección de la percepción de uno, incluso aquellos que fueron mantenidos sagrados. El fraude no tiene límites por parte de quienes la involucran y ha estado a lo largo del tiempo. Crees que los verdaderos defraudadores se detienen en un solo fraude? O crees que siguen yendo yendo hasta que mueran o sean atadas? La respuesta es simple. Por qué detendrías alguna vez la lucrativa actividad fraudulenta si no has sido atate? Así que la posibilidad de fraude sistémico una vez que se encuentra el fraude inicial se convierte en una certeza virtual.</p>
+<p>Para enturbiar aún más las aguas, la NASA fue fundada por ocultistas satánicos y magos negros. A pesar de que suene a meme, sino un hecho. La NASA es un Cártel Militar-Hollywood-Pseudocientífico-Satánico, cuyo verdadero objetivo es utilizar la financiación de los contribuyentes para promover y obtener beneficios desarrollando y implementando tecnología y metodología de pseudociencia. El primer fraude en mi opinión son los verdaderos orígenes de la NASA y el elenco de personajes que tuvieron una influencia significativa. Ir a la NASA y buscarlos y encontrará bios encalados o sin información disponible<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>.</p>
+<h4 id="jack-parsons" tabindex="-1">Jack Parsons</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/a/ae/JackParsons.png/300px-JackParsons.png" alt="Jack Whiteside Parson"><br>
+Jack Whiteside Parson</p>
+</div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/4/49/PentagonPentagram.png/300px-PentagonPentagram.png" alt="pentágono invertido"><br>
+El pentágono invertido</p>
+</div></div>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/d/d6/Cassini-above-Saturn-s-north-pole.jpg/300px-Cassini-above-Saturn-s-north-pole.jpg" alt=""><br>
+Imagen CGI de Cassini y Saturn, mostrando un hexágono (un símbolo ocultista)</p>
+</div></div>
+<p>Jack Whiteside Parsons, por otro lado, fue miembro fundador del Laboratorio de Propulsión a Chorro de la NASA, y algunos lo consideran uno de los &quot;padres de la cohetería&quot; y otros bromean diciendo que el JPL era en realidad el Laboratorio de Jack Parsons, pero no encontrará mucho sobre él en los sitios web de la NASA. El legado de Parsons como ingeniero y químico se ha visto un tanto eclipsado por su interés en lo oculto y ha llevado a lo que algunos críticos describen como una reescritura de los libros de historia.</p>
+<p>El conjunto de ideas no científicas estaba impregnado de lo oculto, el satanismo y la magia negra. Parsons &quot;juró el Juramento del Abismo, teniendo solo la opción entre la locura, el suicidio y ese juramento. (Entonces) hice el juramento de un Magister Templi, incluso el Juramento del Anticristo ante Frater 132, el Dios Desconocido. Y así fui yo, el Anticristo, suelto en el mundo; y a esto me he comprometido, a que la obra de la Bestia 666 se cumpla.”</p>
+<p>Aparentemente notando que el Anticristo está a sólo unas pocas letras de distancia de ser “anarquista”, el manifiesto que sigue es en gran parte una exhortación a “hacer lo que quieras” en la mayoría de las cosas empapadas de fluidos corporales, económicas y/o políticas. El objetivo de todos estos esfuerzos, según Metzger, era provocar el Apocalipsis, ya que en teoría las cosas sólo pueden mejorar a partir de ahí.</p>
+<p>El FBI, que no estaba muy entusiasmado con la idea de que el salario financiado por los contribuyentes de Parsons pudiera estar apoyando al Anticristo y la aceleración del Apocalipsis, se lo tomó lo suficientemente en serio como para abrir una investigación. Los documentos publicados recientemente a través de la Ley de Libertad de Información conforman 130 páginas de texto profusamente redactado en el que los G-Men intentan dar sentido a las creencias religiosas de Parsons y documentan su manejo frecuentemente descuidado de materiales clasificados. Tal vez el personaje de Errol Flynn encajaba mejor con Jack Parsons. Pero la verdad sea dicha, Jack Whiteside Parsons es mejor conocido por sus ideales ocultistas, magia negra y reverencia a la agenda satánica.</p>
+<p>Por extraño que fuera Parsons, eso no impidió que la NASA bautizara con su nombre a un cráter en el lado oscuro de la luna. Por supuesto, uno no puede ver realmente el lado oscuro de la luna ni confirmar que tal cráter existe, qué apropiado. “…El programa espacial de Estados Unidos debe mucho al diseño de cohetes y las innovaciones de Parsons, y en 1972 la Unión Astronómica Internacional lo honró bautizando el cráter de Parsons en el lado oscuro de la luna. Después de cofundar el JPL, al que sus admiradores se referían como “el laboratorio de Jack Parsons”, Parsons fundó Aerojet Corp., ahora el mayor productor de cohetes del mundo y fabricante de impulsores de combustible sólido para transbordadores espaciales…”.</p>
+<p>Otro enigma es la contribución de Jack Parsons al diseño ocultista del Pentágono. Parsons, quien prestó juramento como anticristo en 1949, contribuyó al diseño del Pentágono bajo la dirección del posterior director de la CIA, John J. McCloy.</p>
+<h4 id="aleister-crowley" tabindex="-1">Aleister Crowley</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/4/4e/AleisterCrowley.jpg/300px-AleisterCrowley.jpg" alt=""><br>
+Aleister Crowley</p>
+</div></div>
+<p>Crowley, que trajo fama a la O.T.O. (que ya era muy conocida en los círculos masónicos), fue una de las principales inspiraciones de Parsons en la vida. Los logros de este anciano habían sido muchos: poeta, editor, escalador de montañas, maestro de ajedrez y practicante bisexual de magia sexual (o “Magick”, como él la llamaba).</p>
+<p>Famoso por los periodistas amarillistas como el “hombre más malvado del mundo”, consideraba que su identidad central era la “Gran Bestia 666”, a la que se hace referencia en el libro de las “Revelaciones” de la Biblia, aunque no se apoyaba en esa obra particularmente en sus ideas religiosas.</p>
+<h4 id="l-ron-hubbard" tabindex="-1">L. Ron Hubbard</h4>
+<p>A finales de los años 40, Hubbard estaba arruinado y endeudado. Como escritor de ciencia ficción y fantasía que luchaba por sobrevivir, se vio obligado a vender su máquina de escribir por 28,50 dólares para poder sobrevivir.</p>
+<p>En un momento dado, Hubbard se vio obligado a rogarle a la Administración de Veteranos que le permitiera quedarse con un pago excesivo de 51 dólares de sus prestaciones. “Estoy casi sin dinero”, escribió Hubbard, un ex teniente de la Marina. Hubbard también tenía problemas mentales. A finales de 1947, pidió a la Administración de Veteranos que le ayudara a recibir tratamiento psiquiátrico.</p>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/a/ad/Church_of_Scientology.png/300px-Church_of_Scientology.png" alt=""><br>
+Church of Scientology</p>
+</div></div>
+<p>Hubbard también admiraba a Crowley y en una conferencia de 1952 lo describió como &quot;mi muy buen amigo&quot;. Parsons y Hubbard pronto vivieron en la vieja mansión de South Orange Grove Avenue en Pasadena. La finca era el hogar de una extraña mezcla de artistas, escritores, científicos y ocultistas bohemios. Un pequeño templo abovedado sostenido por seis columnas de piedra se alzaba en el patio trasero. Hubbard conoció a su segunda esposa, Sara Northrup, en la mansión. Aunque ella era la amante de Parsons en ese momento, Hubbard no se dejó intimidar. Se casó con Northrup antes de divorciarse de su primera esposa. Mucho antes de la contracultura de los años 60, algunos residentes de la finca fumaban marihuana y abrazaban una filosofía de sexo promiscuo y ritualista.</p>
+<p>En años posteriores, Hubbard intentó distanciarse de su vergonzosa asociación con Parsons, quien fue fundador de un proyecto de cohetes del gobierno en el Instituto de Tecnología de California que luego se convirtió en el famoso Laboratorio de Propulsión a Chorro. Parsons murió en 1952 cuando una explosión química destruyó su garaje.</p>
+<p>Ron Hubbard fundó la Iglesia de la Cienciología, una obra maestra del control mental.</p>
+<h4 id="una-alineacion-espeluznante" tabindex="-1">Una alineación espeluznante</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/e/e5/OccultBeginingsOfNasa.png/300px-OccultBeginingsOfNasa.png" alt=""><br>
+Jack Whiteside Parsons, Aleister Crowley, L.Ron Hubbard, Wernher von Braun, Walt Disney</p>
+</div></div>
+<ol>
+<li>Jack Whiteside Parsons – Ocultista, Mago Negro, Satanista, Líder de la Logia Ágape de California Ordo Templi Orientis</li>
+<li>Aleister Crowley – Masón de grado 33 (<a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" target="_blank" class="external-link">Agencies/Freemasons</a>), Líder de la Ordo Templi Orientis, Mago Negro, Satanista, La Bestia '666'</li>
+<li>L. Ron Hubbard – Controlador Mental de Masas, Mago Negro, Satanista, Fundador del Culto de la Iglesia de la Cienciología</li>
+<li>Wernher von Braun – Exdirector nazi del programa alemán de cohetes V-2 y reclutado en los EE. UU. en el marco de la Operación Paperclip. Es muy probable que fuera el más normal del grupo. 5. Walt Disney: ocultista, controlador mental de masas, mago negro, pedófilo Illuminati, <a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" title="Agencies/Freemasons" target="_blank" class="external-link">masón</a> y fundador de The Ordem DeMolay</li>
+</ol>
+<p>Para divertirse, vea el video musical &quot;Blood and Rockets&quot; de Les Claypool. <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup></p>
+<h3 id="presupuesto" tabindex="-1">Presupuesto</h3>
+<p>La NASA se fundó el 29 de julio de 1958. Desde entonces, el gobierno federal de Estados Unidos ha invertido miles de millones de dólares en programas espaciales. Unos 20.000 millones de dólares se destinan cada año a programas espaciales. Es mucho dinero. Para poner en perspectiva la cantidad de dinero que supone, basta con pensar en el hambre mundial.</p>
+<p>Según las Naciones Unidas, 30.000 millones de dólares al año acabarían con el hambre en el mundo. Eso significa que el tamaño del presupuesto anual de la NASA podría alimentar a 2 de cada 3 personas hambrientas en todo el mundo. Si la NASA no existiera y ese dinero se redirigiera, casi podríamos acabar con el hambre en el mundo. Hasta la fecha, se han gastado más de 600.000 millones de dólares en exploración espacial, pero no hemos logrado &quot;volver a la Luna&quot; desde 1969.</p>
+<p>Actualmente, el presupuesto es de unos 26.000 millones de dólares al año (o unos 63 millones de dólares al DÍA, incluidos los fines de semana y los días festivos).</p>
+<h3 id="la-conexion-nazi" tabindex="-1">La conexión NAZI</h3>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/b/b4/NASANaziOrigins.png/300px-NASANaziOrigins.png" alt=""><br>
+Los orígenes NAZI de la NASA</p>
+</div></div>
+<blockquote>
+<p>Si dices una mentira lo suficientemente grande y la dices con la suficiente frecuencia, te la creerán. —Adolf Hitler (1889-1945)</p>
+</blockquote>
+<p>La operación Paperclip fue una operación dirigida y financiada por el gobierno de los EE. UU. La JIOA (agencia de objetivos de inteligencia conjunta) la llevó a cabo agentes especiales del ejército. Esta operación trajo a 1.600 científicos, ingenieros y técnicos nazis de Alemania. <a href="https://trueearth.wikitide.org/wiki/People/Wernher_von_Braun" title="People/Wernher von Braun" target="_blank" class="external-link">Wernher von Braun</a> y su equipo de cohetes V-2 fueron reclutados desde Alemania para trabajar en Estados Unidos para el gobierno de los Estados Unidos. La mayoría de ellos eran miembros o líderes del partido nazi.</p>
+<p>Se informó que una fábrica en la que trabajaba <a href="https://trueearth.wikitide.org/wiki/People/Wernher_von_Braun" title="People/Wernher von Braun" target="_blank" class="external-link">von Braun</a> mataba a los 5 judíos que trabajaban más lento cada semana. Las organizaciones internacionales coinciden en que, si estuviera vivo hoy, sería condenado por crímenes de guerra.</p>
+<h3 id="enganados" tabindex="-1">Engañados</h3>
+<p><img src="https://static.miraheze.org/trueearthwiki/thumb/2/23/NASA_Definition.jpg/300px-NASA_Definition.jpg" alt=""></p>
+<p>“NASA” en hebreo</p>
+<p>Si buscas el origen de la palabra “NASA” en hebreo (el idioma judío), significa engañar. Así que tenemos científicos, ingenieros y técnicos alemanes nazis trabajando para una organización espacial llamada “NASA”, que significa engañar. ¿Podrían estos nazis haber tenido algo que ver con el nombre de NASA (nasah)? ¿Qué está pasando aquí?</p>
+<p>Strong's H5377 - nāšā' <sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup><br>
+La KJV traduce Strong's H5377 de la siguiente manera: engañar (12x), en gran medida (1x), me engañó (1x), apoderarse (1x), completamente (1x).</p>
+<ul>
+<li>engañar, engañar</li>
+<li>(Niphal) ser engañado</li>
+<li>(Hiphil) engañar, engañar</li>
+<li>(Qal) completamente (infinitivo)</li>
+</ul>
+<p>La NASA es conocida por tener miembros que son <a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" title="Agencias/Masones" target="_blank" class="external-link">masones</a>, nazis y ocultistas en sus filas, especialmente durante sus inicios. Este tipo de personas también suelen ser cabalistas y místicos. Parece que no sólo está en su religión engañar sin conciencia, sino que, de hecho, está contra las reglas decir la verdad, bajo pena de muerte.</p>
+<h3 id="la-nasa-y-el-cristianismo" tabindex="-1">La NASA y el cristianismo</h3>
+<p>Desde principios del siglo XVII, en relación con la &quot;revolución científica&quot; y la &quot;Era de las Luces&quot;, la ciencia y la religión han estado en una guerra continua. Por ejemplo, la teoría copernicana en general (que desafiaba el pronunciamiento bíblico de que la Tierra no se movería) y la defensa de la teoría por parte de Galileo en particular. Después del darwinismo, la revolución copernicana y el caso Galileo se consideran con demasiada frecuencia como una demostración clara e irrefutable de que la ciencia y la religión no se mezclan.</p>
+<p>Desde entonces, la NASA ha tomado las riendas de la misión de engaño de Satanás. La NASA, fundada por algunos de los hombres ocultistas más oscuros de la Tierra, junto con sus misiones para &quot;descubrir&quot; los orígenes de la vida, solo han servido para burlarse de las Escrituras.</p>
+<p>Todos los parches de las misiones de la NASA contienen símbolos ocultistas, y sus supuestas misiones espaciales no solo llevan el nombre de dioses griegos, sino que están impregnadas de rituales satánicos.</p>
+<blockquote>
+<p>“Otra revelación para aquellos que entienden el lenguaje simbólico de los Illuminati es el significado oculto de los nombres de los transbordadores espaciales”.</p>
+<ul>
+<li>William Cooper</li>
+</ul>
+</blockquote>
+<p>Aunque la mayoría de la gente no lo sabe, prácticamente todo lo que hace la NASA está impregnado de satanismo. Su único objetivo es servir a su malvado amo, y el único objetivo de su malvado amo es evitar que conozcas a tu &quot;Buen Amo&quot;.</p>
+<p>Dado que la <a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" title="Agencies/Freemasons" target="_blank" class="external-link">masonería</a> tiene varias de sus raíces enterradas en la sabiduría del Antiguo Egipto y que, como veremos más adelante, muchos altos funcionarios de la NASA son <a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" title="Agencies/Freemasons" target="_blank" class="external-link">masones</a>, la teoría de la conspiración sostiene que el objetivo final del Apolo 11 era llevar a cabo un ritual ancestral para &quot;establecer comunicación&quot; con una &quot;deidad del principio de los tiempos&quot;. <sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup></p>
+<h4 id="la-ciencia-y-la-biblia-estan-en-armonia" tabindex="-1">¿La ciencia y la Biblia están en armonía?</h4>
+<p>El astronauta Jeffrey Williams, que anteriormente ostentaba el récord estadounidense de días acumulados en el espacio, dice que cree que la ciencia y la Biblia están en armonía, no en conflicto.</p>
+<blockquote>
+<p>&quot;Todo el tiempo me preguntan: '¿Cómo puedo dedicarme a lo que hago y ser creyente al mismo tiempo?'&quot;</p>
+</blockquote>
+<p>Williams, un cristiano, publicó un libro con temática religiosa en 2010 que incluye fotografías que tomó desde el espacio. Se titulaba The Work of His Hands: A View of God's Creation from Space (La obra de sus manos: una visión de la creación de Dios desde el espacio).</p>
+<p>Reconoció que existe una &quot;percepción pública de que la ciencia y la Biblia están en conflicto&quot;.</p>
+<p>&quot;Muy temprano en mi carrera, incluso en los años 90, pasé mucho tiempo estudiando el tema... La ciencia moderna tal como la conocemos surgió realmente de la convicción de que la Biblia era verdadera y de que Dios es el Creador, tal como se ha revelado en las Escrituras&quot;, dijo Williams a Christian Headlines. &quot;Y en esa creación, Él la proveyó y la ordenó&quot;.</p>
+<p>Williams dijo que se ha visto afectado por el &quot;orden&quot; de las matemáticas, la física, la química y la música.</p>
+<p>&quot;Y luego, al llevar la imagen de Dios, se nos da esta capacidad y, de hecho, el mandato de someter a la creación allí mismo en Génesis 1&quot;, dijo. &quot;Esos son los elementos que alimentaron mi comprensión, mi visión del mundo, y realmente corroboraron lo que creo que ha sido el llamado del Señor en mi vida, en este trabajo que llamamos astronauta. Así que la fe solo ha corroborado mi comprensión de eso&quot;.</p>
+<p>Williams dijo que a menudo le preguntan si viajar al espacio cambió su relación con Dios. En cierto sentido, responde, pero no fue así.</p>
+<p>&quot;Tengo una relación con Dios gracias a la obra mediadora de Jesucristo, tal como se revela en las Escrituras&quot;, dijo Williams.</p>
+<p>Aun así, viajar al espacio le proporcionó una &quot;profundidad&quot; de comprensión de ciertos pasajes bíblicos que antes no tenía. Mencionó la &quot;obra de Dios como creador&quot; y &quot;su obra de sustentar su creación&quot;.</p>
+<h4 id="el-auge-de-la-ciencia-y-el-ateismo" tabindex="-1">El auge de la ciencia y el ateísmo</h4>
+<p>El auge de la ciencia y el ateísmo se puede atribuir a un período de rápido desarrollo cultural e intelectual llamado el Renacimiento. Comenzó hace unos 500 años en Europa y condujo a que los valores occidentales y seculares dominaran el mundo, infundiendo actitudes liberales, intelectuales y ateas en culturas que no estaban preparadas.</p>
+<p>Cuando Edwin Hubble teorizó la existencia de un universo en expansión, cuando la teoría de la evolución de Charles Darwin fue secuestrada mediante una interpretación errónea de la &quot;selección natural&quot;, brindó a muchos una vía tentadora para investigar nuestros orígenes.</p>
+<p>Con el Big Bang, la evolución y una gran cantidad de otras teorías antibíblicas, la ciencia ha forzado inadvertidamente la reinterpretación de la religión en lugares donde su dogma está en conflicto con la verdad manifiesta.</p>
+<p>Los científicos y los creyentes religiosos se sienten atraídos por fenómenos inexplicables y milagrosos por diferentes razones. Los científicos buscan una causa natural y dejan que su curiosidad los lleve a una respuesta. Los creyentes religiosos refuerzan su fe al reconocer la intervención divina.</p>
+<p>El Big Bang es la teoría de que el universo comenzó con una singularidad extremadamente densa antes de que rápidamente se expandiera.</p>
+<p>La teoría de la gran explosión se expandió lentamente a lo largo de 14 mil millones de años hasta llegar a lo que vemos hoy, y Edwin Hubble proporcionó &quot;pruebas cruciales&quot; para la teoría en 1929, cuando teorizó que la mayor parte de la materia del universo se está alejando de nosotros (es decir, su luz se desplaza hacia el rojo).</p>
+<p>Se han propuesto varias teorías poco fundamentadas sobre qué causó o qué ocurrió antes del Big Bang. La posición científica es que no sabemos qué lo causó (si es que hubo una causa). Mientras tanto, la mayoría de las culturas a lo largo del tiempo, así como las escrituras, afirman que la Tierra y los cielos fueron cuidadosamente creados por Dios. <sup class="footnote-ref"><a href="#fn5" id="fnref5">[5]</a></sup></p>
+<h4 id="censura-del-discurso-religioso" tabindex="-1">Censura del discurso religioso</h4>
+<p>El Centro Espacial Johnson de la NASA en Houston, Texas, ha sido acusado de censurar el discurso religioso entre sus empleados cristianos, incluida la prohibición del nombre de Jesús.</p>
+<p>El año pasado, el JSC habría dicho a sus empleados que el nombre &quot;Jesús&quot; no podía aparecer en los boletines del Club de Alabanza y Adoración que se reúne durante la hora del almuerzo.</p>
+<p>&quot;La NASA tiene una larga historia de respeto por el discurso religioso de sus empleados, incluida la defensa, en los tribunales, de los astronautas que leyeron el relato bíblico de la creación mientras orbitaban la luna. Esa tradición debería continuar aquí&quot;, dijo el asesor principal del Liberty Institute, Jeremy Dys, a The Christian Post en una entrevista el martes.</p>
+<p>Dys hace alusión al caso de 1969 O'Hair v. Payne, en el que la activista atea Madalyn Murray O'Hair demandó a la NASA por permitir que los astronautas del Apolo 8 leyeran Génesis 1 mientras estaban en órbita; la NASA derrotó la demanda.</p>
+<p>&quot;Decidimos involucrarnos porque estamos comprometidos con la defensa del derecho a la libre expresión religiosa de todos los estadounidenses, incluidos los empleados del gobierno&quot;, agregó.</p>
+<p>El Liberty Institute, con sede en Texas, junto con los abogados de la firma Fish &amp; Richardson enviaron una carta al JSC de la NASA el lunes en respuesta a la censura.</p>
+<p>&quot;La censura por parte de la NASA JSC de la postura religiosa del club es una violación de la ley federal y de la Primera Enmienda&quot;, afirmaba la carta de demanda. &quot;Todas las afirmaciones de la NASA JSC de que permitir que el JSC Praise and Worship Club utilice el nombre 'Jesús' en los anuncios del club viola la Cláusula de Establecimiento han sido rechazadas repetidamente por la Corte Suprema&quot;.</p>
+<p>La carta de demanda continuaba citando la Ley de Restauración de la Libertad Religiosa, argumentando que &quot;no hay ningún interés gubernamental convincente aquí que permita a la NASA obstaculizar sustancialmente el libre ejercicio de la religión del JSC Praise and Worship Club y sus miembros individuales&quot;.</p>
+<p>&quot;El único interés conocido articulado por la NASA JSC hasta la fecha es una vaga sugerencia de que la aparición de un nombre - 'Jesús' - podría hacer que toda la publicación fuera &quot;sectaria&quot; y de alguna manera violar la Cláusula de Establecimiento de la Primera Enmienda de la Constitución de los Estados Unidos&quot;, continuaba la carta.</p>
+<p>&quot;No entendemos cómo una mención de este tipo en un anuncio que está vinculado específicamente al Club de Alabanza y Adoración JSC puede implicar un patrocinio, respaldo o establecimiento de una religión por parte del estado&quot;.</p>
+<p>Según Dys, hasta el martes los abogados no habían recibido una respuesta de la NASA con respecto a su carta de demanda en nombre del club. <sup class="footnote-ref"><a href="#fn6" id="fnref6">[6]</a></sup></p>
+<h3 id="la-cgi-es-nuestra-and-quot-prueba-and-quot-del-globo" tabindex="-1">La CGI es nuestra &quot;prueba&quot; del globo</h3>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/f/f6/ItsPhotoshopedButItHasToBe.webp/300px-ItsPhotoshopedButItHasToBe.webp.png" alt=""><br>
+El artista de CGI de la NASA Robert Simmon</p>
+</div></div>
+<p>Robert Simmon - &quot;Artista de CGI&quot; de la NASA <sup class="footnote-ref"><a href="#fn7" id="fnref7">[7]</a></sup>:</p>
+<blockquote>
+<p><strong>La última vez que alguien tomó una fotografía desde arriba de la órbita baja de la Tierra</strong> que mostraba un globo entero El hemisferio (una de las caras del globo) <strong>fue en 1972</strong> durante el Apolo 17. Los satélites del Sistema de Observación de la Tierra (EOS) de la NASA fueron diseñados para proporcionar un chequeo de la salud de la Tierra. En 2002, finalmente teníamos suficientes datos para hacer una instantánea de toda la Tierra. Y así lo hicimos. La parte difícil fue crear un mapa plano de la superficie de la Tierra con cuatro meses de datos satelitales. Reto Stockli, ahora en la Oficina Federal Suiza de Meteorología y Climatología, hizo gran parte de este trabajo. <strong>Luego envolvimos el mapa plano alrededor de una pelota</strong>. Mi parte fue integrar la superficie, las nubes y los océanos <strong>para que coincidieran con las expectativas de la gente sobre cómo se ve la Tierra desde el espacio</strong>. Esa pelota se convirtió en la famosa canica azul.</p>
+</blockquote>
+<h3 id="la-nasa-es-un-complejo-militar-una-bodega" tabindex="-1">¿La NASA es un complejo militar/una bodega?</h3>
+<p>Parece que la NASA ha gastado una cantidad considerable de dinero en encontrar formas eficientes de matar a grandes cantidades de personas. Dennis M. Bushnell, científico jefe del Centro de Investigación Langley de la NASA, escribió una presentación titulada: &quot;Cuestiones estratégicas futuras/Guerra futura&quot; <sup class="footnote-ref"><a href="#fn8" id="fnref8">[8]</a></sup></p>
+<p>Esta presentación describe que los humanos han &quot;tomado el control&quot; y acortado enormemente la &quot;evolución&quot; del planeta, y detalla varios tipos de armas y qué tipos de armas son &quot;legales&quot; y baratas. Este proyecto fue presentado a la USAF, Army After Next, DARPA, SBCCOM, DIA, CIA, etc.</p>
+<p>POLVO INTELIGENTE, NANOTAGS, INSECTOS cooptados, posicionamiento óptimo de polvo explosivo Explosivos de polvo/aire, un análogo mecánico del &quot;polvo&quot; biológico mecanizado de tamaño micrométrico que se distribuye como aerosol y se inhala en los pulmones. El polvo perfora mecánicamente el tejido pulmonar y ejecuta varias &quot;misiones patológicas&quot;. Una clase de armamento completamente &quot;nueva&quot; que es legal.</p>
+<p>(Acordadas) Suposiciones, Combate en 2025</p>
+<ul>
+<li>Proliferación de TBM (misiles balísticos de teatro son cualquier misil balístico con un alcance inferior a 3.500 kilómetros / 2.174 millas), TI, ataques de precisión/objetivos, micro sensores ubicuos, camuflaje/suplantación, robótica, municiones bioquímicas</li>
+<li>Activos logísticos altamente vulnerables dentro y fuera del teatro</li>
+<li>Posiblemente inutilizables dentro y cerca de los puertos/aeródromos del teatro</li>
+<li>Armas de rayos cada vez más frecuentes</li>
+</ul>
+<p>Entonces, si la NASA gasta 70 millones por día y todo lo que obtenemos son dibujos animados CGI; ¿qué están haciendo realmente? ¿Están planeando formas &quot;legales&quot; y baratas de matar gente? Seguro que sí.</p>
+<p>Vea la presentación de Kyle Adams sobre la NASA y MK_Ultra. Parece que la NASA estuvo involucrada en experimentos de control mental oscuro, y Mark Phillips de la CIA dijo que la NASA sería directamente responsable del trauma mental de un niño &quot;Kelly&quot; desde antes de su nacimiento. <sup class="footnote-ref"><a href="#fn9" id="fnref9">[9]</a></sup></p>
+<h3 id="direccion-presidencial" tabindex="-1">Dirección Presidencial</h3>
+<p>Los objetivos generales de las actividades espaciales de Estados Unidos son</p>
+<ol>
+<li>Fortalecer y seguridad de los Estados Unidos;</li>
+<li>Obtener beneficios científicos, tecnológicos y económicos para la población en general y mejorar la calidad de vida en la Tierra mediante actividades relacionadas con el espacio;</li>
+<li>
+<ol start="3">
+<li>Fomentar la inversión continua del sector privado de Estados Unidos en el espacio y las actividades relacionadas;</li>
+</ol>
+</li>
+<li>Promover actividades de cooperación internacional teniendo en cuenta la seguridad nacional, la política exterior y los intereses científicos y económicos de Estados Unidos;</li>
+<li>Cooperar con otras naciones en el mantenimiento de la libertad del espacio para todas las actividades que mejoren la seguridad y el bienestar de la humanidad; y, como objetivo a largo plazo,</li>
+<li>Expandir la presencia y la actividad humanas más allá de la órbita terrestre, hacia el sistema solar.</li>
+</ol>
+<p>Podemos argumentar fácilmente que los objetivos generales nunca se han cumplido o abordado. Además, cada presidente/actor en funciones también ha dado a la NASA una nueva «Directiva Presidencial», de lo que se deduce fácilmente por qué mucha gente dice que «la NASA no va a ninguna parte desde 1958».</p>
+<p>Traducción realizada con la versión gratuita del traductor <a href="http://DeepL.com" target="_blank" class="external-link">DeepL.com</a></p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th>Presidente</th>
+<th>Directiva</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dwight D. Eisenhower (1953-1961)</td>
+<td>Eisenhower tomó &quot;medidas adicionales&quot; para garantizar que el Holocausto nunca fuera olvidado y, por otra parte, contrató a los mismos criminales de guerra nazis y les dio cómodos puestos de trabajo en la NASA. Firmó la Ley Nacional de Aeronáutica y del Espacio de 1958 el 29 de julio, creando la NASA.</td>
+</tr>
+<tr>
+<td>John F. Kennedy (1961-1963)</td>
+<td>Kennedy inició una dramática expansión del programa espacial estadounidense y comprometió a la nación con el ambicioso <strong>objetivo de llevar un hombre a la Luna</strong> para finales de la década.</td>
+</tr>
+<tr>
+<td>Lyndon B. Johnson (1963-1969)</td>
+<td>Johnson tomó medidas para impulsar la cuestión espacial, presionando al Congreso para que otorgara fondos. El lanzamiento del Apolo 11 fue televisado &quot;en vivo&quot; en 33 países.</td>
+</tr>
+<tr>
+<td>Richard Nixon (1969-1974)</td>
+<td>Nixon ordena a la NASA desarrollar y construir un sistema de transporte espacial reutilizable, comúnmente conocido como transbordador espacial</td>
+</tr>
+<tr>
+<td>Gerald Ford (1974-1977)</td>
+<td>Ford fue testigo de la primera misión espacial conjunta entre Estados Unidos y la Unión Soviética, vio a su nación aterrizar la primera nave espacial en <strong>Marte</strong> (Viking I) y estuvo presente en el lanzamiento del primer transbordador espacial. Puede que no haya hecho grandes contribuciones a la política espacial como presidente, pero antes, en su carrera como miembro de la Cámara de Representantes, ayudó a crear la NASA.</td>
+</tr>
+<tr>
+<td>Jimmy Carter (1977-1981)</td>
+<td>En 1977 se lanzaron las Voyager 1 y Voyager 2, lo que dio inicio a un viaje de exploración de varias décadas a los planetas exteriores. La agencia espacial también continuó desarrollando el transbordador espacial, un cohete aparentemente reutilizable que transportaría <strong>humanos y carga hacia y desde la órbita baja terrestre</strong> .</td>
+</tr>
+<tr>
+<td>Ronald Reagan (1981-1989)</td>
+<td>La directiva de Reagan fue &quot;proporcionar un marco de políticas viable para un programa espacial agresivo y con visión de futuro que sea coherente con los objetivos nacionales de la administración&quot;, &quot;el transbordador espacial será un factor importante en la evolución futura de los programas espaciales de los Estados Unidos y fomentará más funciones de cooperación entre los programas de seguridad nacional y civiles para garantizar un uso eficiente y eficaz de los recursos nacionales&quot;. Reagan inició el programa que dio origen a la Estación Espacial Internacional, con el objetivo de desarrollar una Estación Espacial tripulada permanente en el plazo de una década.</td>
+</tr>
+<tr>
+<td>George H. W. Bush (1989-1993)</td>
+<td>Bush no propuso un plan decenal al estilo de la misión Apolo, sino un compromiso continuo a largo plazo basado en los tres elementos antes mencionados, que terminaría con “un viaje al mañana, un <strong>viaje a otro planeta</strong> , una <strong>misión tripulada a Marte</strong> ”. El Presidente señaló que el destino de la humanidad era explorar y el destino de Estados Unidos, liderar.</td>
+</tr>
+<tr>
+<td>Bill Clinton (1993-2001)</td>
+<td>Además de hacer famosa la &quot;oficina oral&quot;, Clinton pidió que se continuara la exploración robótica de <strong>Marte</strong> , misiones de retorno de muestras de cuerpos celestes dentro del sistema solar y un programa a largo plazo para identificar y caracterizar planetas alrededor de otras estrellas. También mantuvo el compromiso del país con un programa a largo plazo de monitoreo ambiental desde el espacio.</td>
+</tr>
+<tr>
+<td>George W. Bush (2001-2009)</td>
+<td>comprometió a Estados Unidos a un programa humano y robótico a largo plazo para explorar el sistema solar, comenzando con un <strong>regreso a la Luna</strong> que en última instancia permitirá <strong>la exploración futura de Marte</strong> y otros destinos.</td>
+</tr>
+<tr>
+<td>Barack Obama (2009-2017)</td>
+<td>Barry ordenó a la NASA que, en cambio, <strong>enviara astronautas a un asteroide cercano a la Tierra</strong> en 2025, y luego a las <strong>proximidades de Marte</strong> a mediados de la década de 2030.</td>
+</tr>
+<tr>
+<td>Donald Trump (2017-2021)</td>
+<td>instruir a la NASA para que regrese a los astronautas estadounidenses <strong>a la Luna</strong> , reformar el marco regulatorio espacial comercial de nuestra nación, establecer principios de ciberseguridad para los sistemas espaciales y mucho más.</td>
+</tr>
+<tr>
+<td>Joe Biden (2021-)</td>
+<td>Biden está comprometido con el objetivo de subir escaleras y con la misión multilateral de la NASA de <strong>regresar a la Luna</strong> y <strong>enviar astronautas a Marte</strong> . “A través del programa Artemis, Estados Unidos está construyendo la coalición internacional de exploración espacial humana más amplia y diversa de la historia”,</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="tecnologia-de-la-nasa-jajaja" tabindex="-1">Tecnología de la NASA, jajaja</h3>
+<p>El alunizaje, un acontecimiento histórico, el momento cumbre de la humanidad, quizá la mayor hazaña tecnológica del hombre. Pero parece que no es tan importante para la NASA porque destruyeron el módulo de aterrizaje lunar y las imágenes originales.</p>
+<p>Parece que la única tecnología que se perdió fue la genialidad de Stanley Kubrick. Descansa en paz Stanley y enhorabuena por la hazaña de engañar a todo el país de los baby boomers con tus dotes cinematográficas.</p>
+<blockquote>
+<p>“Volvería a la Luna en un milisegundo, pero ya no tenemos esa tecnología, la hemos destruido” ~ astronauta Don Pettit <sup class="footnote-ref"><a href="#fn10" id="fnref10">[10]</a></sup></p>
+</blockquote>
+<p>Si la NASA fuera realmente una agencia espacial, y parte de su misión fuera monitorear y proporcionar imágenes de la Tierra desde el espacio, ¿por qué en 2023 Japón descubrió 7000 nuevas islas? El número de islas del país se ha duplicado y ahora hay más de 14 000 incluidas en su mapa. <a class="tag" onclick="toggleTagSearch(this)" data-content="#GraciasNASA">#GraciasNASA</a> 🤦</p>
+<h3 id="galeria" tabindex="-1">Galería</h3>
+<div class="callout" data-callout="grid"><div class="callout-title"><div class="callout-title-inner">Grid</div></div>
+<div class="callout-content">
+<p>
+<img src="https://i.imgur.com/sVGV6YL.jpeg" alt="AstroNOTS_hearNoSpeakNo|wsmall"><br>
+<img src="https://i.imgur.com/3N43Bjq.jpeg" alt="AstroNOTS_hearNoSpeakNo2|wsmall"><br>
+<img src="https://i.imgur.com/DYLfh13.jpeg" alt="BuzzIlluminati|wsmall"></p>
+<p><img src="https://i.imgur.com/ZTYh6WK.png" alt="FlatGlobeRSimmon|ws-med"><br>
+<img src="https://i.imgur.com/IwnaHhv.png" alt="MichioKafu_CosmosKabbalah|ws-med"></p>
+<p><img src="https://i.imgur.com/TjwPBfz.jpeg" alt="WaltDisneyandWernherVonBraun|wsmall"><br>
+<img src="https://i.imgur.com/7ElleHL.jpeg" alt="DisneyPlanetPluto|wsmall"><br>
+<img src="https://i.imgur.com/vW4KGrR.jpeg" alt="WernherVonBraunGrave|wsmall"></p>
+<p><img src="https://i.imgur.com/NyamyZ2.jpeg" alt="NASAEarthBlooper|ws-med"><br>
+<img src="https://i.imgur.com/WzHvxGN.jpeg" alt="YearsOfNASAballs|ws-med"></p>
+</div></div>
+<h3 id="datos-curiosos" tabindex="-1">Datos curiosos</h3>
+<h4 id="and-quot-administracion-nacional-de-aeronautica-y-del-espacio-and-quot-gematria" tabindex="-1">&quot;Administración Nacional de Aeronáutica y del Espacio&quot; Gematría</h4>
+<p>Gematría ordinal inversa &quot;Administración Nacional de Aeronáutica y del Espacio&quot; = 666 <sup class="footnote-ref"><a href="#fn11" id="fnref11">[11]</a></sup></p>
+<h4 id="incluso-la-ia-cree-que-los-alunizajes-de-la-nasa-son-falsos" tabindex="-1">Incluso la IA cree que los alunizajes de la NASA son falsos</h4>
+<p>El análisis de Google AI dice que las imágenes del aterrizaje en la Luna de EE. UU. son falsas, en un artículo del 27 de noviembre de 2023.</p>
+<p>El análisis de algunas fotografías e imágenes de los astronautas estadounidenses aterrizando en la Luna mediante redes neuronales ha demostrado que son falsas, según le dijeron a Vladimir Putin en el “Tour Mundial de Inteligencia Artificial” en Moscú, y el presidente ruso lo encontró “muy interesante”.</p>
+<p>El vídeo del resultado del análisis y la conversación del presidente ruso con el director de investigación de datos del Sberbank, Nikolai Gerasimhen, en el evento de inteligencia artificial de Moscú se ha vuelto viral. “Por el momento, (el análisis de inteligencia artificial) no plantea ninguna pregunta particular sobre esta foto tomada por el explorador lunar chino”, le dijeron a Putin.</p>
+<p>La misión lunar no tripulada de China, denominada Chang'e, es una serie de sondas lunares lanzadas por la Administración Espacial Nacional de China a partir del lanzamiento de Chang'e 1 en octubre de 2007.</p>
+<p>“¿Cree que esto es falso?”, se ve a Putin en el video tocándose primero el ala de la nariz y luego preguntando después de una breve pausa mientras señala las imágenes del Apolo 11 mostradas en una pantalla.</p>
+<p>“Sí, mira, esto es rojo”, le dijeron a Putin.</p>
+<p>El presidente del Sberbank, German Gref, que aparece acompañando a Putin en el vídeo, dijo: &quot;Esto es lo que piensa la red neuronal de Google, no nuestro análisis. Por lo tanto, no habrá sesgo&quot;. <sup class="footnote-ref"><a href="#fn12" id="fnref12">[12]</a></sup></p>
+<h3 id="simbologia" tabindex="-1">Simbología</h3>
+<h4 id="logotipo-de-la-nasa" tabindex="-1">Logotipo de la NASA</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Theosophicalseal.svg" alt="ws-med"><br>
+La serpiente Ouroboros se come a sí misma</p>
+</div></div>
+<p>Las letras N, A, S, A, cuando se intercambian y se agrega la letra &quot;T&quot;, forman la palabra SATAN (quizás de ahí proviene la frase &quot;T menos&quot; en la cuenta atrás del lanzamiento de cohetes).</p>
+<p>El círculo blanco representa al Ouroboros (una serpiente que se devora a sí misma) y en la parte posterior vemos la lengua roja de una serpiente. El ouroboros o uroboros es un símbolo antiguo que representa a una serpiente o dragón que se muerde su propia cola. El ouroboros entró en la tradición occidental a través de la iconografía del antiguo Egipto y la tradición mágica griega. Fue adoptado como símbolo en el gnosticismo y el hermetismo y, sobre todo, en la alquimia. Se sabe que algunas serpientes, como las serpientes ratoneras, se devoran a sí mismas.</p>
+<p>Uno de los motivos de uróboros más antiguos que se conocen se encuentra en el Libro enigmático del inframundo, un antiguo texto funerario egipcio en KV62, la tumba de Tutankamón, en el siglo XIV a. C. El texto trata de las acciones de Ra y su unión con Osiris en el inframundo. El uróboros está representado dos veces en la figura: sosteniendo sus colas en sus bocas, una rodeando la cabeza y la parte superior del pecho, la otra rodeando los pies de una gran figura, que puede representar al Ra-Osiris unificado (Osiris nacido de nuevo como Ra). El uróboros se traga la cola; basado en el símbolo de Moskowitz para la constelación Draco (palabra grecolatina para serpiente o dragón).</p>
+<h4 id="el-diablo-que-conoces" tabindex="-1">El diablo que conoces</h4>
+<div class="callout" data-callout="grid"><div class="callout-title"><div class="callout-title-inner">Grid</div></div>
+<div class="callout-content">
+<p>
+<img src="https://i.imgur.com/IsiPy7d.png" alt="NROL-49|hsmall"><br>
+<img src="https://i.imgur.com/eLOu0Pk.jpeg" alt="ula-ship|hsmall"><br>
+<img src="https://i.imgur.com/OSwAyuc.png" alt="diabolous-cies|hsmall"></p>
+</div></div>
+<p>Este parche para NROL-49 muestra un fénix que se levanta de las llamas con la bandera de los Estados Unidos de fondo. Las palabras en latín “Melior Diabolus Quem Scies” se traducen aproximadamente como “El diablo que conoces”, como en la frase “Mejor diablo conocido que diablo por conocer”. Críptico. Según la NASA, este dicho se refiere al regreso del uso de un sistema antiguo después de intentar usar uno nuevo, que había resultado fallido. Es una elección de palabras bastante extraña para una agencia gubernamental, pero definitivamente está a la altura de todo este tema siniestro e infernal que rodea a los parches PSYOPS.</p>
+<p>Otro parche relacionado con NRO-49 representa al satélite como un ser de fuego alado (al que la NASA se refiere como un demonio llamado Betty) que sostiene un tridente y una llave inglesa.</p>
+<p>El parche muestra la luna (¿o un cometa?) cubriendo parcialmente la tierra. Si te fijas bien, hay letras en el detalle del cuerpo astral gris. ¿A qué se refieren? En la parte inferior del parche, la frase en latín también es enigmática: “Primoris Gravis Ex Occasus”. Primoris significa “Primero”, Gravis significa “importante, pesado o serio” y Occasus significa “puesta del sol, el Oeste o la caída”. En otras palabras, no sé qué significa. ¿“Primera puesta pesada del sol”? ¿“Lo más importante después de la puesta del sol”? ¿“Primera caída seria”? Independientemente del significado exacto, parece haber un énfasis en el concepto de oscuridad. Betty es pura oscuridad envuelta en llamas y está cubriendo parcialmente el sol. Hay un cuerpo celeste gris que se mueve hacia la tierra.</p>
+<p>El sistema ARGOS (Active Response Gravity Offload System) es una clara referencia a un <a href="https://es.wikipedia.org/wiki/Argos_Panoptes" target="_blank" class="external-link">mounstruo de la mitología griega (Argos Panoptes)</a> el cual representa, &quot;un gigante de cien ojos que todo lo ve&quot;. Este sistema es el que usan para simular y falsear la gravedad de los planetas, La Luna y la ISS. Este es un sofisticado sistema que permite moverse en 3D con cables y arneses pegados a los trajes, les permite moverse libremente y hacer acrobacias, además debido a su diseño los cables se pueden eliminar facilmente por software en directo sin necesidad de post-edición.</p>
+<video style="width:100%;aspect-ratio:16/10" controls>
+<source src="https://ntts-prod.s3.amazonaws.com/t2p/prod/t2media/tops/att/MSC-TOPS-60/NASA_s_Active_Response_Gravity_Offload_System__ARGOS__.mp4" type="video/mp4">
+Tu navegador no soporta el formato de video.
+</video>
+<h3 id="funcionarios-que-hablaron-en-contra-de-la-nasa" tabindex="-1">Funcionarios que hablaron en contra de la NASA</h3>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/a/af/1986-space-shuttle-challenger-crew-3027475113.jpg/200px-1986-space-shuttle-challenger-crew-3027475113.jpg" alt=""><br>
+Los gemelos del desastre del transbordador espacial Challenger de 1986</p>
+</div></div>
+<ul>
+<li>El ex CIA Robert David Steele dice que &quot;la NASA no es una agencia espacial&quot;. <sup class="footnote-ref"><a href="#fn13" id="fnref13">[13]</a></sup></li>
+<li>Poco antes de su muerte, el astronauta Grissom había tomado un limón grande y lo había colgado alrededor de la cápsula espacial mientras la prensa observaba. Había sugerido públicamente que el proyecto nunca podría completarse a tiempo. El hijo de Grissom acusa a la NASA de haber sido asesinado. <sup class="footnote-ref"><a href="#fn14" id="fnref14">[14]</a></sup> <sup class="footnote-ref"><a href="#fn15" id="fnref15">[15]</a></sup> <sup class="footnote-ref"><a href="#fn16" id="fnref16">[16]</a></sup> Junto con la muerte de Grissom, otros dos AstroNOTs fueron asesinados: Ed White y Roger Chaffee. ¿Sabían algo que nosotros no sabíamos? ¿Los silenciaron? <sup class="footnote-ref"><a href="#fn17" id="fnref17">[17]</a></sup></li>
+<li>Allan McDonald, director del proyecto de cohetes de refuerzo de la NASA: se negó a aprobar el lanzamiento del Challenger, el Challenger explotó, expuso el encubrimiento. Más tarde se lo conoció como el ingeniero que se atrevió a decir la verdad contra todo pronóstico, falleció recientemente a los 83 años. Fue un denunciante del desastre del Challenger. Parece que a Allan no lo &quot;eliminaron&quot;, probablemente porque su denuncia encajaba con la retórica de que el desastre del Challenger fue real y que la tripulación murió de hecho; a pesar de que varios testigos oculares vieron a la tripulación con vida y bien, algunos con nuevos nombres. <sup class="footnote-ref"><a href="#fn18" id="fnref18">[18]</a></sup></li>
+<li>Se cree que James Webb, ex administrador de la NASA, desempeñó un papel en la purga de empleados LGBT+ de las listas de personal de la agencia. También ayudó a desarrollar métodos de guerra psicológica para el gobierno de Estados Unidos. <sup class="footnote-ref"><a href="#fn19" id="fnref19">[19]</a></sup></li>
+<li>El ex director de la Agencia Espacial Rusa (Roscosmos), Dmitry Rogozin, hace preguntas sobre los supuestos alunizajes de la NASA. Rogozin afirmó que no logró encontrar ningún dato que lo convenciera de que el Apolo 11 y su tripulación aterrizaron en nuestro satélite natural. Dijo que los fanáticos de la NASA (amantes de los balones) y los científicos rusos rechazaron su escepticismo y lo acusaron de intentar sembrar discordia entre Washington y Moscú. <sup class="footnote-ref"><a href="#fn20" id="fnref20">[20]</a></sup></li>
+<li>Un ex empleado de la NASA revela que los alunizajes fueron falsos y que la Tierra es plana. <sup class="footnote-ref"><a href="#fn21" id="fnref21">[21]</a></sup></li>
+<li>Dos sustancias químicas altamente tóxicas del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles, según los organismos de control. <sup class="footnote-ref"><a href="#fn22" id="fnref22">[22]</a></sup></li>
+<li>La NASA admite que nunca fueron a la Luna. <sup class="footnote-ref"><a href="#fn23" id="fnref23">[23]</a></sup></li>
+<li>Entrevista con el denunciante de la NASA Math Powerland (Matt Boylan) entre 2008 y 2011 sobre la NASA, la Antártida, la Tierra plana y más. <sup class="footnote-ref"><a href="#fn24" id="fnref24">[24]</a></sup></li>
+<li>Desde la NASA hasta la CIA todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial! <sup class="footnote-ref"><a href="#fn25" id="fnref25">[25]</a></sup></li>
+</ul>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/8/83/NASA_harness_smartselect_20200917-123743_youtube.gif/300px-NASA_harness_smartselect_20200917-123743_youtube.gif" alt=""><br>
+La NASA utiliza mazos de cables para simular la gravedad</p>
+</div></div>
+<h3 id="seguramente-la-nasa-no-esta-fingiendo" tabindex="-1">¿Seguramente la NASA no está fingiendo?</h3>
+<div class="callout" data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> Descubrir que la NASA es falsa podría convertirte en un terraplanista.</div></div></div>
+<h4 id="de-donde-son-las-fotos-de-marte" tabindex="-1">¿De dónde son las fotos de Marte?</h4>
+<p>Marte como estrella herrante u objeto luminoso en el cielo es una cosa, pero las imágenes que muestran o bien son CGI o están sacadas de la Tierra. Muchas de ellas han sido sacadas desde la isla de Devon en Canada, el cual comparte terrenos exactamente iguales y se ha visto camiones y equipos de la NASA &quot;trabajando&quot; allí.</p>
+<h4 id="la-iss-es-falsa" tabindex="-1">La ISS es falsa</h4>
+<blockquote>
+<p>&quot;Space may be the final frontier, but it's made in a Hollywood basement&quot; ~ Californication por Red Hot Chilli Peppers</p>
+</blockquote>
+<p>La ISS no es un estación espacial que orbita la Tierra esférica. La ISS es una tapadera más para mantener la mentira de la NASA y el sistema heliocéntrico con todo su posteiror desarrollo. <sup class="footnote-ref"><a href="#fn26" id="fnref26">[26]</a></sup> <sup class="footnote-ref"><a href="#fn27" id="fnref27">[27]</a></sup> <sup class="footnote-ref"><a href="#fn28" id="fnref28">[28]</a></sup> <sup class="footnote-ref"><a href="#fn29" id="fnref29">[29]</a></sup> <sup class="footnote-ref"><a href="#fn30" id="fnref30">[30]</a></sup> <sup class="footnote-ref"><a href="#fn31" id="fnref31">[31]</a></sup> <sup class="footnote-ref"><a href="#fn32" id="fnref32">[32]</a></sup></p>
+<p>Según el tipo de video la ISS se falsea de distintas formas:</p>
+<ul>
+<li>ISS por fuera:
+<ul>
+<li>Vista completa: Maqueta a gran escala con pantalla verde y CGI.</li>
+<li>Astronautas en pasos espaciales: actornautas con buzos en piscinas de entrenamiento y pantalla verde.</li>
+</ul>
+</li>
+<li>ISS por dentro:
+<ul>
+<li>Astronautas en movimiento: Avión en caída libre para grabaciones con tomas de 30 a 60 segundos</li>
+<li>Astronautas quietos: Set de grabación con sistema ARGOS (cables, arneses), sumado a objetos colgados por cables (micros, pelotas, etc.). A veces interactuan con pequeños objetos virtuales con lentes de contacto AR (Realidad Aumentada) y cámaras de video que permiten visualizarlo. En las mujeres con pelo largo suelen laca en el pelo para simular la flotación pero se ve muy poco realista, por eso suelen ser más hombres.</li>
+</ul>
+</li>
+</ul>
+<h4 id="equipo-de-natacion-de-la-nasa" tabindex="-1">Equipo de natación de la NASA</h4>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg/300px-NASA_Neutral_Buoyancy_Laboratory_Astronaut_Training.jpg" alt=""><br>
+Equipo de submarinismo de la NASA</p>
+</div></div>
+<p>La NASA &quot;entrena&quot; a los astronautas en una piscina con una versión a escala real de la Estación Espacial Internacional. ¿Seguramente la NASA no está simulando los paseos espaciales en una piscina? <sup class="footnote-ref"><a href="#fn33" id="fnref33">[33]</a></sup></p>
+<p>Aunque ha habido muchos videos que muestran burbujas durante los videos de caminatas espaciales de la NASA en la ISS (no los videos de entrenamiento) [^35]</p>
+<p>A lo largo de los años, numerosos astronautas se han enfrentado a la terrible experiencia de que su casco se llenara de agua. En 2013, una caminata espacial tuvo que ser interrumpida después de que el astronauta de la Agencia Espacial Europea Luca Parmitano estuvo a punto de ahogarse. Un informe de la NASA que detalla el incidente decía que Parmitano se encontró con “agua que le cubría los ojos, la nariz y los oídos”.</p>
+<div class="callout" data-callout="caption"><div class="callout-title"><div class="callout-title-inner">Caption</div></div>
+<div class="callout-content">
+<p>
+<img src="https://static.miraheze.org/trueearthwiki/thumb/c/c1/NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png/300px-NASA_Halts_Spacewalk_after_water_leaked_into_helmet.png" alt=""><br>
+La NASA suspende una caminata espacial tras una filtración de agua en el casco</p>
+</div></div>
+<hr>
+<h3 id="ver-tambien" tabindex="-1">Ver también</h3>
+<ul>
+<li><a href="https://trueearth.wikitide.org/wiki/Cosmos/Moon/Moon_Landing" title="Cosmos/Luna/Aterrizaje en la Luna" target="_blank" class="external-link">Aterrizaje en la Luna (Fallos)</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/Pseudoscience/666_and_Scientism" title="Pseudociencia/666 y cientificismo" target="_blank" class="external-link">666 y el cientificismo</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/Observations/Flat_and_Nonrotating" title="Observaciones/Planas y no giratorias" target="_blank" class="external-link">Documentos gubernamentales que prueban que la Tierra es plana y no rotatoria</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/FAQ/Everyone" title="Preguntas frecuentes/Todos" target="_blank" class="external-link">¿Están todos involucrados?</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/FAQ/Photos" title="Preguntas frecuentes/Fotos" target="_blank" class="external-link">¿Qué hay de las imágenes de la Tierra desde el espacio?</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/FAQ/Photos" title="Preguntas frecuentes/Fotos" target="_blank" class="external-link">Preguntas frecuentes/Fotos</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/Misc/Videos/ISS_Fraud" title="Varios/Videos/Fraude en la ISS" target="_blank" class="external-link">Varios/Videos/Fraude en la ISS</a></li>
+<li><a href="https://trueearth.wikitide.org/wiki/Agencies/Freemasons" title="Agencias/Masones" target="_blank" class="external-link">Agencias/Masones</a></li>
+<li><a href="https://www.youtube.com/watch?v=CJnwl5aiBSk" target="_blank" class="external-link">YouTube: El fraude de la NASA</a></li>
+<li><a href="https://www.youtube.com/watch?v=00KK2iid1A0" target="_blank" class="external-link">YouTube: Los impactantes orígenes satánicos de la NASA</a></li>
+</ul>
+<h3 id="referencias" tabindex="-1">Referencias</h3>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://www.bitchute.com/video/sEQpFVK65fTF/" target="_blank" class="external-link">bitchute: Eón de Horus: La historia oculta de la NASA</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=XcOHiGonWwU" target="_blank" class="external-link">YouTube: Canción &quot;Blood and Rockets&quot; de Les Claypool</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/" target="_blank" class="external-link">BlueLetterBible Web: siguiente'</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://www.infinityexplorers.com/nasa-missions-and-their-masonic-connections/" target="_blank" class="external-link">infinityexplorers.com: Las conexiones masónicas de la NASA</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn5" class="footnote-item"><p><a href="https://nonorthodoxy.com/why-nasa-lies-about-everything/" target="_blank" class="external-link">infinityexplorers.com: Por qué la NASA miente sobre todo</a> <a href="#fnref5" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn6" class="footnote-item"><p><a href="https://www.christianpost.com/news/nasa-johnson-space-center-banning-jesus-censoring-christian-employees-religious-speech-praise-worship-club-newsletter.html" target="_blank" class="external-link">christianpost.com: La NASA prohíbe &quot;Jesús&quot; y censura el discurso religioso de los empleados cristianos, afirman los trabajadores</a> <a href="#fnref6" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn7" class="footnote-item"><p><a href="https://www.nasa.gov/people-of-nasa/goddard-people/robert-simmon-aka-mr-blue-marble/" target="_blank" class="external-link">NASA.gov Robert Simmon</a> <a href="#fnref7" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn8" class="footnote-item"><p><a href="https://trueearth.wikitide.org/wiki/File:Future_of_war_2025_dtic.mil-ndia-2001testing-bushnell.pdf" title="Archivo:El futuro de la guerra en 2025 dtic.mil-ndia-2001testing-bushnell.pdf" target="_blank" class="external-link">PDF: Presentación de Future Warfare Circa 2025</a> <a href="#fnref8" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn9" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=t8MoWyAvxM4" target="_blank" class="external-link">YouTube: Vídeo de la operación MK-Ultra de la NASA</a> <a href="#fnref9" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn10" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=16MMZJlp_0Y" target="_blank" class="external-link">YouTube: Video de tecnología destruida de Don Pettit</a> <a href="#fnref10" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn11" class="footnote-item"><p><a href="https://gematrinator.com/calculator" target="_blank" class="external-link">Web: Gematria Calc, ingrese el término: Administración Nacional de Aeronáutica y del Espacio</a> <a href="#fnref11" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn12" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=5wo2TKAYR6M" target="_blank" class="external-link">YouTube: El ex CIA Robert David Steele dice que la NASA no es una agencia espacial. La NASA miente…</a> <a href="#fnref12" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn13" class="footnote-item"><p><a href="https://themillenniumreport.com/2017/11/hard-evidence-confirms-astronaut-gus-grissom-was-murdered-by-nasa/" target="_blank" class="external-link">TheMillenniumReport.com: El astronauta del Apolo fue asesinado, denuncia su hijo</a> <a href="#fnref13" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn14" class="footnote-item"><p><a href="https://themillenniumreport.com/2019/08/why-was-astronaut-gus-grissom-really-murdered-via-the-apollo-1-arson-fire/" target="_blank" class="external-link">themillenniumreport ¿Por qué el astronauta Gus Grissom fue realmente asesinado en el incendio provocado del Apolo 1?</a> <a href="#fnref14" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn15" class="footnote-item"><p><a href="https://www.gaia.com/article/the-apollo-1-conspiracy-did-nasa-covered-up-gus-grissoms-death" target="_blank" class="external-link">La conspiración del Apolo 1; ¿La NASA encubrió la muerte de Gus Grissom?</a> <a href="#fnref15" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn16" class="footnote-item"><p><a href="https://www.dailystar.co.uk/news/weird-news/nasa-moon-landing-space-apollo-16778152" target="_blank" class="external-link">dailystar: Los astronautas de la NASA fueron 'asesinados para mantener encubiertos los falsos alunizajes'</a> <a href="#fnref16" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn17" class="footnote-item"><p><a href="https://www.npr.org/2021/03/07/974534021/remembering-allan-mcdonald-he-refused-to-approve-challenger-launch-exposed-cover" target="_blank" class="external-link">Recordando a Allan McDonald: se negó a aprobar el lanzamiento del Challenger y expuso un encubrimiento</a> <a href="#fnref17" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn18" class="footnote-item"><p><a href="https://futurism.com/the-byte/astronomers-call-out-nasa" target="_blank" class="external-link">futurism.com: Astrónomos influyentes critican a la NASA por un telescopio con un nombre ofensivo: James Webb</a> <a href="#fnref18" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn19" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=7FRl4nDmHNc" target="_blank" class="external-link">YouTube: Exjefe de la Agencia Espacial Rusa hace preguntas sobre supuestos alunizajes</a> <a href="#fnref19" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn20" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=bqldMK41qqI" target="_blank" class="external-link">YouTube: Ex-employee / Ex trabajadora de la NASA Cyndi Holland</a> <a href="#fnref20" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn21" class="footnote-item"><p><a href="https://www.theguardian.com/us-news/2023/sep/28/nasa-boeing-forever-chemicals-los-angeles" target="_blank" class="external-link">theguardian: Los organismos de control dicen que los productos químicos del antiguo laboratorio de la NASA se están filtrando al río de Los Ángeles</a> <a href="#fnref21" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn22" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=DpPMoIv1lxI" target="_blank" class="external-link">YouTube: LA NASA ADMITE QUE NUNCA FUÍMOS A LA LUNA</a> <a href="#fnref22" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn23" class="footnote-item"><p><a href="https://archive.org/details/math-powerland-nasa-whistleblower-720" target="_blank" class="external-link">Archive.org: Denunciante de la NASA de Math Powerland</a> <a href="#fnref23" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn24" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=VFR78p_3cio" target="_blank" class="external-link">la NASA hasta la CIA, todo es MENTIRA. ¡Los denunciantes demuestran que la Tierra es plana y desacreditan la ciencia espacial!</a> <a href="#fnref24" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn25" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=i7enyfu1BxI" target="_blank" class="external-link">La misión de la NASA a Marte es un engaño de la isla Devon</a> <a href="#fnref25" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn26" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oo3btAFI0O0" target="_blank" class="external-link">YouTube: ¿AÚN no crees que la ISS sea falsa...? (aquí tienes)</a> <a href="#fnref26" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn27" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=oOa1Zv7nvbc" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 1</a> <a href="#fnref27" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn28" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=nOmaLIT9q34" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 2</a> <a href="#fnref28" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn29" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=MT3UtX1by3E" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 3</a> <a href="#fnref29" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn30" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=cY0ZcIh2x-A" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 4</a> <a href="#fnref30" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn31" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=tGQp6B5m5Dk" target="_blank" class="external-link">YouTube: NASA ISS FALSO - 5</a> <a href="#fnref31" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn32" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=A3gjvwHskeI" target="_blank" class="external-link">YouTube: Denunciando el fraude de la NASA por Justin Harvey</a> <a href="#fnref32" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn33" class="footnote-item"><p><a href="https://www.youtube.com/watch?v=Hz5xNxMP5lA" target="_blank" class="external-link">YouTube: La NASA fue descubierta nuevamente fingiendo estar en el espacio - Space Bubbles</a> <a href="#fnref33" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<script>async function fetchGraphData(){const e=await fetch("/graph.json").then((e=>e.json()));return{graphData:e,fullGraphData:filterFullGraphData(e)}}function getNextLevelNeighbours(e,t){const n=Object.values(e).map((e=>e.neighbors)).flat();return Object.keys(t).reduce(((r,l)=>(-1!=n.indexOf(l)?t[l].hide||(e[l]=t[l]):r[l]=t[l],r)),{})}function filterLocalGraphData(e,t){if(null==e)return null;let n=JSON.parse(JSON.stringify(e.nodes)),r=JSON.parse(JSON.stringify(e.links)),l=n[decodeURI(window.location.pathname)]||Object.values(n).find((e=>e.home));if(delete n[l.url],!l.home){delete n[Object.values(n).find((e=>e.home)).url]}l.current=!0;let i={};i[l.url]=l;for(let e=0;e<t;e++)n=getNextLevelNeighbours(i,n);nodes=Object.values(i),l.home||(nodes=nodes.filter((e=>!e.home)));let o=nodes.map((e=>e.id));return{nodes:nodes,links:r.filter((function(e){return o.indexOf(e.target)>-1&&o.indexOf(e.source)>-1}))}}function getCssVar(e){return getComputedStyle(document.body).getPropertyValue(e)}function htmlDecode(e){return(new DOMParser).parseFromString(e,"text/html").documentElement.textContent}function renderGraph(e,t,n,r){if(null==e)return;const l=document.getElementById(t);if(l&&"undefined"!=typeof ForceGraph&&(width=l.offsetWidth,height=l.offsetHeight,0!==width&&0!==height))try{const t=new Set;let i=null;const o=getCssVar("--graph-main"),a=getCssVar("--graph-muted");let u=ForceGraph()(l).graphData(e).nodeId("id").nodeLabel("title").linkSource("source").linkTarget("target").d3AlphaDecay(.1).width(width).height(height).linkDirectionalArrowLength(2).linkDirectionalArrowRelPos(.5).autoPauseRedraw(!1).linkColor((e=>null==i||e.source.id==i.id||e.target.id==i.id?o:a)).nodeCanvasObject(((e,n)=>{const r=e.neighbors&&e.neighbors.length||2,l=Math.min(7,Math.max(r/2,2));n.beginPath(),n.arc(e.x,e.y,l,0,2*Math.PI,!1),null==i||e==i||t.has(e.url)?n.fillStyle=o:n.fillStyle=a,n.fill(),e.current&&(n.beginPath(),n.arc(e.x,e.y,l+1,0,2*Math.PI,!1),n.lineWidth=.5,n.strokeStyle=o,n.stroke());const u=htmlDecode(e.title);n.font="3.5px Sans-Serif",n.textAlign="center",n.textBaseline="top",n.fillText(u,e.x,e.y+l+2)})).onNodeClick((e=>{window.location=e.url})).onNodeHover((e=>{t.clear(),e&&(t.add(e),e.neighbors.forEach((e=>t.add(e)))),i=e||null}));return(r||null!=n&&e.nodes.length>4)&&setTimeout((()=>{u.zoomToFit(5,75)}),n||200),u}catch(e){return void console.warn("Graph rendering failed:",e)}}function renderLocalGraph(e,t,n){if(null==e)return;window.graph&&window.graph._destructor();return renderGraph(filterLocalGraphData(e,t),"link-graph",null,n)}function filterFullGraphData(e){if(null==e)return null;e=JSON.parse(JSON.stringify(e));const t=Object.values(e.nodes).filter((e=>e.hide)).map((e=>e.id));return{links:JSON.parse(JSON.stringify(e.links)).filter((e=>-1==t.indexOf(e.source)&&-1==t.indexOf(e.target))),nodes:[...Object.values(e.nodes).filter((e=>!e.hide))]}}function openFullGraph(e){return lucide.createIcons({attrs:{class:["svg-icon"]}}),renderGraph(e,"full-graph-container",200,!1)}function closefullGraph(e){return e&&e._destructor(),null}</script>
+<div x-init="{graphData, fullGraphData} = await fetchGraphData();" x-data="{ graphData: null, depth: 1, graph: null, fullGraph: null, showFullGraph: false, fullScreen: false, fullGraphData: null}" id="graph-component" x-bind:class="fullScreen ? 'graph graph-fs' : 'graph'" v-scope>
+<div class="graph-title-container">
+<div class="graph-title">Connected Pages</div>
+<div id="graph-controls">
+<div class="depth-control">
+<label for="graph-depth">Depth</label>
+<div class="slider">
+<input x-model.number="depth" name="graph-depth" list="depthmarkers" type="range" step="1" min="1" max="3" id="graph-depth">
+<datalist id="depthmarkers">
+<option value="1" label="1"></option>
+<option value="2" label="2"></option>
+<option value="3" label="3"></option>
+</datalist>
+</div>
+<span id="depth-display" x-text="depth"></span>
+</div>
+<div class="ctrl-right">
+<span id="global-graph-btn" x-on:click="showFullGraph = true; setTimeout(() => {fullGraph = openFullGraph(fullGraphData)}, 100)"><i data-lucide="globe" aria-hidden="true"></i></span>
+<span id="graph-fs-btn" x-on:click="fullScreen = !fullScreen"><i data-lucide="expand" aria-hidden="true"></i></span>
+</div>
+</div>
+</div>
+<div x-effect="window.graph = renderLocalGraph(graphData, depth, fullScreen)" id="link-graph"></div>
+<div x-show="showFullGraph" id="full-graph" class="show" style="display:none">
+<span id="full-graph-close" x-on:click="fullGraph = closefullGraph(fullGraph); showFullGraph = false;"><i data-lucide="x" aria-hidden="true"></i></span><div id="full-graph-container"></div>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="yyyy-MM-dd,  hh:mm",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script defer="defer" src="https://unpkg.com/lucide@latest"></script>
+<script defer="defer">document.addEventListener("DOMContentLoaded",(()=>{lucide.createIcons({attrs:{class:["svg-icon"]}})}))</script>
+</body>
+</html>
