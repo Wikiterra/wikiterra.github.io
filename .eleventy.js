@@ -702,7 +702,7 @@ module.exports = function(eleventyConfig) {
     },
   });
 
-  eleventyConfig.addPlugin(userEleventySetup);
+  userEleventySetup(eleventyConfig);
 
   return {
     dir: {
