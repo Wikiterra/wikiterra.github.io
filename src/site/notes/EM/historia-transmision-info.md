@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/EM/historia-transmision-info/"}
+{"dg-publish":true,"permalink":"/EM/historia-transmision-info/","dg-note-properties":{}}
 ---
 
 

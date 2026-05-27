@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/meteoro/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/meteoro/","dg-note-properties":{}}
 ---
 
 # Meteoro

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/vacio/"}
+{"dg-publish":true,"permalink":"/conceptos/vacio/","dg-note-properties":{}}
 ---
 
 

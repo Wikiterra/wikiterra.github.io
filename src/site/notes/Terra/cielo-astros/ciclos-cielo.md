@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/ciclos-cielo/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/ciclos-cielo/","dg-note-properties":{}}
 ---
 
 

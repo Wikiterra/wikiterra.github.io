@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/naturaleza/campo-magnetico-terrestre/"}
+{"dg-publish":true,"permalink":"/Terra/naturaleza/campo-magnetico-terrestre/","dg-note-properties":{}}
 ---
 
 

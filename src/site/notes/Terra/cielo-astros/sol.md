@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/sol/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/sol/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/wikiterra/about/"}
+{"dg-publish":true,"permalink":"/wikiterra/about/","dg-note-properties":{}}
 ---
 
 

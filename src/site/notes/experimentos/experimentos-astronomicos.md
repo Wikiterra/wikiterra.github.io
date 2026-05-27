@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/experimentos/experimentos-astronomicos/"}
+{"dg-publish":true,"permalink":"/experimentos/experimentos-astronomicos/","dg-note-properties":{}}
 ---
 
 

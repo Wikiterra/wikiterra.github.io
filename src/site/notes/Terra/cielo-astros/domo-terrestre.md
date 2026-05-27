@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/domo-terrestre/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/domo-terrestre/","dg-note-properties":{}}
 ---
 
 

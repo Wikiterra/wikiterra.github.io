@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/atomsfera/rayo/"}
+{"dg-publish":true,"permalink":"/Terra/atomsfera/rayo/","dg-note-properties":{}}
 ---
 
 # El rayo

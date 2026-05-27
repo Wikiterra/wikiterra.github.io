@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/cielo/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/cielo/","dg-note-properties":{}}
 ---
 
 

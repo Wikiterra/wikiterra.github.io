@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/tierra/grandes-llanuras/"}
+{"dg-publish":true,"permalink":"/Terra/tierra/grandes-llanuras/","dg-note-properties":{}}
 ---
 
 

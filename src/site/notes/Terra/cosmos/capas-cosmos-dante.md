@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cosmos/capas-cosmos-dante/"}
+{"dg-publish":true,"permalink":"/Terra/cosmos/capas-cosmos-dante/","dg-note-properties":{}}
 ---
 
 

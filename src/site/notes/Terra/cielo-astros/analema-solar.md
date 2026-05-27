@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/analema-solar/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/analema-solar/","dg-note-properties":{}}
 ---
 
 

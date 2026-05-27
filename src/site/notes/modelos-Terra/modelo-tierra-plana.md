@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/modelos-Terra/modelo-tierra-plana/"}
+{"dg-publish":true,"permalink":"/modelos-Terra/modelo-tierra-plana/","dg-note-properties":{}}
 ---
 
 # Tierra plana

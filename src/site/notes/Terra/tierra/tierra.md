@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/tierra/tierra/"}
+{"dg-publish":true,"permalink":"/Terra/tierra/tierra/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/naturaleza/gravedad/"}
+{"dg-publish":true,"permalink":"/Terra/naturaleza/gravedad/","dg-note-properties":{}}
 ---
 
 # Gravedad (desde una perspectiva electromagnética)

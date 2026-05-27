@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/referencias-tp/"}
+{"dg-publish":true,"permalink":"/referencias/referencias-tp/","dg-note-properties":{}}
 ---
 
 

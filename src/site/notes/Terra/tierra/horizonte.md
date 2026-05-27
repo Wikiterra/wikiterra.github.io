@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/tierra/horizonte/"}
+{"dg-publish":true,"permalink":"/Terra/tierra/horizonte/","dg-note-properties":{}}
 ---
 
 

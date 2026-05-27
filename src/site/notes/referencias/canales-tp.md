@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/canales-tp/"}
+{"dg-publish":true,"permalink":"/referencias/canales-tp/","dg-note-properties":{}}
 ---
 
 

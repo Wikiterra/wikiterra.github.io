@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/poder-corrupto/heliocentrismo-666/"}
+{"dg-publish":true,"permalink":"/poder-corrupto/heliocentrismo-666/","dg-note-properties":{}}
 ---
 
 # Modelo esférico (666 encriptado)

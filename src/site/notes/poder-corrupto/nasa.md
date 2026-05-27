@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/poder-corrupto/nasa/"}
+{"dg-publish":true,"permalink":"/poder-corrupto/nasa/","dg-note-properties":{}}
 ---
 
 

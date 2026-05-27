@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/polaris/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/polaris/","dg-note-properties":{}}
 ---
 
 

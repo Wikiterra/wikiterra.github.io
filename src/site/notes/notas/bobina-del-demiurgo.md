@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/notas/bobina-del-demiurgo/"}
+{"dg-publish":true,"permalink":"/notas/bobina-del-demiurgo/","dg-note-properties":{}}
 ---
 
 # La Bobina del demiurgo el controlador y ladrón de energía

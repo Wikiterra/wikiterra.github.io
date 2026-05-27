@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/star-trail/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/star-trail/","dg-note-properties":{}}
 ---
 
 

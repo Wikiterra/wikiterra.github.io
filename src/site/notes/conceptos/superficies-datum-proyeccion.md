@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/superficies-datum-proyeccion/"}
+{"dg-publish":true,"permalink":"/conceptos/superficies-datum-proyeccion/","dg-note-properties":{}}
 ---
 
 

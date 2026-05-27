@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/modelos-Terra/comparacion-modelos-Terra/"}
+{"dg-publish":true,"permalink":"/modelos-Terra/comparacion-modelos-Terra/","dg-note-properties":{}}
 ---
 
 

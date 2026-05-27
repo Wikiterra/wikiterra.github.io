@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/experimentos/medicion-alturas/"}
+{"dg-publish":true,"permalink":"/experimentos/medicion-alturas/","dg-note-properties":{}}
 ---
 
 

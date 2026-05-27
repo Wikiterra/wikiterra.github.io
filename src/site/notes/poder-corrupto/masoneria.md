@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/poder-corrupto/masoneria/"}
+{"dg-publish":true,"permalink":"/poder-corrupto/masoneria/","dg-note-properties":{}}
 ---
 
 

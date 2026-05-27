@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/astrofotografos/"}
+{"dg-publish":true,"permalink":"/referencias/astrofotografos/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/cientificos-tp/"}
+{"dg-publish":true,"permalink":"/referencias/cientificos-tp/","dg-note-properties":{}}
 ---
 
 # Científicos modelo geocéntrico

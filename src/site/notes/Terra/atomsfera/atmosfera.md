@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/atomsfera/atmosfera/"}
+{"dg-publish":true,"permalink":"/Terra/atomsfera/atmosfera/","dg-note-properties":{}}
 ---
 
 

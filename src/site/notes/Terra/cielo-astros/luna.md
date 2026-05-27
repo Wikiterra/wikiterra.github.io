@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/luna/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/luna/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/naturaleza/luz/"}
+{"dg-publish":true,"permalink":"/Terra/naturaleza/luz/","dg-note-properties":{}}
 ---
 
 

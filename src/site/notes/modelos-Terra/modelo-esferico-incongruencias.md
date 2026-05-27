@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/modelos-Terra/modelo-esferico-incongruencias/"}
+{"dg-publish":true,"permalink":"/modelos-Terra/modelo-esferico-incongruencias/","dg-note-properties":{}}
 ---
 
 

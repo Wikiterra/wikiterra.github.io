@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/wikis/wikis-tp/"}
+{"dg-publish":true,"permalink":"/referencias/wikis/wikis-tp/","dg-note-properties":{}}
 ---
 
 

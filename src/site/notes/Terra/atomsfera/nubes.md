@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/atomsfera/nubes/"}
+{"dg-publish":true,"permalink":"/Terra/atomsfera/nubes/","dg-note-properties":{}}
 ---
 
 

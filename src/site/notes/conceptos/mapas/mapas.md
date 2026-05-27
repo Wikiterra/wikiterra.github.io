@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/mapas/mapas/"}
+{"dg-publish":true,"permalink":"/conceptos/mapas/mapas/","dg-note-properties":{}}
 ---
 
 

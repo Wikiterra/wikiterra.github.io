@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/wikiterra/edicion/"}
+{"dg-publish":true,"permalink":"/wikiterra/edicion/","dg-note-properties":{}}
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/luna-fases/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/luna-fases/","dg-note-properties":{}}
 ---
 
 

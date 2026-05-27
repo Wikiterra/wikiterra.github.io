@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/referencias/famosos-tp/"}
+{"dg-publish":true,"permalink":"/referencias/famosos-tp/","dg-note-properties":{}}
 ---
 
 

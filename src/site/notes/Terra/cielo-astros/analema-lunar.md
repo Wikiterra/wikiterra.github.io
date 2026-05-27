@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/Terra/cielo-astros/analema-lunar/"}
+{"dg-publish":true,"permalink":"/Terra/cielo-astros/analema-lunar/","dg-note-properties":{}}
 ---
 
 

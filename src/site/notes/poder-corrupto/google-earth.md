@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/poder-corrupto/google-earth/"}
+{"dg-publish":true,"permalink":"/poder-corrupto/google-earth/","dg-note-properties":{}}
 ---
 
 

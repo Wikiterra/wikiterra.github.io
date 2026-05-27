@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/cosmologia-culturas/calendarios/"}
+{"dg-publish":true,"permalink":"/cosmologia-culturas/calendarios/","dg-note-properties":{}}
 ---
 
 

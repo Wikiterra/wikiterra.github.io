@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/conceptos/visibilidad/"}
+{"dg-publish":true,"permalink":"/conceptos/visibilidad/","dg-note-properties":{}}
 ---
 
 
