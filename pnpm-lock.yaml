@@ -24,8 +24,8 @@ importers:
         specifier: ^1.3.0
         version: 1.3.0
       fs-file-tree:
-        specifier: ^1.1.1
-        version: 1.1.2
+        specifier: ^2.0.0
+        version: 2.0.0
       glob:
         specifier: ^10.2.1
         version: 10.5.0
@@ -609,9 +609,6 @@ packages:
     resolution: {integrity: sha512-Izi8RQcffqCeNVgFigKli1ssklIbpHnCYc6AknXGYoB6grJqyeby7jv12JUQgmTAnIDnbck1uxksT4dzN3PWBA==}
     engines: {node: '>=12'}
 
-  assured@1.0.16:
-    resolution: {integrity: sha512-KwttBV8EIJw4/KqRFTJzKELLm9c3d1V9+fefORWv8cJNgKouuCRQ5rvCgjpBwA1AxVwqpR5Y1ePLU5SINJzhQg==}
-
   async-function@1.0.0:
     resolution: {integrity: sha512-hsU18Ae8CDTR6Kgu9DYf0EbCr/a5iGL0rytQDobUcdpYOKokk8LEjVphnXkDkgpi0wYVsqrXuP0bZxJaTqdgoA==}
     engines: {node: '>= 0.4'}
@@ -688,8 +685,8 @@ packages:
   camel-case@4.1.2:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
 
-  camelo@1.2.2:
-    resolution: {integrity: sha512-4HmYiO74VXQM6NFE2euk2p/6hBJeYDDf6k3ZMIvTCWhoAm6RvUiWkhxjkJsztcqEYt7g/jgr5en6R/TPaFccXw==}
+  camelo@2.0.0:
+    resolution: {integrity: sha512-fbEnC5FHYnU4YISuhVAYnqVxLTObpxWT4jhw745ESoSCdrZtZco/5b6NkYMum286s9ojFV5VXQivCPix86jw/A==}
 
   chai@6.2.2:
     resolution: {integrity: sha512-NUPRluOfOiTKBKvWPtSD4PhFvWCqOi0BGStNWs57X9js7XGTprSmFoz5F0tWhR4WPjNeR9jXqdC7/UpSJTnlRg==}
@@ -1082,8 +1079,8 @@ packages:
     resolution: {integrity: sha512-Rx/WycZ60HOaqLKAi6cHRKKI7zxWbJ31MhntmtwMoaTeF7XFH9hhBp8vITaMidfljRQ6eYWCKkaTK+ykVJHP2A==}
     engines: {node: '>= 0.8'}
 
-  fs-file-tree@1.1.2:
-    resolution: {integrity: sha512-NCMV5VarvMM+NFNXBL5pOZLxHlyGI2Jt/DqKP9An1DqRrYGdcGUHcF9CnOw3QlAMP7F/TydHV+KwbY6rrG2Jvw==}
+  fs-file-tree@2.0.0:
+    resolution: {integrity: sha512-Aryvb9HUZAkQmJavlKJ28KqNXfxK21eYvoprD7C+mdAlmnaNJpZxF3U380D7+Ktirf//GalKGqltqCp9G7w64A==}
 
   fsevents@2.3.3:
     resolution: {integrity: sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==}
@@ -1845,8 +1842,8 @@ packages:
     resolution: {integrity: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==}
     engines: {node: '>= 0.6'}
 
-  read-dir-and-stat@1.0.9:
-    resolution: {integrity: sha512-uNLwwGoj7zh3yl6uz0xyHEq98AW4JCzh3wVPvVEYw9hOx1zlyV56nIJ55UmUyFywpiOArLKrpXBBDN08MOTJrQ==}
+  read-dir-and-stat@2.0.0:
+    resolution: {integrity: sha512-r0P3JucZbQo+k/2yxcyBdJj74QmCzex5t4N3ogmHM3b3mEHh8i8LbRY8aeCOhwII5fxOuLVwWAzsDqBnQRJj4Q==}
 
   read-pkg@3.0.0:
     resolution: {integrity: sha512-BLq/cCO9two+lBgiTYNqD6GdtK8s4NpaWrl6/rCO9w0TUS8oJl7cmToOZfRYllKTISY6nt1U7jQ53brmKqY6BA==}
@@ -1864,8 +1861,8 @@ packages:
     resolution: {integrity: sha512-00o4I+DVrefhv+nX0ulyi3biSHCPDe+yLv5o/p6d/UVlirijB8E16FtfwSAi4g3tcqrQ4lRAqQSoFEZJehYEcw==}
     engines: {node: '>= 0.4'}
 
-  regex-escape@3.4.11:
-    resolution: {integrity: sha512-051l4Hl/0HoJwTvNztrWVjoxLiseSfCrDgWqwR1cnGM/nyQSeIjmvti5zZ7HzOmsXDPaJ2k0iFxQ6/WNpJD5wQ==}
+  regex-escape@4.0.0:
+    resolution: {integrity: sha512-l2Hrkp0bUscGt27/q08lwG8XGmX1mjNGrpMvO4swSEcXAU/MAtn3PoPrx3i57Lot7tukVRiKuUB2m5kkI20bjQ==}
 
   regexp.prototype.flags@1.5.4:
     resolution: {integrity: sha512-dYqgNSZbDwkaJ2ceRd9ojCGjBq+mOm9LmtXnAnEGyHhN/5R7iDW2TRw3h+o/jCFxus3P2LfWIIiwowAjANm7IA==}
@@ -2162,14 +2159,11 @@ packages:
   typpy@2.4.0:
     resolution: {integrity: sha512-a16Uv5doNtvHzaG4wZCHmXN+l9xxmTMpyODtPz7B3DSTsDVNXilTSJGuNw68sUh0Un4bf+ghRMbEcJCI6r06mQ==}
 
-  uc-first-array@1.1.11:
-    resolution: {integrity: sha512-lJ3rUh/Jyj+JFUZc1TsXLBQijKgaZ/5JqpFLqmlK/7vXLfOIkCzXrXkL3heE1mld000YHTTJqJqkRcrMIC/w1w==}
+  uc-first-array@2.0.0:
+    resolution: {integrity: sha512-ft1rZqwd2MNccWioUg+1JjC+Sn6A3bd0rZYX6QABHQvHgf2GZfWZNr4U3pTZYjgGMB31Ma8UnHt7Y6gPTUms3A==}
 
   uc.micro@2.1.0:
     resolution: {integrity: sha512-ARDJmphmdvUk6Glw7y9DQ2bFkKBHwQHLi2lsaH6PPmz/Ka9sFOBsBluozhDltWmnv9u/cF6Rt87znRTPV+yp/A==}
-
-  ucfirst@1.0.0:
-    resolution: {integrity: sha512-xbB/CQ0GdkxqH4IElZqenn/dL/tnyx7DCDASWJPE92ePbFM21kKemXI2LBeYtEvblf1Ol98hyJJS43Wu5JMQSQ==}
 
   unbox-primitive@1.1.0:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
@@ -2884,11 +2878,6 @@ snapshots:
 
   assertion-error@2.0.1: {}
 
-  assured@1.0.16:
-    dependencies:
-      noop6: 1.0.10
-      sliced: 1.0.1
-
   async-function@1.0.0: {}
 
   asynckit@0.4.0: {}
@@ -2978,10 +2967,10 @@ snapshots:
       pascal-case: 3.1.2
       tslib: 2.8.1
 
-  camelo@1.2.2:
+  camelo@2.0.0:
     dependencies:
-      regex-escape: 3.4.11
-      uc-first-array: 1.1.11
+      regex-escape: 4.0.0
+      uc-first-array: 2.0.0
 
   chai@6.2.2: {}
 
@@ -3443,13 +3432,10 @@ snapshots:
 
   fresh@2.0.0: {}
 
-  fs-file-tree@1.1.2:
+  fs-file-tree@2.0.0:
     dependencies:
-      assured: 1.0.16
-      bindy: 1.0.15
-      camelo: 1.2.2
-      read-dir-and-stat: 1.0.9
-      same-time: 2.3.6
+      camelo: 2.0.0
+      read-dir-and-stat: 2.0.0
 
   fsevents@2.3.3:
     optional: true
@@ -4195,7 +4181,7 @@ snapshots:
 
   range-parser@1.2.1: {}
 
-  read-dir-and-stat@1.0.9:
+  read-dir-and-stat@2.0.0:
     dependencies:
       bindy: 1.0.15
       same-time: 2.3.6
@@ -4223,7 +4209,7 @@ snapshots:
       get-proto: 1.0.1
       which-builtin-type: 1.2.1
 
-  regex-escape@3.4.11: {}
+  regex-escape@4.0.0: {}
 
   regexp.prototype.flags@1.5.4:
     dependencies:
@@ -4609,13 +4595,9 @@ snapshots:
     dependencies:
       function.name: 1.0.14
 
-  uc-first-array@1.1.11:
-    dependencies:
-      ucfirst: 1.0.0
+  uc-first-array@2.0.0: {}
 
   uc.micro@2.1.0: {}
-
-  ucfirst@1.0.0: {}
 
   unbox-primitive@1.1.0:
     dependencies:
