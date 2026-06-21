@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Tronco -->
+  <path d="M12 2v14"/>
+  <!-- Raíces -->
+  <path d="M12 16c-4 0-6 2-8 4"/>
+  <path d="M12 16c4 0 6 2 8 4"/>
+  <path d="M12 14c-2 0-4 1-5 2"/>
+  <path d="M12 14c2 0 4 1 5 2"/>
+  <!-- Copa del árbol - ramas principales -->
+  <path d="M12 7c-2.5 0-5 1-7 3"/>
+  <path d="M12 7c2.5 0 5 1 7 3"/>
+  <path d="M12 10c-2 0-4.5 1.5-6 3.5"/>
+  <path d="M12 10c2 0 4.5 1.5 6 3.5"/>
+  <path d="M12 4c-1.5 0-3.5 1-5 2.5"/>
+  <path d="M12 4c1.5 0 3.5 1 5 2.5"/>
+  <!-- Hojas/parches circulares -->
+  <ellipse cx="7" cy="6" rx="2.2" ry="1.8" fill="currentColor" opacity="0.15"/>
+  <ellipse cx="17" cy="6" rx="2.2" ry="1.8" fill="currentColor" opacity="0.15"/>
+  <ellipse cx="5" cy="10" rx="2" ry="1.6" fill="currentColor" opacity="0.12"/>
+  <ellipse cx="19" cy="10" rx="2" ry="1.6" fill="currentColor" opacity="0.12"/>
+  <ellipse cx="12" cy="3" rx="2.5" ry="2" fill="currentColor" opacity="0.18"/>
+</svg>

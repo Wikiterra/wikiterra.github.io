@@ -16,7 +16,7 @@ module.exports = async (data) => {
     logoPath = "/" + logoFiles[0].split("src/site/")[1];
   }
   if (themeStyle) {
-    themeStyle = themeStyle.split("site")[1];
+    themeStyle = themeStyle.split("site")[1].replace(/\\/g, "/");
   }
   let bodyClasses = [];
   let noteIconsSettings = {

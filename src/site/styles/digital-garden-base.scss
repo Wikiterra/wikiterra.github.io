@@ -3,6 +3,8 @@
 * MODIFY THE custom-style.scss FILE INSTEAD.
 ***/
 
+@use "obsidian-bases";
+
 html {
     scroll-behavior: smooth;
 }
@@ -1782,5 +1784,3 @@ div.dataview-error-box {
     border: 1px solid var(--background-modifier-border);
     margin-right: 4px;
 }
-
-@import "obsidian-bases";
