@@ -36,4 +36,4 @@ Navega por el panel lateral izquierdo para leer los artículos.
   <p>Respecto a la ciencia, esta es la rama que surge de la aplicación del método científico. Sin embargo es sabido que la ciencia no es perfecta, es decir, un mismo experimento puede dar resultados diferentes según las consideraciones que se hagan o los axiomas que se establezcan. Por tanto cualquier otra fuente de estudio que arroje luz al entendimiento de la naturaleza es válida, la puerta está abierta para cualquier método que pueda ser comprobable.</p>
 </details>
 
-Si quieres explorar buenas aplicaciones visita esta [sección](./apps-recomendadas.md).
+> Si quieres explorar aplicaciones de simuladores y calculadores visita la sección de [apps recomendadas](referencias/apps-recomendadas).
