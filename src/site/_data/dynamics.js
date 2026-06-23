@@ -1,5 +1,3 @@
-const fsFileTree = require("fs-file-tree");
-
 const BASE_PATH = "src/site/_includes/components/user";
 const STYLE_PATH = "src/site/styles/user";
 const NAMESPACES = ["index", "notes", "common"];
@@ -10,7 +8,30 @@ const SIDEBAR_NAMESPACE = "sidebar";
 const SIDEBAR_SLOTS = ["top", "bottom"];
 const STYLES_NAMESPACE = "styles";
 
+// Helper to load fs-file-tree regardless of ESM/CJS format
+async function loadFsFileTree() {
+  let mod;
+  try {
+    mod = require("fs-file-tree");
+    // ESM modules loaded via require() have { __esModule: true, default: fn }
+    if (mod.__esModule && typeof mod.default === "function") {
+      return mod.default;
+    }
+  } catch {
+    // fallback: try dynamic import
+    mod = await import("fs-file-tree");
+    if (typeof mod.default === "function") return mod.default;
+    for (const key of Object.keys(mod)) {
+      if (typeof mod[key] === "function") return mod[key];
+    }
+  }
+  return mod;
+}
+
+const fsFileTreePromise = loadFsFileTree();
+
 const generateComponentPaths = async (namespace, slots) => {
+  const fsFileTree = await fsFileTreePromise;
   const data = {};
   for (let index = 0; index < slots.length; index++) {
     const slot = slots[index];
@@ -29,6 +50,7 @@ const generateComponentPaths = async (namespace, slots) => {
 };
 
 const generateStylesPaths = async () => {
+  const fsFileTree = await fsFileTreePromise;
   try {
     const tree = await fsFileTree(`${STYLE_PATH}`);
     let comps = Object.keys(tree).map((p) =>
